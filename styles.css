@@ -1,0 +1,138 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    background: #0d1117;
+    color: #c9d1d9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+body::-webkit-scrollbar {
+    width: 0; /* 隐藏滚动条 */
+    height: 0; /* 隐藏水平滚动条 */
+}
+
+/* 其他样式保持不变 */
+.container {
+    max-width: 1000px;
+    padding: 20px;
+    text-align: center;
+}
+
+.header {
+    margin-bottom: 30px;
+}
+
+.avatar {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin: 50px 0 30px;
+    border: 1px solid #ffffff;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+p {
+    margin: 10px 0 20px;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 35px;
+}
+
+.icon {
+    font-size: 30px;
+    color: #8b949e;
+    transition: color 0.3s, transform 0.3s;
+}
+
+.icon:hover {
+    color: #58a6ff;
+    transform: scale(1.2);
+}
+
+.projects {
+    margin: 40px 0;
+}
+
+.project-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+}
+
+.project-item {
+    width: 395px; /* 调整卡片宽度 */
+    background: #161b22;
+    border: 1px solid #30363d;
+    border-radius: 6px;
+    padding: 12px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.2s, box-shadow 0.2s;
+    text-align: left;
+}
+
+.project-item:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.project-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.project-header img {
+    width: 16px; /* 调整图标大小 */
+    height: 16px;
+    margin-right: 8px;
+    filter: brightness(0) invert(0.7);
+}
+
+.project-header a {
+    color: #58a6ff;
+    font-weight: 600;
+    text-decoration: none;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    flex: 1;
+    text-align: left;
+}
+
+.project-meta {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.9rem;
+    color: #8b949e;
+}
+
+.project-meta i {
+    margin-right: 4px;
+}
+
+.project-item p {
+    font-size: 0.85rem;
+    color: #c9d1d9;
+    line-height: 1.4;
+    max-height: 2.8em; /* 控制最大高度为两行 */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* 显示最多两行 */
+    -webkit-box-orient: vertical;
+    text-align: left;
+}
