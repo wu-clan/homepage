@@ -38,7 +38,7 @@ h1 {
 }
 
 p {
-    margin: 10px 0 20px;
+    margin: 20px 0 20px;
 }
 
 .social-links {
@@ -61,6 +61,12 @@ p {
 
 .projects {
     margin: 40px 0;
+}
+
+hr {
+    width: 90%;
+    border-color: #999999;
+    margin-bottom: 30px;
 }
 
 .project-list {

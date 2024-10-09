@@ -1,0 +1,32 @@
+name: GitHub page
+
+on:
+  schedule:
+    - cron: '0 1 * * *'
+
+jobs:
+  deploy_github_pages:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Fetch User and Org Repos and Update repos.json
+        run: |
+          # Fetch user repos (wu-clan)
+          curl -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+          https://api.github.com/users/wu-clan/repos > user_repos.json
+
+          # Fetch org repos (fastapi-practices)
+          curl -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+          https://api.github.com/orgs/fastapi-practices/repos > org_repos.json
+
+          # Combine user and org repos into repos.json
+          jq -s '.[0] + .[1]' user_repos.json org_repos.json > repos.json
+
+          # Commit and push updated repos.json
+          git config --global user.name github-actions[bot]
+          git config --global user.email github-actions[bot]@users.noreply.github.com
+          git add repos.json
+          git commit -m "update"
+          git push
