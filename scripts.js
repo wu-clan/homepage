@@ -1,15 +1,12 @@
 document.addEventListener("DOMContentLoaded", async () => {
     const projectsContainer = document.getElementById('github-projects');
-    const displayRepos = ['httpfpt', 'fastapi_best_architecture', 'sqlalchemy-crud-plus', 'fastapi_chatgpt']; // 要显示的项目
 
     const fetchReposFromJson = async () => {
         try {
             const response = await fetch('https://raw.githubusercontent.com/wu-clan/homepage/main/repos.json');
             const allRepos = await response.json();
 
-            const filteredRepos = allRepos.filter(repo =>
-                displayRepos.includes(repo.name) && !repo.fork
-            );
+            const filteredRepos = allRepos.filter(repo => !repo.fork);
 
             filteredRepos.forEach(repo => {
                 const projectElement = document.createElement('div');
