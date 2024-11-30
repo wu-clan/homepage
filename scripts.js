@@ -7,6 +7,7 @@ document.addEventListener("DOMContentLoaded", async () => {
             const allRepos = await response.json();
 
             const filteredRepos = allRepos.filter(repo => !repo.fork);
+            filteredRepos.sort((a, b) => b.stargazers_count - a.stargazers_count);
 
             filteredRepos.forEach(repo => {
                 const projectElement = document.createElement('div');
@@ -30,6 +31,5 @@ document.addEventListener("DOMContentLoaded", async () => {
             console.error('Failed to fetch repos from JSON:', error);
         }
     };
-
     fetchReposFromJson();
 });
