@@ -10,26 +10,38 @@ document.addEventListener("DOMContentLoaded", async () => {
             filteredRepos.sort((a, b) => b.stargazers_count - a.stargazers_count);
 
             filteredRepos.forEach(repo => {
-                const projectElement = document.createElement('div');
-                projectElement.className = 'project-item';
+                const projectElement = document.createElement('article');
+                projectElement.className = 'project-card';
 
                 projectElement.innerHTML = `
-                    <div class="project-header">
-                        <img src="https://github.githubassets.com/favicons/favicon.png" alt="Repo Icon">
-                        <a href="${repo.html_url}" target="_blank">${repo.name}</a>
-                    </div>
-                    <p>${repo.description || ''}</p>
-                    <div class="project-meta">
-                        <span><i class="fas fa-code-branch"></i> ${repo.language || 'N/A'}</span>
-                        <span><i class="fas fa-star"></i> ${repo.stargazers_count}</span>
-                        <span><i class="fas fa-code-fork"></i> ${repo.forks_count}</span>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <img src="${repo.owner.avatar_url || 'https://github.githubassets.com/favicons/favicon.png'}" 
+                                 alt="${repo.name} 图标"
+                                 class="project-icon">
+                            <a href="${repo.html_url}" target="_blank" class="project-title">${repo.name}</a>
+                        </div>
+                        <p class="project-desc">${repo.description || '暂无项目描述'}</p>
+                        <div class="project-meta">
+                            <span><i class="fas fa-code-branch"></i>${repo.language || 'N/A'}</span>
+                            <span><i class="fas fa-star"></i>${repo.stargazers_count}</span>
+                            <span><i class="fas fa-code-fork"></i>${repo.forks_count}</span>
+                        </div>
                     </div>
                 `;
+
                 projectsContainer.appendChild(projectElement);
             });
         } catch (error) {
             console.error('Failed to fetch repos from JSON:', error);
+            projectsContainer.innerHTML = `
+                <div class="error-message">
+                    <i class="fas fa-exclamation-triangle"></i>
+                    <p>项目加载失败，请刷新重试</p>
+                </div>
+            `;
         }
     };
-    fetchReposFromJson();
+
+    await fetchReposFromJson();
 });

@@ -1,50 +1,53 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>wu-clan</title>
+    <title>wu-clan | 测试开发工程师</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
-<!-- <body style="background-image: url(''); background-size: cover;"> -->
 <body>
     <div class="container">
-        <header class="header">
-            <img src="https://wu-clan.github.io/picx-images-hosting/avatar.gif" alt="头像" class="avatar">
-            <h1>Hi, I'm wu-clan</h1>
-            <p>Development Engineer in Test | Open source contributor</p>
-            <div class="social-links">
-                <a href="https://github.com/wu-clan" target="_blank" class="icon">
+        <!-- 个人资料区 -->
+        <section class="profile-section">
+            <img src="https://wu-clan.github.io/picx-images-hosting/avatar.gif"
+                 alt="wu-clan 头像"
+                 class="avatar">
+            <h1>wu-clan</h1>
+            <p class="title">Development Engineer in Test | Open source contributor</p>
+
+            <div class="social-grid">
+                <a href="https://github.com/wu-clan" class="social-link" target="_blank">
                     <i class="fab fa-github"></i>
                 </a>
-                <a href="https://twitter.com/_chulan" target="_blank" class="icon">
+                <a href="https://twitter.com/_chulan" class="social-link" target="_blank">
                     <i class="fab fa-x-twitter"></i>
                 </a>
-                <a href="https://t.me/wu_clan0529" target="_blank" class="icon">
+                <a href="https://t.me/wu_clan0529" class="social-link" target="_blank">
                     <i class="fab fa-telegram"></i>
                 </a>
-                <a href="https://discord.gg/yNN3wTbVAC" target="_blank" class="icon">
+                <a href="https://discord.gg/yNN3wTbVAC" class="social-link" target="_blank">
                     <i class="fab fa-discord"></i>
                 </a>
-                <a href="https://qm.qq.com/q/EPlRcn2OU" target="_blank" class="icon">
+                <a href="https://qm.qq.com/q/EPlRcn2OU" class="social-link" target="_blank">
                     <i class="fab fa-qq"></i>
                 </a>
-                <a href="https://wu-clan.github.io/VBlog/" target="_blank" class="icon">
+                <a href="https://wu-clan.github.io/VBlog/" class="social-link" target="_blank">
                     <i class="fas fa-blog"></i>
                 </a>
-                <a href="https://wu-clan.github.io/sponsor/" target="_blank" class="icon">
+                <a href="https://wu-clan.github.io/sponsor/" class="social-link" target="_blank">
                     <i class="fas fa-mug-saucer"></i>
                 </a>
             </div>
-        </header>
-        <section class="projects">
-            <h2>Projects</h2>
-            <hr/>
-            <div id="github-projects" class="project-list"></div>
         </section>
+
+        <!-- 项目展示区 -->
+        <div class="projects-grid" id="github-projects">
+            <!-- 自动从js获取并插入 -->
+        </div>
     </div>
+
     <script src="scripts.js"></script>
 </body>
 </html>
