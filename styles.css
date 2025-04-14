@@ -1,14 +1,16 @@
 /* 高级暗黑主题 */
 :root {
-    --bg: #000000;
-    --card-bg: #1c1c1e;
-    --text: #ffffff;
-    --text-secondary: #8e8e93;
+    --bg: #121212; /* 比纯黑更平滑的底色 */
+    --card-bg: #1e1e1e;
+    --text: #e0e0e0; /* 柔和的白色 */
+    --text-secondary: #b0b0b0;
+    --accent: #009485; /* 从项目标题提取的配色 */
     --radius-lg: 24px;
     --radius-md: 16px;
     --radius-sm: 8px;
-    --shadow: 0 4px 12px rgba(0,0,0,0.25);
-    --glass: rgba(255,255,255,0.05);
+    --shadow: 0 4px 24px rgba(0,0,0,0.25);
+    --glass: rgba(255,255,255,0.07);
+    --transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
 }
 
 /* 基础样式 */
@@ -41,16 +43,26 @@ body {
     margin-bottom: 3rem;
     position: relative;
     overflow: hidden;
+    /* 添加伪元素增强视觉效果 */
+    &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 4px;
+        background: linear-gradient(90deg, var(--accent), #00bcd4);
+    }
 }
 
 .avatar {
-    width: 180px;
-    height: 180px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
     object-fit: cover;
-    margin: 0 auto 2rem;
     border: 3px solid var(--glass);
     transition: transform 0.4s ease-out;
+    box-shadow: 0 10px 30px rgba(0, 148, 133, 0.3);
 }
 
 .avatar:hover {
@@ -62,6 +74,10 @@ h1 {
     margin: 1rem 0 0.5rem;
     font-weight: 700;
     letter-spacing: -0.03em;
+    background: linear-gradient(90deg, var(--text), var(--accent));
+    background-clip: var(--text);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .title {
@@ -81,28 +97,39 @@ h1 {
 
 .social-link {
     display: inline-flex;
-    font-size: 28px;
-    width: 52px;
-    height: 52px;
+    font-size: 24px;
+    width: 56px;
+    height: 56px;
     border-radius: var(--radius-md);
-    background: var(--accent);
+    background: var(--glass);
+    border: 1px solid rgba(255,255,255,0.1);
     align-items: center;
     justify-content: center;
-    transition: all 0.3s ease-out;
+    transition: var(--transition);
     color: var(--text);
     text-decoration: none;
-}
-
-.social-link:hover {
-    background: var(--glass);
-    color: white;
-    transform: translateY(-3px);
+    backdrop-filter: blur(10px);
+    
+    &:hover {
+        background: rgba(0,148,133,0.2);
+        transform: translateY(-3px) scale(1.05);
+        border-color: var(--accent);
+        box-shadow: 0 10px 20px rgba(0,148,133,0.2);
+    }
+    
+    i {
+        transition: transform 0.2s ease;
+    }
+    
+    &:hover i {
+        transform: scale(1.15);
+    }
 }
 
 /* 项目展示区 */
 .projects-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     gap: 2rem;
 }
 
@@ -111,11 +138,33 @@ h1 {
     background: var(--card-bg);
     border-radius: var(--radius-lg);
     box-shadow: var(--shadow);
-    transition: transform 0.3s ease-out;
-}
-
-.project-card:hover {
-    transform: translateY(-5px);
+    transition: var(--transition);
+    border: 1px solid rgba(255,255,255,0.05);
+    position: relative;
+    overflow: hidden;
+    
+    &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: radial-gradient(circle at 50% 10%, rgba(0,148,133,0.1), transparent 60%);
+        opacity: 0;
+        transition: opacity 0.3s ease;
+        pointer-events: none;
+    }
+    
+    &:hover {
+        transform: translateY(-5px) scale(1.02);
+        box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+        border-color: rgba(0,148,133,0.3);
+        
+        &::before {
+            opacity: 1;
+        }
+    }
 }
 
 .project-header {
@@ -123,25 +172,44 @@ h1 {
     align-items: center;
     gap: 1rem;
     margin-bottom: 1.5rem;
-}
-
-.project-icon {
-    width: 28px;
-    height: 28px;
-    border-radius: var(--radius-sm);
+    
+    .project-icon {
+        width: 32px;
+        height: 32px;
+        border-radius: var(--radius-sm);
+        object-fit: cover;
+        border: 1px solid var(--glass);
+        padding: 4px;
+        background: rgba(0,0,0,0.2);
+    }
 }
 
 .project-title {
     font-weight: 600;
     margin: 0;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     color: #009485;
+    transition: color 0.3s ease;
+}
+
+.project-title-link {
+    position: relative;
+    z-index: 2;
+    color: #009485;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    font-weight: 600;
+    
+    &:hover {
+        color: #00bcd4;
+        text-decoration: underline;
+    }
 }
 
 .project-desc {
     color: var(--text-secondary);
     font-size: 0.95rem;
-    line-height: 1.6;
+    line-height: 1.7;
     margin-bottom: 1.5rem;
 }
 
@@ -151,19 +219,19 @@ h1 {
     margin-top: 1.2rem;
     padding-top: 1.2rem;
     border-top: 1px solid var(--glass);
-}
-
-.project-meta span {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.4rem;
     font-size: 0.9rem;
-    color: var(--text-secondary);
-}
-
-.project-meta i {
-    color: var(--accent);
-    font-size: 0.9em;
+    
+    span {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.4rem;
+        color: var(--text-secondary);
+        
+        i {
+            color: var(--accent);
+            font-size: 0.9em;
+        }
+    }
 }
 
 /* 响应式设计 */
@@ -187,5 +255,26 @@ h1 {
 
     .projects-grid {
         grid-template-columns: 1fr;
+    }
+}
+
+/* 加载动画 */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.container {
+    animation: fadeIn 0.6s ease-out forwards;
+}
+
+.profile-section {
+    animation-delay: 0.1s;
+}
+
+.projects-grid {
+    .project-card {
+        opacity: 0;
+        animation: fadeIn 0.6s ease-out forwards;
     }
 }

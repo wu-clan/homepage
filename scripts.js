@@ -19,7 +19,9 @@ document.addEventListener("DOMContentLoaded", async () => {
                             <img src="${repo.owner.avatar_url || 'https://github.githubassets.com/favicons/favicon.png'}" 
                                  alt="${repo.name} 图标"
                                  class="project-icon">
-                            <a href="${repo.html_url}" target="_blank" class="project-title">${repo.name}</a>
+                            <h3 class="project-title">
+                                <a href="${repo.html_url}" target="_blank" class="project-title-link">${repo.name}</a>
+                            </h3>
                         </div>
                         <p class="project-desc">${repo.description || '暂无项目描述'}</p>
                         <div class="project-meta">
@@ -29,6 +31,14 @@ document.addEventListener("DOMContentLoaded", async () => {
                         </div>
                     </div>
                 `;
+
+                // 防止事件冒泡
+                const link = projectElement.querySelector('.project-title-link');
+                if (link) {
+                    link.addEventListener('click', (e) => {
+                        e.stopPropagation();
+                    });
+                }
 
                 projectsContainer.appendChild(projectElement);
             });
