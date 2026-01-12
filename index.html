@@ -1,190 +1,898 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="wu-clan">
     <title>wu-clan</title>
-    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700;800&display=swap"
+          rel="stylesheet">
+    <style>
+        :root {
+            --bg-void: #080808;
+            --bg-panel: #111111;
+            --theme-main: #ff4d00;
+            --border: #222222;
+            --text-main: #dddddd;
+            --text-sub: #666666;
+            --c-push: #2196f3;
+            --c-star: #ffc107;
+            --c-new: #4caf50;
+            --c-git: #ff9800;
+            --c-misc: #9c27b0;
+            --font: 'JetBrains Mono', monospace;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            outline: none;
+        }
+
+        body {
+            background-color: var(--bg-void);
+            color: var(--text-main);
+            font-family: var(--font);
+            height: 100vh;
+            width: 100vw;
+            overflow: hidden;
+            padding: 12px;
+            background-image: linear-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+            linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+            background-size: 30px 30px;
+        }
+
+        ::-webkit-scrollbar {
+            width: 4px;
+            height: 4px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: #000;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: #333;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: var(--theme-main);
+        }
+
+        .grid-frame {
+            display: grid;
+            grid-template-columns: 340px minmax(0, 1fr) 340px;
+            grid-template-rows: 40px 1fr 20px;
+            gap: 12px;
+            height: 100%;
+            max-width: 2560px;
+            margin: 0 auto;
+        }
+
+        @media (max-width: 1300px) {
+            body {
+                height: auto;
+                overflow-y: auto;
+            }
+
+            .grid-frame {
+                display: flex;
+                flex-direction: column;
+                height: auto;
+            }
+        }
+
+        .m-card {
+            display: flex;
+            flex-direction: column;
+            background: transparent;
+            min-height: 0;
+            border: 1px solid var(--border);
+        }
+
+        .mc-head {
+            background: var(--bg-panel);
+            color: #fff;
+            font-size: 0.75rem;
+            font-weight: 700;
+            padding: 8px 12px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid var(--border); /* 分割线 */
+        }
+
+        .mc-head::before {
+            content: '#';
+            color: var(--theme-main);
+            margin-right: 8px;
+            font-weight: 400;
+            font-size: 0.9rem;
+        }
+
+        .mc-body {
+            flex: 1;
+            background: var(--bg-panel);
+            padding: 12px;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .header {
+            grid-column: 1 / -1;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid var(--border);
+            background: var(--bg-panel);
+            padding: 0 16px;
+        }
+
+        .logo {
+            font-size: 1.1rem;
+            font-weight: 800;
+            color: #fff;
+            letter-spacing: -0.5px;
+        }
+
+        .logo span {
+            color: var(--theme-main);
+        }
+
+        .sys-stat {
+            font-size: 0.7rem;
+            color: var(--text-sub);
+            display: flex;
+            gap: 20px;
+        }
+
+        .sys-stat b {
+            color: var(--theme-main);
+        }
+
+        .col-left {
+            grid-row: 2 / 3;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            overflow: hidden;
+        }
+
+        .id-top {
+            display: flex;
+            gap: 14px;
+            margin-bottom: 12px;
+        }
+
+        .avatar {
+            width: 64px;
+            height: 64px;
+            border: 1px solid var(--border);
+        }
+
+        .names {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .login {
+            font-size: 1.3rem;
+            font-weight: 700;
+            color: #fff;
+            line-height: 1.1;
+        }
+
+        .bio {
+            font-size: 0.8rem;
+            color: var(--text-sub);
+            margin-top: 4px;
+            line-height: 1.3;
+        }
+
+        .data-table {
+            font-size: 0.75rem;
+            padding-top: 8px;
+            margin-top: auto;
+        }
+
+        .dt-row {
+            display: flex;
+            justify-content: space-between;
+            padding: 5px 0;
+            border-bottom: 1px dashed #222;
+        }
+
+        .dt-row:last-child {
+            border-bottom: none;
+        }
+
+        .dt-k {
+            color: var(--text-sub);
+        }
+
+        .dt-v {
+            color: #ccc;
+            text-align: right;
+        }
+
+        .dt-v a {
+            color: #ccc;
+            text-decoration: none;
+            border-bottom: 1px solid transparent;
+        }
+
+        .dt-v a:hover {
+            border-color: var(--theme-main);
+            color: var(--theme-main);
+        }
+
+        .org-wrap {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            text-decoration: none;
+            color: inherit;
+            height: 100%;
+        }
+
+        .org-header {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+        }
+
+        .org-img {
+            width: 40px;
+            height: 40px;
+            border: 1px solid var(--border);
+        }
+
+        .org-title {
+            font-weight: 700;
+            color: #fff;
+            font-size: 0.95rem;
+        }
+
+        .org-desc {
+            font-size: 0.75rem;
+            color: var(--text-sub);
+            line-height: 1.4;
+        }
+
+        .org-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 6px;
+            margin-top: auto;
+            padding-top: 8px;
+            border-top: 1px dashed #222;
+        }
+
+        .og-item {
+            font-size: 0.65rem;
+            color: #555;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .og-item span {
+            color: #aaa;
+            font-size: 0.75rem;
+        }
+
+        .skill-box {
+            flex: 1;
+            min-height: 0;
+        }
+
+        .skill-cloud {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+            align-content: flex-start;
+            overflow-y: auto;
+            height: 100%;
+        }
+
+        .tag {
+            font-size: 0.7rem;
+            background: #080808;
+            border: 1px solid #222;
+            color: #888;
+            padding: 3px 8px;
+        }
+
+        .social-row {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 8px;
+            margin-top: auto;
+        }
+
+        .soc-btn {
+            background: #080808;
+            border: 1px solid #222;
+            color: var(--text-sub);
+            height: 36px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            transition: all 0.2s;
+        }
+
+        .soc-btn:hover {
+            border-color: var(--theme-main);
+        }
+
+        .col-center {
+            grid-row: 2 / 3;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .repo-container-body {
+            padding: 12px;
+            background: #0d0d0d;
+        }
+
+        .repo-area {
+            height: 100%;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 14px;
+            grid-auto-rows: 1fr;
+            overflow-y: auto;
+        }
+
+        .r-card {
+            background: #151515;
+            border: 1px solid #222;
+            padding: 14px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            text-decoration: none;
+            transition: all 0.2s;
+            position: relative;
+        }
+
+        .r-card:hover {
+            border-color: var(--theme-main);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+            background: #181818;
+            z-index: 1;
+        }
+
+        .rc-head {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 6px;
+        }
+
+        .rc-name {
+            font-weight: 700;
+            color: #fff;
+            font-size: 0.9rem;
+        }
+
+        .rc-vis {
+            font-size: 0.6rem;
+            padding: 1px 5px;
+            border: 1px solid #333;
+            color: #666;
+        }
+
+        .rc-desc {
+            font-size: 0.75rem;
+            color: var(--text-sub);
+            line-height: 1.4;
+            overflow: hidden;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+        }
+
+        .rc-foot {
+            display: flex;
+            gap: 12px;
+            font-size: 0.7rem;
+            color: #555;
+            margin-top: auto;
+            padding-top: 10px;
+            border-top: 1px solid #222;
+        }
+
+        .rc-i {
+            display: flex;
+            align-items: center;
+            gap: 4px;
+        }
+
+        .chart-box {
+            height: 150px;
+            filter: hue-rotate(-70deg) saturate(1.5) contrast(1.1);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 10px;
+        }
+
+        .col-right {
+            grid-row: 2 / 3;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            overflow: hidden;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 8px;
+            height: 100%;
+        }
+
+        .s-cell {
+            background: #151515;
+            border: 1px solid #222;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .s-val {
+            font-size: 1.4rem;
+            font-weight: 700;
+            color: #fff;
+        }
+
+        .s-lbl {
+            font-size: 0.65rem;
+            color: var(--text-sub);
+            margin-top: 2px;
+        }
+
+        .lang-list {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            height: 100%;
+            overflow-y: auto;
+        }
+
+        .l-row {
+            display: flex;
+            align-items: center;
+            font-size: 0.7rem;
+        }
+
+        .l-bar {
+            flex: 1;
+            height: 6px;
+            background: #222;
+            margin: 0 8px;
+        }
+
+        .l-fill {
+            height: 100%;
+        }
+
+        .log-box {
+            flex: 1;
+            background: #080808;
+            overflow-y: auto;
+            padding: 10px;
+            font-family: var(--font);
+            border: 1px solid #222;
+        }
+
+        .log-item {
+            margin-bottom: 8px;
+            border-bottom: 1px solid #1a1a1a;
+            padding-bottom: 6px;
+            font-size: 0.7rem;
+            line-height: 1.4;
+            color: #888;
+        }
+
+        .log-ts {
+            color: #444;
+            margin-right: 6px;
+            font-size: 0.65rem;
+        }
+
+        .hl-link {
+            color: #bbb;
+            text-decoration: none;
+            border-bottom: 1px solid #333;
+            transition: 0.2s;
+        }
+
+        .hl-link:hover {
+            color: var(--theme-main);
+            border-color: var(--theme-main);
+        }
+
+        .tag-ev {
+            font-weight: 700;
+            font-size: 0.6rem;
+            padding: 1px 5px;
+            margin-right: 4px;
+            color: #000;
+            border-radius: 2px;
+        }
+
+        .ev-push {
+            background: var(--c-push);
+        }
+
+        .ev-star {
+            background: var(--c-star);
+        }
+
+        .ev-new {
+            background: var(--c-new);
+        }
+
+        .ev-git {
+            background: var(--c-git);
+        }
+
+        .ev-misc {
+            background: var(--c-misc);
+            color: #fff;
+        }
+
+        .footer {
+            grid-column: 1/-1;
+            border-top: 1px solid #222;
+            padding: 0 10px;
+            display: flex;
+            justify-content: space-between;
+            font-size: 0.65rem;
+            color: #444;
+            background: var(--bg-panel);
+            align-items: center;
+        }
+    </style>
 </head>
 <body>
-    <!-- Navbar -->
-    <nav class="navbar">
-        <div class="container">
-            <div class="nav-brand">wu-clan</div>
-            <button class="menu-btn" id="menu-btn" aria-label="Toggle menu">
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
-            <ul class="nav-links" id="nav-links">
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#stats">Stats</a></li>
-                <li><a href="#contributions">Contributions</a></li>
-            </ul>
-        </div>
-    </nav>
 
-    <!-- Hero Section -->
-    <section class="hero-section">
-        <div class="container">
-            <div class="hero-grid">
-                <div class="hero-left">
-                    <img src="" alt="Avatar" class="hero-avatar" id="avatar">
-                    <p class="hero-bio" id="bio">Loading...</p>
-                    <div class="social-links" id="social-links">
-                        <!-- Social links will be dynamically generated -->
-                    </div>
-                </div>
-                <div class="hero-right">
-                    <div class="code-block">
-                        <div class="code-header">
-                            <span class="dot red"></span>
-                            <span class="dot orange"></span>
-                            <span class="dot green"></span>
+    <div class="grid-frame">
+        <header class="header">
+            <div class="logo">WU-CLAN <span>//</span> NET</div>
+            <div class="sys-stat">
+                <span>SYSTEM: <b>ONLINE</b></span>
+                <span>SECURE: <b>TRUE</b></span>
+                <span>TIME: <b id="clock" style="color:var(--theme-main)">00:00:00</b></span>
+
+            </div>
+        </header>
+
+        <!-- LEFT -->
+        <aside class="col-left">
+            <!-- 1. Identity -->
+            <div class="m-card">
+                <div class="mc-head">OPERATOR_ID</div>
+                <div class="mc-body">
+                    <div class="id-top">
+                        <img id="u-avatar" class="avatar" src="">
+                        <div class="names">
+                            <div id="u-login" class="login">LOADING</div>
+                            <div id="u-bio" class="bio">...</div>
                         </div>
-                        <pre><code><span class="code-keyword">const</span> <span
-                                class="code-variable">coder</span> <span class="code-operator">=</span> <span
-                                class="code-punctuation">{</span>
-  <span class="code-property">name:</span> <span class="code-string">'<span id="name">Loading...</span>'</span><span
-                                    class="code-punctuation">,</span>
-  <span class="code-property">company:</span> <span class="code-string">'<span
-                                    id="company">Loading...</span>'</span><span class="code-punctuation">,</span>
-  <span class="code-property">location:</span> <span class="code-string">'<span
-                                    id="location">Loading...</span>'</span><span class="code-punctuation">,</span>
-  <span class="code-property">localTime:</span> <span class="code-string">'<span
-                                    id="localtime">Loading...</span>'</span><span class="code-punctuation">,</span>
-  <span class="code-property">followers:</span> <span class="code-number"><span
-                                    id="followers">0</span></span><span class="code-punctuation">,</span>
-  <span class="code-property">following:</span> <span class="code-number"><span id="following">0</span></span><span
-                                    class="code-punctuation">,</span>
-  <span class="code-property">repositories:</span> <span class="code-number"><span id="repos">0</span></span><span
-                                    class="code-punctuation">,</span>
-  <span class="code-property">skills:</span> <span class="code-punctuation">[</span><span id="skills">Loading...</span><span class="code-punctuation">],</span>
-  <span class="code-property">hireable:</span> <span class="code-boolean"><span id="hireable">true</span></span>
-<span class="code-punctuation">};</span></code></pre>
+                    </div>
+
+                    <div class="data-table">
+                        <div class="dt-row"><span class="dt-k">JOINED</span><span id="u-join" class="dt-v">-</span>
+                        </div>
+                        <div class="dt-row"><span class="dt-k">LOCATION</span><span id="u-loc" class="dt-v">-</span>
+                        </div>
+                        <div class="dt-row"><span class="dt-k">REPOS / GISTS</span><span class="dt-v"><span
+                                id="u-repo-n">-</span> / <span id="u-gist-n">-</span></span></div>
+                        <div class="dt-row"><span class="dt-k">EMAIL</span><span id="u-email" class="dt-v">-</span>
+                        </div>
+                        <div class="dt-row"><span class="dt-k">WEBSITE</span><span class="dt-v"><a id="u-blog" href="#"
+                                                                                                   target="_blank">-</a></span>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
 
-    <!-- Projects -->
-    <section class="section" id="projects">
-        <div class="container">
-            <div class="section-title">
-                <span class="title-line"></span>
-                <h2>Projects</h2>
-                <span class="title-line"></span>
+            <!-- 2. Org -->
+            <div class="m-card">
+                <div class="mc-head">AFFILIATION</div>
+                <div class="mc-body">
+                    <a href="https://github.com/fastapi-practices" target="_blank" class="org-wrap">
+                        <div class="org-header">
+                            <img id="o-avatar" class="org-img" src="">
+                            <div class="org-title">@fastapi-practices</div>
+                        </div>
+                        <div id="o-desc" class="org-desc">Loading Data...</div>
+                        <div class="org-grid">
+                            <div class="og-item">REPOS <span id="o-repos">-</span></div>
+                            <div class="og-item">CREATED <span id="o-created">-</span></div>
+                        </div>
+                    </a>
+                </div>
             </div>
-            <div class="projects-grid" id="projects-container">
-                <!-- Projects will be dynamically loaded here -->
+
+            <!-- 3. Skills -->
+            <div class="m-card skill-box">
+                <div class="mc-head">CAPABILITIES</div>
+                <div class="mc-body">
+                    <div id="skill-box" class="skill-cloud"></div>
+                </div>
             </div>
-            <div class="view-all">
-                <a href="https://github.com/wu-clan" class="view-all-btn" id="view-all-link" target="_blank">
-                    View All Projects
+
+            <!-- 4. Socials -->
+            <div class="m-card">
+                <div class="mc-head">UPLINKS</div>
+                <div class="mc-body" style="flex:none;">
+                    <div id="social-box" class="social-row"></div>
+                </div>
+            </div>
+        </aside>
+
+        <!-- CENTER -->
+        <main class="col-center">
+            <!-- Repos -->
+            <div class="m-card" style="flex:1;">
+                <div class="mc-head">
+                    <span>ACTIVE_MODULES</span>
+                </div>
+                <!-- 顶部Padding加到了 20px -->
+                <div class="mc-body repo-container-body">
+                    <div id="repo-grid" class="repo-area">
+                        <div style="grid-column:1/-1; text-align:center; padding:50px; color:#444;">INITIALIZING...</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Heatmap -->
+            <div class="m-card">
+                <div class="mc-head">ACTIVITY_LOG</div>
+                <div class="mc-body" style="padding:0;">
+                    <div class="chart-box">
+                        <img id="gh-chart" src="" style="width:100%; height:100%; object-fit:contain; opacity:0.9;">
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- RIGHT -->
+        <aside class="col-right">
+            <!-- Stats -->
+            <div class="m-card">
+                <div class="mc-head">METRICS</div>
+                <div class="mc-body" style="padding:8px;">
+                    <div class="stats-grid">
+                        <div class="s-cell">
+                            <div class="s-val" id="st-stars">-</div>
+                            <div class="s-lbl">STARS</div>
+                        </div>
+                        <div class="s-cell">
+                            <div class="s-val" id="st-forks">-</div>
+                            <div class="s-lbl">FORKS</div>
+                        </div>
+                        <div class="s-cell">
+                            <div class="s-val" id="st-followers">-</div>
+                            <div class="s-lbl">FOLLOWERS</div>
+                        </div>
+                        <div class="s-cell">
+                            <div class="s-val" id="st-following">-</div>
+                            <div class="s-lbl">FOLLOWING</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Langs -->
+            <div class="m-card">
+                <div class="mc-head">SYNTAX_DIST</div>
+                <div class="mc-body">
+                    <div id="lang-list" class="lang-list"></div>
+                </div>
+            </div>
+
+            <!-- Logs -->
+            <div class="m-card" style="flex:1;">
+                <div class="mc-head">TERMINAL_OUTPUT</div>
+                <div class="mc-body" style="padding:0;">
+                    <div id="event-log" class="log-box"></div>
+                </div>
+            </div>
+        </aside>
+
+        <footer class="footer">
+            <span>© 2026 wu-clan. Designed with passion.</span>
+            <span>STATUS: <span style="color: green">ONLINE</span></span>
+        </footer>
+    </div>
+
+    <script>
+        const CFG = {
+            user: 'wu-clan',
+            org: 'fastapi-practices',
+            key: 'wu_v15_aero',
+            manual: ['fastapi-practices/fastapi_best_architecture_ui', 'fastapi-practices/sqlalchemy-crud-plus', 'fastapi-practices/fastapi-oauth20', 'wu-clan/fast-captcha', 'wu-clan/automated_ui'],
+            skills: ['Python', 'FastAPI', 'Django', 'JavaScript', 'TypeScript', 'Vue.js', 'MySQL', 'PostgreSQL', 'Redis', 'Docker', 'Git', 'Linux', 'Nginx', '...'],
+            socials: [
+                { url: 'https://github.com/wu-clan', icon: 'ri-github-fill' },
+                { url: 'https://x.com/_chulan', icon: 'ri-twitter-x-fill' },
+                { url: 'https://discord.gg/yNN3wTbVAC', icon: 'ri-discord-fill' },
+                { url: 'https://qm.qq.com/q/EPlRcn2OU', icon: 'ri-qq-fill' },
+                { url: 'https://wu-clan.github.io/VBlog/', icon: 'ri-article-fill' },
+                { url: 'https://wu-clan.github.io/sponsor/', icon: 'ri-cup-fill' }
+            ]
+        };
+
+        const $ = id => document.getElementById(id);
+        const fmt = n => n > 999 ? (n / 1000).toFixed(1) + 'k' : n;
+
+        setInterval(() => $('clock').innerText = new Date().toLocaleTimeString('en-GB'), 1000);
+        $('gh-chart').src = `https://ghchart.rshah.org/${ CFG.user }`;
+
+        $('skill-box').innerHTML = CFG.skills.map(s => `<span class="tag">${ s }</span>`).join('');
+        $('social-box').innerHTML = CFG.socials.map(s => `<a href="${ s.url }" target="_blank" class="soc-btn"><i class="${ s.icon }"></i></a>`).join('');
+
+        async function boot() {
+            let data = null;
+            const cache = localStorage.getItem(CFG.key);
+            if (cache) {
+                const c = JSON.parse(cache);
+                if (Date.now() - c.ts < 3600000) data = c.data;
+            }
+
+            if (!data) {
+                try {
+                    const [u, uR, o, oR, ev] = await Promise.all([
+                        fetch(`https://api.github.com/users/${ CFG.user }`).then(r => r.json()),
+                        fetch(`https://api.github.com/users/${ CFG.user }/repos?per_page=100`).then(r => r.json()),
+                        fetch(`https://api.github.com/orgs/${ CFG.org }`).then(r => r.json()),
+                        fetch(`https://api.github.com/orgs/${ CFG.org }/repos?per_page=100`).then(r => r.json()),
+                        fetch(`https://api.github.com/users/${ CFG.user }/events?per_page=40`).then(r => r.json())
+                    ]);
+                    data = { u, uR, o, oR, ev };
+                    localStorage.setItem(CFG.key, JSON.stringify({ ts: Date.now(), data }));
+                } catch (e) {
+                    console.error(e);
+                }
+            }
+            if (data) render(data);
+        }
+
+        function render(d) {
+            const { u, uR, o, oR, ev } = d;
+
+            // 1. Identity
+            $('u-avatar').src = u.avatar_url;
+            $('u-login').innerText = u.login;
+            $('u-bio').innerText = u.bio || "No data.";
+            $('u-join').innerText = u.created_at.split('T')[0];
+            $('u-loc').innerText = u.location || 'N/A';
+            $('u-repo-n').innerText = u.public_repos;
+            $('u-gist-n').innerText = u.public_gists;
+            $('u-email').innerText = u.email || 'Hidden';
+            if (u.blog) {
+                $('u-blog').href = u.blog.startsWith('http') ? u.blog : 'https://' + u.blog;
+                $('u-blog').innerText = 'LINK';
+            } else $('u-blog').innerText = 'N/A';
+
+            // 2. Org
+            $('o-avatar').src = o.avatar_url;
+            $('o-desc').innerText = o.description || "No public data.";
+            $('o-repos').innerText = o.public_repos;
+            $('o-created').innerText = o.created_at ? o.created_at.split('T')[0] : '-';
+
+            // 3. Repos
+            const all = [...(Array.isArray(uR) ? uR : []), ...(Array.isArray(oR) ? oR : []).map(r => ({
+                ...r,
+                _org: true
+            }))].filter(r => !r.fork);
+            $('st-stars').innerText = fmt(all.reduce((a, b) => a + b.stargazers_count, 0));
+            $('st-forks').innerText = fmt(all.reduce((a, b) => a + b.forks_count, 0));
+            $('st-followers').innerText = fmt(u.followers);
+            $('st-following').innerText = fmt(u.following);
+
+            const manual = all.filter(r => CFG.manual.some(m => m.toLowerCase() === r.full_name.toLowerCase()));
+            const others = all.filter(r => !manual.includes(r)).sort((a, b) => b.stargazers_count - a.stargazers_count);
+            const list = [...manual, ...others].slice(0, 8).sort((a, b) => b.stargazers_count - a.stargazers_count);
+
+            $('repo-grid').innerHTML = list.map(r => `
+                <a href="${ r.html_url }" target="_blank" class="r-card">
+                    <div>
+                        <div class="rc-head">
+                            <span class="rc-name">${ r.name }</span>
+                            <span class="rc-vis" style="${ r._org ? 'color:var(--theme-main); border-color:var(--theme-main)' : '' }">${ r._org ? 'ORG' : 'USR' }</span>
+                        </div>
+                        <div class="rc-desc">${ r.description || '--' }</div>
+                    </div>
+                    <div class="rc-foot">
+                        <span class="rc-i"><i class="ri-star-fill"></i> ${ fmt(r.stargazers_count) }</span>
+                        <span class="rc-i"><i class="ri-git-branch-line"></i> ${ fmt(r.forks_count) }</span>
+                        <span style="margin-left:auto; color:${ getLangColor(r.language) }">${ r.language || '' }</span>
+                    </div>
                 </a>
-            </div>
-        </div>
-    </section>
+            `).join('');
 
-    <!-- Git Statistics -->
-    <section class="section" id="stats">
-        <div class="container">
-            <div class="section-title">
-                <span class="title-line"></span>
-                <h2>GitHub Stats</h2>
-                <span class="title-line"></span>
-            </div>
-            <div class="stat-grid">
-                <div class="stat-card">
-                    <img src="https://github-readme-stats.vercel.app/api?username=wu-clan&show_icons=true&theme=radical&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=1f6feb&text_color=c9d1d9&border_radius=8"
-                         alt="GitHub Stats" loading="lazy">
+            // 4. Langs (Correct Colors)
+            const l = {};
+            let lt = 0;
+            all.forEach(r => {
+                if (r.language) {
+                    l[r.language] = (l[r.language] || 0) + 1;
+                    lt++;
+                }
+            });
+            $('lang-list').innerHTML = Object.entries(l).sort((a, b) => b[1] - a[1]).slice(0, 5).map(([n, c]) => `
+                <div class="l-row">
+                    <span style="width:70px; color:#aaa;">${ n }</span>
+                    <div class="l-bar"><div class="l-fill" style="width:${ (c / lt) * 100 }%; background:${ getLangColor(n) }"></div></div>
+                    <span style="width:25px; text-align:right; color:#666;">${ Math.round((c / lt) * 100) }%</span>
                 </div>
-                <div class="stat-card">
-                    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=wu-clan&layout=compact&theme=radical&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&border_radius=8&langs_count=6"
-                         alt="Top Languages" loading="lazy">
-                </div>
-                <div class="stat-card full-width">
-                    <img src="https://github-readme-streak-stats.herokuapp.com/?user=wu-clan&theme=radical&hide_border=true&background=0d1117&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff&border_radius=8"
-                         alt="GitHub Streak" loading="lazy">
-                </div>
-            </div>
-        </div>
-    </section>
+            `).join('');
 
-    <!-- GitHub Activity Graph -->
-    <section class="section">
-        <div class="container">
-            <div class="section-title">
-                <span class="title-line"></span>
-                <h2>Activity Graph</h2>
-                <span class="title-line"></span>
-            </div>
-            <div class="stat-grid">
-                <div class="stat-card full-width">
-                    <img src="https://github-readme-activity-graph.vercel.app/graph?username=wu-clan&theme=github-compact&hide_border=true&bg_color=0d1117&color=58a6ff&line=58a6ff&point=ffffff&area=true&area_color=58a6ff"
-                         alt="Activity Graph" loading="lazy">
-                </div>
-            </div>
-        </div>
-    </section>
+            // 5. Logs (Colored Events)
+            if (Array.isArray(ev)) {
+                $('event-log').innerHTML = ev.map(e => {
+                    const t = new Date(e.created_at).toISOString().slice(5, 16).replace('T', ' ');
+                    const rName = e.repo.name;
+                    const githubUrl = `https://github.com/${ rName }`
+                    const rLink = `<a href="${ githubUrl }" target="_blank" class="hl-link">${ rName }</a>`;
+                    let tag = '', txt = '';
 
-    <!-- GitHub Trophies -->
-    <section class="section">
-        <div class="container">
-            <div class="section-title">
-                <span class="title-line"></span>
-                <h2>Achievements</h2>
-                <span class="title-line"></span>
-            </div>
-            <div class="stat-grid">
-                <div class="stat-card full-width">
-                    <img src="https://github-profile-trophy.vercel.app/?username=wu-clan&theme=radical&no-frame=true&no-bg=true&row=2&column=4&margin-w=15&margin-h=15"
-                         alt="GitHub Trophies" loading="lazy">
-                </div>
-            </div>
-        </div>
-    </section>
+                    if (e.type === 'PushEvent') {
+                        tag = `<span class="tag-ev ev-push">PUSH</span>`;
+                        const sha = e.payload.head ? e.payload.head.slice(0, 7) : '...';
+                        txt = `to ${ rLink } <span style="color:#666">#${ sha }</span>`;
+                    } else if (e.type === 'WatchEvent') {
+                        tag = `<span class="tag-ev ev-star">STAR</span>`;
+                        txt = `${ rLink }`;
+                    } else if (e.type === 'CreateEvent') {
+                        tag = `<span class="tag-ev ev-new">NEW</span>`;
+                        txt = `${ e.payload.ref_type } in ${ rLink }`;
+                    } else if (e.type === 'IssuesEvent' || e.type === 'PullRequestEvent') {
+                        console.log(e)
+                        tag = `<span class="tag-ev ev-git">GIT</span>`;
+                        const num = e.payload.issue ? e.payload.issue.number : e.payload.number;
+                        const url = e.payload.issue ? e.payload.issue.url : e.payload.pull_request.url;
+                        txt = `${ e.payload.action } <a href="${ githubUrl + url.split(rName)[1].replace("/pulls/", "/pull/") }" target="_blank" class="hl-link">#${ num }</a>`;
+                    } else {
+                        tag = `<span class="tag-ev ev-misc">LOG</span>`;
+                        txt = `act in ${ rLink }`;
+                    }
 
-    <!-- Contributions -->
-    <section class="section" id="contributions">
-        <div class="container">
-            <div class="section-title">
-                <span class="title-line"></span>
-                <h2>Contributions</h2>
-                <span class="title-line"></span>
-            </div>
-            <div class="contributions-container">
-                <img src="https://ghchart.rshah.org/wu-clan" alt="GitHub Contributions" loading="lazy">
-            </div>
-        </div>
-    </section>
+                    return `<div class="log-item"><div><span class="log-ts">${ t }</span> ${ tag }</div><div style="padding-left:4px; margin-top:2px;">${ txt }</div></div>`;
+                }).join('');
+            }
+        }
 
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <p>© 2025 Design and development by <a href="https://github.com/wu-clan" target="_blank">Wu Clan</a></p>
-            <div class="footer-links">
-                <a href="https://github.com/wu-clan/homepage" target="_blank">
-                    <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                        <path d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25z" />
-                    </svg>
-                    Star
-                </a>
-                <a href="https://github.com/wu-clan/homepage/fork" target="_blank">
-                    <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                        <path d="M5 3.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm0 2.122a2.25 2.25 0 10-1.5 0v.878A2.25 2.25 0 005.75 8.5h1.5v2.128a2.251 2.251 0 101.5 0V8.5h1.5a2.25 2.25 0 002.25-2.25v-.878a2.25 2.25 0 10-1.5 0v.878a.75.75 0 01-.75.75h-4.5A.75.75 0 015 6.25v-.878zm3.75 7.378a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm3-8.75a.75.75 0 100-1.5.75.75 0 000 1.5z" />
-                    </svg>
-                    Fork
-                </a>
-            </div>
-        </div>
-    </footer>
+        function getLangColor(l) {
+            return ({
+                Python: '#3572A5',
+                JavaScript: '#f1e05a',
+                TypeScript: '#2b7489',
+                Go: '#375eab',
+                Vue: '#41b883',
+                HTML: '#e44b23',
+                CSS: '#563d7c',
+                Shell: '#89e051',
+                Docker: '#384d54'
+            }[l] || '#555');
+        }
 
-    <script src="script.js"></script>
+        boot();
+    </script>
 </body>
 </html>
