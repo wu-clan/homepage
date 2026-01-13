@@ -35,7 +35,7 @@
             background-color: var(--bg-void);
             color: var(--text-main);
             font-family: var(--font);
-            height: 100vh;
+            height: 100dvh;
             width: 100vw;
             overflow: hidden;
             padding: 12px;
@@ -55,6 +55,7 @@
 
         ::-webkit-scrollbar-thumb {
             background: #333;
+            border-radius: 2px;
         }
 
         ::-webkit-scrollbar-thumb:hover {
@@ -64,7 +65,7 @@
         .grid-frame {
             display: grid;
             grid-template-columns: 340px minmax(0, 1fr) 340px;
-            grid-template-rows: 40px 1fr 20px;
+            grid-template-rows: 40px minmax(0, 1fr) 20px;
             gap: 12px;
             height: 100%;
             max-width: 2560px;
@@ -81,6 +82,16 @@
                 display: flex;
                 flex-direction: column;
                 height: auto;
+                grid-template-rows: auto;
+            }
+
+            .col-left, .col-center, .col-right {
+                height: auto !important;
+                overflow: visible !important;
+            }
+
+            .repo-area {
+                overflow: visible !important;
             }
         }
 
@@ -100,9 +111,11 @@
             padding: 8px 12px;
             text-transform: uppercase;
             letter-spacing: 0.5px;
+            display: flex;
             justify-content: space-between;
             align-items: center;
-            border-bottom: 1px solid var(--border); /* 分割线 */
+            border-bottom: 1px solid var(--border);
+            flex-shrink: 0;
         }
 
         .mc-head::before {
@@ -120,6 +133,7 @@
             overflow: hidden;
             display: flex;
             flex-direction: column;
+            min-height: 0;
         }
 
         .header {
@@ -154,12 +168,13 @@
             color: var(--theme-main);
         }
 
-        .col-left {
+        .col-left, .col-center, .col-right {
             grid-row: 2 / 3;
             display: flex;
             flex-direction: column;
             gap: 12px;
             overflow: hidden;
+            min-height: 0;
         }
 
         .id-top {
@@ -263,6 +278,7 @@
             font-size: 0.75rem;
             color: var(--text-sub);
             line-height: 1.4;
+            flex: 1;
         }
 
         .org-grid {
@@ -298,6 +314,7 @@
             align-content: flex-start;
             overflow-y: auto;
             height: 100%;
+            padding-right: 2px;
         }
 
         .tag {
@@ -329,27 +346,24 @@
 
         .soc-btn:hover {
             border-color: var(--theme-main);
-        }
-
-        .col-center {
-            grid-row: 2 / 3;
-            display: flex;
-            flex-direction: column;
-            gap: 12px;
+            color: var(--theme-main);
         }
 
         .repo-container-body {
             padding: 12px;
             background: #0d0d0d;
+            display: flex;
+            flex-direction: column;
         }
 
         .repo-area {
-            height: 100%;
             display: grid;
             grid-template-columns: 1fr 1fr;
             gap: 14px;
-            grid-auto-rows: 1fr;
+            grid-auto-rows: max-content;
             overflow-y: auto;
+            flex: 1;
+            padding-right: 4px;
         }
 
         .r-card {
@@ -362,6 +376,7 @@
             text-decoration: none;
             transition: all 0.2s;
             position: relative;
+            min-height: 110px;
         }
 
         .r-card:hover {
@@ -382,6 +397,7 @@
             font-weight: 700;
             color: #fff;
             font-size: 0.9rem;
+            word-break: break-all;
         }
 
         .rc-vis {
@@ -389,6 +405,7 @@
             padding: 1px 5px;
             border: 1px solid #333;
             color: #666;
+            white-space: nowrap;
         }
 
         .rc-desc {
@@ -399,6 +416,7 @@
             display: -webkit-box;
             -webkit-line-clamp: 2;
             -webkit-box-orient: vertical;
+            margin-bottom: 8px;
         }
 
         .rc-foot {
@@ -409,6 +427,7 @@
             margin-top: auto;
             padding-top: 10px;
             border-top: 1px solid #222;
+            align-items: center;
         }
 
         .rc-i {
@@ -424,14 +443,7 @@
             flex-direction: column;
             justify-content: center;
             padding: 10px;
-        }
-
-        .col-right {
-            grid-row: 2 / 3;
-            display: flex;
-            flex-direction: column;
-            gap: 12px;
-            overflow: hidden;
+            flex-shrink: 0;
         }
 
         .stats-grid {
@@ -468,6 +480,7 @@
             gap: 8px;
             height: 100%;
             overflow-y: auto;
+            padding-right: 2px;
         }
 
         .l-row {
@@ -530,6 +543,9 @@
             margin-right: 4px;
             color: #000;
             border-radius: 2px;
+            display: inline-block;
+            min-width: 35px;
+            text-align: center;
         }
 
         .ev-push {
@@ -573,9 +589,8 @@
             <div class="logo">WU-CLAN <span>//</span> NET</div>
             <div class="sys-stat">
                 <span>SYSTEM: <b>ONLINE</b></span>
-                <span>SECURE: <b>TRUE</b></span>
+                <span>DATA: <b id="data-status" style="color:var(--text-sub)">FETCHING...</b></span>
                 <span>TIME: <b id="clock" style="color:var(--theme-main)">00:00:00</b></span>
-
             </div>
         </header>
 
@@ -586,13 +601,13 @@
                 <div class="mc-head">OPERATOR_ID</div>
                 <div class="mc-body">
                     <div class="id-top">
-                        <img id="u-avatar" class="avatar" src="">
+                        <img id="u-avatar" class="avatar"
+                             src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
                         <div class="names">
                             <div id="u-login" class="login">LOADING</div>
                             <div id="u-bio" class="bio">...</div>
                         </div>
                     </div>
-
                     <div class="data-table">
                         <div class="dt-row"><span class="dt-k">JOINED</span><span id="u-join" class="dt-v">-</span>
                         </div>
@@ -615,10 +630,11 @@
                 <div class="mc-body">
                     <a href="https://github.com/fastapi-practices" target="_blank" class="org-wrap">
                         <div class="org-header">
-                            <img id="o-avatar" class="org-img" src="">
+                            <img id="o-avatar" class="org-img"
+                                 src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
                             <div class="org-title">@fastapi-practices</div>
                         </div>
-                        <div id="o-desc" class="org-desc">Loading Data...</div>
+                        <div id="o-desc" class="org-desc">...</div>
                         <div class="org-grid">
                             <div class="og-item">REPOS <span id="o-repos">-</span></div>
                             <div class="og-item">CREATED <span id="o-created">-</span></div>
@@ -651,7 +667,6 @@
                 <div class="mc-head">
                     <span>ACTIVE_MODULES</span>
                 </div>
-                <!-- 顶部Padding加到了 20px -->
                 <div class="mc-body repo-container-body">
                     <div id="repo-grid" class="repo-area">
                         <div style="grid-column:1/-1; text-align:center; padding:50px; color:#444;">INITIALIZING...</div>
@@ -664,7 +679,8 @@
                 <div class="mc-head">ACTIVITY_LOG</div>
                 <div class="mc-body" style="padding:0;">
                     <div class="chart-box">
-                        <img id="gh-chart" src="" style="width:100%; height:100%; object-fit:contain; opacity:0.9;">
+                        <img id="gh-chart" src="" style="width:100%; height:100%; object-fit:contain; opacity:0.9;"
+                             alt="Contribution Chart">
                     </div>
                 </div>
             </div>
@@ -723,8 +739,6 @@
     <script>
         const CFG = {
             user: 'wu-clan',
-            org: 'fastapi-practices',
-            key: 'wu_v15_aero',
             manual: ['fastapi-practices/fastapi_best_architecture_ui', 'fastapi-practices/sqlalchemy-crud-plus', 'fastapi-practices/fastapi-oauth20', 'wu-clan/fast-captcha', 'wu-clan/automated_ui'],
             skills: ['Python', 'FastAPI', 'Django', 'JavaScript', 'TypeScript', 'Vue.js', 'MySQL', 'PostgreSQL', 'Redis', 'Docker', 'Git', 'Linux', 'Nginx', '...'],
             socials: [
@@ -747,67 +761,67 @@
         $('social-box').innerHTML = CFG.socials.map(s => `<a href="${ s.url }" target="_blank" class="soc-btn"><i class="${ s.icon }"></i></a>`).join('');
 
         async function boot() {
-            let data = null;
-            const cache = localStorage.getItem(CFG.key);
-            if (cache) {
-                const c = JSON.parse(cache);
-                if (Date.now() - c.ts < 3600000) data = c.data;
-            }
+            try {
+                const res = await fetch(`./data.json`);
+                if (!res.ok) throw new Error("Failed to load data");
 
-            if (!data) {
-                try {
-                    const [u, uR, o, oR, ev] = await Promise.all([
-                        fetch(`https://api.github.com/users/${ CFG.user }`).then(r => r.json()),
-                        fetch(`https://api.github.com/users/${ CFG.user }/repos?per_page=100`).then(r => r.json()),
-                        fetch(`https://api.github.com/orgs/${ CFG.org }`).then(r => r.json()),
-                        fetch(`https://api.github.com/orgs/${ CFG.org }/repos?per_page=100`).then(r => r.json()),
-                        fetch(`https://api.github.com/users/${ CFG.user }/events?per_page=40`).then(r => r.json())
-                    ]);
-                    data = { u, uR, o, oR, ev };
-                    localStorage.setItem(CFG.key, JSON.stringify({ ts: Date.now(), data }));
-                } catch (e) {
-                    console.error(e);
-                }
+                const data = await res.json();
+                render(data);
+                $('data-status').innerHTML = '<span style="color:green">SYNCED</span>';
+            } catch (e) {
+                console.error(e);
+                $('repo-grid').innerHTML = `<div style="grid-column:1/-1;text-align:center;color:#f00;padding:20px;">DATA_OFFLINE<br>${ e.message }</div>`;
+                $('data-status').innerHTML = '<span style="color:red">ERROR</span>';
             }
-            if (data) render(data);
         }
 
         function render(d) {
+            // 后端脚本保证了数据结构的字段一致性
             const { u, uR, o, oR, ev } = d;
 
             // 1. Identity
-            $('u-avatar').src = u.avatar_url;
-            $('u-login').innerText = u.login;
-            $('u-bio').innerText = u.bio || "No data.";
-            $('u-join').innerText = u.created_at.split('T')[0];
-            $('u-loc').innerText = u.location || 'N/A';
-            $('u-repo-n').innerText = u.public_repos;
-            $('u-gist-n').innerText = u.public_gists;
-            $('u-email').innerText = u.email || 'Hidden';
-            if (u.blog) {
-                $('u-blog').href = u.blog.startsWith('http') ? u.blog : 'https://' + u.blog;
-                $('u-blog').innerText = 'LINK';
-            } else $('u-blog').innerText = 'N/A';
+            if (u) {
+                $('u-avatar').src = u.avatar_url;
+                $('u-login').innerText = u.login;
+                $('u-bio').innerText = u.bio || "No data.";
+                $('u-join').innerText = (u.created_at || '').split('T')[0];
+                $('u-loc').innerText = u.location || 'N/A';
+                $('u-repo-n').innerText = u.public_repos;
+                $('u-gist-n').innerText = u.public_gists;
+                $('u-email').innerText = u.email || 'Hidden';
+                if (u.blog) {
+                    $('u-blog').href = u.blog.startsWith('http') ? u.blog : 'https://' + u.blog;
+                    $('u-blog').innerText = 'LINK';
+                } else $('u-blog').innerText = 'N/A';
+            }
 
             // 2. Org
-            $('o-avatar').src = o.avatar_url;
-            $('o-desc').innerText = o.description || "No public data.";
-            $('o-repos').innerText = o.public_repos;
-            $('o-created').innerText = o.created_at ? o.created_at.split('T')[0] : '-';
+            if (o) {
+                $('o-avatar').src = o.avatar_url;
+                $('o-desc').innerText = o.description || "No public data.";
+                $('o-repos').innerText = o.public_repos;
+                $('o-created').innerText = (o.created_at || '').split('T')[0];
+            }
 
             // 3. Repos
-            const all = [...(Array.isArray(uR) ? uR : []), ...(Array.isArray(oR) ? oR : []).map(r => ({
-                ...r,
-                _org: true
-            }))].filter(r => !r.fork);
-            $('st-stars').innerText = fmt(all.reduce((a, b) => a + b.stargazers_count, 0));
-            $('st-forks').innerText = fmt(all.reduce((a, b) => a + b.forks_count, 0));
-            $('st-followers').innerText = fmt(u.followers);
-            $('st-following').innerText = fmt(u.following);
+            // 合并用户仓库和组织仓库，标记 _org 属性
+            const all = [
+                ...(Array.isArray(uR) ? uR : []),
+                ...(Array.isArray(oR) ? oR : []).map(r => ({ ...r, _org: true }))
+            ].filter(r => !r.fork); // 过滤掉 fork 的项目
 
-            const manual = all.filter(r => CFG.manual.some(m => m.toLowerCase() === r.full_name.toLowerCase()));
-            const others = all.filter(r => !manual.includes(r)).sort((a, b) => b.stargazers_count - a.stargazers_count);
-            const list = [...manual, ...others].slice(0, 8).sort((a, b) => b.stargazers_count - a.stargazers_count);
+            $('st-stars').innerText = fmt(all.reduce((a, b) => a + (b.stargazers_count || 0), 0));
+            $('st-forks').innerText = fmt(all.reduce((a, b) => a + (b.forks_count || 0), 0));
+            if (u) {
+                $('st-followers').innerText = fmt(u.followers);
+                $('st-following').innerText = fmt(u.following);
+            }
+
+            // 排序逻辑：优先显示 CFG.manual 中定义的，其余按 star 排序
+            const manualLower = CFG.manual.map(m => m.toLowerCase());
+            const manualRepos = all.filter(r => manualLower.includes(r.full_name.toLowerCase()));
+            const otherRepos = all.filter(r => !manualLower.includes(r.full_name.toLowerCase())).sort((a, b) => b.stargazers_count - a.stargazers_count);
+            const list = [...manualRepos, ...otherRepos].slice(0, 8).sort((a, b) => b.stargazers_count - a.stargazers_count);
 
             $('repo-grid').innerHTML = list.map(r => `
                 <a href="${ r.html_url }" target="_blank" class="r-card">
@@ -826,7 +840,7 @@
                 </a>
             `).join('');
 
-            // 4. Langs (Correct Colors)
+            // 4. Langs
             const l = {};
             let lt = 0;
             all.forEach(r => {
@@ -843,10 +857,10 @@
                 </div>
             `).join('');
 
-            // 5. Logs (Colored Events)
+            // 5. Logs
             if (Array.isArray(ev)) {
                 $('event-log').innerHTML = ev.map(e => {
-                    const t = new Date(e.created_at).toISOString().slice(5, 16).replace('T', ' ');
+                    const t = e.created_at.replace('T', ' ').slice(5, 16);
                     const rName = e.repo.name;
                     const githubUrl = `https://github.com/${ rName }`
                     const rLink = `<a href="${ githubUrl }" target="_blank" class="hl-link">${ rName }</a>`;
@@ -861,16 +875,16 @@
                         txt = `${ rLink }`;
                     } else if (e.type === 'CreateEvent') {
                         tag = `<span class="tag-ev ev-new">NEW</span>`;
-                        txt = `${ e.payload.ref_type } in ${ rLink }`;
-                    } else if (e.type === 'IssuesEvent' || e.type === 'PullRequestEvent') {
-                        console.log(e)
-                        tag = `<span class="tag-ev ev-git">GIT</span>`;
-                        const num = e.payload.issue ? e.payload.issue.number : e.payload.number;
-                        const url = e.payload.issue ? e.payload.issue.url : e.payload.pull_request.url;
-                        txt = `${ e.payload.action } <a href="${ githubUrl + url.split(rName)[1].replace("/pulls/", "/pull/") }" target="_blank" class="hl-link">#${ num }</a>`;
+                        txt = `created ${ rLink }`;
+                    } else if (e.type === 'PullRequestEvent') {
+                        tag = `<span class="tag-ev ev-git">PR</span>`;
+                        txt = `${ e.payload.action } <a href="${ githubUrl + e.payload.pull_request.url.split(rName)[1].replace("/pulls/", "/pull/") }" target="_blank" class="hl-link">#${ e.payload.issue.number }</a>`;
+                    } else if (e.type === 'IssuesEvent') {
+                        tag = `<span class="tag-ev ev-git">ISSUE</span>`;
+                        txt = `${ e.payload.action } <a href="${ githubUrl + e.payload.issue.url.split(rName)[1] }" target="_blank" class="hl-link">#${ e.payload.number }</a>`;
                     } else {
-                        tag = `<span class="tag-ev ev-misc">LOG</span>`;
-                        txt = `act in ${ rLink }`;
+                        tag = `<span class="tag-ev ev-misc">ACT</span>`;
+                        txt = `in ${ rLink }`;
                     }
 
                     return `<div class="log-item"><div><span class="log-ts">${ t }</span> ${ tag }</div><div style="padding-left:4px; margin-top:2px;">${ txt }</div></div>`;
