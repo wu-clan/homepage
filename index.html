@@ -111,7 +111,6 @@
             padding: 8px 12px;
             text-transform: uppercase;
             letter-spacing: 0.5px;
-            display: flex;
             justify-content: space-between;
             align-items: center;
             border-bottom: 1px solid var(--border);
@@ -214,6 +213,9 @@
             font-size: 0.75rem;
             padding-top: 8px;
             margin-top: auto;
+            max-height: 50px;
+            overflow-y: auto;
+            /*padding-right: 4px;*/
         }
 
         .dt-row {
@@ -588,7 +590,6 @@
         <header class="header">
             <div class="logo">WU-CLAN <span>//</span> NET</div>
             <div class="sys-stat">
-                <span>SYSTEM: <b>ONLINE</b></span>
                 <span>DATA: <b id="data-status" style="color:var(--text-sub)">FETCHING...</b></span>
                 <span>TIME: <b id="clock" style="color:var(--theme-main)">00:00:00</b></span>
             </div>
@@ -878,10 +879,10 @@
                         txt = `created ${ rLink }`;
                     } else if (e.type === 'PullRequestEvent') {
                         tag = `<span class="tag-ev ev-git">PR</span>`;
-                        txt = `${ e.payload.action } <a href="${ githubUrl + e.payload.pull_request.url.split(rName)[1].replace("/pulls/", "/pull/") }" target="_blank" class="hl-link">#${ e.payload.issue.number }</a>`;
+                        txt = `${ e.payload.action } <a href="${ githubUrl + e.payload.pull_request.url.split(rName)[1].replace("/pulls/", "/pull/") }" target="_blank" class="hl-link">#${ e.payload.number }</a>`;
                     } else if (e.type === 'IssuesEvent') {
                         tag = `<span class="tag-ev ev-git">ISSUE</span>`;
-                        txt = `${ e.payload.action } <a href="${ githubUrl + e.payload.issue.url.split(rName)[1] }" target="_blank" class="hl-link">#${ e.payload.number }</a>`;
+                        txt = `${ e.payload.action } <a href="${ githubUrl + e.payload.issue.url.split(rName)[1] }" target="_blank" class="hl-link">#${ e.payload.issue.number }</a>`;
                     } else {
                         tag = `<span class="tag-ev ev-misc">ACT</span>`;
                         txt = `in ${ rLink }`;
