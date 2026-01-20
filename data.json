@@ -103,14 +103,14 @@
       "releases_url": "https://api.github.com/repos/wu-clan/homepage/releases{/id}",
       "deployments_url": "https://api.github.com/repos/wu-clan/homepage/deployments",
       "created_at": "2024-09-04T11:27:39Z",
-      "updated_at": "2026-01-18T01:43:57Z",
-      "pushed_at": "2026-01-18T01:43:54Z",
+      "updated_at": "2026-01-19T01:42:46Z",
+      "pushed_at": "2026-01-19T01:42:42Z",
       "git_url": "git://github.com/wu-clan/homepage.git",
       "ssh_url": "git@github.com:wu-clan/homepage.git",
       "clone_url": "https://github.com/wu-clan/homepage.git",
       "svn_url": "https://github.com/wu-clan/homepage",
       "homepage": "https://wu-clan.github.io/homepage/",
-      "size": 135,
+      "size": 160,
       "stargazers_count": 0,
       "watchers_count": 0,
       "language": "HTML",
@@ -2983,16 +2983,16 @@
       "releases_url": "https://api.github.com/repos/fastapi-practices/fastapi_best_architecture/releases{/id}",
       "deployments_url": "https://api.github.com/repos/fastapi-practices/fastapi_best_architecture/deployments",
       "created_at": "2023-04-07T05:21:11Z",
-      "updated_at": "2026-01-19T01:32:34Z",
-      "pushed_at": "2026-01-18T15:43:39Z",
+      "updated_at": "2026-01-19T13:34:44Z",
+      "pushed_at": "2026-01-19T17:18:04Z",
       "git_url": "git://github.com/fastapi-practices/fastapi_best_architecture.git",
       "ssh_url": "git@github.com:fastapi-practices/fastapi_best_architecture.git",
       "clone_url": "https://github.com/fastapi-practices/fastapi_best_architecture.git",
       "svn_url": "https://github.com/fastapi-practices/fastapi_best_architecture",
       "homepage": "https://fastapi-practices.github.io/fastapi_best_architecture_docs/",
-      "size": 12002,
-      "stargazers_count": 2004,
-      "watchers_count": 2004,
+      "size": 12013,
+      "stargazers_count": 2006,
+      "watchers_count": 2006,
       "language": "Python",
       "has_issues": true,
       "has_projects": false,
@@ -3000,7 +3000,7 @@
       "has_wiki": false,
       "has_pages": false,
       "has_discussions": true,
-      "forks_count": 309,
+      "forks_count": 310,
       "mirror_url": null,
       "archived": false,
       "disabled": false,
@@ -3025,9 +3025,9 @@
         "sqlalchemy"
       ],
       "visibility": "public",
-      "forks": 309,
+      "forks": 310,
       "open_issues": 8,
-      "watchers": 2004,
+      "watchers": 2006,
       "default_branch": "master",
       "permissions": {
         "admin": false,
@@ -5464,6 +5464,184 @@
   ],
   "ev": [
     {
+      "id": "7618397325",
+      "type": "PushEvent",
+      "actor": {
+        "id": 52145145,
+        "login": "wu-clan",
+        "display_login": "wu-clan",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/wu-clan",
+        "avatar_url": "https://avatars.githubusercontent.com/u/52145145?"
+      },
+      "repo": {
+        "id": 624721291,
+        "name": "fastapi-practices/fastapi_best_architecture",
+        "url": "https://api.github.com/repos/fastapi-practices/fastapi_best_architecture"
+      },
+      "payload": {
+        "repository_id": 624721291,
+        "push_id": 29913690415,
+        "ref": "refs/heads/update-code-gen",
+        "head": "9b519cbd9cd7de9dd51f1a6d089a2d5eab5dbb6a",
+        "before": "cf618b26022e255ef2a0fb2b9fd14a1b73011b69"
+      },
+      "public": true,
+      "created_at": "2026-01-19T17:18:04Z",
+      "org": {
+        "id": 131736279,
+        "login": "fastapi-practices",
+        "gravatar_id": "",
+        "url": "https://api.github.com/orgs/fastapi-practices",
+        "avatar_url": "https://avatars.githubusercontent.com/u/131736279?"
+      }
+    },
+    {
+      "id": "5894002489",
+      "type": "IssueCommentEvent",
+      "actor": {
+        "id": 52145145,
+        "login": "wu-clan",
+        "display_login": "wu-clan",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/wu-clan",
+        "avatar_url": "https://avatars.githubusercontent.com/u/52145145?"
+      },
+      "repo": {
+        "id": 624721291,
+        "name": "fastapi-practices/fastapi_best_architecture",
+        "url": "https://api.github.com/repos/fastapi-practices/fastapi_best_architecture"
+      },
+      "payload": {
+        "action": "created",
+        "issue": {
+          "url": "https://api.github.com/repos/fastapi-practices/fastapi_best_architecture/issues/1014",
+          "repository_url": "https://api.github.com/repos/fastapi-practices/fastapi_best_architecture",
+          "labels_url": "https://api.github.com/repos/fastapi-practices/fastapi_best_architecture/issues/1014/labels{/name}",
+          "comments_url": "https://api.github.com/repos/fastapi-practices/fastapi_best_architecture/issues/1014/comments",
+          "events_url": "https://api.github.com/repos/fastapi-practices/fastapi_best_architecture/issues/1014/events",
+          "html_url": "https://github.com/fastapi-practices/fastapi_best_architecture/issues/1014",
+          "id": 3816405228,
+          "node_id": "I_kwDOJTx9i87jebjs",
+          "number": 1014,
+          "title": "主键采用snowflake,在新增时出现 `invalid input for query argument $1: '1' ('str' object cannot be interpreted as an integer)`",
+          "user": {
+            "login": "yangjiandong",
+            "id": 276788,
+            "node_id": "MDQ6VXNlcjI3Njc4OA==",
+            "avatar_url": "https://avatars.githubusercontent.com/u/276788?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/yangjiandong",
+            "html_url": "https://github.com/yangjiandong",
+            "followers_url": "https://api.github.com/users/yangjiandong/followers",
+            "following_url": "https://api.github.com/users/yangjiandong/following{/other_user}",
+            "gists_url": "https://api.github.com/users/yangjiandong/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/yangjiandong/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/yangjiandong/subscriptions",
+            "organizations_url": "https://api.github.com/users/yangjiandong/orgs",
+            "repos_url": "https://api.github.com/users/yangjiandong/repos",
+            "events_url": "https://api.github.com/users/yangjiandong/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/yangjiandong/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "labels": [],
+          "state": "closed",
+          "locked": false,
+          "assignee": null,
+          "assignees": [],
+          "milestone": null,
+          "comments": 6,
+          "created_at": "2026-01-15T07:53:14Z",
+          "updated_at": "2026-01-19T04:55:57Z",
+          "closed_at": "2026-01-18T15:43:34Z",
+          "type": null,
+          "active_lock_reason": null,
+          "sub_issues_summary": {
+            "total": 0,
+            "completed": 0,
+            "percent_completed": 0
+          },
+          "issue_dependencies_summary": {
+            "blocked_by": 0,
+            "total_blocked_by": 0,
+            "blocking": 0,
+            "total_blocking": 0
+          },
+          "body": "role model\n```\nclass Role(Base):\n    \"\"\"角色表\"\"\"\n\n    __tablename__ = 'sys_role'\n\n    # 允许手工赋值\n    id: Mapped[id_key] = mapped_column()\n    code: Mapped[str] = mapped_column(sa.String(10), unique=True, comment='角色编码')\n    name: Mapped[str] = mapped_column(sa.String(20), unique=True, comment='角色名称')\n    status: Mapped[int] = mapped_column(default=1, comment='角色状态（0停用 1正常）')\n    sort: Mapped[int] = mapped_column(default=999, comment='排序')\n    is_filter_scopes: Mapped[bool] = mapped_column(default=True, comment='过滤数据权限(0否 1是)')\n    remark: Mapped[str | None] = mapped_column(UniversalText, default=None, comment='备注')\n```  \n\n自己做的一个初始化过程，保存时出错 `invalid input for query argument $1: '1' ('str' object cannot be interpreted as an integer)`\n调整 schema 中的方法，注释掉以下方法，正常\n```\nclass SchemaBase(BaseModel):\n    ....\n\n    # if PrimaryKeyType.snowflake == settings.DATABASE_PK_MODE:\n    #     from pydantic import field_serializer\n\n    #     # 详情：https://fastapi-practices.github.io/fastapi_best_architecture_docs/backend/reference/pk.html#%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9\n    #     @field_serializer('id', check_fields=False)\n    #     def serialize_id(self, value: int) -> str:\n    #         return str(value)\n```",
+          "reactions": {
+            "url": "https://api.github.com/repos/fastapi-practices/fastapi_best_architecture/issues/1014/reactions",
+            "total_count": 0,
+            "+1": 0,
+            "-1": 0,
+            "laugh": 0,
+            "hooray": 0,
+            "confused": 0,
+            "heart": 0,
+            "rocket": 0,
+            "eyes": 0
+          },
+          "timeline_url": "https://api.github.com/repos/fastapi-practices/fastapi_best_architecture/issues/1014/timeline",
+          "performed_via_github_app": null,
+          "state_reason": "completed"
+        },
+        "comment": {
+          "url": "https://api.github.com/repos/fastapi-practices/fastapi_best_architecture/issues/comments/3766375853",
+          "html_url": "https://github.com/fastapi-practices/fastapi_best_architecture/issues/1014#issuecomment-3766375853",
+          "issue_url": "https://api.github.com/repos/fastapi-practices/fastapi_best_architecture/issues/1014",
+          "id": 3766375853,
+          "node_id": "IC_kwDOJTx9i87gflWt",
+          "user": {
+            "login": "wu-clan",
+            "id": 52145145,
+            "node_id": "MDQ6VXNlcjUyMTQ1MTQ1",
+            "avatar_url": "https://avatars.githubusercontent.com/u/52145145?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/wu-clan",
+            "html_url": "https://github.com/wu-clan",
+            "followers_url": "https://api.github.com/users/wu-clan/followers",
+            "following_url": "https://api.github.com/users/wu-clan/following{/other_user}",
+            "gists_url": "https://api.github.com/users/wu-clan/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/wu-clan/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/wu-clan/subscriptions",
+            "organizations_url": "https://api.github.com/users/wu-clan/orgs",
+            "repos_url": "https://api.github.com/users/wu-clan/repos",
+            "events_url": "https://api.github.com/users/wu-clan/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/wu-clan/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "created_at": "2026-01-19T04:46:46Z",
+          "updated_at": "2026-01-19T04:46:46Z",
+          "body": "上面 PR 已经合并了，拉最新代码或者同步更新",
+          "reactions": {
+            "url": "https://api.github.com/repos/fastapi-practices/fastapi_best_architecture/issues/comments/3766375853/reactions",
+            "total_count": 0,
+            "+1": 0,
+            "-1": 0,
+            "laugh": 0,
+            "hooray": 0,
+            "confused": 0,
+            "heart": 0,
+            "rocket": 0,
+            "eyes": 0
+          },
+          "performed_via_github_app": null
+        }
+      },
+      "public": true,
+      "created_at": "2026-01-19T04:46:46Z",
+      "org": {
+        "id": 131736279,
+        "login": "fastapi-practices",
+        "gravatar_id": "",
+        "url": "https://api.github.com/orgs/fastapi-practices",
+        "avatar_url": "https://avatars.githubusercontent.com/u/131736279?"
+      }
+    },
+    {
       "id": "5888499606",
       "type": "IssuesEvent",
       "actor": {
@@ -5549,8 +5727,8 @@
           "body": "### Version\n\nVben Admin V5\n\n### Description\n\nhttps://github.com/vueComponent/ant-design-vue/issues/8287\n\n### Proposed Solution\n\nhttps://github.com/antdv-next/antdv-next\n\n### Alternatives Considered\n\n_No response_\n\n### Additional Context\n\n_No response_\n\n### Validations\n\n- [x] Read the [docs](https://doc.vben.pro/)\n- [x] Ensure the code is up to date. (Some issues have been fixed in the latest version)\n- [x] I have searched the [existing issues](https://github.com/vbenjs/vue-vben-admin/issues) and checked that my issue does not duplicate any existing issues.",
           "reactions": {
             "url": "https://api.github.com/repos/vbenjs/vue-vben-admin/issues/7113/reactions",
-            "total_count": 0,
-            "+1": 0,
+            "total_count": 1,
+            "+1": 1,
             "-1": 0,
             "laugh": 0,
             "hooray": 0,
@@ -5680,8 +5858,8 @@
           "body": "### Version\n\nVben Admin V5\n\n### Description\n\nhttps://github.com/vueComponent/ant-design-vue/issues/8287\n\n### Proposed Solution\n\nhttps://github.com/antdv-next/antdv-next\n\n### Alternatives Considered\n\n_No response_\n\n### Additional Context\n\n_No response_\n\n### Validations\n\n- [x] Read the [docs](https://doc.vben.pro/)\n- [x] Ensure the code is up to date. (Some issues have been fixed in the latest version)\n- [x] I have searched the [existing issues](https://github.com/vbenjs/vue-vben-admin/issues) and checked that my issue does not duplicate any existing issues.",
           "reactions": {
             "url": "https://api.github.com/repos/vbenjs/vue-vben-admin/issues/7113/reactions",
-            "total_count": 0,
-            "+1": 0,
+            "total_count": 1,
+            "+1": 1,
             "-1": 0,
             "laugh": 0,
             "hooray": 0,
@@ -5846,9 +6024,9 @@
           "assignee": null,
           "assignees": [],
           "milestone": null,
-          "comments": 4,
+          "comments": 6,
           "created_at": "2026-01-15T07:53:14Z",
-          "updated_at": "2026-01-19T01:07:36Z",
+          "updated_at": "2026-01-19T04:55:57Z",
           "closed_at": "2026-01-18T15:43:34Z",
           "type": null,
           "active_lock_reason": null,
@@ -5980,9 +6158,9 @@
           "assignee": null,
           "assignees": [],
           "milestone": null,
-          "comments": 4,
+          "comments": 6,
           "created_at": "2026-01-15T07:53:14Z",
-          "updated_at": "2026-01-19T01:07:36Z",
+          "updated_at": "2026-01-19T04:55:57Z",
           "closed_at": "2026-01-18T15:43:34Z",
           "type": null,
           "active_lock_reason": null,
@@ -6941,94 +7119,7 @@
         "url": "https://api.github.com/orgs/fastapi-practices",
         "avatar_url": "https://avatars.githubusercontent.com/u/131736279?"
       }
-    },
-    {
-      "id": "5885032988",
-      "type": "PullRequestEvent",
-      "actor": {
-        "id": 52145145,
-        "login": "wu-clan",
-        "display_login": "wu-clan",
-        "gravatar_id": "",
-        "url": "https://api.github.com/users/wu-clan",
-        "avatar_url": "https://avatars.githubusercontent.com/u/52145145?"
-      },
-      "repo": {
-        "id": 624721291,
-        "name": "fastapi-practices/fastapi_best_architecture",
-        "url": "https://api.github.com/repos/fastapi-practices/fastapi_best_architecture"
-      },
-      "payload": {
-        "action": "opened",
-        "number": 1021,
-        "pull_request": {
-          "url": "https://api.github.com/repos/fastapi-practices/fastapi_best_architecture/pulls/1021",
-          "id": 3185060175,
-          "number": 1021,
-          "head": {
-            "ref": "rename-locale",
-            "sha": "e05664b57529c8d35aff4d8c497dfa8cc76dbaaf",
-            "repo": {
-              "id": 624721291,
-              "url": "https://api.github.com/repos/fastapi-practices/fastapi_best_architecture",
-              "name": "fastapi_best_architecture"
-            }
-          },
-          "base": {
-            "ref": "master",
-            "sha": "d9d0c839ed72d3c6698ca46ef5f3443b23a0033b",
-            "repo": {
-              "id": 624721291,
-              "url": "https://api.github.com/repos/fastapi-practices/fastapi_best_architecture",
-              "name": "fastapi_best_architecture"
-            }
-          }
-        }
-      },
-      "public": true,
-      "created_at": "2026-01-18T07:00:32Z",
-      "org": {
-        "id": 131736279,
-        "login": "fastapi-practices",
-        "gravatar_id": "",
-        "url": "https://api.github.com/orgs/fastapi-practices",
-        "avatar_url": "https://avatars.githubusercontent.com/u/131736279?"
-      }
-    },
-    {
-      "id": "7578893472",
-      "type": "CreateEvent",
-      "actor": {
-        "id": 52145145,
-        "login": "wu-clan",
-        "display_login": "wu-clan",
-        "gravatar_id": "",
-        "url": "https://api.github.com/users/wu-clan",
-        "avatar_url": "https://avatars.githubusercontent.com/u/52145145?"
-      },
-      "repo": {
-        "id": 624721291,
-        "name": "fastapi-practices/fastapi_best_architecture",
-        "url": "https://api.github.com/repos/fastapi-practices/fastapi_best_architecture"
-      },
-      "payload": {
-        "ref": "rename-locale",
-        "ref_type": "branch",
-        "full_ref": "refs/heads/rename-locale",
-        "master_branch": "master",
-        "description": "FastAPI 企业级后端架构解决方案 | Enterprise backend with fastapi、sqlalchemy,、celery、pydantic、grafana、docker...",
-        "pusher_type": "user"
-      },
-      "public": true,
-      "created_at": "2026-01-18T07:00:10Z",
-      "org": {
-        "id": 131736279,
-        "login": "fastapi-practices",
-        "gravatar_id": "",
-        "url": "https://api.github.com/orgs/fastapi-practices",
-        "avatar_url": "https://avatars.githubusercontent.com/u/131736279?"
-      }
     }
   ],
-  "updated_at": "2026-01-19T01:42:41.549Z"
+  "updated_at": "2026-01-20T01:27:48.338Z"
 }
