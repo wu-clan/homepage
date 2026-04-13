@@ -103,14 +103,14 @@
       "releases_url": "https://api.github.com/repos/wu-clan/homepage/releases{/id}",
       "deployments_url": "https://api.github.com/repos/wu-clan/homepage/deployments",
       "created_at": "2024-09-04T11:27:39Z",
-      "updated_at": "2026-04-11T02:03:14Z",
-      "pushed_at": "2026-04-11T02:03:09Z",
+      "updated_at": "2026-04-12T02:25:13Z",
+      "pushed_at": "2026-04-12T02:25:09Z",
       "git_url": "git://github.com/wu-clan/homepage.git",
       "ssh_url": "git@github.com:wu-clan/homepage.git",
       "clone_url": "https://github.com/wu-clan/homepage.git",
       "svn_url": "https://github.com/wu-clan/homepage",
       "homepage": "https://wu-clan.github.io/homepage/",
-      "size": 1014,
+      "size": 1040,
       "stargazers_count": 0,
       "watchers_count": 0,
       "language": "HTML",
@@ -3070,6 +3070,117 @@
   },
   "oR": [
     {
+      "id": 1139655422,
+      "node_id": "R_kgDOQ-3C_g",
+      "name": "plugins",
+      "full_name": "fastapi-practices/plugins",
+      "private": false,
+      "owner": {
+        "login": "fastapi-practices",
+        "id": 131736279,
+        "node_id": "O_kgDOB9oi1w",
+        "avatar_url": "https://avatars.githubusercontent.com/u/131736279?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/fastapi-practices",
+        "html_url": "https://github.com/fastapi-practices",
+        "followers_url": "https://api.github.com/users/fastapi-practices/followers",
+        "following_url": "https://api.github.com/users/fastapi-practices/following{/other_user}",
+        "gists_url": "https://api.github.com/users/fastapi-practices/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/fastapi-practices/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/fastapi-practices/subscriptions",
+        "organizations_url": "https://api.github.com/users/fastapi-practices/orgs",
+        "repos_url": "https://api.github.com/users/fastapi-practices/repos",
+        "events_url": "https://api.github.com/users/fastapi-practices/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/fastapi-practices/received_events",
+        "type": "Organization",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "html_url": "https://github.com/fastapi-practices/plugins",
+      "description": "Plugins for FastAPI Best Architecture",
+      "fork": false,
+      "url": "https://api.github.com/repos/fastapi-practices/plugins",
+      "forks_url": "https://api.github.com/repos/fastapi-practices/plugins/forks",
+      "keys_url": "https://api.github.com/repos/fastapi-practices/plugins/keys{/key_id}",
+      "collaborators_url": "https://api.github.com/repos/fastapi-practices/plugins/collaborators{/collaborator}",
+      "teams_url": "https://api.github.com/repos/fastapi-practices/plugins/teams",
+      "hooks_url": "https://api.github.com/repos/fastapi-practices/plugins/hooks",
+      "issue_events_url": "https://api.github.com/repos/fastapi-practices/plugins/issues/events{/number}",
+      "events_url": "https://api.github.com/repos/fastapi-practices/plugins/events",
+      "assignees_url": "https://api.github.com/repos/fastapi-practices/plugins/assignees{/user}",
+      "branches_url": "https://api.github.com/repos/fastapi-practices/plugins/branches{/branch}",
+      "tags_url": "https://api.github.com/repos/fastapi-practices/plugins/tags",
+      "blobs_url": "https://api.github.com/repos/fastapi-practices/plugins/git/blobs{/sha}",
+      "git_tags_url": "https://api.github.com/repos/fastapi-practices/plugins/git/tags{/sha}",
+      "git_refs_url": "https://api.github.com/repos/fastapi-practices/plugins/git/refs{/sha}",
+      "trees_url": "https://api.github.com/repos/fastapi-practices/plugins/git/trees{/sha}",
+      "statuses_url": "https://api.github.com/repos/fastapi-practices/plugins/statuses/{sha}",
+      "languages_url": "https://api.github.com/repos/fastapi-practices/plugins/languages",
+      "stargazers_url": "https://api.github.com/repos/fastapi-practices/plugins/stargazers",
+      "contributors_url": "https://api.github.com/repos/fastapi-practices/plugins/contributors",
+      "subscribers_url": "https://api.github.com/repos/fastapi-practices/plugins/subscribers",
+      "subscription_url": "https://api.github.com/repos/fastapi-practices/plugins/subscription",
+      "commits_url": "https://api.github.com/repos/fastapi-practices/plugins/commits{/sha}",
+      "git_commits_url": "https://api.github.com/repos/fastapi-practices/plugins/git/commits{/sha}",
+      "comments_url": "https://api.github.com/repos/fastapi-practices/plugins/comments{/number}",
+      "issue_comment_url": "https://api.github.com/repos/fastapi-practices/plugins/issues/comments{/number}",
+      "contents_url": "https://api.github.com/repos/fastapi-practices/plugins/contents/{+path}",
+      "compare_url": "https://api.github.com/repos/fastapi-practices/plugins/compare/{base}...{head}",
+      "merges_url": "https://api.github.com/repos/fastapi-practices/plugins/merges",
+      "archive_url": "https://api.github.com/repos/fastapi-practices/plugins/{archive_format}{/ref}",
+      "downloads_url": "https://api.github.com/repos/fastapi-practices/plugins/downloads",
+      "issues_url": "https://api.github.com/repos/fastapi-practices/plugins/issues{/number}",
+      "pulls_url": "https://api.github.com/repos/fastapi-practices/plugins/pulls{/number}",
+      "milestones_url": "https://api.github.com/repos/fastapi-practices/plugins/milestones{/number}",
+      "notifications_url": "https://api.github.com/repos/fastapi-practices/plugins/notifications{?since,all,participating}",
+      "labels_url": "https://api.github.com/repos/fastapi-practices/plugins/labels{/name}",
+      "releases_url": "https://api.github.com/repos/fastapi-practices/plugins/releases{/id}",
+      "deployments_url": "https://api.github.com/repos/fastapi-practices/plugins/deployments",
+      "created_at": "2026-01-22T08:40:37Z",
+      "updated_at": "2026-04-13T01:27:19Z",
+      "pushed_at": "2026-04-13T01:27:12Z",
+      "git_url": "git://github.com/fastapi-practices/plugins.git",
+      "ssh_url": "git@github.com:fastapi-practices/plugins.git",
+      "clone_url": "https://github.com/fastapi-practices/plugins.git",
+      "svn_url": "https://github.com/fastapi-practices/plugins",
+      "homepage": "",
+      "size": 56,
+      "stargazers_count": 4,
+      "watchers_count": 4,
+      "language": "TypeScript",
+      "has_issues": true,
+      "has_projects": false,
+      "has_downloads": true,
+      "has_wiki": false,
+      "has_pages": false,
+      "has_discussions": false,
+      "forks_count": 5,
+      "mirror_url": null,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 0,
+      "license": null,
+      "allow_forking": true,
+      "is_template": false,
+      "web_commit_signoff_required": false,
+      "has_pull_requests": true,
+      "pull_request_creation_policy": "all",
+      "topics": [],
+      "visibility": "public",
+      "forks": 5,
+      "open_issues": 0,
+      "watchers": 4,
+      "default_branch": "master",
+      "permissions": {
+        "admin": false,
+        "maintain": false,
+        "push": false,
+        "triage": false,
+        "pull": false
+      },
+      "custom_properties": {}
+    },
+    {
       "id": 624721291,
       "node_id": "R_kgDOJTx9iw",
       "name": "fastapi-best-architecture",
@@ -3137,16 +3248,16 @@
       "releases_url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture/releases{/id}",
       "deployments_url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture/deployments",
       "created_at": "2023-04-07T05:21:11Z",
-      "updated_at": "2026-04-12T01:08:28Z",
-      "pushed_at": "2026-04-08T13:53:13Z",
+      "updated_at": "2026-04-12T19:36:41Z",
+      "pushed_at": "2026-04-12T15:43:37Z",
       "git_url": "git://github.com/fastapi-practices/fastapi-best-architecture.git",
       "ssh_url": "git@github.com:fastapi-practices/fastapi-best-architecture.git",
       "clone_url": "https://github.com/fastapi-practices/fastapi-best-architecture.git",
       "svn_url": "https://github.com/fastapi-practices/fastapi-best-architecture",
       "homepage": "https://docs.fba.wu-clan.cc",
-      "size": 12811,
-      "stargazers_count": 2158,
-      "watchers_count": 2158,
+      "size": 12797,
+      "stargazers_count": 2160,
+      "watchers_count": 2160,
       "language": "Python",
       "has_issues": true,
       "has_projects": false,
@@ -3154,7 +3265,7 @@
       "has_wiki": false,
       "has_pages": false,
       "has_discussions": true,
-      "forks_count": 331,
+      "forks_count": 332,
       "mirror_url": null,
       "archived": false,
       "disabled": false,
@@ -3181,9 +3292,9 @@
         "sqlalchemy"
       ],
       "visibility": "public",
-      "forks": 331,
+      "forks": 332,
       "open_issues": 13,
-      "watchers": 2158,
+      "watchers": 2160,
       "default_branch": "master",
       "permissions": {
         "admin": false,
@@ -3262,14 +3373,14 @@
       "releases_url": "https://api.github.com/repos/fastapi-practices/ai/releases{/id}",
       "deployments_url": "https://api.github.com/repos/fastapi-practices/ai/deployments",
       "created_at": "2025-11-26T04:06:09Z",
-      "updated_at": "2026-04-11T16:57:19Z",
-      "pushed_at": "2026-04-11T16:57:14Z",
+      "updated_at": "2026-04-12T16:54:32Z",
+      "pushed_at": "2026-04-13T01:24:37Z",
       "git_url": "git://github.com/fastapi-practices/ai.git",
       "ssh_url": "git@github.com:fastapi-practices/ai.git",
       "clone_url": "https://github.com/fastapi-practices/ai.git",
       "svn_url": "https://github.com/fastapi-practices/ai",
       "homepage": "",
-      "size": 289,
+      "size": 300,
       "stargazers_count": 2,
       "watchers_count": 2,
       "language": "Python",
@@ -3300,6 +3411,238 @@
       "forks": 1,
       "open_issues": 0,
       "watchers": 2,
+      "default_branch": "master",
+      "permissions": {
+        "admin": false,
+        "maintain": false,
+        "push": false,
+        "triage": false,
+        "pull": false
+      },
+      "custom_properties": {}
+    },
+    {
+      "id": 1188764492,
+      "node_id": "R_kgDORtsbTA",
+      "name": "ai_ui",
+      "full_name": "fastapi-practices/ai_ui",
+      "private": false,
+      "owner": {
+        "login": "fastapi-practices",
+        "id": 131736279,
+        "node_id": "O_kgDOB9oi1w",
+        "avatar_url": "https://avatars.githubusercontent.com/u/131736279?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/fastapi-practices",
+        "html_url": "https://github.com/fastapi-practices",
+        "followers_url": "https://api.github.com/users/fastapi-practices/followers",
+        "following_url": "https://api.github.com/users/fastapi-practices/following{/other_user}",
+        "gists_url": "https://api.github.com/users/fastapi-practices/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/fastapi-practices/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/fastapi-practices/subscriptions",
+        "organizations_url": "https://api.github.com/users/fastapi-practices/orgs",
+        "repos_url": "https://api.github.com/users/fastapi-practices/repos",
+        "events_url": "https://api.github.com/users/fastapi-practices/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/fastapi-practices/received_events",
+        "type": "Organization",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "html_url": "https://github.com/fastapi-practices/ai_ui",
+      "description": "FastAPI Best Architecture AI UI plugin",
+      "fork": false,
+      "url": "https://api.github.com/repos/fastapi-practices/ai_ui",
+      "forks_url": "https://api.github.com/repos/fastapi-practices/ai_ui/forks",
+      "keys_url": "https://api.github.com/repos/fastapi-practices/ai_ui/keys{/key_id}",
+      "collaborators_url": "https://api.github.com/repos/fastapi-practices/ai_ui/collaborators{/collaborator}",
+      "teams_url": "https://api.github.com/repos/fastapi-practices/ai_ui/teams",
+      "hooks_url": "https://api.github.com/repos/fastapi-practices/ai_ui/hooks",
+      "issue_events_url": "https://api.github.com/repos/fastapi-practices/ai_ui/issues/events{/number}",
+      "events_url": "https://api.github.com/repos/fastapi-practices/ai_ui/events",
+      "assignees_url": "https://api.github.com/repos/fastapi-practices/ai_ui/assignees{/user}",
+      "branches_url": "https://api.github.com/repos/fastapi-practices/ai_ui/branches{/branch}",
+      "tags_url": "https://api.github.com/repos/fastapi-practices/ai_ui/tags",
+      "blobs_url": "https://api.github.com/repos/fastapi-practices/ai_ui/git/blobs{/sha}",
+      "git_tags_url": "https://api.github.com/repos/fastapi-practices/ai_ui/git/tags{/sha}",
+      "git_refs_url": "https://api.github.com/repos/fastapi-practices/ai_ui/git/refs{/sha}",
+      "trees_url": "https://api.github.com/repos/fastapi-practices/ai_ui/git/trees{/sha}",
+      "statuses_url": "https://api.github.com/repos/fastapi-practices/ai_ui/statuses/{sha}",
+      "languages_url": "https://api.github.com/repos/fastapi-practices/ai_ui/languages",
+      "stargazers_url": "https://api.github.com/repos/fastapi-practices/ai_ui/stargazers",
+      "contributors_url": "https://api.github.com/repos/fastapi-practices/ai_ui/contributors",
+      "subscribers_url": "https://api.github.com/repos/fastapi-practices/ai_ui/subscribers",
+      "subscription_url": "https://api.github.com/repos/fastapi-practices/ai_ui/subscription",
+      "commits_url": "https://api.github.com/repos/fastapi-practices/ai_ui/commits{/sha}",
+      "git_commits_url": "https://api.github.com/repos/fastapi-practices/ai_ui/git/commits{/sha}",
+      "comments_url": "https://api.github.com/repos/fastapi-practices/ai_ui/comments{/number}",
+      "issue_comment_url": "https://api.github.com/repos/fastapi-practices/ai_ui/issues/comments{/number}",
+      "contents_url": "https://api.github.com/repos/fastapi-practices/ai_ui/contents/{+path}",
+      "compare_url": "https://api.github.com/repos/fastapi-practices/ai_ui/compare/{base}...{head}",
+      "merges_url": "https://api.github.com/repos/fastapi-practices/ai_ui/merges",
+      "archive_url": "https://api.github.com/repos/fastapi-practices/ai_ui/{archive_format}{/ref}",
+      "downloads_url": "https://api.github.com/repos/fastapi-practices/ai_ui/downloads",
+      "issues_url": "https://api.github.com/repos/fastapi-practices/ai_ui/issues{/number}",
+      "pulls_url": "https://api.github.com/repos/fastapi-practices/ai_ui/pulls{/number}",
+      "milestones_url": "https://api.github.com/repos/fastapi-practices/ai_ui/milestones{/number}",
+      "notifications_url": "https://api.github.com/repos/fastapi-practices/ai_ui/notifications{?since,all,participating}",
+      "labels_url": "https://api.github.com/repos/fastapi-practices/ai_ui/labels{/name}",
+      "releases_url": "https://api.github.com/repos/fastapi-practices/ai_ui/releases{/id}",
+      "deployments_url": "https://api.github.com/repos/fastapi-practices/ai_ui/deployments",
+      "created_at": "2026-03-22T14:56:21Z",
+      "updated_at": "2026-04-12T16:46:21Z",
+      "pushed_at": "2026-04-13T01:25:06Z",
+      "git_url": "git://github.com/fastapi-practices/ai_ui.git",
+      "ssh_url": "git@github.com:fastapi-practices/ai_ui.git",
+      "clone_url": "https://github.com/fastapi-practices/ai_ui.git",
+      "svn_url": "https://github.com/fastapi-practices/ai_ui",
+      "homepage": null,
+      "size": 218,
+      "stargazers_count": 2,
+      "watchers_count": 2,
+      "language": "TypeScript",
+      "has_issues": true,
+      "has_projects": false,
+      "has_downloads": true,
+      "has_wiki": true,
+      "has_pages": false,
+      "has_discussions": false,
+      "forks_count": 0,
+      "mirror_url": null,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 0,
+      "license": null,
+      "allow_forking": true,
+      "is_template": false,
+      "web_commit_signoff_required": false,
+      "has_pull_requests": true,
+      "pull_request_creation_policy": "all",
+      "topics": [],
+      "visibility": "public",
+      "forks": 0,
+      "open_issues": 0,
+      "watchers": 2,
+      "default_branch": "master",
+      "permissions": {
+        "admin": false,
+        "maintain": false,
+        "push": false,
+        "triage": false,
+        "pull": false
+      },
+      "custom_properties": {}
+    },
+    {
+      "id": 909311482,
+      "node_id": "R_kgDONjL9-g",
+      "name": "fastapi-best-architecture-ui",
+      "full_name": "fastapi-practices/fastapi-best-architecture-ui",
+      "private": false,
+      "owner": {
+        "login": "fastapi-practices",
+        "id": 131736279,
+        "node_id": "O_kgDOB9oi1w",
+        "avatar_url": "https://avatars.githubusercontent.com/u/131736279?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/fastapi-practices",
+        "html_url": "https://github.com/fastapi-practices",
+        "followers_url": "https://api.github.com/users/fastapi-practices/followers",
+        "following_url": "https://api.github.com/users/fastapi-practices/following{/other_user}",
+        "gists_url": "https://api.github.com/users/fastapi-practices/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/fastapi-practices/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/fastapi-practices/subscriptions",
+        "organizations_url": "https://api.github.com/users/fastapi-practices/orgs",
+        "repos_url": "https://api.github.com/users/fastapi-practices/repos",
+        "events_url": "https://api.github.com/users/fastapi-practices/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/fastapi-practices/received_events",
+        "type": "Organization",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "html_url": "https://github.com/fastapi-practices/fastapi-best-architecture-ui",
+      "description": "FastAPI Best Architecture front-end implementation built on Vben Admin Antdv-next",
+      "fork": false,
+      "url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture-ui",
+      "forks_url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture-ui/forks",
+      "keys_url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture-ui/keys{/key_id}",
+      "collaborators_url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture-ui/collaborators{/collaborator}",
+      "teams_url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture-ui/teams",
+      "hooks_url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture-ui/hooks",
+      "issue_events_url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture-ui/issues/events{/number}",
+      "events_url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture-ui/events",
+      "assignees_url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture-ui/assignees{/user}",
+      "branches_url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture-ui/branches{/branch}",
+      "tags_url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture-ui/tags",
+      "blobs_url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture-ui/git/blobs{/sha}",
+      "git_tags_url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture-ui/git/tags{/sha}",
+      "git_refs_url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture-ui/git/refs{/sha}",
+      "trees_url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture-ui/git/trees{/sha}",
+      "statuses_url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture-ui/statuses/{sha}",
+      "languages_url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture-ui/languages",
+      "stargazers_url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture-ui/stargazers",
+      "contributors_url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture-ui/contributors",
+      "subscribers_url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture-ui/subscribers",
+      "subscription_url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture-ui/subscription",
+      "commits_url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture-ui/commits{/sha}",
+      "git_commits_url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture-ui/git/commits{/sha}",
+      "comments_url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture-ui/comments{/number}",
+      "issue_comment_url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture-ui/issues/comments{/number}",
+      "contents_url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture-ui/contents/{+path}",
+      "compare_url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture-ui/compare/{base}...{head}",
+      "merges_url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture-ui/merges",
+      "archive_url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture-ui/{archive_format}{/ref}",
+      "downloads_url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture-ui/downloads",
+      "issues_url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture-ui/issues{/number}",
+      "pulls_url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture-ui/pulls{/number}",
+      "milestones_url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture-ui/milestones{/number}",
+      "notifications_url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture-ui/notifications{?since,all,participating}",
+      "labels_url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture-ui/labels{/name}",
+      "releases_url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture-ui/releases{/id}",
+      "deployments_url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture-ui/deployments",
+      "created_at": "2024-12-28T10:21:37Z",
+      "updated_at": "2026-04-12T15:28:00Z",
+      "pushed_at": "2026-04-01T13:48:46Z",
+      "git_url": "git://github.com/fastapi-practices/fastapi-best-architecture-ui.git",
+      "ssh_url": "git@github.com:fastapi-practices/fastapi-best-architecture-ui.git",
+      "clone_url": "https://github.com/fastapi-practices/fastapi-best-architecture-ui.git",
+      "svn_url": "https://github.com/fastapi-practices/fastapi-best-architecture-ui",
+      "homepage": "",
+      "size": 2095,
+      "stargazers_count": 78,
+      "watchers_count": 78,
+      "language": "Vue",
+      "has_issues": true,
+      "has_projects": false,
+      "has_downloads": true,
+      "has_wiki": false,
+      "has_pages": false,
+      "has_discussions": true,
+      "forks_count": 56,
+      "mirror_url": null,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 2,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "allow_forking": true,
+      "is_template": false,
+      "web_commit_signoff_required": false,
+      "has_pull_requests": true,
+      "pull_request_creation_policy": "all",
+      "topics": [
+        "fastapi-admin",
+        "fba",
+        "vben5"
+      ],
+      "visibility": "public",
+      "forks": 56,
+      "open_issues": 2,
+      "watchers": 78,
       "default_branch": "master",
       "permissions": {
         "admin": false,
@@ -3432,117 +3775,6 @@
       "custom_properties": {}
     },
     {
-      "id": 1188764492,
-      "node_id": "R_kgDORtsbTA",
-      "name": "ai_ui",
-      "full_name": "fastapi-practices/ai_ui",
-      "private": false,
-      "owner": {
-        "login": "fastapi-practices",
-        "id": 131736279,
-        "node_id": "O_kgDOB9oi1w",
-        "avatar_url": "https://avatars.githubusercontent.com/u/131736279?v=4",
-        "gravatar_id": "",
-        "url": "https://api.github.com/users/fastapi-practices",
-        "html_url": "https://github.com/fastapi-practices",
-        "followers_url": "https://api.github.com/users/fastapi-practices/followers",
-        "following_url": "https://api.github.com/users/fastapi-practices/following{/other_user}",
-        "gists_url": "https://api.github.com/users/fastapi-practices/gists{/gist_id}",
-        "starred_url": "https://api.github.com/users/fastapi-practices/starred{/owner}{/repo}",
-        "subscriptions_url": "https://api.github.com/users/fastapi-practices/subscriptions",
-        "organizations_url": "https://api.github.com/users/fastapi-practices/orgs",
-        "repos_url": "https://api.github.com/users/fastapi-practices/repos",
-        "events_url": "https://api.github.com/users/fastapi-practices/events{/privacy}",
-        "received_events_url": "https://api.github.com/users/fastapi-practices/received_events",
-        "type": "Organization",
-        "user_view_type": "public",
-        "site_admin": false
-      },
-      "html_url": "https://github.com/fastapi-practices/ai_ui",
-      "description": "FastAPI Best Architecture AI UI plugin",
-      "fork": false,
-      "url": "https://api.github.com/repos/fastapi-practices/ai_ui",
-      "forks_url": "https://api.github.com/repos/fastapi-practices/ai_ui/forks",
-      "keys_url": "https://api.github.com/repos/fastapi-practices/ai_ui/keys{/key_id}",
-      "collaborators_url": "https://api.github.com/repos/fastapi-practices/ai_ui/collaborators{/collaborator}",
-      "teams_url": "https://api.github.com/repos/fastapi-practices/ai_ui/teams",
-      "hooks_url": "https://api.github.com/repos/fastapi-practices/ai_ui/hooks",
-      "issue_events_url": "https://api.github.com/repos/fastapi-practices/ai_ui/issues/events{/number}",
-      "events_url": "https://api.github.com/repos/fastapi-practices/ai_ui/events",
-      "assignees_url": "https://api.github.com/repos/fastapi-practices/ai_ui/assignees{/user}",
-      "branches_url": "https://api.github.com/repos/fastapi-practices/ai_ui/branches{/branch}",
-      "tags_url": "https://api.github.com/repos/fastapi-practices/ai_ui/tags",
-      "blobs_url": "https://api.github.com/repos/fastapi-practices/ai_ui/git/blobs{/sha}",
-      "git_tags_url": "https://api.github.com/repos/fastapi-practices/ai_ui/git/tags{/sha}",
-      "git_refs_url": "https://api.github.com/repos/fastapi-practices/ai_ui/git/refs{/sha}",
-      "trees_url": "https://api.github.com/repos/fastapi-practices/ai_ui/git/trees{/sha}",
-      "statuses_url": "https://api.github.com/repos/fastapi-practices/ai_ui/statuses/{sha}",
-      "languages_url": "https://api.github.com/repos/fastapi-practices/ai_ui/languages",
-      "stargazers_url": "https://api.github.com/repos/fastapi-practices/ai_ui/stargazers",
-      "contributors_url": "https://api.github.com/repos/fastapi-practices/ai_ui/contributors",
-      "subscribers_url": "https://api.github.com/repos/fastapi-practices/ai_ui/subscribers",
-      "subscription_url": "https://api.github.com/repos/fastapi-practices/ai_ui/subscription",
-      "commits_url": "https://api.github.com/repos/fastapi-practices/ai_ui/commits{/sha}",
-      "git_commits_url": "https://api.github.com/repos/fastapi-practices/ai_ui/git/commits{/sha}",
-      "comments_url": "https://api.github.com/repos/fastapi-practices/ai_ui/comments{/number}",
-      "issue_comment_url": "https://api.github.com/repos/fastapi-practices/ai_ui/issues/comments{/number}",
-      "contents_url": "https://api.github.com/repos/fastapi-practices/ai_ui/contents/{+path}",
-      "compare_url": "https://api.github.com/repos/fastapi-practices/ai_ui/compare/{base}...{head}",
-      "merges_url": "https://api.github.com/repos/fastapi-practices/ai_ui/merges",
-      "archive_url": "https://api.github.com/repos/fastapi-practices/ai_ui/{archive_format}{/ref}",
-      "downloads_url": "https://api.github.com/repos/fastapi-practices/ai_ui/downloads",
-      "issues_url": "https://api.github.com/repos/fastapi-practices/ai_ui/issues{/number}",
-      "pulls_url": "https://api.github.com/repos/fastapi-practices/ai_ui/pulls{/number}",
-      "milestones_url": "https://api.github.com/repos/fastapi-practices/ai_ui/milestones{/number}",
-      "notifications_url": "https://api.github.com/repos/fastapi-practices/ai_ui/notifications{?since,all,participating}",
-      "labels_url": "https://api.github.com/repos/fastapi-practices/ai_ui/labels{/name}",
-      "releases_url": "https://api.github.com/repos/fastapi-practices/ai_ui/releases{/id}",
-      "deployments_url": "https://api.github.com/repos/fastapi-practices/ai_ui/deployments",
-      "created_at": "2026-03-22T14:56:21Z",
-      "updated_at": "2026-04-08T16:55:39Z",
-      "pushed_at": "2026-04-08T16:55:35Z",
-      "git_url": "git://github.com/fastapi-practices/ai_ui.git",
-      "ssh_url": "git@github.com:fastapi-practices/ai_ui.git",
-      "clone_url": "https://github.com/fastapi-practices/ai_ui.git",
-      "svn_url": "https://github.com/fastapi-practices/ai_ui",
-      "homepage": null,
-      "size": 171,
-      "stargazers_count": 2,
-      "watchers_count": 2,
-      "language": "Vue",
-      "has_issues": true,
-      "has_projects": false,
-      "has_downloads": true,
-      "has_wiki": true,
-      "has_pages": false,
-      "has_discussions": false,
-      "forks_count": 0,
-      "mirror_url": null,
-      "archived": false,
-      "disabled": false,
-      "open_issues_count": 0,
-      "license": null,
-      "allow_forking": true,
-      "is_template": false,
-      "web_commit_signoff_required": false,
-      "has_pull_requests": true,
-      "pull_request_creation_policy": "all",
-      "topics": [],
-      "visibility": "public",
-      "forks": 0,
-      "open_issues": 0,
-      "watchers": 2,
-      "default_branch": "master",
-      "permissions": {
-        "admin": false,
-        "maintain": false,
-        "push": false,
-        "triage": false,
-        "pull": false
-      },
-      "custom_properties": {}
-    },
-    {
       "id": 855534641,
       "node_id": "R_kgDOMv5sMQ",
       "name": "fastapi_best_architecture_docs",
@@ -3649,117 +3881,6 @@
       "forks": 10,
       "open_issues": 0,
       "watchers": 3,
-      "default_branch": "master",
-      "permissions": {
-        "admin": false,
-        "maintain": false,
-        "push": false,
-        "triage": false,
-        "pull": false
-      },
-      "custom_properties": {}
-    },
-    {
-      "id": 1139655422,
-      "node_id": "R_kgDOQ-3C_g",
-      "name": "plugins",
-      "full_name": "fastapi-practices/plugins",
-      "private": false,
-      "owner": {
-        "login": "fastapi-practices",
-        "id": 131736279,
-        "node_id": "O_kgDOB9oi1w",
-        "avatar_url": "https://avatars.githubusercontent.com/u/131736279?v=4",
-        "gravatar_id": "",
-        "url": "https://api.github.com/users/fastapi-practices",
-        "html_url": "https://github.com/fastapi-practices",
-        "followers_url": "https://api.github.com/users/fastapi-practices/followers",
-        "following_url": "https://api.github.com/users/fastapi-practices/following{/other_user}",
-        "gists_url": "https://api.github.com/users/fastapi-practices/gists{/gist_id}",
-        "starred_url": "https://api.github.com/users/fastapi-practices/starred{/owner}{/repo}",
-        "subscriptions_url": "https://api.github.com/users/fastapi-practices/subscriptions",
-        "organizations_url": "https://api.github.com/users/fastapi-practices/orgs",
-        "repos_url": "https://api.github.com/users/fastapi-practices/repos",
-        "events_url": "https://api.github.com/users/fastapi-practices/events{/privacy}",
-        "received_events_url": "https://api.github.com/users/fastapi-practices/received_events",
-        "type": "Organization",
-        "user_view_type": "public",
-        "site_admin": false
-      },
-      "html_url": "https://github.com/fastapi-practices/plugins",
-      "description": "Plugins for FastAPI Best Architecture",
-      "fork": false,
-      "url": "https://api.github.com/repos/fastapi-practices/plugins",
-      "forks_url": "https://api.github.com/repos/fastapi-practices/plugins/forks",
-      "keys_url": "https://api.github.com/repos/fastapi-practices/plugins/keys{/key_id}",
-      "collaborators_url": "https://api.github.com/repos/fastapi-practices/plugins/collaborators{/collaborator}",
-      "teams_url": "https://api.github.com/repos/fastapi-practices/plugins/teams",
-      "hooks_url": "https://api.github.com/repos/fastapi-practices/plugins/hooks",
-      "issue_events_url": "https://api.github.com/repos/fastapi-practices/plugins/issues/events{/number}",
-      "events_url": "https://api.github.com/repos/fastapi-practices/plugins/events",
-      "assignees_url": "https://api.github.com/repos/fastapi-practices/plugins/assignees{/user}",
-      "branches_url": "https://api.github.com/repos/fastapi-practices/plugins/branches{/branch}",
-      "tags_url": "https://api.github.com/repos/fastapi-practices/plugins/tags",
-      "blobs_url": "https://api.github.com/repos/fastapi-practices/plugins/git/blobs{/sha}",
-      "git_tags_url": "https://api.github.com/repos/fastapi-practices/plugins/git/tags{/sha}",
-      "git_refs_url": "https://api.github.com/repos/fastapi-practices/plugins/git/refs{/sha}",
-      "trees_url": "https://api.github.com/repos/fastapi-practices/plugins/git/trees{/sha}",
-      "statuses_url": "https://api.github.com/repos/fastapi-practices/plugins/statuses/{sha}",
-      "languages_url": "https://api.github.com/repos/fastapi-practices/plugins/languages",
-      "stargazers_url": "https://api.github.com/repos/fastapi-practices/plugins/stargazers",
-      "contributors_url": "https://api.github.com/repos/fastapi-practices/plugins/contributors",
-      "subscribers_url": "https://api.github.com/repos/fastapi-practices/plugins/subscribers",
-      "subscription_url": "https://api.github.com/repos/fastapi-practices/plugins/subscription",
-      "commits_url": "https://api.github.com/repos/fastapi-practices/plugins/commits{/sha}",
-      "git_commits_url": "https://api.github.com/repos/fastapi-practices/plugins/git/commits{/sha}",
-      "comments_url": "https://api.github.com/repos/fastapi-practices/plugins/comments{/number}",
-      "issue_comment_url": "https://api.github.com/repos/fastapi-practices/plugins/issues/comments{/number}",
-      "contents_url": "https://api.github.com/repos/fastapi-practices/plugins/contents/{+path}",
-      "compare_url": "https://api.github.com/repos/fastapi-practices/plugins/compare/{base}...{head}",
-      "merges_url": "https://api.github.com/repos/fastapi-practices/plugins/merges",
-      "archive_url": "https://api.github.com/repos/fastapi-practices/plugins/{archive_format}{/ref}",
-      "downloads_url": "https://api.github.com/repos/fastapi-practices/plugins/downloads",
-      "issues_url": "https://api.github.com/repos/fastapi-practices/plugins/issues{/number}",
-      "pulls_url": "https://api.github.com/repos/fastapi-practices/plugins/pulls{/number}",
-      "milestones_url": "https://api.github.com/repos/fastapi-practices/plugins/milestones{/number}",
-      "notifications_url": "https://api.github.com/repos/fastapi-practices/plugins/notifications{?since,all,participating}",
-      "labels_url": "https://api.github.com/repos/fastapi-practices/plugins/labels{/name}",
-      "releases_url": "https://api.github.com/repos/fastapi-practices/plugins/releases{/id}",
-      "deployments_url": "https://api.github.com/repos/fastapi-practices/plugins/deployments",
-      "created_at": "2026-01-22T08:40:37Z",
-      "updated_at": "2026-04-08T13:03:08Z",
-      "pushed_at": "2026-04-08T13:03:03Z",
-      "git_url": "git://github.com/fastapi-practices/plugins.git",
-      "ssh_url": "git@github.com:fastapi-practices/plugins.git",
-      "clone_url": "https://github.com/fastapi-practices/plugins.git",
-      "svn_url": "https://github.com/fastapi-practices/plugins",
-      "homepage": "",
-      "size": 76,
-      "stargazers_count": 4,
-      "watchers_count": 4,
-      "language": "TypeScript",
-      "has_issues": true,
-      "has_projects": false,
-      "has_downloads": true,
-      "has_wiki": false,
-      "has_pages": false,
-      "has_discussions": false,
-      "forks_count": 5,
-      "mirror_url": null,
-      "archived": false,
-      "disabled": false,
-      "open_issues_count": 0,
-      "license": null,
-      "allow_forking": true,
-      "is_template": false,
-      "web_commit_signoff_required": false,
-      "has_pull_requests": true,
-      "pull_request_creation_policy": "all",
-      "topics": [],
-      "visibility": "public",
-      "forks": 5,
-      "open_issues": 0,
-      "watchers": 4,
       "default_branch": "master",
       "permissions": {
         "admin": false,
@@ -4226,127 +4347,6 @@
       "forks": 46,
       "open_issues": 4,
       "watchers": 224,
-      "default_branch": "master",
-      "permissions": {
-        "admin": false,
-        "maintain": false,
-        "push": false,
-        "triage": false,
-        "pull": false
-      },
-      "custom_properties": {}
-    },
-    {
-      "id": 909311482,
-      "node_id": "R_kgDONjL9-g",
-      "name": "fastapi-best-architecture-ui",
-      "full_name": "fastapi-practices/fastapi-best-architecture-ui",
-      "private": false,
-      "owner": {
-        "login": "fastapi-practices",
-        "id": 131736279,
-        "node_id": "O_kgDOB9oi1w",
-        "avatar_url": "https://avatars.githubusercontent.com/u/131736279?v=4",
-        "gravatar_id": "",
-        "url": "https://api.github.com/users/fastapi-practices",
-        "html_url": "https://github.com/fastapi-practices",
-        "followers_url": "https://api.github.com/users/fastapi-practices/followers",
-        "following_url": "https://api.github.com/users/fastapi-practices/following{/other_user}",
-        "gists_url": "https://api.github.com/users/fastapi-practices/gists{/gist_id}",
-        "starred_url": "https://api.github.com/users/fastapi-practices/starred{/owner}{/repo}",
-        "subscriptions_url": "https://api.github.com/users/fastapi-practices/subscriptions",
-        "organizations_url": "https://api.github.com/users/fastapi-practices/orgs",
-        "repos_url": "https://api.github.com/users/fastapi-practices/repos",
-        "events_url": "https://api.github.com/users/fastapi-practices/events{/privacy}",
-        "received_events_url": "https://api.github.com/users/fastapi-practices/received_events",
-        "type": "Organization",
-        "user_view_type": "public",
-        "site_admin": false
-      },
-      "html_url": "https://github.com/fastapi-practices/fastapi-best-architecture-ui",
-      "description": "FastAPI Best Architecture front-end implementation built on Vben Admin Antdv-next",
-      "fork": false,
-      "url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture-ui",
-      "forks_url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture-ui/forks",
-      "keys_url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture-ui/keys{/key_id}",
-      "collaborators_url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture-ui/collaborators{/collaborator}",
-      "teams_url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture-ui/teams",
-      "hooks_url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture-ui/hooks",
-      "issue_events_url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture-ui/issues/events{/number}",
-      "events_url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture-ui/events",
-      "assignees_url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture-ui/assignees{/user}",
-      "branches_url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture-ui/branches{/branch}",
-      "tags_url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture-ui/tags",
-      "blobs_url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture-ui/git/blobs{/sha}",
-      "git_tags_url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture-ui/git/tags{/sha}",
-      "git_refs_url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture-ui/git/refs{/sha}",
-      "trees_url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture-ui/git/trees{/sha}",
-      "statuses_url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture-ui/statuses/{sha}",
-      "languages_url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture-ui/languages",
-      "stargazers_url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture-ui/stargazers",
-      "contributors_url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture-ui/contributors",
-      "subscribers_url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture-ui/subscribers",
-      "subscription_url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture-ui/subscription",
-      "commits_url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture-ui/commits{/sha}",
-      "git_commits_url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture-ui/git/commits{/sha}",
-      "comments_url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture-ui/comments{/number}",
-      "issue_comment_url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture-ui/issues/comments{/number}",
-      "contents_url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture-ui/contents/{+path}",
-      "compare_url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture-ui/compare/{base}...{head}",
-      "merges_url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture-ui/merges",
-      "archive_url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture-ui/{archive_format}{/ref}",
-      "downloads_url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture-ui/downloads",
-      "issues_url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture-ui/issues{/number}",
-      "pulls_url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture-ui/pulls{/number}",
-      "milestones_url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture-ui/milestones{/number}",
-      "notifications_url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture-ui/notifications{?since,all,participating}",
-      "labels_url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture-ui/labels{/name}",
-      "releases_url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture-ui/releases{/id}",
-      "deployments_url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture-ui/deployments",
-      "created_at": "2024-12-28T10:21:37Z",
-      "updated_at": "2026-04-01T13:48:48Z",
-      "pushed_at": "2026-04-01T13:48:46Z",
-      "git_url": "git://github.com/fastapi-practices/fastapi-best-architecture-ui.git",
-      "ssh_url": "git@github.com:fastapi-practices/fastapi-best-architecture-ui.git",
-      "clone_url": "https://github.com/fastapi-practices/fastapi-best-architecture-ui.git",
-      "svn_url": "https://github.com/fastapi-practices/fastapi-best-architecture-ui",
-      "homepage": "",
-      "size": 2095,
-      "stargazers_count": 77,
-      "watchers_count": 77,
-      "language": "Vue",
-      "has_issues": true,
-      "has_projects": false,
-      "has_downloads": true,
-      "has_wiki": false,
-      "has_pages": false,
-      "has_discussions": true,
-      "forks_count": 56,
-      "mirror_url": null,
-      "archived": false,
-      "disabled": false,
-      "open_issues_count": 2,
-      "license": {
-        "key": "mit",
-        "name": "MIT License",
-        "spdx_id": "MIT",
-        "url": "https://api.github.com/licenses/mit",
-        "node_id": "MDc6TGljZW5zZTEz"
-      },
-      "allow_forking": true,
-      "is_template": false,
-      "web_commit_signoff_required": false,
-      "has_pull_requests": true,
-      "pull_request_creation_policy": "all",
-      "topics": [
-        "fastapi-admin",
-        "fba",
-        "vben5"
-      ],
-      "visibility": "public",
-      "forks": 56,
-      "open_issues": 2,
-      "watchers": 77,
       "default_branch": "master",
       "permissions": {
         "admin": false,
@@ -6457,6 +6457,1071 @@
   ],
   "ev": [
     {
+      "id": "10497556182",
+      "type": "PushEvent",
+      "actor": {
+        "id": 52145145,
+        "login": "wu-clan",
+        "display_login": "wu-clan",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/wu-clan",
+        "avatar_url": "https://avatars.githubusercontent.com/u/52145145?"
+      },
+      "repo": {
+        "id": 1139655422,
+        "name": "fastapi-practices/plugins",
+        "url": "https://api.github.com/repos/fastapi-practices/plugins"
+      },
+      "payload": {
+        "repository_id": 1139655422,
+        "push_id": 32789843251,
+        "ref": "refs/heads/master",
+        "head": "86529b5f49462df741e65d7d20c064ba9fa6ffe9",
+        "before": "6d456f30951c840a2a1e3e11b513851aea41ee2c"
+      },
+      "public": true,
+      "created_at": "2026-04-13T01:26:57Z",
+      "org": {
+        "id": 131736279,
+        "login": "fastapi-practices",
+        "gravatar_id": "",
+        "url": "https://api.github.com/orgs/fastapi-practices",
+        "avatar_url": "https://avatars.githubusercontent.com/u/131736279?"
+      }
+    },
+    {
+      "id": "10497554740",
+      "type": "DeleteEvent",
+      "actor": {
+        "id": 52145145,
+        "login": "wu-clan",
+        "display_login": "wu-clan",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/wu-clan",
+        "avatar_url": "https://avatars.githubusercontent.com/u/52145145?"
+      },
+      "repo": {
+        "id": 1139655422,
+        "name": "fastapi-practices/plugins",
+        "url": "https://api.github.com/repos/fastapi-practices/plugins"
+      },
+      "payload": {
+        "ref": "update-plugin/ai-v0.1.1",
+        "ref_type": "branch",
+        "full_ref": "refs/heads/update-plugin/ai-v0.1.1",
+        "pusher_type": "user"
+      },
+      "public": true,
+      "created_at": "2026-04-13T01:26:57Z",
+      "org": {
+        "id": 131736279,
+        "login": "fastapi-practices",
+        "gravatar_id": "",
+        "url": "https://api.github.com/orgs/fastapi-practices",
+        "avatar_url": "https://avatars.githubusercontent.com/u/131736279?"
+      }
+    },
+    {
+      "id": "8337727059",
+      "type": "PullRequestEvent",
+      "actor": {
+        "id": 52145145,
+        "login": "wu-clan",
+        "display_login": "wu-clan",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/wu-clan",
+        "avatar_url": "https://avatars.githubusercontent.com/u/52145145?"
+      },
+      "repo": {
+        "id": 1139655422,
+        "name": "fastapi-practices/plugins",
+        "url": "https://api.github.com/repos/fastapi-practices/plugins"
+      },
+      "payload": {
+        "action": "merged",
+        "number": 34,
+        "pull_request": {
+          "url": "https://api.github.com/repos/fastapi-practices/plugins/pulls/34",
+          "id": 3520558228,
+          "number": 34,
+          "head": {
+            "ref": "update-plugin/ai-v0.1.1",
+            "sha": "64f6cd12e7eb16181c6d68852e5a277b3e7c95d3",
+            "repo": {
+              "id": 1139655422,
+              "url": "https://api.github.com/repos/fastapi-practices/plugins",
+              "name": "plugins"
+            }
+          },
+          "base": {
+            "ref": "master",
+            "sha": "061b8f1a1fc953c3306cc10869c101fca4f81a02",
+            "repo": {
+              "id": 1139655422,
+              "url": "https://api.github.com/repos/fastapi-practices/plugins",
+              "name": "plugins"
+            }
+          }
+        }
+      },
+      "public": true,
+      "created_at": "2026-04-13T01:26:54Z",
+      "org": {
+        "id": 131736279,
+        "login": "fastapi-practices",
+        "gravatar_id": "",
+        "url": "https://api.github.com/orgs/fastapi-practices",
+        "avatar_url": "https://avatars.githubusercontent.com/u/131736279?"
+      }
+    },
+    {
+      "id": "10497548857",
+      "type": "DeleteEvent",
+      "actor": {
+        "id": 52145145,
+        "login": "wu-clan",
+        "display_login": "wu-clan",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/wu-clan",
+        "avatar_url": "https://avatars.githubusercontent.com/u/52145145?"
+      },
+      "repo": {
+        "id": 1139655422,
+        "name": "fastapi-practices/plugins",
+        "url": "https://api.github.com/repos/fastapi-practices/plugins"
+      },
+      "payload": {
+        "ref": "update-plugin/ai_ui-v0.1.0",
+        "ref_type": "branch",
+        "full_ref": "refs/heads/update-plugin/ai_ui-v0.1.0",
+        "pusher_type": "user"
+      },
+      "public": true,
+      "created_at": "2026-04-13T01:26:40Z",
+      "org": {
+        "id": 131736279,
+        "login": "fastapi-practices",
+        "gravatar_id": "",
+        "url": "https://api.github.com/orgs/fastapi-practices",
+        "avatar_url": "https://avatars.githubusercontent.com/u/131736279?"
+      }
+    },
+    {
+      "id": "10497547708",
+      "type": "PushEvent",
+      "actor": {
+        "id": 52145145,
+        "login": "wu-clan",
+        "display_login": "wu-clan",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/wu-clan",
+        "avatar_url": "https://avatars.githubusercontent.com/u/52145145?"
+      },
+      "repo": {
+        "id": 1139655422,
+        "name": "fastapi-practices/plugins",
+        "url": "https://api.github.com/repos/fastapi-practices/plugins"
+      },
+      "payload": {
+        "repository_id": 1139655422,
+        "push_id": 32789836669,
+        "ref": "refs/heads/master",
+        "head": "6d456f30951c840a2a1e3e11b513851aea41ee2c",
+        "before": "061b8f1a1fc953c3306cc10869c101fca4f81a02"
+      },
+      "public": true,
+      "created_at": "2026-04-13T01:26:37Z",
+      "org": {
+        "id": 131736279,
+        "login": "fastapi-practices",
+        "gravatar_id": "",
+        "url": "https://api.github.com/orgs/fastapi-practices",
+        "avatar_url": "https://avatars.githubusercontent.com/u/131736279?"
+      }
+    },
+    {
+      "id": "8337721674",
+      "type": "PullRequestEvent",
+      "actor": {
+        "id": 52145145,
+        "login": "wu-clan",
+        "display_login": "wu-clan",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/wu-clan",
+        "avatar_url": "https://avatars.githubusercontent.com/u/52145145?"
+      },
+      "repo": {
+        "id": 1139655422,
+        "name": "fastapi-practices/plugins",
+        "url": "https://api.github.com/repos/fastapi-practices/plugins"
+      },
+      "payload": {
+        "action": "merged",
+        "number": 35,
+        "pull_request": {
+          "url": "https://api.github.com/repos/fastapi-practices/plugins/pulls/35",
+          "id": 3520559059,
+          "number": 35,
+          "head": {
+            "ref": "update-plugin/ai_ui-v0.1.0",
+            "sha": "e1ada2d1c3b7994e28a591a3f3f857707e95f641",
+            "repo": {
+              "id": 1139655422,
+              "url": "https://api.github.com/repos/fastapi-practices/plugins",
+              "name": "plugins"
+            }
+          },
+          "base": {
+            "ref": "master",
+            "sha": "061b8f1a1fc953c3306cc10869c101fca4f81a02",
+            "repo": {
+              "id": 1139655422,
+              "url": "https://api.github.com/repos/fastapi-practices/plugins",
+              "name": "plugins"
+            }
+          }
+        }
+      },
+      "public": true,
+      "created_at": "2026-04-13T01:26:36Z",
+      "org": {
+        "id": 131736279,
+        "login": "fastapi-practices",
+        "gravatar_id": "",
+        "url": "https://api.github.com/orgs/fastapi-practices",
+        "avatar_url": "https://avatars.githubusercontent.com/u/131736279?"
+      }
+    },
+    {
+      "id": "8337697870",
+      "type": "PullRequestEvent",
+      "actor": {
+        "id": 52145145,
+        "login": "wu-clan",
+        "display_login": "wu-clan",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/wu-clan",
+        "avatar_url": "https://avatars.githubusercontent.com/u/52145145?"
+      },
+      "repo": {
+        "id": 1139655422,
+        "name": "fastapi-practices/plugins",
+        "url": "https://api.github.com/repos/fastapi-practices/plugins"
+      },
+      "payload": {
+        "action": "opened",
+        "number": 35,
+        "pull_request": {
+          "url": "https://api.github.com/repos/fastapi-practices/plugins/pulls/35",
+          "id": 3520559059,
+          "number": 35,
+          "head": {
+            "ref": "update-plugin/ai_ui-v0.1.0",
+            "sha": "e1ada2d1c3b7994e28a591a3f3f857707e95f641",
+            "repo": {
+              "id": 1139655422,
+              "url": "https://api.github.com/repos/fastapi-practices/plugins",
+              "name": "plugins"
+            }
+          },
+          "base": {
+            "ref": "master",
+            "sha": "061b8f1a1fc953c3306cc10869c101fca4f81a02",
+            "repo": {
+              "id": 1139655422,
+              "url": "https://api.github.com/repos/fastapi-practices/plugins",
+              "name": "plugins"
+            }
+          }
+        }
+      },
+      "public": true,
+      "created_at": "2026-04-13T01:25:17Z",
+      "org": {
+        "id": 131736279,
+        "login": "fastapi-practices",
+        "gravatar_id": "",
+        "url": "https://api.github.com/orgs/fastapi-practices",
+        "avatar_url": "https://avatars.githubusercontent.com/u/131736279?"
+      }
+    },
+    {
+      "id": "10497520059",
+      "type": "CreateEvent",
+      "actor": {
+        "id": 52145145,
+        "login": "wu-clan",
+        "display_login": "wu-clan",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/wu-clan",
+        "avatar_url": "https://avatars.githubusercontent.com/u/52145145?"
+      },
+      "repo": {
+        "id": 1139655422,
+        "name": "fastapi-practices/plugins",
+        "url": "https://api.github.com/repos/fastapi-practices/plugins"
+      },
+      "payload": {
+        "ref": "update-plugin/ai_ui-v0.1.0",
+        "ref_type": "branch",
+        "full_ref": "refs/heads/update-plugin/ai_ui-v0.1.0",
+        "master_branch": "master",
+        "description": "Plugins for FastAPI Best Architecture",
+        "pusher_type": "user"
+      },
+      "public": true,
+      "created_at": "2026-04-13T01:25:16Z",
+      "org": {
+        "id": 131736279,
+        "login": "fastapi-practices",
+        "gravatar_id": "",
+        "url": "https://api.github.com/orgs/fastapi-practices",
+        "avatar_url": "https://avatars.githubusercontent.com/u/131736279?"
+      }
+    },
+    {
+      "id": "8337694728",
+      "type": "ReleaseEvent",
+      "actor": {
+        "id": 52145145,
+        "login": "wu-clan",
+        "display_login": "wu-clan",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/wu-clan",
+        "avatar_url": "https://avatars.githubusercontent.com/u/52145145?"
+      },
+      "repo": {
+        "id": 1188764492,
+        "name": "fastapi-practices/ai_ui",
+        "url": "https://api.github.com/repos/fastapi-practices/ai_ui"
+      },
+      "payload": {
+        "action": "published",
+        "release": {
+          "url": "https://api.github.com/repos/fastapi-practices/ai_ui/releases/308118829",
+          "assets_url": "https://api.github.com/repos/fastapi-practices/ai_ui/releases/308118829/assets",
+          "upload_url": "https://uploads.github.com/repos/fastapi-practices/ai_ui/releases/308118829/assets{?name,label}",
+          "html_url": "https://github.com/fastapi-practices/ai_ui/releases/tag/v0.1.0",
+          "id": 308118829,
+          "author": {
+            "login": "wu-clan",
+            "id": 52145145,
+            "node_id": "MDQ6VXNlcjUyMTQ1MTQ1",
+            "avatar_url": "https://avatars.githubusercontent.com/u/52145145?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/wu-clan",
+            "html_url": "https://github.com/wu-clan",
+            "followers_url": "https://api.github.com/users/wu-clan/followers",
+            "following_url": "https://api.github.com/users/wu-clan/following{/other_user}",
+            "gists_url": "https://api.github.com/users/wu-clan/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/wu-clan/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/wu-clan/subscriptions",
+            "organizations_url": "https://api.github.com/users/wu-clan/orgs",
+            "repos_url": "https://api.github.com/users/wu-clan/repos",
+            "events_url": "https://api.github.com/users/wu-clan/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/wu-clan/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "node_id": "RE_kwDORtsbTM4SXYUt",
+          "tag_name": "v0.1.0",
+          "target_commitish": "master",
+          "name": "v0.1.0",
+          "draft": false,
+          "immutable": false,
+          "prerelease": false,
+          "created_at": "2026-04-12T16:46:10Z",
+          "updated_at": "2026-04-13T01:25:06Z",
+          "published_at": "2026-04-13T01:25:06Z",
+          "assets": [],
+          "tarball_url": "https://api.github.com/repos/fastapi-practices/ai_ui/tarball/v0.1.0",
+          "zipball_url": "https://api.github.com/repos/fastapi-practices/ai_ui/zipball/v0.1.0",
+          "body": "",
+          "short_description_html": "",
+          "is_short_description_html_truncated": false
+        }
+      },
+      "public": true,
+      "created_at": "2026-04-13T01:25:06Z",
+      "org": {
+        "id": 131736279,
+        "login": "fastapi-practices",
+        "gravatar_id": "",
+        "url": "https://api.github.com/orgs/fastapi-practices",
+        "avatar_url": "https://avatars.githubusercontent.com/u/131736279?"
+      }
+    },
+    {
+      "id": "8337690158",
+      "type": "PullRequestEvent",
+      "actor": {
+        "id": 52145145,
+        "login": "wu-clan",
+        "display_login": "wu-clan",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/wu-clan",
+        "avatar_url": "https://avatars.githubusercontent.com/u/52145145?"
+      },
+      "repo": {
+        "id": 1139655422,
+        "name": "fastapi-practices/plugins",
+        "url": "https://api.github.com/repos/fastapi-practices/plugins"
+      },
+      "payload": {
+        "action": "opened",
+        "number": 34,
+        "pull_request": {
+          "url": "https://api.github.com/repos/fastapi-practices/plugins/pulls/34",
+          "id": 3520558228,
+          "number": 34,
+          "head": {
+            "ref": "update-plugin/ai-v0.1.1",
+            "sha": "64f6cd12e7eb16181c6d68852e5a277b3e7c95d3",
+            "repo": {
+              "id": 1139655422,
+              "url": "https://api.github.com/repos/fastapi-practices/plugins",
+              "name": "plugins"
+            }
+          },
+          "base": {
+            "ref": "master",
+            "sha": "061b8f1a1fc953c3306cc10869c101fca4f81a02",
+            "repo": {
+              "id": 1139655422,
+              "url": "https://api.github.com/repos/fastapi-practices/plugins",
+              "name": "plugins"
+            }
+          }
+        }
+      },
+      "public": true,
+      "created_at": "2026-04-13T01:24:50Z",
+      "org": {
+        "id": 131736279,
+        "login": "fastapi-practices",
+        "gravatar_id": "",
+        "url": "https://api.github.com/orgs/fastapi-practices",
+        "avatar_url": "https://avatars.githubusercontent.com/u/131736279?"
+      }
+    },
+    {
+      "id": "10497510664",
+      "type": "CreateEvent",
+      "actor": {
+        "id": 52145145,
+        "login": "wu-clan",
+        "display_login": "wu-clan",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/wu-clan",
+        "avatar_url": "https://avatars.githubusercontent.com/u/52145145?"
+      },
+      "repo": {
+        "id": 1139655422,
+        "name": "fastapi-practices/plugins",
+        "url": "https://api.github.com/repos/fastapi-practices/plugins"
+      },
+      "payload": {
+        "ref": "update-plugin/ai-v0.1.1",
+        "ref_type": "branch",
+        "full_ref": "refs/heads/update-plugin/ai-v0.1.1",
+        "master_branch": "master",
+        "description": "Plugins for FastAPI Best Architecture",
+        "pusher_type": "user"
+      },
+      "public": true,
+      "created_at": "2026-04-13T01:24:50Z",
+      "org": {
+        "id": 131736279,
+        "login": "fastapi-practices",
+        "gravatar_id": "",
+        "url": "https://api.github.com/orgs/fastapi-practices",
+        "avatar_url": "https://avatars.githubusercontent.com/u/131736279?"
+      }
+    },
+    {
+      "id": "8337686766",
+      "type": "ReleaseEvent",
+      "actor": {
+        "id": 52145145,
+        "login": "wu-clan",
+        "display_login": "wu-clan",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/wu-clan",
+        "avatar_url": "https://avatars.githubusercontent.com/u/52145145?"
+      },
+      "repo": {
+        "id": 1104326194,
+        "name": "fastapi-practices/ai",
+        "url": "https://api.github.com/repos/fastapi-practices/ai"
+      },
+      "payload": {
+        "action": "published",
+        "release": {
+          "url": "https://api.github.com/repos/fastapi-practices/ai/releases/308118753",
+          "assets_url": "https://api.github.com/repos/fastapi-practices/ai/releases/308118753/assets",
+          "upload_url": "https://uploads.github.com/repos/fastapi-practices/ai/releases/308118753/assets{?name,label}",
+          "html_url": "https://github.com/fastapi-practices/ai/releases/tag/v0.1.1",
+          "id": 308118753,
+          "author": {
+            "login": "wu-clan",
+            "id": 52145145,
+            "node_id": "MDQ6VXNlcjUyMTQ1MTQ1",
+            "avatar_url": "https://avatars.githubusercontent.com/u/52145145?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/wu-clan",
+            "html_url": "https://github.com/wu-clan",
+            "followers_url": "https://api.github.com/users/wu-clan/followers",
+            "following_url": "https://api.github.com/users/wu-clan/following{/other_user}",
+            "gists_url": "https://api.github.com/users/wu-clan/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/wu-clan/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/wu-clan/subscriptions",
+            "organizations_url": "https://api.github.com/users/wu-clan/orgs",
+            "repos_url": "https://api.github.com/users/wu-clan/repos",
+            "events_url": "https://api.github.com/users/wu-clan/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/wu-clan/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "node_id": "RE_kwDOQdKuMs4SXYTh",
+          "tag_name": "v0.1.1",
+          "target_commitish": "master",
+          "name": "v0.1.1",
+          "draft": false,
+          "immutable": false,
+          "prerelease": false,
+          "created_at": "2026-04-12T16:54:17Z",
+          "updated_at": "2026-04-13T01:24:37Z",
+          "published_at": "2026-04-13T01:24:37Z",
+          "assets": [],
+          "tarball_url": "https://api.github.com/repos/fastapi-practices/ai/tarball/v0.1.1",
+          "zipball_url": "https://api.github.com/repos/fastapi-practices/ai/zipball/v0.1.1",
+          "body": "",
+          "short_description_html": "",
+          "is_short_description_html_truncated": false
+        }
+      },
+      "public": true,
+      "created_at": "2026-04-13T01:24:37Z",
+      "org": {
+        "id": 131736279,
+        "login": "fastapi-practices",
+        "gravatar_id": "",
+        "url": "https://api.github.com/orgs/fastapi-practices",
+        "avatar_url": "https://avatars.githubusercontent.com/u/131736279?"
+      }
+    },
+    {
+      "id": "10487664766",
+      "type": "PushEvent",
+      "actor": {
+        "id": 52145145,
+        "login": "wu-clan",
+        "display_login": "wu-clan",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/wu-clan",
+        "avatar_url": "https://avatars.githubusercontent.com/u/52145145?"
+      },
+      "repo": {
+        "id": 1104326194,
+        "name": "fastapi-practices/ai",
+        "url": "https://api.github.com/repos/fastapi-practices/ai"
+      },
+      "payload": {
+        "repository_id": 1104326194,
+        "push_id": 32779947101,
+        "ref": "refs/heads/master",
+        "head": "4626cc17261765db015bdca21463ae69b9c3f98a",
+        "before": "6f20bf923e35df690fb94a88cb18142886e40f06"
+      },
+      "public": true,
+      "created_at": "2026-04-12T16:54:24Z",
+      "org": {
+        "id": 131736279,
+        "login": "fastapi-practices",
+        "gravatar_id": "",
+        "url": "https://api.github.com/orgs/fastapi-practices",
+        "avatar_url": "https://avatars.githubusercontent.com/u/131736279?"
+      }
+    },
+    {
+      "id": "10487495263",
+      "type": "PushEvent",
+      "actor": {
+        "id": 52145145,
+        "login": "wu-clan",
+        "display_login": "wu-clan",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/wu-clan",
+        "avatar_url": "https://avatars.githubusercontent.com/u/52145145?"
+      },
+      "repo": {
+        "id": 1188764492,
+        "name": "fastapi-practices/ai_ui",
+        "url": "https://api.github.com/repos/fastapi-practices/ai_ui"
+      },
+      "payload": {
+        "repository_id": 1188764492,
+        "push_id": 32779777580,
+        "ref": "refs/heads/master",
+        "head": "1ce7e45ee1d2e7c344729e4ee5e3dff3cbc38a98",
+        "before": "72387cc8a2ea892ad6c3aba77459680bb6081e32"
+      },
+      "public": true,
+      "created_at": "2026-04-12T16:46:15Z",
+      "org": {
+        "id": 131736279,
+        "login": "fastapi-practices",
+        "gravatar_id": "",
+        "url": "https://api.github.com/orgs/fastapi-practices",
+        "avatar_url": "https://avatars.githubusercontent.com/u/131736279?"
+      }
+    },
+    {
+      "id": "10486202042",
+      "type": "DeleteEvent",
+      "actor": {
+        "id": 52145145,
+        "login": "wu-clan",
+        "display_login": "wu-clan",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/wu-clan",
+        "avatar_url": "https://avatars.githubusercontent.com/u/52145145?"
+      },
+      "repo": {
+        "id": 1139655422,
+        "name": "fastapi-practices/plugins",
+        "url": "https://api.github.com/repos/fastapi-practices/plugins"
+      },
+      "payload": {
+        "ref": "update-plugin/ai-v0.1.0",
+        "ref_type": "branch",
+        "full_ref": "refs/heads/update-plugin/ai-v0.1.0",
+        "pusher_type": "user"
+      },
+      "public": true,
+      "created_at": "2026-04-12T15:44:26Z",
+      "org": {
+        "id": 131736279,
+        "login": "fastapi-practices",
+        "gravatar_id": "",
+        "url": "https://api.github.com/orgs/fastapi-practices",
+        "avatar_url": "https://avatars.githubusercontent.com/u/131736279?"
+      }
+    },
+    {
+      "id": "10486201527",
+      "type": "PushEvent",
+      "actor": {
+        "id": 52145145,
+        "login": "wu-clan",
+        "display_login": "wu-clan",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/wu-clan",
+        "avatar_url": "https://avatars.githubusercontent.com/u/52145145?"
+      },
+      "repo": {
+        "id": 1139655422,
+        "name": "fastapi-practices/plugins",
+        "url": "https://api.github.com/repos/fastapi-practices/plugins"
+      },
+      "payload": {
+        "repository_id": 1139655422,
+        "push_id": 32778481868,
+        "ref": "refs/heads/master",
+        "head": "6e0843d68f204eb9004d95d0e2010fed915c68e8",
+        "before": "fcd25f67b2421ca57ce22947a5b39d3b01f3357a"
+      },
+      "public": true,
+      "created_at": "2026-04-12T15:44:25Z",
+      "org": {
+        "id": 131736279,
+        "login": "fastapi-practices",
+        "gravatar_id": "",
+        "url": "https://api.github.com/orgs/fastapi-practices",
+        "avatar_url": "https://avatars.githubusercontent.com/u/131736279?"
+      }
+    },
+    {
+      "id": "8330052172",
+      "type": "PullRequestEvent",
+      "actor": {
+        "id": 52145145,
+        "login": "wu-clan",
+        "display_login": "wu-clan",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/wu-clan",
+        "avatar_url": "https://avatars.githubusercontent.com/u/52145145?"
+      },
+      "repo": {
+        "id": 1139655422,
+        "name": "fastapi-practices/plugins",
+        "url": "https://api.github.com/repos/fastapi-practices/plugins"
+      },
+      "payload": {
+        "action": "merged",
+        "number": 33,
+        "pull_request": {
+          "url": "https://api.github.com/repos/fastapi-practices/plugins/pulls/33",
+          "id": 3519626750,
+          "number": 33,
+          "head": {
+            "ref": "update-plugin/ai-v0.1.0",
+            "sha": "da8f203e2911de0573f0e815282192744cb42aef",
+            "repo": {
+              "id": 1139655422,
+              "url": "https://api.github.com/repos/fastapi-practices/plugins",
+              "name": "plugins"
+            }
+          },
+          "base": {
+            "ref": "master",
+            "sha": "fcd25f67b2421ca57ce22947a5b39d3b01f3357a",
+            "repo": {
+              "id": 1139655422,
+              "url": "https://api.github.com/repos/fastapi-practices/plugins",
+              "name": "plugins"
+            }
+          }
+        }
+      },
+      "public": true,
+      "created_at": "2026-04-12T15:44:22Z",
+      "org": {
+        "id": 131736279,
+        "login": "fastapi-practices",
+        "gravatar_id": "",
+        "url": "https://api.github.com/orgs/fastapi-practices",
+        "avatar_url": "https://avatars.githubusercontent.com/u/131736279?"
+      }
+    },
+    {
+      "id": "10486186640",
+      "type": "PushEvent",
+      "actor": {
+        "id": 52145145,
+        "login": "wu-clan",
+        "display_login": "wu-clan",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/wu-clan",
+        "avatar_url": "https://avatars.githubusercontent.com/u/52145145?"
+      },
+      "repo": {
+        "id": 624721291,
+        "name": "fastapi-practices/fastapi-best-architecture",
+        "url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture"
+      },
+      "payload": {
+        "repository_id": 624721291,
+        "push_id": 32778466029,
+        "ref": "refs/heads/master",
+        "head": "45842d917a06198a64c5b16de33785d4b9261001",
+        "before": "8719c63424c5ee3624c32e5105ac588a1387ad37"
+      },
+      "public": true,
+      "created_at": "2026-04-12T15:43:38Z",
+      "org": {
+        "id": 131736279,
+        "login": "fastapi-practices",
+        "gravatar_id": "",
+        "url": "https://api.github.com/orgs/fastapi-practices",
+        "avatar_url": "https://avatars.githubusercontent.com/u/131736279?"
+      }
+    },
+    {
+      "id": "10486095670",
+      "type": "CreateEvent",
+      "actor": {
+        "id": 52145145,
+        "login": "wu-clan",
+        "display_login": "wu-clan",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/wu-clan",
+        "avatar_url": "https://avatars.githubusercontent.com/u/52145145?"
+      },
+      "repo": {
+        "id": 1139655422,
+        "name": "fastapi-practices/plugins",
+        "url": "https://api.github.com/repos/fastapi-practices/plugins"
+      },
+      "payload": {
+        "ref": "update-plugin/ai-v0.1.0",
+        "ref_type": "branch",
+        "full_ref": "refs/heads/update-plugin/ai-v0.1.0",
+        "master_branch": "master",
+        "description": "Plugins for FastAPI Best Architecture",
+        "pusher_type": "user"
+      },
+      "public": true,
+      "created_at": "2026-04-12T15:39:16Z",
+      "org": {
+        "id": 131736279,
+        "login": "fastapi-practices",
+        "gravatar_id": "",
+        "url": "https://api.github.com/orgs/fastapi-practices",
+        "avatar_url": "https://avatars.githubusercontent.com/u/131736279?"
+      }
+    },
+    {
+      "id": "8329981117",
+      "type": "PullRequestEvent",
+      "actor": {
+        "id": 52145145,
+        "login": "wu-clan",
+        "display_login": "wu-clan",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/wu-clan",
+        "avatar_url": "https://avatars.githubusercontent.com/u/52145145?"
+      },
+      "repo": {
+        "id": 1139655422,
+        "name": "fastapi-practices/plugins",
+        "url": "https://api.github.com/repos/fastapi-practices/plugins"
+      },
+      "payload": {
+        "action": "opened",
+        "number": 33,
+        "pull_request": {
+          "url": "https://api.github.com/repos/fastapi-practices/plugins/pulls/33",
+          "id": 3519626750,
+          "number": 33,
+          "head": {
+            "ref": "update-plugin/ai-v0.1.0",
+            "sha": "da8f203e2911de0573f0e815282192744cb42aef",
+            "repo": {
+              "id": 1139655422,
+              "url": "https://api.github.com/repos/fastapi-practices/plugins",
+              "name": "plugins"
+            }
+          },
+          "base": {
+            "ref": "master",
+            "sha": "fcd25f67b2421ca57ce22947a5b39d3b01f3357a",
+            "repo": {
+              "id": 1139655422,
+              "url": "https://api.github.com/repos/fastapi-practices/plugins",
+              "name": "plugins"
+            }
+          }
+        }
+      },
+      "public": true,
+      "created_at": "2026-04-12T15:39:17Z",
+      "org": {
+        "id": 131736279,
+        "login": "fastapi-practices",
+        "gravatar_id": "",
+        "url": "https://api.github.com/orgs/fastapi-practices",
+        "avatar_url": "https://avatars.githubusercontent.com/u/131736279?"
+      }
+    },
+    {
+      "id": "8329978951",
+      "type": "ReleaseEvent",
+      "actor": {
+        "id": 52145145,
+        "login": "wu-clan",
+        "display_login": "wu-clan",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/wu-clan",
+        "avatar_url": "https://avatars.githubusercontent.com/u/52145145?"
+      },
+      "repo": {
+        "id": 1104326194,
+        "name": "fastapi-practices/ai",
+        "url": "https://api.github.com/repos/fastapi-practices/ai"
+      },
+      "payload": {
+        "action": "published",
+        "release": {
+          "url": "https://api.github.com/repos/fastapi-practices/ai/releases/308036611",
+          "assets_url": "https://api.github.com/repos/fastapi-practices/ai/releases/308036611/assets",
+          "upload_url": "https://uploads.github.com/repos/fastapi-practices/ai/releases/308036611/assets{?name,label}",
+          "html_url": "https://github.com/fastapi-practices/ai/releases/tag/v0.1.0",
+          "id": 308036611,
+          "author": {
+            "login": "wu-clan",
+            "id": 52145145,
+            "node_id": "MDQ6VXNlcjUyMTQ1MTQ1",
+            "avatar_url": "https://avatars.githubusercontent.com/u/52145145?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/wu-clan",
+            "html_url": "https://github.com/wu-clan",
+            "followers_url": "https://api.github.com/users/wu-clan/followers",
+            "following_url": "https://api.github.com/users/wu-clan/following{/other_user}",
+            "gists_url": "https://api.github.com/users/wu-clan/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/wu-clan/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/wu-clan/subscriptions",
+            "organizations_url": "https://api.github.com/users/wu-clan/orgs",
+            "repos_url": "https://api.github.com/users/wu-clan/repos",
+            "events_url": "https://api.github.com/users/wu-clan/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/wu-clan/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "node_id": "RE_kwDOQdKuMs4SXEQD",
+          "tag_name": "v0.1.0",
+          "target_commitish": "master",
+          "name": "v0.1.0",
+          "draft": false,
+          "immutable": false,
+          "prerelease": false,
+          "created_at": "2026-04-12T13:15:35Z",
+          "updated_at": "2026-04-12T15:39:07Z",
+          "published_at": "2026-04-12T15:39:07Z",
+          "assets": [],
+          "tarball_url": "https://api.github.com/repos/fastapi-practices/ai/tarball/v0.1.0",
+          "zipball_url": "https://api.github.com/repos/fastapi-practices/ai/zipball/v0.1.0",
+          "body": "",
+          "short_description_html": "",
+          "is_short_description_html_truncated": false
+        }
+      },
+      "public": true,
+      "created_at": "2026-04-12T15:39:07Z",
+      "org": {
+        "id": 131736279,
+        "login": "fastapi-practices",
+        "gravatar_id": "",
+        "url": "https://api.github.com/orgs/fastapi-practices",
+        "avatar_url": "https://avatars.githubusercontent.com/u/131736279?"
+      }
+    },
+    {
+      "id": "10483089509",
+      "type": "PushEvent",
+      "actor": {
+        "id": 52145145,
+        "login": "wu-clan",
+        "display_login": "wu-clan",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/wu-clan",
+        "avatar_url": "https://avatars.githubusercontent.com/u/52145145?"
+      },
+      "repo": {
+        "id": 1104326194,
+        "name": "fastapi-practices/ai",
+        "url": "https://api.github.com/repos/fastapi-practices/ai"
+      },
+      "payload": {
+        "repository_id": 1104326194,
+        "push_id": 32775367153,
+        "ref": "refs/heads/master",
+        "head": "6f20bf923e35df690fb94a88cb18142886e40f06",
+        "before": "c642af1afe1a35c7fd9180fedaf7c7bd097bf8b5"
+      },
+      "public": true,
+      "created_at": "2026-04-12T13:15:43Z",
+      "org": {
+        "id": 131736279,
+        "login": "fastapi-practices",
+        "gravatar_id": "",
+        "url": "https://api.github.com/orgs/fastapi-practices",
+        "avatar_url": "https://avatars.githubusercontent.com/u/131736279?"
+      }
+    },
+    {
+      "id": "10481638670",
+      "type": "PushEvent",
+      "actor": {
+        "id": 52145145,
+        "login": "wu-clan",
+        "display_login": "wu-clan",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/wu-clan",
+        "avatar_url": "https://avatars.githubusercontent.com/u/52145145?"
+      },
+      "repo": {
+        "id": 1104326194,
+        "name": "fastapi-practices/ai",
+        "url": "https://api.github.com/repos/fastapi-practices/ai"
+      },
+      "payload": {
+        "repository_id": 1104326194,
+        "push_id": 32773913484,
+        "ref": "refs/heads/master",
+        "head": "c642af1afe1a35c7fd9180fedaf7c7bd097bf8b5",
+        "before": "5f954f9b013b2d9e309f0cd9e14ce27f97766a02"
+      },
+      "public": true,
+      "created_at": "2026-04-12T12:03:06Z",
+      "org": {
+        "id": 131736279,
+        "login": "fastapi-practices",
+        "gravatar_id": "",
+        "url": "https://api.github.com/orgs/fastapi-practices",
+        "avatar_url": "https://avatars.githubusercontent.com/u/131736279?"
+      }
+    },
+    {
+      "id": "10477988440",
+      "type": "PushEvent",
+      "actor": {
+        "id": 52145145,
+        "login": "wu-clan",
+        "display_login": "wu-clan",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/wu-clan",
+        "avatar_url": "https://avatars.githubusercontent.com/u/52145145?"
+      },
+      "repo": {
+        "id": 1104326194,
+        "name": "fastapi-practices/ai",
+        "url": "https://api.github.com/repos/fastapi-practices/ai"
+      },
+      "payload": {
+        "repository_id": 1104326194,
+        "push_id": 32770258172,
+        "ref": "refs/heads/master",
+        "head": "5f954f9b013b2d9e309f0cd9e14ce27f97766a02",
+        "before": "5451d3e9d6f29742c265236b4b959ac3143bd794"
+      },
+      "public": true,
+      "created_at": "2026-04-12T08:37:42Z",
+      "org": {
+        "id": 131736279,
+        "login": "fastapi-practices",
+        "gravatar_id": "",
+        "url": "https://api.github.com/orgs/fastapi-practices",
+        "avatar_url": "https://avatars.githubusercontent.com/u/131736279?"
+      }
+    },
+    {
+      "id": "10477962028",
+      "type": "PushEvent",
+      "actor": {
+        "id": 52145145,
+        "login": "wu-clan",
+        "display_login": "wu-clan",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/wu-clan",
+        "avatar_url": "https://avatars.githubusercontent.com/u/52145145?"
+      },
+      "repo": {
+        "id": 1104326194,
+        "name": "fastapi-practices/ai",
+        "url": "https://api.github.com/repos/fastapi-practices/ai"
+      },
+      "payload": {
+        "repository_id": 1104326194,
+        "push_id": 32770232062,
+        "ref": "refs/heads/master",
+        "head": "5451d3e9d6f29742c265236b4b959ac3143bd794",
+        "before": "4c0daefcc0cf24e1e928c1b8d7d5c6819df1f140"
+      },
+      "public": true,
+      "created_at": "2026-04-12T08:36:09Z",
+      "org": {
+        "id": 131736279,
+        "login": "fastapi-practices",
+        "gravatar_id": "",
+        "url": "https://api.github.com/orgs/fastapi-practices",
+        "avatar_url": "https://avatars.githubusercontent.com/u/131736279?"
+      }
+    },
+    {
       "id": "10462696887",
       "type": "PushEvent",
       "actor": {
@@ -6734,1052 +7799,7 @@
         "url": "https://api.github.com/orgs/fastapi-practices",
         "avatar_url": "https://avatars.githubusercontent.com/u/131736279?"
       }
-    },
-    {
-      "id": "8293406061",
-      "type": "IssuesEvent",
-      "actor": {
-        "id": 52145145,
-        "login": "wu-clan",
-        "display_login": "wu-clan",
-        "gravatar_id": "",
-        "url": "https://api.github.com/users/wu-clan",
-        "avatar_url": "https://avatars.githubusercontent.com/u/52145145?"
-      },
-      "repo": {
-        "id": 624721291,
-        "name": "fastapi-practices/fastapi-best-architecture",
-        "url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture"
-      },
-      "payload": {
-        "action": "closed",
-        "issue": {
-          "url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture/issues/1151",
-          "repository_url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture",
-          "labels_url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture/issues/1151/labels{/name}",
-          "comments_url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture/issues/1151/comments",
-          "events_url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture/issues/1151/events",
-          "html_url": "https://github.com/fastapi-practices/fastapi-best-architecture/issues/1151",
-          "id": 4240493705,
-          "node_id": "I_kwDOJTx9i878wMyJ",
-          "number": 1151,
-          "title": "是否考虑做个企业级好用的OA审批工作流插件",
-          "user": {
-            "login": "chenansheng",
-            "id": 33371724,
-            "node_id": "MDQ6VXNlcjMzMzcxNzI0",
-            "avatar_url": "https://avatars.githubusercontent.com/u/33371724?v=4",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/chenansheng",
-            "html_url": "https://github.com/chenansheng",
-            "followers_url": "https://api.github.com/users/chenansheng/followers",
-            "following_url": "https://api.github.com/users/chenansheng/following{/other_user}",
-            "gists_url": "https://api.github.com/users/chenansheng/gists{/gist_id}",
-            "starred_url": "https://api.github.com/users/chenansheng/starred{/owner}{/repo}",
-            "subscriptions_url": "https://api.github.com/users/chenansheng/subscriptions",
-            "organizations_url": "https://api.github.com/users/chenansheng/orgs",
-            "repos_url": "https://api.github.com/users/chenansheng/repos",
-            "events_url": "https://api.github.com/users/chenansheng/events{/privacy}",
-            "received_events_url": "https://api.github.com/users/chenansheng/received_events",
-            "type": "User",
-            "user_view_type": "public",
-            "site_admin": false
-          },
-          "labels": [],
-          "state": "closed",
-          "locked": false,
-          "assignees": [],
-          "milestone": null,
-          "comments": 1,
-          "created_at": "2026-04-10T16:37:04Z",
-          "updated_at": "2026-04-10T16:43:21Z",
-          "closed_at": "2026-04-10T16:43:21Z",
-          "assignee": null,
-          "type": null,
-          "active_lock_reason": null,
-          "sub_issues_summary": {
-            "total": 0,
-            "completed": 0,
-            "percent_completed": 0
-          },
-          "issue_dependencies_summary": {
-            "blocked_by": 0,
-            "total_blocked_by": 0,
-            "blocking": 0,
-            "total_blocking": 0
-          },
-          "body": "是否考虑做个企业级好用的OA审批工作流插件",
-          "reactions": {
-            "url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture/issues/1151/reactions",
-            "total_count": 0,
-            "+1": 0,
-            "-1": 0,
-            "laugh": 0,
-            "hooray": 0,
-            "confused": 0,
-            "heart": 0,
-            "rocket": 0,
-            "eyes": 0
-          },
-          "timeline_url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture/issues/1151/timeline",
-          "performed_via_github_app": null,
-          "state_reason": "completed",
-          "pinned_comment": null
-        }
-      },
-      "public": true,
-      "created_at": "2026-04-10T16:43:22Z",
-      "org": {
-        "id": 131736279,
-        "login": "fastapi-practices",
-        "gravatar_id": "",
-        "url": "https://api.github.com/orgs/fastapi-practices",
-        "avatar_url": "https://avatars.githubusercontent.com/u/131736279?"
-      }
-    },
-    {
-      "id": "10417591451",
-      "type": "PushEvent",
-      "actor": {
-        "id": 52145145,
-        "login": "wu-clan",
-        "display_login": "wu-clan",
-        "gravatar_id": "",
-        "url": "https://api.github.com/users/wu-clan",
-        "avatar_url": "https://avatars.githubusercontent.com/u/52145145?"
-      },
-      "repo": {
-        "id": 1104326194,
-        "name": "fastapi-practices/ai",
-        "url": "https://api.github.com/repos/fastapi-practices/ai"
-      },
-      "payload": {
-        "repository_id": 1104326194,
-        "push_id": 32710037259,
-        "ref": "refs/heads/master",
-        "head": "9a11ad8308766b0ed69b28ae64bd8c7b03fa91b7",
-        "before": "9058d80c4b9a7e2166c55a7b2b55e5b60e436e30"
-      },
-      "public": true,
-      "created_at": "2026-04-10T10:03:39Z",
-      "org": {
-        "id": 131736279,
-        "login": "fastapi-practices",
-        "gravatar_id": "",
-        "url": "https://api.github.com/orgs/fastapi-practices",
-        "avatar_url": "https://avatars.githubusercontent.com/u/131736279?"
-      }
-    },
-    {
-      "id": "8265769332",
-      "type": "WatchEvent",
-      "actor": {
-        "id": 52145145,
-        "login": "wu-clan",
-        "display_login": "wu-clan",
-        "gravatar_id": "",
-        "url": "https://api.github.com/users/wu-clan",
-        "avatar_url": "https://avatars.githubusercontent.com/u/52145145?"
-      },
-      "repo": {
-        "id": 1116347226,
-        "name": "Kruszoneq/macUSB",
-        "url": "https://api.github.com/repos/Kruszoneq/macUSB"
-      },
-      "payload": {
-        "action": "started"
-      },
-      "public": true,
-      "created_at": "2026-04-10T01:20:41Z"
-    },
-    {
-      "id": "10363523901",
-      "type": "PushEvent",
-      "actor": {
-        "id": 52145145,
-        "login": "wu-clan",
-        "display_login": "wu-clan",
-        "gravatar_id": "",
-        "url": "https://api.github.com/users/wu-clan",
-        "avatar_url": "https://avatars.githubusercontent.com/u/52145145?"
-      },
-      "repo": {
-        "id": 1104326194,
-        "name": "fastapi-practices/ai",
-        "url": "https://api.github.com/repos/fastapi-practices/ai"
-      },
-      "payload": {
-        "repository_id": 1104326194,
-        "push_id": 32656100880,
-        "ref": "refs/heads/master",
-        "head": "9058d80c4b9a7e2166c55a7b2b55e5b60e436e30",
-        "before": "07e64b925019585788987d3740c9dac9e6397cb9"
-      },
-      "public": true,
-      "created_at": "2026-04-09T05:58:43Z",
-      "org": {
-        "id": 131736279,
-        "login": "fastapi-practices",
-        "gravatar_id": "",
-        "url": "https://api.github.com/orgs/fastapi-practices",
-        "avatar_url": "https://avatars.githubusercontent.com/u/131736279?"
-      }
-    },
-    {
-      "id": "10341586387",
-      "type": "PushEvent",
-      "actor": {
-        "id": 52145145,
-        "login": "wu-clan",
-        "display_login": "wu-clan",
-        "gravatar_id": "",
-        "url": "https://api.github.com/users/wu-clan",
-        "avatar_url": "https://avatars.githubusercontent.com/u/52145145?"
-      },
-      "repo": {
-        "id": 1188764492,
-        "name": "fastapi-practices/ai_ui",
-        "url": "https://api.github.com/repos/fastapi-practices/ai_ui"
-      },
-      "payload": {
-        "repository_id": 1188764492,
-        "push_id": 32634336898,
-        "ref": "refs/heads/master",
-        "head": "72387cc8a2ea892ad6c3aba77459680bb6081e32",
-        "before": "9dfdf1d3355645eb253dcfd20112884a074641db"
-      },
-      "public": true,
-      "created_at": "2026-04-08T16:55:35Z",
-      "org": {
-        "id": 131736279,
-        "login": "fastapi-practices",
-        "gravatar_id": "",
-        "url": "https://api.github.com/orgs/fastapi-practices",
-        "avatar_url": "https://avatars.githubusercontent.com/u/131736279?"
-      }
-    },
-    {
-      "id": "10334009413",
-      "type": "DeleteEvent",
-      "actor": {
-        "id": 52145145,
-        "login": "wu-clan",
-        "display_login": "wu-clan",
-        "gravatar_id": "",
-        "url": "https://api.github.com/users/wu-clan",
-        "avatar_url": "https://avatars.githubusercontent.com/u/52145145?"
-      },
-      "repo": {
-        "id": 624721291,
-        "name": "fastapi-practices/fastapi-best-architecture",
-        "url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture"
-      },
-      "payload": {
-        "ref": "update-readme",
-        "ref_type": "branch",
-        "full_ref": "refs/heads/update-readme",
-        "pusher_type": "user"
-      },
-      "public": true,
-      "created_at": "2026-04-08T13:53:14Z",
-      "org": {
-        "id": 131736279,
-        "login": "fastapi-practices",
-        "gravatar_id": "",
-        "url": "https://api.github.com/orgs/fastapi-practices",
-        "avatar_url": "https://avatars.githubusercontent.com/u/131736279?"
-      }
-    },
-    {
-      "id": "10334007848",
-      "type": "PushEvent",
-      "actor": {
-        "id": 52145145,
-        "login": "wu-clan",
-        "display_login": "wu-clan",
-        "gravatar_id": "",
-        "url": "https://api.github.com/users/wu-clan",
-        "avatar_url": "https://avatars.githubusercontent.com/u/52145145?"
-      },
-      "repo": {
-        "id": 624721291,
-        "name": "fastapi-practices/fastapi-best-architecture",
-        "url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture"
-      },
-      "payload": {
-        "repository_id": 624721291,
-        "push_id": 32626810314,
-        "ref": "refs/heads/master",
-        "head": "8719c63424c5ee3624c32e5105ac588a1387ad37",
-        "before": "d71db7d58de9be8287c6d9525a43cb3173636a75"
-      },
-      "public": true,
-      "created_at": "2026-04-08T13:53:11Z",
-      "org": {
-        "id": 131736279,
-        "login": "fastapi-practices",
-        "gravatar_id": "",
-        "url": "https://api.github.com/orgs/fastapi-practices",
-        "avatar_url": "https://avatars.githubusercontent.com/u/131736279?"
-      }
-    },
-    {
-      "id": "8201997255",
-      "type": "PullRequestEvent",
-      "actor": {
-        "id": 52145145,
-        "login": "wu-clan",
-        "display_login": "wu-clan",
-        "gravatar_id": "",
-        "url": "https://api.github.com/users/wu-clan",
-        "avatar_url": "https://avatars.githubusercontent.com/u/52145145?"
-      },
-      "repo": {
-        "id": 624721291,
-        "name": "fastapi-practices/fastapi-best-architecture",
-        "url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture"
-      },
-      "payload": {
-        "action": "merged",
-        "number": 1150,
-        "pull_request": {
-          "url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture/pulls/1150",
-          "id": 3503520642,
-          "number": 1150,
-          "head": {
-            "ref": "update-readme",
-            "sha": "46b5dce10d42e65a791789ca55e55043d54bc2fc",
-            "repo": {
-              "id": 624721291,
-              "url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture",
-              "name": "fastapi-best-architecture"
-            }
-          },
-          "base": {
-            "ref": "master",
-            "sha": "d71db7d58de9be8287c6d9525a43cb3173636a75",
-            "repo": {
-              "id": 624721291,
-              "url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture",
-              "name": "fastapi-best-architecture"
-            }
-          }
-        }
-      },
-      "public": true,
-      "created_at": "2026-04-08T13:53:10Z",
-      "org": {
-        "id": 131736279,
-        "login": "fastapi-practices",
-        "gravatar_id": "",
-        "url": "https://api.github.com/orgs/fastapi-practices",
-        "avatar_url": "https://avatars.githubusercontent.com/u/131736279?"
-      }
-    },
-    {
-      "id": "8201956616",
-      "type": "PullRequestEvent",
-      "actor": {
-        "id": 52145145,
-        "login": "wu-clan",
-        "display_login": "wu-clan",
-        "gravatar_id": "",
-        "url": "https://api.github.com/users/wu-clan",
-        "avatar_url": "https://avatars.githubusercontent.com/u/52145145?"
-      },
-      "repo": {
-        "id": 624721291,
-        "name": "fastapi-practices/fastapi-best-architecture",
-        "url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture"
-      },
-      "payload": {
-        "action": "opened",
-        "number": 1150,
-        "pull_request": {
-          "url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture/pulls/1150",
-          "id": 3503520642,
-          "number": 1150,
-          "head": {
-            "ref": "update-readme",
-            "sha": "46b5dce10d42e65a791789ca55e55043d54bc2fc",
-            "repo": {
-              "id": 624721291,
-              "url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture",
-              "name": "fastapi-best-architecture"
-            }
-          },
-          "base": {
-            "ref": "master",
-            "sha": "d71db7d58de9be8287c6d9525a43cb3173636a75",
-            "repo": {
-              "id": 624721291,
-              "url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture",
-              "name": "fastapi-best-architecture"
-            }
-          }
-        }
-      },
-      "public": true,
-      "created_at": "2026-04-08T13:52:07Z",
-      "org": {
-        "id": 131736279,
-        "login": "fastapi-practices",
-        "gravatar_id": "",
-        "url": "https://api.github.com/orgs/fastapi-practices",
-        "avatar_url": "https://avatars.githubusercontent.com/u/131736279?"
-      }
-    },
-    {
-      "id": "10333955806",
-      "type": "CreateEvent",
-      "actor": {
-        "id": 52145145,
-        "login": "wu-clan",
-        "display_login": "wu-clan",
-        "gravatar_id": "",
-        "url": "https://api.github.com/users/wu-clan",
-        "avatar_url": "https://avatars.githubusercontent.com/u/52145145?"
-      },
-      "repo": {
-        "id": 624721291,
-        "name": "fastapi-practices/fastapi-best-architecture",
-        "url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture"
-      },
-      "payload": {
-        "ref": "update-readme",
-        "ref_type": "branch",
-        "full_ref": "refs/heads/update-readme",
-        "master_branch": "master",
-        "description": "Enterprise-level backend architecture solution with fastapi、sqlalchemy,、celery、pydantic、grafana、docker...",
-        "pusher_type": "user"
-      },
-      "public": true,
-      "created_at": "2026-04-08T13:51:58Z",
-      "org": {
-        "id": 131736279,
-        "login": "fastapi-practices",
-        "gravatar_id": "",
-        "url": "https://api.github.com/orgs/fastapi-practices",
-        "avatar_url": "https://avatars.githubusercontent.com/u/131736279?"
-      }
-    },
-    {
-      "id": "10332912069",
-      "type": "PushEvent",
-      "actor": {
-        "id": 52145145,
-        "login": "wu-clan",
-        "display_login": "wu-clan",
-        "gravatar_id": "",
-        "url": "https://api.github.com/users/wu-clan",
-        "avatar_url": "https://avatars.githubusercontent.com/u/52145145?"
-      },
-      "repo": {
-        "id": 855534641,
-        "name": "fastapi-practices/fastapi_best_architecture_docs",
-        "url": "https://api.github.com/repos/fastapi-practices/fastapi_best_architecture_docs"
-      },
-      "payload": {
-        "repository_id": 855534641,
-        "push_id": 32625718811,
-        "ref": "refs/heads/master",
-        "head": "36e2496b5a021ecddecc25d9568aaa1c16625ed9",
-        "before": "bfa9b9f26b686c8fd7b8b6a03d4ea1aeccb5f1e0"
-      },
-      "public": true,
-      "created_at": "2026-04-08T13:27:34Z",
-      "org": {
-        "id": 131736279,
-        "login": "fastapi-practices",
-        "gravatar_id": "",
-        "url": "https://api.github.com/orgs/fastapi-practices",
-        "avatar_url": "https://avatars.githubusercontent.com/u/131736279?"
-      }
-    },
-    {
-      "id": "10331964682",
-      "type": "DeleteEvent",
-      "actor": {
-        "id": 52145145,
-        "login": "wu-clan",
-        "display_login": "wu-clan",
-        "gravatar_id": "",
-        "url": "https://api.github.com/users/wu-clan",
-        "avatar_url": "https://avatars.githubusercontent.com/u/52145145?"
-      },
-      "repo": {
-        "id": 624721291,
-        "name": "fastapi-practices/fastapi-best-architecture",
-        "url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture"
-      },
-      "payload": {
-        "ref": "changelog-v1.13.3",
-        "ref_type": "branch",
-        "full_ref": "refs/heads/changelog-v1.13.3",
-        "pusher_type": "user"
-      },
-      "public": true,
-      "created_at": "2026-04-08T13:05:56Z",
-      "org": {
-        "id": 131736279,
-        "login": "fastapi-practices",
-        "gravatar_id": "",
-        "url": "https://api.github.com/orgs/fastapi-practices",
-        "avatar_url": "https://avatars.githubusercontent.com/u/131736279?"
-      }
-    },
-    {
-      "id": "8200167715",
-      "type": "PullRequestEvent",
-      "actor": {
-        "id": 52145145,
-        "login": "wu-clan",
-        "display_login": "wu-clan",
-        "gravatar_id": "",
-        "url": "https://api.github.com/users/wu-clan",
-        "avatar_url": "https://avatars.githubusercontent.com/u/52145145?"
-      },
-      "repo": {
-        "id": 624721291,
-        "name": "fastapi-practices/fastapi-best-architecture",
-        "url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture"
-      },
-      "payload": {
-        "action": "merged",
-        "number": 1149,
-        "pull_request": {
-          "url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture/pulls/1149",
-          "id": 3503207471,
-          "number": 1149,
-          "head": {
-            "ref": "changelog-v1.13.3",
-            "sha": "6c0ecd54b96343c2ed7c5d343f8d3eb752251adb",
-            "repo": {
-              "id": 624721291,
-              "url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture",
-              "name": "fastapi-best-architecture"
-            }
-          },
-          "base": {
-            "ref": "master",
-            "sha": "02b5e670cc0f777689e6c9fe40c4f67a6802bdaa",
-            "repo": {
-              "id": 624721291,
-              "url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture",
-              "name": "fastapi-best-architecture"
-            }
-          }
-        }
-      },
-      "public": true,
-      "created_at": "2026-04-08T13:05:52Z",
-      "org": {
-        "id": 131736279,
-        "login": "fastapi-practices",
-        "gravatar_id": "",
-        "url": "https://api.github.com/orgs/fastapi-practices",
-        "avatar_url": "https://avatars.githubusercontent.com/u/131736279?"
-      }
-    },
-    {
-      "id": "10331963427",
-      "type": "PushEvent",
-      "actor": {
-        "id": 52145145,
-        "login": "wu-clan",
-        "display_login": "wu-clan",
-        "gravatar_id": "",
-        "url": "https://api.github.com/users/wu-clan",
-        "avatar_url": "https://avatars.githubusercontent.com/u/52145145?"
-      },
-      "repo": {
-        "id": 624721291,
-        "name": "fastapi-practices/fastapi-best-architecture",
-        "url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture"
-      },
-      "payload": {
-        "repository_id": 624721291,
-        "push_id": 32624770377,
-        "ref": "refs/heads/master",
-        "head": "d71db7d58de9be8287c6d9525a43cb3173636a75",
-        "before": "02b5e670cc0f777689e6c9fe40c4f67a6802bdaa"
-      },
-      "public": true,
-      "created_at": "2026-04-08T13:05:54Z",
-      "org": {
-        "id": 131736279,
-        "login": "fastapi-practices",
-        "gravatar_id": "",
-        "url": "https://api.github.com/orgs/fastapi-practices",
-        "avatar_url": "https://avatars.githubusercontent.com/u/131736279?"
-      }
-    },
-    {
-      "id": "10331928117",
-      "type": "PushEvent",
-      "actor": {
-        "id": 52145145,
-        "login": "wu-clan",
-        "display_login": "wu-clan",
-        "gravatar_id": "",
-        "url": "https://api.github.com/users/wu-clan",
-        "avatar_url": "https://avatars.githubusercontent.com/u/52145145?"
-      },
-      "repo": {
-        "id": 624721291,
-        "name": "fastapi-practices/fastapi-best-architecture",
-        "url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture"
-      },
-      "payload": {
-        "repository_id": 624721291,
-        "push_id": 32624735137,
-        "ref": "refs/heads/pre-tenant",
-        "head": "1f287bbb0c65407380894c38efc7904a91dc8fcd",
-        "before": "05e00b287bb82ce218248a29e29223ae3614f9dd"
-      },
-      "public": true,
-      "created_at": "2026-04-08T13:05:06Z",
-      "org": {
-        "id": 131736279,
-        "login": "fastapi-practices",
-        "gravatar_id": "",
-        "url": "https://api.github.com/orgs/fastapi-practices",
-        "avatar_url": "https://avatars.githubusercontent.com/u/131736279?"
-      }
-    },
-    {
-      "id": "10331821784",
-      "type": "DeleteEvent",
-      "actor": {
-        "id": 52145145,
-        "login": "wu-clan",
-        "display_login": "wu-clan",
-        "gravatar_id": "",
-        "url": "https://api.github.com/users/wu-clan",
-        "avatar_url": "https://avatars.githubusercontent.com/u/52145145?"
-      },
-      "repo": {
-        "id": 1139655422,
-        "name": "fastapi-practices/plugins",
-        "url": "https://api.github.com/repos/fastapi-practices/plugins"
-      },
-      "payload": {
-        "ref": "update-plugin/api_key-v0.0.3",
-        "ref_type": "branch",
-        "full_ref": "refs/heads/update-plugin/api_key-v0.0.3",
-        "pusher_type": "user"
-      },
-      "public": true,
-      "created_at": "2026-04-08T13:02:40Z",
-      "org": {
-        "id": 131736279,
-        "login": "fastapi-practices",
-        "gravatar_id": "",
-        "url": "https://api.github.com/orgs/fastapi-practices",
-        "avatar_url": "https://avatars.githubusercontent.com/u/131736279?"
-      }
-    },
-    {
-      "id": "10331821259",
-      "type": "PushEvent",
-      "actor": {
-        "id": 52145145,
-        "login": "wu-clan",
-        "display_login": "wu-clan",
-        "gravatar_id": "",
-        "url": "https://api.github.com/users/wu-clan",
-        "avatar_url": "https://avatars.githubusercontent.com/u/52145145?"
-      },
-      "repo": {
-        "id": 1139655422,
-        "name": "fastapi-practices/plugins",
-        "url": "https://api.github.com/repos/fastapi-practices/plugins"
-      },
-      "payload": {
-        "repository_id": 1139655422,
-        "push_id": 32624628281,
-        "ref": "refs/heads/master",
-        "head": "651a27ad8bf4566244b5ade1b85703b29f24e407",
-        "before": "a1fc2a4930da0834b0de842c1d6f349911cb32d6"
-      },
-      "public": true,
-      "created_at": "2026-04-08T13:02:39Z",
-      "org": {
-        "id": 131736279,
-        "login": "fastapi-practices",
-        "gravatar_id": "",
-        "url": "https://api.github.com/orgs/fastapi-practices",
-        "avatar_url": "https://avatars.githubusercontent.com/u/131736279?"
-      }
-    },
-    {
-      "id": "8200049649",
-      "type": "PullRequestEvent",
-      "actor": {
-        "id": 52145145,
-        "login": "wu-clan",
-        "display_login": "wu-clan",
-        "gravatar_id": "",
-        "url": "https://api.github.com/users/wu-clan",
-        "avatar_url": "https://avatars.githubusercontent.com/u/52145145?"
-      },
-      "repo": {
-        "id": 1139655422,
-        "name": "fastapi-practices/plugins",
-        "url": "https://api.github.com/repos/fastapi-practices/plugins"
-      },
-      "payload": {
-        "action": "merged",
-        "number": 32,
-        "pull_request": {
-          "url": "https://api.github.com/repos/fastapi-practices/plugins/pulls/32",
-          "id": 3503269455,
-          "number": 32,
-          "head": {
-            "ref": "update-plugin/api_key-v0.0.3",
-            "sha": "8b6a3f6c53ff39dcdb59786a5aae31c54bb85565",
-            "repo": {
-              "id": 1139655422,
-              "url": "https://api.github.com/repos/fastapi-practices/plugins",
-              "name": "plugins"
-            }
-          },
-          "base": {
-            "ref": "master",
-            "sha": "a1fc2a4930da0834b0de842c1d6f349911cb32d6",
-            "repo": {
-              "id": 1139655422,
-              "url": "https://api.github.com/repos/fastapi-practices/plugins",
-              "name": "plugins"
-            }
-          }
-        }
-      },
-      "public": true,
-      "created_at": "2026-04-08T13:02:37Z",
-      "org": {
-        "id": 131736279,
-        "login": "fastapi-practices",
-        "gravatar_id": "",
-        "url": "https://api.github.com/orgs/fastapi-practices",
-        "avatar_url": "https://avatars.githubusercontent.com/u/131736279?"
-      }
-    },
-    {
-      "id": "8199993909",
-      "type": "PullRequestEvent",
-      "actor": {
-        "id": 52145145,
-        "login": "wu-clan",
-        "display_login": "wu-clan",
-        "gravatar_id": "",
-        "url": "https://api.github.com/users/wu-clan",
-        "avatar_url": "https://avatars.githubusercontent.com/u/52145145?"
-      },
-      "repo": {
-        "id": 1139655422,
-        "name": "fastapi-practices/plugins",
-        "url": "https://api.github.com/repos/fastapi-practices/plugins"
-      },
-      "payload": {
-        "action": "opened",
-        "number": 32,
-        "pull_request": {
-          "url": "https://api.github.com/repos/fastapi-practices/plugins/pulls/32",
-          "id": 3503269455,
-          "number": 32,
-          "head": {
-            "ref": "update-plugin/api_key-v0.0.3",
-            "sha": "8b6a3f6c53ff39dcdb59786a5aae31c54bb85565",
-            "repo": {
-              "id": 1139655422,
-              "url": "https://api.github.com/repos/fastapi-practices/plugins",
-              "name": "plugins"
-            }
-          },
-          "base": {
-            "ref": "master",
-            "sha": "a1fc2a4930da0834b0de842c1d6f349911cb32d6",
-            "repo": {
-              "id": 1139655422,
-              "url": "https://api.github.com/repos/fastapi-practices/plugins",
-              "name": "plugins"
-            }
-          }
-        }
-      },
-      "public": true,
-      "created_at": "2026-04-08T13:01:06Z",
-      "org": {
-        "id": 131736279,
-        "login": "fastapi-practices",
-        "gravatar_id": "",
-        "url": "https://api.github.com/orgs/fastapi-practices",
-        "avatar_url": "https://avatars.githubusercontent.com/u/131736279?"
-      }
-    },
-    {
-      "id": "10331750610",
-      "type": "CreateEvent",
-      "actor": {
-        "id": 52145145,
-        "login": "wu-clan",
-        "display_login": "wu-clan",
-        "gravatar_id": "",
-        "url": "https://api.github.com/users/wu-clan",
-        "avatar_url": "https://avatars.githubusercontent.com/u/52145145?"
-      },
-      "repo": {
-        "id": 1139655422,
-        "name": "fastapi-practices/plugins",
-        "url": "https://api.github.com/repos/fastapi-practices/plugins"
-      },
-      "payload": {
-        "ref": "update-plugin/api_key-v0.0.3",
-        "ref_type": "branch",
-        "full_ref": "refs/heads/update-plugin/api_key-v0.0.3",
-        "master_branch": "master",
-        "description": "Plugins for FastAPI Best Architecture",
-        "pusher_type": "user"
-      },
-      "public": true,
-      "created_at": "2026-04-08T13:01:05Z",
-      "org": {
-        "id": 131736279,
-        "login": "fastapi-practices",
-        "gravatar_id": "",
-        "url": "https://api.github.com/orgs/fastapi-practices",
-        "avatar_url": "https://avatars.githubusercontent.com/u/131736279?"
-      }
-    },
-    {
-      "id": "8199986181",
-      "type": "ReleaseEvent",
-      "actor": {
-        "id": 52145145,
-        "login": "wu-clan",
-        "display_login": "wu-clan",
-        "gravatar_id": "",
-        "url": "https://api.github.com/users/wu-clan",
-        "avatar_url": "https://avatars.githubusercontent.com/u/52145145?"
-      },
-      "repo": {
-        "id": 1134355625,
-        "name": "fastapi-practices/api_key",
-        "url": "https://api.github.com/repos/fastapi-practices/api_key"
-      },
-      "payload": {
-        "action": "published",
-        "release": {
-          "url": "https://api.github.com/repos/fastapi-practices/api_key/releases/306580246",
-          "assets_url": "https://api.github.com/repos/fastapi-practices/api_key/releases/306580246/assets",
-          "upload_url": "https://uploads.github.com/repos/fastapi-practices/api_key/releases/306580246/assets{?name,label}",
-          "html_url": "https://github.com/fastapi-practices/api_key/releases/tag/v0.0.3",
-          "id": 306580246,
-          "author": {
-            "login": "wu-clan",
-            "id": 52145145,
-            "node_id": "MDQ6VXNlcjUyMTQ1MTQ1",
-            "avatar_url": "https://avatars.githubusercontent.com/u/52145145?v=4",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/wu-clan",
-            "html_url": "https://github.com/wu-clan",
-            "followers_url": "https://api.github.com/users/wu-clan/followers",
-            "following_url": "https://api.github.com/users/wu-clan/following{/other_user}",
-            "gists_url": "https://api.github.com/users/wu-clan/gists{/gist_id}",
-            "starred_url": "https://api.github.com/users/wu-clan/starred{/owner}{/repo}",
-            "subscriptions_url": "https://api.github.com/users/wu-clan/subscriptions",
-            "organizations_url": "https://api.github.com/users/wu-clan/orgs",
-            "repos_url": "https://api.github.com/users/wu-clan/repos",
-            "events_url": "https://api.github.com/users/wu-clan/events{/privacy}",
-            "received_events_url": "https://api.github.com/users/wu-clan/received_events",
-            "type": "User",
-            "user_view_type": "public",
-            "site_admin": false
-          },
-          "node_id": "RE_kwDOQ5zkqc4SRgsW",
-          "tag_name": "v0.0.3",
-          "target_commitish": "master",
-          "name": "v0.0.3",
-          "draft": false,
-          "immutable": false,
-          "prerelease": false,
-          "created_at": "2026-04-08T13:00:24Z",
-          "updated_at": "2026-04-08T13:00:54Z",
-          "published_at": "2026-04-08T13:00:54Z",
-          "assets": [],
-          "tarball_url": "https://api.github.com/repos/fastapi-practices/api_key/tarball/v0.0.3",
-          "zipball_url": "https://api.github.com/repos/fastapi-practices/api_key/zipball/v0.0.3",
-          "body": "## What's Changed\r\n* Add authentication middleware using plugin hooks by @yuWorm in https://github.com/fastapi-practices/api_key/pull/4\r\n\r\n## New Contributors\r\n* @yuWorm made their first contribution in https://github.com/fastapi-practices/api_key/pull/4\r\n\r\n**Full Changelog**: https://github.com/fastapi-practices/api_key/compare/v0.0.2...v0.0.3",
-          "mentions_count": 1,
-          "mentions": [
-            {
-              "avatar_url": "https://avatars.githubusercontent.com/u/34805071?v=4",
-              "login": "yuWorm",
-              "profile_name": "YuWorm",
-              "profile_url": "https://github.com/yuWorm",
-              "avatar_user_actor": true
-            }
-          ],
-          "short_description_html": "<h2>What's Changed</h2>\n<ul>\n<li>Add authentication middleware using plugin hooks by <a class=\"user-mention notranslate\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/yuWorm/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/yuWorm\">@yuWorm</a> in <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"4222798864\" data-permission-text=\"Title is private\" data-url=\"https://github.com/fastapi-practices/api_key/issues/4\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/fastapi-practices/api_key/pull/4/hovercard\" href=\"https://github.com/fastapi-practices/api_key/pull/4\">#4</a>\n</li>\n</ul>\n<h2>New Contributors</h2>\n<ul>\n<li>\n<a class=\"user-mention notranslate\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/yuWorm/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/yuWorm\">@yuWorm</a> made their first contribution in <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"4222798864\" data-permission-text=\"Title is private\" data-url=\"https://github.com/fastapi-practices/api_key/issues/4\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/fastapi-practices/api_key/pull/4/hovercard\" href=\"https://github.com/fastapi-practices/api_key/pull/4\">#4</a>\n</li>\n</ul>\n<p><strong>Full Changelog</strong>: <a class=\"commit-link\" href=\"https://github.com/fastapi-practices/api_key/compare/v0.0.2...v0.0.3\"><tt>v0.0.2...v0.0.3</tt></a></p>",
-          "is_short_description_html_truncated": false
-        }
-      },
-      "public": true,
-      "created_at": "2026-04-08T13:00:54Z",
-      "org": {
-        "id": 131736279,
-        "login": "fastapi-practices",
-        "gravatar_id": "",
-        "url": "https://api.github.com/orgs/fastapi-practices",
-        "avatar_url": "https://avatars.githubusercontent.com/u/131736279?"
-      }
-    },
-    {
-      "id": "10331720584",
-      "type": "PushEvent",
-      "actor": {
-        "id": 52145145,
-        "login": "wu-clan",
-        "display_login": "wu-clan",
-        "gravatar_id": "",
-        "url": "https://api.github.com/users/wu-clan",
-        "avatar_url": "https://avatars.githubusercontent.com/u/52145145?"
-      },
-      "repo": {
-        "id": 1134355625,
-        "name": "fastapi-practices/api_key",
-        "url": "https://api.github.com/repos/fastapi-practices/api_key"
-      },
-      "payload": {
-        "repository_id": 1134355625,
-        "push_id": 32624527459,
-        "ref": "refs/heads/master",
-        "head": "8821676db86d0518bc39048eef34d0aa0cc62b03",
-        "before": "f8c369da7020400b5d7d57447752375c147f18dd"
-      },
-      "public": true,
-      "created_at": "2026-04-08T13:00:27Z",
-      "org": {
-        "id": 131736279,
-        "login": "fastapi-practices",
-        "gravatar_id": "",
-        "url": "https://api.github.com/orgs/fastapi-practices",
-        "avatar_url": "https://avatars.githubusercontent.com/u/131736279?"
-      }
-    },
-    {
-      "id": "10331669008",
-      "type": "PushEvent",
-      "actor": {
-        "id": 52145145,
-        "login": "wu-clan",
-        "display_login": "wu-clan",
-        "gravatar_id": "",
-        "url": "https://api.github.com/users/wu-clan",
-        "avatar_url": "https://avatars.githubusercontent.com/u/52145145?"
-      },
-      "repo": {
-        "id": 1134355625,
-        "name": "fastapi-practices/api_key",
-        "url": "https://api.github.com/repos/fastapi-practices/api_key"
-      },
-      "payload": {
-        "repository_id": 1134355625,
-        "push_id": 32624475743,
-        "ref": "refs/heads/master",
-        "head": "f8c369da7020400b5d7d57447752375c147f18dd",
-        "before": "b4fa18ae70332de81ffd8b97e3ebf8d64833962e"
-      },
-      "public": true,
-      "created_at": "2026-04-08T12:59:18Z",
-      "org": {
-        "id": 131736279,
-        "login": "fastapi-practices",
-        "gravatar_id": "",
-        "url": "https://api.github.com/orgs/fastapi-practices",
-        "avatar_url": "https://avatars.githubusercontent.com/u/131736279?"
-      }
-    },
-    {
-      "id": "10331634550",
-      "type": "PushEvent",
-      "actor": {
-        "id": 52145145,
-        "login": "wu-clan",
-        "display_login": "wu-clan",
-        "gravatar_id": "",
-        "url": "https://api.github.com/users/wu-clan",
-        "avatar_url": "https://avatars.githubusercontent.com/u/52145145?"
-      },
-      "repo": {
-        "id": 1204623867,
-        "name": "yuWorm/fba_api_key",
-        "url": "https://api.github.com/repos/yuWorm/fba_api_key"
-      },
-      "payload": {
-        "repository_id": 1204623867,
-        "push_id": 32624441444,
-        "ref": "refs/heads/replace-middleware-with-hooks",
-        "head": "7d1ae2f150f9e0a68f7839663156dd5707e89658",
-        "before": "7adeeee6777e3d8f93a21436345aa39b8fb39d6a"
-      },
-      "public": true,
-      "created_at": "2026-04-08T12:58:26Z"
-    },
-    {
-      "id": "8199489632",
-      "type": "PullRequestEvent",
-      "actor": {
-        "id": 52145145,
-        "login": "wu-clan",
-        "display_login": "wu-clan",
-        "gravatar_id": "",
-        "url": "https://api.github.com/users/wu-clan",
-        "avatar_url": "https://avatars.githubusercontent.com/u/52145145?"
-      },
-      "repo": {
-        "id": 624721291,
-        "name": "fastapi-practices/fastapi-best-architecture",
-        "url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture"
-      },
-      "payload": {
-        "action": "opened",
-        "number": 1149,
-        "pull_request": {
-          "url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture/pulls/1149",
-          "id": 3503207471,
-          "number": 1149,
-          "head": {
-            "ref": "changelog-v1.13.3",
-            "sha": "6c0ecd54b96343c2ed7c5d343f8d3eb752251adb",
-            "repo": {
-              "id": 624721291,
-              "url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture",
-              "name": "fastapi-best-architecture"
-            }
-          },
-          "base": {
-            "ref": "master",
-            "sha": "02b5e670cc0f777689e6c9fe40c4f67a6802bdaa",
-            "repo": {
-              "id": 624721291,
-              "url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture",
-              "name": "fastapi-best-architecture"
-            }
-          }
-        }
-      },
-      "public": true,
-      "created_at": "2026-04-08T12:47:05Z",
-      "org": {
-        "id": 131736279,
-        "login": "fastapi-practices",
-        "gravatar_id": "",
-        "url": "https://api.github.com/orgs/fastapi-practices",
-        "avatar_url": "https://avatars.githubusercontent.com/u/131736279?"
-      }
     }
   ],
-  "updated_at": "2026-04-12T02:25:08.566Z"
+  "updated_at": "2026-04-13T02:29:57.411Z"
 }
