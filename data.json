@@ -103,14 +103,14 @@
       "releases_url": "https://api.github.com/repos/wu-clan/homepage/releases{/id}",
       "deployments_url": "https://api.github.com/repos/wu-clan/homepage/deployments",
       "created_at": "2024-09-04T11:27:39Z",
-      "updated_at": "2026-05-26T02:54:32Z",
-      "pushed_at": "2026-05-26T02:54:28Z",
+      "updated_at": "2026-05-27T03:34:01Z",
+      "pushed_at": "2026-05-27T03:33:57Z",
       "git_url": "git://github.com/wu-clan/homepage.git",
       "ssh_url": "git@github.com:wu-clan/homepage.git",
       "clone_url": "https://github.com/wu-clan/homepage.git",
       "svn_url": "https://github.com/wu-clan/homepage",
       "homepage": "https://wu-clan.github.io/homepage/",
-      "size": 1161,
+      "size": 1185,
       "stargazers_count": 0,
       "watchers_count": 0,
       "language": "HTML",
@@ -3601,16 +3601,16 @@
       "releases_url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture/releases{/id}",
       "deployments_url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture/deployments",
       "created_at": "2023-04-07T05:21:11Z",
-      "updated_at": "2026-05-26T16:32:53Z",
-      "pushed_at": "2026-05-26T08:14:50Z",
+      "updated_at": "2026-05-28T02:25:48Z",
+      "pushed_at": "2026-05-28T02:25:46Z",
       "git_url": "git://github.com/fastapi-practices/fastapi-best-architecture.git",
       "ssh_url": "git@github.com:fastapi-practices/fastapi-best-architecture.git",
       "clone_url": "https://github.com/fastapi-practices/fastapi-best-architecture.git",
       "svn_url": "https://github.com/fastapi-practices/fastapi-best-architecture",
       "homepage": "https://docs.fba.wu-clan.cc",
       "size": 17195,
-      "stargazers_count": 2244,
-      "watchers_count": 2244,
+      "stargazers_count": 2246,
+      "watchers_count": 2246,
       "language": "Python",
       "has_issues": true,
       "has_projects": false,
@@ -3618,7 +3618,7 @@
       "has_wiki": false,
       "has_pages": false,
       "has_discussions": true,
-      "forks_count": 339,
+      "forks_count": 340,
       "mirror_url": null,
       "archived": false,
       "disabled": false,
@@ -3645,9 +3645,9 @@
         "sqlalchemy"
       ],
       "visibility": "public",
-      "forks": 339,
+      "forks": 340,
       "open_issues": 15,
-      "watchers": 2244,
+      "watchers": 2246,
       "default_branch": "master",
       "permissions": {
         "admin": false,
@@ -6921,6 +6921,1213 @@
   ],
   "ev": [
     {
+      "id": "12467506829",
+      "type": "DeleteEvent",
+      "actor": {
+        "id": 52145145,
+        "login": "wu-clan",
+        "display_login": "wu-clan",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/wu-clan",
+        "avatar_url": "https://avatars.githubusercontent.com/u/52145145?"
+      },
+      "repo": {
+        "id": 624721291,
+        "name": "fastapi-practices/fastapi-best-architecture",
+        "url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture"
+      },
+      "payload": {
+        "ref": "optimize-session-clean",
+        "ref_type": "branch",
+        "full_ref": "refs/heads/optimize-session-clean",
+        "pusher_type": "user"
+      },
+      "public": true,
+      "created_at": "2026-05-28T02:25:47Z",
+      "org": {
+        "id": 131736279,
+        "login": "fastapi-practices",
+        "gravatar_id": "",
+        "url": "https://api.github.com/orgs/fastapi-practices",
+        "avatar_url": "https://avatars.githubusercontent.com/u/131736279?"
+      }
+    },
+    {
+      "id": "12467505573",
+      "type": "PushEvent",
+      "actor": {
+        "id": 52145145,
+        "login": "wu-clan",
+        "display_login": "wu-clan",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/wu-clan",
+        "avatar_url": "https://avatars.githubusercontent.com/u/52145145?"
+      },
+      "repo": {
+        "id": 624721291,
+        "name": "fastapi-practices/fastapi-best-architecture",
+        "url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture"
+      },
+      "payload": {
+        "repository_id": 624721291,
+        "push_id": 34757341221,
+        "ref": "refs/heads/master",
+        "head": "9f3673d812d106b50d601c5ff409f3a17717ae09",
+        "before": "ef9a6b554c611648fe21777843db15c46b2551bd"
+      },
+      "public": true,
+      "created_at": "2026-05-28T02:25:45Z",
+      "org": {
+        "id": 131736279,
+        "login": "fastapi-practices",
+        "gravatar_id": "",
+        "url": "https://api.github.com/orgs/fastapi-practices",
+        "avatar_url": "https://avatars.githubusercontent.com/u/131736279?"
+      }
+    },
+    {
+      "id": "9982191732",
+      "type": "PullRequestEvent",
+      "actor": {
+        "id": 52145145,
+        "login": "wu-clan",
+        "display_login": "wu-clan",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/wu-clan",
+        "avatar_url": "https://avatars.githubusercontent.com/u/52145145?"
+      },
+      "repo": {
+        "id": 624721291,
+        "name": "fastapi-practices/fastapi-best-architecture",
+        "url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture"
+      },
+      "payload": {
+        "action": "merged",
+        "number": 1185,
+        "pull_request": {
+          "url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture/pulls/1185",
+          "id": 3759219397,
+          "number": 1185,
+          "head": {
+            "ref": "optimize-session-clean",
+            "sha": "14f0700a8937fd417ef611777299d3ccbec088f2",
+            "repo": {
+              "id": 624721291,
+              "url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture",
+              "name": "fastapi-best-architecture"
+            }
+          },
+          "base": {
+            "ref": "master",
+            "sha": "ef9a6b554c611648fe21777843db15c46b2551bd",
+            "repo": {
+              "id": 624721291,
+              "url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture",
+              "name": "fastapi-best-architecture"
+            }
+          }
+        }
+      },
+      "public": true,
+      "created_at": "2026-05-28T02:25:44Z",
+      "org": {
+        "id": 131736279,
+        "login": "fastapi-practices",
+        "gravatar_id": "",
+        "url": "https://api.github.com/orgs/fastapi-practices",
+        "avatar_url": "https://avatars.githubusercontent.com/u/131736279?"
+      }
+    },
+    {
+      "id": "9982069343",
+      "type": "PullRequestEvent",
+      "actor": {
+        "id": 52145145,
+        "login": "wu-clan",
+        "display_login": "wu-clan",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/wu-clan",
+        "avatar_url": "https://avatars.githubusercontent.com/u/52145145?"
+      },
+      "repo": {
+        "id": 624721291,
+        "name": "fastapi-practices/fastapi-best-architecture",
+        "url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture"
+      },
+      "payload": {
+        "action": "opened",
+        "number": 1185,
+        "pull_request": {
+          "url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture/pulls/1185",
+          "id": 3759219397,
+          "number": 1185,
+          "head": {
+            "ref": "optimize-session-clean",
+            "sha": "14f0700a8937fd417ef611777299d3ccbec088f2",
+            "repo": {
+              "id": 624721291,
+              "url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture",
+              "name": "fastapi-best-architecture"
+            }
+          },
+          "base": {
+            "ref": "master",
+            "sha": "ef9a6b554c611648fe21777843db15c46b2551bd",
+            "repo": {
+              "id": 624721291,
+              "url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture",
+              "name": "fastapi-best-architecture"
+            }
+          }
+        }
+      },
+      "public": true,
+      "created_at": "2026-05-28T02:20:31Z",
+      "org": {
+        "id": 131736279,
+        "login": "fastapi-practices",
+        "gravatar_id": "",
+        "url": "https://api.github.com/orgs/fastapi-practices",
+        "avatar_url": "https://avatars.githubusercontent.com/u/131736279?"
+      }
+    },
+    {
+      "id": "12467364962",
+      "type": "CreateEvent",
+      "actor": {
+        "id": 52145145,
+        "login": "wu-clan",
+        "display_login": "wu-clan",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/wu-clan",
+        "avatar_url": "https://avatars.githubusercontent.com/u/52145145?"
+      },
+      "repo": {
+        "id": 624721291,
+        "name": "fastapi-practices/fastapi-best-architecture",
+        "url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture"
+      },
+      "payload": {
+        "ref": "optimize-session-clean",
+        "ref_type": "branch",
+        "full_ref": "refs/heads/optimize-session-clean",
+        "master_branch": "master",
+        "description": "Enterprise-level backend architecture solution with fastapi、sqlalchemy,、celery、pydantic、grafana、docker...",
+        "pusher_type": "user"
+      },
+      "public": true,
+      "created_at": "2026-05-28T02:20:22Z",
+      "org": {
+        "id": 131736279,
+        "login": "fastapi-practices",
+        "gravatar_id": "",
+        "url": "https://api.github.com/orgs/fastapi-practices",
+        "avatar_url": "https://avatars.githubusercontent.com/u/131736279?"
+      }
+    },
+    {
+      "id": "9944347260",
+      "type": "IssuesEvent",
+      "actor": {
+        "id": 52145145,
+        "login": "wu-clan",
+        "display_login": "wu-clan",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/wu-clan",
+        "avatar_url": "https://avatars.githubusercontent.com/u/52145145?"
+      },
+      "repo": {
+        "id": 1224172037,
+        "name": "t8y2/dbx",
+        "url": "https://api.github.com/repos/t8y2/dbx"
+      },
+      "payload": {
+        "action": "labeled",
+        "issue": {
+          "url": "https://api.github.com/repos/t8y2/dbx/issues/481",
+          "repository_url": "https://api.github.com/repos/t8y2/dbx",
+          "labels_url": "https://api.github.com/repos/t8y2/dbx/issues/481/labels{/name}",
+          "comments_url": "https://api.github.com/repos/t8y2/dbx/issues/481/comments",
+          "events_url": "https://api.github.com/repos/t8y2/dbx/issues/481/events",
+          "html_url": "https://github.com/t8y2/dbx/issues/481",
+          "id": 4530729681,
+          "node_id": "I_kwDOSPdiBc8AAAABDg1y0Q",
+          "number": 481,
+          "title": "[Bug] 已关闭连接刷新后自动连接",
+          "user": {
+            "login": "wu-clan",
+            "id": 52145145,
+            "node_id": "MDQ6VXNlcjUyMTQ1MTQ1",
+            "avatar_url": "https://avatars.githubusercontent.com/u/52145145?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/wu-clan",
+            "html_url": "https://github.com/wu-clan",
+            "followers_url": "https://api.github.com/users/wu-clan/followers",
+            "following_url": "https://api.github.com/users/wu-clan/following{/other_user}",
+            "gists_url": "https://api.github.com/users/wu-clan/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/wu-clan/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/wu-clan/subscriptions",
+            "organizations_url": "https://api.github.com/users/wu-clan/orgs",
+            "repos_url": "https://api.github.com/users/wu-clan/repos",
+            "events_url": "https://api.github.com/users/wu-clan/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/wu-clan/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "labels": [
+            {
+              "id": 10816946485,
+              "node_id": "LA_kwDOSPdiBc8AAAAChL2BNQ",
+              "url": "https://api.github.com/repos/t8y2/dbx/labels/bug",
+              "name": "bug",
+              "color": "d73a4a",
+              "default": true,
+              "description": "Something isn't working"
+            }
+          ],
+          "state": "closed",
+          "locked": false,
+          "assignees": [],
+          "milestone": null,
+          "comments": 1,
+          "created_at": "2026-05-27T08:15:17Z",
+          "updated_at": "2026-05-27T08:31:13Z",
+          "closed_at": "2026-05-27T08:31:13Z",
+          "assignee": null,
+          "active_lock_reason": null,
+          "sub_issues_summary": {
+            "total": 0,
+            "completed": 0,
+            "percent_completed": 0
+          },
+          "issue_dependencies_summary": {
+            "blocked_by": 0,
+            "total_blocked_by": 0,
+            "blocking": 0,
+            "total_blocking": 0
+          },
+          "body": "### 提交前确认\n\n- [x] 我已搜索现有 issues，确认没有重复反馈。\n- [x] 我已尝试使用最新版本或当前 main 分支复现。\n- [x] 我提供的信息中不包含真实密码、Token、私钥或生产数据。\n\n### 问题模块\n\n连接管理\n\n### 数据库类型\n\n不适用\n\n### 数据库版本\n\n_No response_\n\n### 连接方式\n\n直连\n\n### 问题描述\n\n在筛选后关闭数据库连接，如果此时点筛选框后面的刷新按钮，已关闭连接会自动重新连接\n\n### 复现步骤\n\n如问题描述\n\n### 期望行为\n\n已关闭连接必须手动打开连接\n\n### 实际行为\n\n如问题描述\n\n\n### 最小复现 SQL / 数据结构\n\n```sql\n\n```\n\n### 错误日志\n\n```shell\n\n```\n\n### 截图\n\n_No response_\n\n### DBX 版本 / Commit\n\nVersion 0.5.22 (0.5.22)\n\n### 操作系统\n\nmacOS Apple Silicon\n\n### 补充信息\n\n_No response_",
+          "reactions": {
+            "url": "https://api.github.com/repos/t8y2/dbx/issues/481/reactions",
+            "total_count": 0,
+            "+1": 0,
+            "-1": 0,
+            "laugh": 0,
+            "hooray": 0,
+            "confused": 0,
+            "heart": 0,
+            "rocket": 0,
+            "eyes": 0
+          },
+          "timeline_url": "https://api.github.com/repos/t8y2/dbx/issues/481/timeline",
+          "performed_via_github_app": null,
+          "state_reason": "completed",
+          "pinned_comment": null
+        },
+        "label": {
+          "id": 10816946485,
+          "node_id": "LA_kwDOSPdiBc8AAAAChL2BNQ",
+          "url": "https://api.github.com/repos/t8y2/dbx/labels/bug",
+          "name": "bug",
+          "color": "d73a4a",
+          "default": true,
+          "description": "Something isn't working"
+        },
+        "labels": [
+          {
+            "id": 10816946485,
+            "node_id": "LA_kwDOSPdiBc8AAAAChL2BNQ",
+            "url": "https://api.github.com/repos/t8y2/dbx/labels/bug",
+            "name": "bug",
+            "color": "d73a4a",
+            "default": true,
+            "description": "Something isn't working"
+          }
+        ]
+      },
+      "public": true,
+      "created_at": "2026-05-27T08:15:19Z"
+    },
+    {
+      "id": "9944346977",
+      "type": "IssuesEvent",
+      "actor": {
+        "id": 52145145,
+        "login": "wu-clan",
+        "display_login": "wu-clan",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/wu-clan",
+        "avatar_url": "https://avatars.githubusercontent.com/u/52145145?"
+      },
+      "repo": {
+        "id": 1224172037,
+        "name": "t8y2/dbx",
+        "url": "https://api.github.com/repos/t8y2/dbx"
+      },
+      "payload": {
+        "action": "opened",
+        "issue": {
+          "url": "https://api.github.com/repos/t8y2/dbx/issues/481",
+          "repository_url": "https://api.github.com/repos/t8y2/dbx",
+          "labels_url": "https://api.github.com/repos/t8y2/dbx/issues/481/labels{/name}",
+          "comments_url": "https://api.github.com/repos/t8y2/dbx/issues/481/comments",
+          "events_url": "https://api.github.com/repos/t8y2/dbx/issues/481/events",
+          "html_url": "https://github.com/t8y2/dbx/issues/481",
+          "id": 4530729681,
+          "node_id": "I_kwDOSPdiBc8AAAABDg1y0Q",
+          "number": 481,
+          "title": "[Bug] 已关闭连接刷新后自动连接",
+          "user": {
+            "login": "wu-clan",
+            "id": 52145145,
+            "node_id": "MDQ6VXNlcjUyMTQ1MTQ1",
+            "avatar_url": "https://avatars.githubusercontent.com/u/52145145?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/wu-clan",
+            "html_url": "https://github.com/wu-clan",
+            "followers_url": "https://api.github.com/users/wu-clan/followers",
+            "following_url": "https://api.github.com/users/wu-clan/following{/other_user}",
+            "gists_url": "https://api.github.com/users/wu-clan/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/wu-clan/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/wu-clan/subscriptions",
+            "organizations_url": "https://api.github.com/users/wu-clan/orgs",
+            "repos_url": "https://api.github.com/users/wu-clan/repos",
+            "events_url": "https://api.github.com/users/wu-clan/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/wu-clan/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "labels": [
+            {
+              "id": 10816946485,
+              "node_id": "LA_kwDOSPdiBc8AAAAChL2BNQ",
+              "url": "https://api.github.com/repos/t8y2/dbx/labels/bug",
+              "name": "bug",
+              "color": "d73a4a",
+              "default": true,
+              "description": "Something isn't working"
+            }
+          ],
+          "state": "closed",
+          "locked": false,
+          "assignees": [],
+          "milestone": null,
+          "comments": 1,
+          "created_at": "2026-05-27T08:15:17Z",
+          "updated_at": "2026-05-27T08:31:13Z",
+          "closed_at": "2026-05-27T08:31:13Z",
+          "assignee": null,
+          "active_lock_reason": null,
+          "sub_issues_summary": {
+            "total": 0,
+            "completed": 0,
+            "percent_completed": 0
+          },
+          "issue_dependencies_summary": {
+            "blocked_by": 0,
+            "total_blocked_by": 0,
+            "blocking": 0,
+            "total_blocking": 0
+          },
+          "body": "### 提交前确认\n\n- [x] 我已搜索现有 issues，确认没有重复反馈。\n- [x] 我已尝试使用最新版本或当前 main 分支复现。\n- [x] 我提供的信息中不包含真实密码、Token、私钥或生产数据。\n\n### 问题模块\n\n连接管理\n\n### 数据库类型\n\n不适用\n\n### 数据库版本\n\n_No response_\n\n### 连接方式\n\n直连\n\n### 问题描述\n\n在筛选后关闭数据库连接，如果此时点筛选框后面的刷新按钮，已关闭连接会自动重新连接\n\n### 复现步骤\n\n如问题描述\n\n### 期望行为\n\n已关闭连接必须手动打开连接\n\n### 实际行为\n\n如问题描述\n\n\n### 最小复现 SQL / 数据结构\n\n```sql\n\n```\n\n### 错误日志\n\n```shell\n\n```\n\n### 截图\n\n_No response_\n\n### DBX 版本 / Commit\n\nVersion 0.5.22 (0.5.22)\n\n### 操作系统\n\nmacOS Apple Silicon\n\n### 补充信息\n\n_No response_",
+          "reactions": {
+            "url": "https://api.github.com/repos/t8y2/dbx/issues/481/reactions",
+            "total_count": 0,
+            "+1": 0,
+            "-1": 0,
+            "laugh": 0,
+            "hooray": 0,
+            "confused": 0,
+            "heart": 0,
+            "rocket": 0,
+            "eyes": 0
+          },
+          "timeline_url": "https://api.github.com/repos/t8y2/dbx/issues/481/timeline",
+          "performed_via_github_app": null,
+          "state_reason": "completed",
+          "pinned_comment": null
+        }
+      },
+      "public": true,
+      "created_at": "2026-05-27T08:15:18Z"
+    },
+    {
+      "id": "9944149493",
+      "type": "IssuesEvent",
+      "actor": {
+        "id": 52145145,
+        "login": "wu-clan",
+        "display_login": "wu-clan",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/wu-clan",
+        "avatar_url": "https://avatars.githubusercontent.com/u/52145145?"
+      },
+      "repo": {
+        "id": 1224172037,
+        "name": "t8y2/dbx",
+        "url": "https://api.github.com/repos/t8y2/dbx"
+      },
+      "payload": {
+        "action": "labeled",
+        "issue": {
+          "url": "https://api.github.com/repos/t8y2/dbx/issues/480",
+          "repository_url": "https://api.github.com/repos/t8y2/dbx",
+          "labels_url": "https://api.github.com/repos/t8y2/dbx/issues/480/labels{/name}",
+          "comments_url": "https://api.github.com/repos/t8y2/dbx/issues/480/comments",
+          "events_url": "https://api.github.com/repos/t8y2/dbx/issues/480/events",
+          "html_url": "https://github.com/t8y2/dbx/issues/480",
+          "id": 4530694586,
+          "node_id": "I_kwDOSPdiBc8AAAABDgzpug",
+          "number": 480,
+          "title": "[Feature] 新增连接树数据库表注释显示/隐藏配置",
+          "user": {
+            "login": "wu-clan",
+            "id": 52145145,
+            "node_id": "MDQ6VXNlcjUyMTQ1MTQ1",
+            "avatar_url": "https://avatars.githubusercontent.com/u/52145145?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/wu-clan",
+            "html_url": "https://github.com/wu-clan",
+            "followers_url": "https://api.github.com/users/wu-clan/followers",
+            "following_url": "https://api.github.com/users/wu-clan/following{/other_user}",
+            "gists_url": "https://api.github.com/users/wu-clan/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/wu-clan/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/wu-clan/subscriptions",
+            "organizations_url": "https://api.github.com/users/wu-clan/orgs",
+            "repos_url": "https://api.github.com/users/wu-clan/repos",
+            "events_url": "https://api.github.com/users/wu-clan/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/wu-clan/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "labels": [
+            {
+              "id": 10816946511,
+              "node_id": "LA_kwDOSPdiBc8AAAAChL2BTw",
+              "url": "https://api.github.com/repos/t8y2/dbx/labels/enhancement",
+              "name": "enhancement",
+              "color": "a2eeef",
+              "default": true,
+              "description": "New feature or request"
+            }
+          ],
+          "state": "closed",
+          "locked": false,
+          "assignees": [],
+          "milestone": null,
+          "comments": 1,
+          "created_at": "2026-05-27T08:09:59Z",
+          "updated_at": "2026-05-27T08:27:31Z",
+          "closed_at": "2026-05-27T08:27:31Z",
+          "assignee": null,
+          "active_lock_reason": null,
+          "sub_issues_summary": {
+            "total": 0,
+            "completed": 0,
+            "percent_completed": 0
+          },
+          "issue_dependencies_summary": {
+            "blocked_by": 0,
+            "total_blocked_by": 0,
+            "blocking": 0,
+            "total_blocking": 0
+          },
+          "body": "### 提交前确认\n\n- [x] 我已搜索现有 issues，确认没有重复建议。\n- [x] 这个建议与 DBX 的数据库管理、查询、浏览、导出或桌面体验有关。\n\n### 建议类型\n\n连接管理\n\n### 相关数据库\n\n不限数据库\n\n### 当前痛点\n\n- 宽度不足时，表注释显示不全，表名也显示不全\n- 默认显示数据库表注释，影响看表名，要拉很宽才行\n\n### 期望方案\n\n增加配置，自由选择\n\n### 期望工作流\n\n_No response_\n\n### 你试过的替代方案\n\n_No response_\n\n### 参考截图 / 产品 / 文档\n\n_No response_\n\n### 需求紧急程度\n\n会明显提升日常使用体验",
+          "reactions": {
+            "url": "https://api.github.com/repos/t8y2/dbx/issues/480/reactions",
+            "total_count": 0,
+            "+1": 0,
+            "-1": 0,
+            "laugh": 0,
+            "hooray": 0,
+            "confused": 0,
+            "heart": 0,
+            "rocket": 0,
+            "eyes": 0
+          },
+          "timeline_url": "https://api.github.com/repos/t8y2/dbx/issues/480/timeline",
+          "performed_via_github_app": null,
+          "state_reason": "completed",
+          "pinned_comment": null
+        },
+        "label": {
+          "id": 10816946511,
+          "node_id": "LA_kwDOSPdiBc8AAAAChL2BTw",
+          "url": "https://api.github.com/repos/t8y2/dbx/labels/enhancement",
+          "name": "enhancement",
+          "color": "a2eeef",
+          "default": true,
+          "description": "New feature or request"
+        },
+        "labels": [
+          {
+            "id": 10816946511,
+            "node_id": "LA_kwDOSPdiBc8AAAAChL2BTw",
+            "url": "https://api.github.com/repos/t8y2/dbx/labels/enhancement",
+            "name": "enhancement",
+            "color": "a2eeef",
+            "default": true,
+            "description": "New feature or request"
+          }
+        ]
+      },
+      "public": true,
+      "created_at": "2026-05-27T08:10:00Z"
+    },
+    {
+      "id": "9944149249",
+      "type": "IssuesEvent",
+      "actor": {
+        "id": 52145145,
+        "login": "wu-clan",
+        "display_login": "wu-clan",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/wu-clan",
+        "avatar_url": "https://avatars.githubusercontent.com/u/52145145?"
+      },
+      "repo": {
+        "id": 1224172037,
+        "name": "t8y2/dbx",
+        "url": "https://api.github.com/repos/t8y2/dbx"
+      },
+      "payload": {
+        "action": "opened",
+        "issue": {
+          "url": "https://api.github.com/repos/t8y2/dbx/issues/480",
+          "repository_url": "https://api.github.com/repos/t8y2/dbx",
+          "labels_url": "https://api.github.com/repos/t8y2/dbx/issues/480/labels{/name}",
+          "comments_url": "https://api.github.com/repos/t8y2/dbx/issues/480/comments",
+          "events_url": "https://api.github.com/repos/t8y2/dbx/issues/480/events",
+          "html_url": "https://github.com/t8y2/dbx/issues/480",
+          "id": 4530694586,
+          "node_id": "I_kwDOSPdiBc8AAAABDgzpug",
+          "number": 480,
+          "title": "[Feature] 新增连接树数据库表注释显示/隐藏配置",
+          "user": {
+            "login": "wu-clan",
+            "id": 52145145,
+            "node_id": "MDQ6VXNlcjUyMTQ1MTQ1",
+            "avatar_url": "https://avatars.githubusercontent.com/u/52145145?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/wu-clan",
+            "html_url": "https://github.com/wu-clan",
+            "followers_url": "https://api.github.com/users/wu-clan/followers",
+            "following_url": "https://api.github.com/users/wu-clan/following{/other_user}",
+            "gists_url": "https://api.github.com/users/wu-clan/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/wu-clan/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/wu-clan/subscriptions",
+            "organizations_url": "https://api.github.com/users/wu-clan/orgs",
+            "repos_url": "https://api.github.com/users/wu-clan/repos",
+            "events_url": "https://api.github.com/users/wu-clan/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/wu-clan/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "labels": [
+            {
+              "id": 10816946511,
+              "node_id": "LA_kwDOSPdiBc8AAAAChL2BTw",
+              "url": "https://api.github.com/repos/t8y2/dbx/labels/enhancement",
+              "name": "enhancement",
+              "color": "a2eeef",
+              "default": true,
+              "description": "New feature or request"
+            }
+          ],
+          "state": "closed",
+          "locked": false,
+          "assignees": [],
+          "milestone": null,
+          "comments": 1,
+          "created_at": "2026-05-27T08:09:59Z",
+          "updated_at": "2026-05-27T08:27:31Z",
+          "closed_at": "2026-05-27T08:27:31Z",
+          "assignee": null,
+          "active_lock_reason": null,
+          "sub_issues_summary": {
+            "total": 0,
+            "completed": 0,
+            "percent_completed": 0
+          },
+          "issue_dependencies_summary": {
+            "blocked_by": 0,
+            "total_blocked_by": 0,
+            "blocking": 0,
+            "total_blocking": 0
+          },
+          "body": "### 提交前确认\n\n- [x] 我已搜索现有 issues，确认没有重复建议。\n- [x] 这个建议与 DBX 的数据库管理、查询、浏览、导出或桌面体验有关。\n\n### 建议类型\n\n连接管理\n\n### 相关数据库\n\n不限数据库\n\n### 当前痛点\n\n- 宽度不足时，表注释显示不全，表名也显示不全\n- 默认显示数据库表注释，影响看表名，要拉很宽才行\n\n### 期望方案\n\n增加配置，自由选择\n\n### 期望工作流\n\n_No response_\n\n### 你试过的替代方案\n\n_No response_\n\n### 参考截图 / 产品 / 文档\n\n_No response_\n\n### 需求紧急程度\n\n会明显提升日常使用体验",
+          "reactions": {
+            "url": "https://api.github.com/repos/t8y2/dbx/issues/480/reactions",
+            "total_count": 0,
+            "+1": 0,
+            "-1": 0,
+            "laugh": 0,
+            "hooray": 0,
+            "confused": 0,
+            "heart": 0,
+            "rocket": 0,
+            "eyes": 0
+          },
+          "timeline_url": "https://api.github.com/repos/t8y2/dbx/issues/480/timeline",
+          "performed_via_github_app": null,
+          "state_reason": "completed",
+          "pinned_comment": null
+        }
+      },
+      "public": true,
+      "created_at": "2026-05-27T08:10:00Z"
+    },
+    {
+      "id": "9944067097",
+      "type": "IssuesEvent",
+      "actor": {
+        "id": 52145145,
+        "login": "wu-clan",
+        "display_login": "wu-clan",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/wu-clan",
+        "avatar_url": "https://avatars.githubusercontent.com/u/52145145?"
+      },
+      "repo": {
+        "id": 1224172037,
+        "name": "t8y2/dbx",
+        "url": "https://api.github.com/repos/t8y2/dbx"
+      },
+      "payload": {
+        "action": "labeled",
+        "issue": {
+          "url": "https://api.github.com/repos/t8y2/dbx/issues/479",
+          "repository_url": "https://api.github.com/repos/t8y2/dbx",
+          "labels_url": "https://api.github.com/repos/t8y2/dbx/issues/479/labels{/name}",
+          "comments_url": "https://api.github.com/repos/t8y2/dbx/issues/479/comments",
+          "events_url": "https://api.github.com/repos/t8y2/dbx/issues/479/events",
+          "html_url": "https://github.com/t8y2/dbx/issues/479",
+          "id": 4530680116,
+          "node_id": "I_kwDOSPdiBc8AAAABDgyxNA",
+          "number": 479,
+          "title": "[Bug] 连接树过滤条件缺失",
+          "user": {
+            "login": "wu-clan",
+            "id": 52145145,
+            "node_id": "MDQ6VXNlcjUyMTQ1MTQ1",
+            "avatar_url": "https://avatars.githubusercontent.com/u/52145145?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/wu-clan",
+            "html_url": "https://github.com/wu-clan",
+            "followers_url": "https://api.github.com/users/wu-clan/followers",
+            "following_url": "https://api.github.com/users/wu-clan/following{/other_user}",
+            "gists_url": "https://api.github.com/users/wu-clan/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/wu-clan/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/wu-clan/subscriptions",
+            "organizations_url": "https://api.github.com/users/wu-clan/orgs",
+            "repos_url": "https://api.github.com/users/wu-clan/repos",
+            "events_url": "https://api.github.com/users/wu-clan/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/wu-clan/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "labels": [
+            {
+              "id": 10816946485,
+              "node_id": "LA_kwDOSPdiBc8AAAAChL2BNQ",
+              "url": "https://api.github.com/repos/t8y2/dbx/labels/bug",
+              "name": "bug",
+              "color": "d73a4a",
+              "default": true,
+              "description": "Something isn't working"
+            }
+          ],
+          "state": "open",
+          "locked": false,
+          "assignees": [],
+          "milestone": null,
+          "comments": 0,
+          "created_at": "2026-05-27T08:07:47Z",
+          "updated_at": "2026-05-27T08:07:47Z",
+          "closed_at": null,
+          "assignee": null,
+          "active_lock_reason": null,
+          "sub_issues_summary": {
+            "total": 0,
+            "completed": 0,
+            "percent_completed": 0
+          },
+          "issue_dependencies_summary": {
+            "blocked_by": 0,
+            "total_blocked_by": 0,
+            "blocking": 0,
+            "total_blocking": 0
+          },
+          "body": "### 提交前确认\n\n- [x] 我已搜索现有 issues，确认没有重复反馈。\n- [x] 我已尝试使用最新版本或当前 main 分支复现。\n- [x] 我提供的信息中不包含真实密码、Token、私钥或生产数据。\n\n### 问题模块\n\n连接管理\n\n### 数据库类型\n\n不适用\n\n### 数据库版本\n\n_No response_\n\n### 连接方式\n\n直连\n\n### 问题描述\n\n两个库都连接时过滤，关闭其中一个连接后，过滤还会显示\n\n### 复现步骤\n\n<img width=\"355\" height=\"648\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/7b1a20a9-d142-4076-9083-4b75894dc86d\" />\n\n### 期望行为\n\n只过滤已连接数据库\n\n### 实际行为\n\n已关闭连接的数据库表也会在过滤后显示\n\n### 最小复现 SQL / 数据结构\n\n```sql\n\n```\n\n### 错误日志\n\n```shell\n\n```\n\n### 截图\n\n_No response_\n\n### DBX 版本 / Commit\n\nVersion 0.5.22 (0.5.22)\n\n### 操作系统\n\nmacOS Apple Silicon\n\n### 补充信息\n\n_No response_",
+          "reactions": {
+            "url": "https://api.github.com/repos/t8y2/dbx/issues/479/reactions",
+            "total_count": 0,
+            "+1": 0,
+            "-1": 0,
+            "laugh": 0,
+            "hooray": 0,
+            "confused": 0,
+            "heart": 0,
+            "rocket": 0,
+            "eyes": 0
+          },
+          "timeline_url": "https://api.github.com/repos/t8y2/dbx/issues/479/timeline",
+          "performed_via_github_app": null,
+          "state_reason": null,
+          "pinned_comment": null
+        },
+        "label": {
+          "id": 10816946485,
+          "node_id": "LA_kwDOSPdiBc8AAAAChL2BNQ",
+          "url": "https://api.github.com/repos/t8y2/dbx/labels/bug",
+          "name": "bug",
+          "color": "d73a4a",
+          "default": true,
+          "description": "Something isn't working"
+        },
+        "labels": [
+          {
+            "id": 10816946485,
+            "node_id": "LA_kwDOSPdiBc8AAAAChL2BNQ",
+            "url": "https://api.github.com/repos/t8y2/dbx/labels/bug",
+            "name": "bug",
+            "color": "d73a4a",
+            "default": true,
+            "description": "Something isn't working"
+          }
+        ]
+      },
+      "public": true,
+      "created_at": "2026-05-27T08:07:49Z"
+    },
+    {
+      "id": "9944066340",
+      "type": "IssuesEvent",
+      "actor": {
+        "id": 52145145,
+        "login": "wu-clan",
+        "display_login": "wu-clan",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/wu-clan",
+        "avatar_url": "https://avatars.githubusercontent.com/u/52145145?"
+      },
+      "repo": {
+        "id": 1224172037,
+        "name": "t8y2/dbx",
+        "url": "https://api.github.com/repos/t8y2/dbx"
+      },
+      "payload": {
+        "action": "opened",
+        "issue": {
+          "url": "https://api.github.com/repos/t8y2/dbx/issues/479",
+          "repository_url": "https://api.github.com/repos/t8y2/dbx",
+          "labels_url": "https://api.github.com/repos/t8y2/dbx/issues/479/labels{/name}",
+          "comments_url": "https://api.github.com/repos/t8y2/dbx/issues/479/comments",
+          "events_url": "https://api.github.com/repos/t8y2/dbx/issues/479/events",
+          "html_url": "https://github.com/t8y2/dbx/issues/479",
+          "id": 4530680116,
+          "node_id": "I_kwDOSPdiBc8AAAABDgyxNA",
+          "number": 479,
+          "title": "[Bug] 连接树过滤条件缺失",
+          "user": {
+            "login": "wu-clan",
+            "id": 52145145,
+            "node_id": "MDQ6VXNlcjUyMTQ1MTQ1",
+            "avatar_url": "https://avatars.githubusercontent.com/u/52145145?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/wu-clan",
+            "html_url": "https://github.com/wu-clan",
+            "followers_url": "https://api.github.com/users/wu-clan/followers",
+            "following_url": "https://api.github.com/users/wu-clan/following{/other_user}",
+            "gists_url": "https://api.github.com/users/wu-clan/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/wu-clan/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/wu-clan/subscriptions",
+            "organizations_url": "https://api.github.com/users/wu-clan/orgs",
+            "repos_url": "https://api.github.com/users/wu-clan/repos",
+            "events_url": "https://api.github.com/users/wu-clan/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/wu-clan/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "labels": [
+            {
+              "id": 10816946485,
+              "node_id": "LA_kwDOSPdiBc8AAAAChL2BNQ",
+              "url": "https://api.github.com/repos/t8y2/dbx/labels/bug",
+              "name": "bug",
+              "color": "d73a4a",
+              "default": true,
+              "description": "Something isn't working"
+            }
+          ],
+          "state": "open",
+          "locked": false,
+          "assignees": [],
+          "milestone": null,
+          "comments": 0,
+          "created_at": "2026-05-27T08:07:47Z",
+          "updated_at": "2026-05-27T08:07:47Z",
+          "closed_at": null,
+          "assignee": null,
+          "active_lock_reason": null,
+          "sub_issues_summary": {
+            "total": 0,
+            "completed": 0,
+            "percent_completed": 0
+          },
+          "issue_dependencies_summary": {
+            "blocked_by": 0,
+            "total_blocked_by": 0,
+            "blocking": 0,
+            "total_blocking": 0
+          },
+          "body": "### 提交前确认\n\n- [x] 我已搜索现有 issues，确认没有重复反馈。\n- [x] 我已尝试使用最新版本或当前 main 分支复现。\n- [x] 我提供的信息中不包含真实密码、Token、私钥或生产数据。\n\n### 问题模块\n\n连接管理\n\n### 数据库类型\n\n不适用\n\n### 数据库版本\n\n_No response_\n\n### 连接方式\n\n直连\n\n### 问题描述\n\n两个库都连接时过滤，关闭其中一个连接后，过滤还会显示\n\n### 复现步骤\n\n<img width=\"355\" height=\"648\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/7b1a20a9-d142-4076-9083-4b75894dc86d\" />\n\n### 期望行为\n\n只过滤已连接数据库\n\n### 实际行为\n\n已关闭连接的数据库表也会在过滤后显示\n\n### 最小复现 SQL / 数据结构\n\n```sql\n\n```\n\n### 错误日志\n\n```shell\n\n```\n\n### 截图\n\n_No response_\n\n### DBX 版本 / Commit\n\nVersion 0.5.22 (0.5.22)\n\n### 操作系统\n\nmacOS Apple Silicon\n\n### 补充信息\n\n_No response_",
+          "reactions": {
+            "url": "https://api.github.com/repos/t8y2/dbx/issues/479/reactions",
+            "total_count": 0,
+            "+1": 0,
+            "-1": 0,
+            "laugh": 0,
+            "hooray": 0,
+            "confused": 0,
+            "heart": 0,
+            "rocket": 0,
+            "eyes": 0
+          },
+          "timeline_url": "https://api.github.com/repos/t8y2/dbx/issues/479/timeline",
+          "performed_via_github_app": null,
+          "state_reason": null,
+          "pinned_comment": null
+        }
+      },
+      "public": true,
+      "created_at": "2026-05-27T08:07:48Z"
+    },
+    {
+      "id": "9938201927",
+      "type": "IssueCommentEvent",
+      "actor": {
+        "id": 52145145,
+        "login": "wu-clan",
+        "display_login": "wu-clan",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/wu-clan",
+        "avatar_url": "https://avatars.githubusercontent.com/u/52145145?"
+      },
+      "repo": {
+        "id": 624721291,
+        "name": "fastapi-practices/fastapi-best-architecture",
+        "url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture"
+      },
+      "payload": {
+        "action": "created",
+        "issue": {
+          "url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture/issues/1183",
+          "repository_url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture",
+          "labels_url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture/issues/1183/labels{/name}",
+          "comments_url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture/issues/1183/comments",
+          "events_url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture/issues/1183/events",
+          "html_url": "https://github.com/fastapi-practices/fastapi-best-architecture/issues/1183",
+          "id": 4522867848,
+          "node_id": "I_kwDOJTx9i88AAAABDZV8iA",
+          "number": 1183,
+          "title": "fba_alloy",
+          "user": {
+            "login": "echo1248",
+            "id": 6359202,
+            "node_id": "MDQ6VXNlcjYzNTkyMDI=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/6359202?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/echo1248",
+            "html_url": "https://github.com/echo1248",
+            "followers_url": "https://api.github.com/users/echo1248/followers",
+            "following_url": "https://api.github.com/users/echo1248/following{/other_user}",
+            "gists_url": "https://api.github.com/users/echo1248/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/echo1248/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/echo1248/subscriptions",
+            "organizations_url": "https://api.github.com/users/echo1248/orgs",
+            "repos_url": "https://api.github.com/users/echo1248/repos",
+            "events_url": "https://api.github.com/users/echo1248/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/echo1248/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "labels": [],
+          "state": "open",
+          "locked": false,
+          "assignees": [],
+          "milestone": null,
+          "comments": 1,
+          "created_at": "2026-05-26T08:56:50Z",
+          "updated_at": "2026-05-27T05:01:13Z",
+          "closed_at": null,
+          "assignee": null,
+          "issue_field_values": [],
+          "type": null,
+          "active_lock_reason": null,
+          "sub_issues_summary": {
+            "total": 0,
+            "completed": 0,
+            "percent_completed": 0
+          },
+          "issue_dependencies_summary": {
+            "blocked_by": 0,
+            "total_blocked_by": 0,
+            "blocking": 0,
+            "total_blocking": 0
+          },
+          "body": "// FastAPI 后端服务指标抓取\n// 监控 FastAPI 应用的性能和业务指标\nprometheus.scrape \"fba_server\" {\n\ttargets = [{\n\t\t__address__ = \"fba_server:8001\",\n\t}]\n\tforward_to      = [prometheus.remote_write.prom_server.receiver]\n\tjob_name        = \"fba_server\"\n\tmetrics_path    = \"/metrics/\"\n\tscrape_interval = \"5s\"\n\tscrape_timeout  = \"5s\"\n}\n\n\nmetrics_path = \"/metrics/\"  \nfba_alloy 当前抓的是 /metrics，被重定向坑住了",
+          "reactions": {
+            "url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture/issues/1183/reactions",
+            "total_count": 1,
+            "+1": 1,
+            "-1": 0,
+            "laugh": 0,
+            "hooray": 0,
+            "confused": 0,
+            "heart": 0,
+            "rocket": 0,
+            "eyes": 0
+          },
+          "timeline_url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture/issues/1183/timeline",
+          "performed_via_github_app": null,
+          "state_reason": null,
+          "pinned_comment": null
+        },
+        "comment": {
+          "url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture/issues/comments/4551449773",
+          "html_url": "https://github.com/fastapi-practices/fastapi-best-architecture/issues/1183#issuecomment-4551449773",
+          "issue_url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture/issues/1183",
+          "id": 4551449773,
+          "node_id": "IC_kwDOJTx9i88AAAABD0mcrQ",
+          "user": {
+            "login": "wu-clan",
+            "id": 52145145,
+            "node_id": "MDQ6VXNlcjUyMTQ1MTQ1",
+            "avatar_url": "https://avatars.githubusercontent.com/u/52145145?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/wu-clan",
+            "html_url": "https://github.com/wu-clan",
+            "followers_url": "https://api.github.com/users/wu-clan/followers",
+            "following_url": "https://api.github.com/users/wu-clan/following{/other_user}",
+            "gists_url": "https://api.github.com/users/wu-clan/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/wu-clan/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/wu-clan/subscriptions",
+            "organizations_url": "https://api.github.com/users/wu-clan/orgs",
+            "repos_url": "https://api.github.com/users/wu-clan/repos",
+            "events_url": "https://api.github.com/users/wu-clan/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/wu-clan/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "created_at": "2026-05-27T05:01:13Z",
+          "updated_at": "2026-05-27T05:01:13Z",
+          "body": "我们正在调研",
+          "pin": null,
+          "reactions": {
+            "url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture/issues/comments/4551449773/reactions",
+            "total_count": 0,
+            "+1": 0,
+            "-1": 0,
+            "laugh": 0,
+            "hooray": 0,
+            "confused": 0,
+            "heart": 0,
+            "rocket": 0,
+            "eyes": 0
+          },
+          "performed_via_github_app": null
+        }
+      },
+      "public": true,
+      "created_at": "2026-05-27T05:01:13Z",
+      "org": {
+        "id": 131736279,
+        "login": "fastapi-practices",
+        "gravatar_id": "",
+        "url": "https://api.github.com/orgs/fastapi-practices",
+        "avatar_url": "https://avatars.githubusercontent.com/u/131736279?"
+      }
+    },
+    {
+      "id": "9938167170",
+      "type": "IssueCommentEvent",
+      "actor": {
+        "id": 52145145,
+        "login": "wu-clan",
+        "display_login": "wu-clan",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/wu-clan",
+        "avatar_url": "https://avatars.githubusercontent.com/u/52145145?"
+      },
+      "repo": {
+        "id": 624721291,
+        "name": "fastapi-practices/fastapi-best-architecture",
+        "url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture"
+      },
+      "payload": {
+        "action": "created",
+        "issue": {
+          "url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture/issues/1184",
+          "repository_url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture",
+          "labels_url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture/issues/1184/labels{/name}",
+          "comments_url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture/issues/1184/comments",
+          "events_url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture/issues/1184/events",
+          "html_url": "https://github.com/fastapi-practices/fastapi-best-architecture/issues/1184",
+          "id": 4522916619,
+          "node_id": "I_kwDOJTx9i88AAAABDZY7Cw",
+          "number": 1184,
+          "title": "fba_request_in_progress",
+          "user": {
+            "login": "echo1248",
+            "id": 6359202,
+            "node_id": "MDQ6VXNlcjYzNTkyMDI=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/6359202?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/echo1248",
+            "html_url": "https://github.com/echo1248",
+            "followers_url": "https://api.github.com/users/echo1248/followers",
+            "following_url": "https://api.github.com/users/echo1248/following{/other_user}",
+            "gists_url": "https://api.github.com/users/echo1248/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/echo1248/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/echo1248/subscriptions",
+            "organizations_url": "https://api.github.com/users/echo1248/orgs",
+            "repos_url": "https://api.github.com/users/echo1248/repos",
+            "events_url": "https://api.github.com/users/echo1248/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/echo1248/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "labels": [],
+          "state": "open",
+          "locked": false,
+          "assignees": [],
+          "milestone": null,
+          "comments": 1,
+          "created_at": "2026-05-26T09:05:03Z",
+          "updated_at": "2026-05-27T04:59:47Z",
+          "closed_at": null,
+          "assignee": null,
+          "issue_field_values": [],
+          "type": null,
+          "active_lock_reason": null,
+          "sub_issues_summary": {
+            "total": 0,
+            "completed": 0,
+            "percent_completed": 0
+          },
+          "issue_dependencies_summary": {
+            "blocked_by": 0,
+            "total_blocked_by": 0,
+            "blocking": 0,
+            "total_blocking": 0
+          },
+          "body": "实现下这类 TokenError 有概率把 fba_request_in_progress 卡住\n\n<img width=\"275\" height=\"201\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/be7feee7-8649-492e-b365-ba49d3f5ee3c\" />\n\n是否可以把 inc/dec 放回同一个中间件的 try/finally 里",
+          "reactions": {
+            "url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture/issues/1184/reactions",
+            "total_count": 1,
+            "+1": 1,
+            "-1": 0,
+            "laugh": 0,
+            "hooray": 0,
+            "confused": 0,
+            "heart": 0,
+            "rocket": 0,
+            "eyes": 0
+          },
+          "timeline_url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture/issues/1184/timeline",
+          "performed_via_github_app": null,
+          "state_reason": null,
+          "pinned_comment": null
+        },
+        "comment": {
+          "url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture/issues/comments/4551443200",
+          "html_url": "https://github.com/fastapi-practices/fastapi-best-architecture/issues/1184#issuecomment-4551443200",
+          "issue_url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture/issues/1184",
+          "id": 4551443200,
+          "node_id": "IC_kwDOJTx9i88AAAABD0mDAA",
+          "user": {
+            "login": "wu-clan",
+            "id": 52145145,
+            "node_id": "MDQ6VXNlcjUyMTQ1MTQ1",
+            "avatar_url": "https://avatars.githubusercontent.com/u/52145145?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/wu-clan",
+            "html_url": "https://github.com/wu-clan",
+            "followers_url": "https://api.github.com/users/wu-clan/followers",
+            "following_url": "https://api.github.com/users/wu-clan/following{/other_user}",
+            "gists_url": "https://api.github.com/users/wu-clan/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/wu-clan/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/wu-clan/subscriptions",
+            "organizations_url": "https://api.github.com/users/wu-clan/orgs",
+            "repos_url": "https://api.github.com/users/wu-clan/repos",
+            "events_url": "https://api.github.com/users/wu-clan/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/wu-clan/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "created_at": "2026-05-27T04:59:47Z",
+          "updated_at": "2026-05-27T04:59:47Z",
+          "body": "稍后我调研下",
+          "pin": null,
+          "reactions": {
+            "url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture/issues/comments/4551443200/reactions",
+            "total_count": 0,
+            "+1": 0,
+            "-1": 0,
+            "laugh": 0,
+            "hooray": 0,
+            "confused": 0,
+            "heart": 0,
+            "rocket": 0,
+            "eyes": 0
+          },
+          "performed_via_github_app": null
+        }
+      },
+      "public": true,
+      "created_at": "2026-05-27T04:59:47Z",
+      "org": {
+        "id": 131736279,
+        "login": "fastapi-practices",
+        "gravatar_id": "",
+        "url": "https://api.github.com/orgs/fastapi-practices",
+        "avatar_url": "https://avatars.githubusercontent.com/u/131736279?"
+      }
+    },
+    {
+      "id": "9936752116",
+      "type": "WatchEvent",
+      "actor": {
+        "id": 52145145,
+        "login": "wu-clan",
+        "display_login": "wu-clan",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/wu-clan",
+        "avatar_url": "https://avatars.githubusercontent.com/u/52145145?"
+      },
+      "repo": {
+        "id": 1103552017,
+        "name": "loveyu233/wd",
+        "url": "https://api.github.com/repos/loveyu233/wd"
+      },
+      "payload": {
+        "action": "started"
+      },
+      "public": true,
+      "created_at": "2026-05-27T04:01:20Z"
+    },
+    {
       "id": "9896689530",
       "type": "WatchEvent",
       "actor": {
@@ -7743,520 +8950,7 @@
         "url": "https://api.github.com/orgs/pluk-inc",
         "avatar_url": "https://avatars.githubusercontent.com/u/204355064?"
       }
-    },
-    {
-      "id": "12213469929",
-      "type": "PushEvent",
-      "actor": {
-        "id": 52145145,
-        "login": "wu-clan",
-        "display_login": "wu-clan",
-        "gravatar_id": "",
-        "url": "https://api.github.com/users/wu-clan",
-        "avatar_url": "https://avatars.githubusercontent.com/u/52145145?"
-      },
-      "repo": {
-        "id": 744842760,
-        "name": "wu-clan/sponsor",
-        "url": "https://api.github.com/repos/wu-clan/sponsor"
-      },
-      "payload": {
-        "repository_id": 744842760,
-        "push_id": 34503712326,
-        "ref": "refs/heads/master",
-        "head": "fc19bc45e373ce3efdfd93cc81a1c791d67f4913",
-        "before": "6adc9c2bf61d132ba09e8acd1f513663f5dea913"
-      },
-      "public": true,
-      "created_at": "2026-05-22T05:43:32Z"
-    },
-    {
-      "id": "12213276905",
-      "type": "PushEvent",
-      "actor": {
-        "id": 52145145,
-        "login": "wu-clan",
-        "display_login": "wu-clan",
-        "gravatar_id": "",
-        "url": "https://api.github.com/users/wu-clan",
-        "avatar_url": "https://avatars.githubusercontent.com/u/52145145?"
-      },
-      "repo": {
-        "id": 836590571,
-        "name": "wu-clan/picx-images-hosting",
-        "url": "https://api.github.com/repos/wu-clan/picx-images-hosting"
-      },
-      "payload": {
-        "repository_id": 836590571,
-        "push_id": 34503519270,
-        "ref": "refs/heads/master",
-        "head": "3824e32420c29c624a8d98bf3d76cbdd419ecaa5",
-        "before": "f2189537feb2a993c0d1d183d5a3d4b40c853de6"
-      },
-      "public": true,
-      "created_at": "2026-05-22T05:37:05Z"
-    },
-    {
-      "id": "12212601866",
-      "type": "PushEvent",
-      "actor": {
-        "id": 52145145,
-        "login": "wu-clan",
-        "display_login": "wu-clan",
-        "gravatar_id": "",
-        "url": "https://api.github.com/users/wu-clan",
-        "avatar_url": "https://avatars.githubusercontent.com/u/52145145?"
-      },
-      "repo": {
-        "id": 836590571,
-        "name": "wu-clan/picx-images-hosting",
-        "url": "https://api.github.com/repos/wu-clan/picx-images-hosting"
-      },
-      "payload": {
-        "repository_id": 836590571,
-        "push_id": 34502845231,
-        "ref": "refs/heads/master",
-        "head": "f2189537feb2a993c0d1d183d5a3d4b40c853de6",
-        "before": "49c4810752e27df28ce91753db68757adb6489f8"
-      },
-      "public": true,
-      "created_at": "2026-05-22T05:13:01Z"
-    },
-    {
-      "id": "12212134532",
-      "type": "PushEvent",
-      "actor": {
-        "id": 52145145,
-        "login": "wu-clan",
-        "display_login": "wu-clan",
-        "gravatar_id": "",
-        "url": "https://api.github.com/users/wu-clan",
-        "avatar_url": "https://avatars.githubusercontent.com/u/52145145?"
-      },
-      "repo": {
-        "id": 855534641,
-        "name": "fastapi-practices/fastapi_best_architecture_docs",
-        "url": "https://api.github.com/repos/fastapi-practices/fastapi_best_architecture_docs"
-      },
-      "payload": {
-        "repository_id": 855534641,
-        "push_id": 34502377520,
-        "ref": "refs/heads/master",
-        "head": "62df38f952c80e653e894aba4513ee61e89528ea",
-        "before": "cf3ee0a45248fd9da82e6fa11ba7feaff065c22e"
-      },
-      "public": true,
-      "created_at": "2026-05-22T04:56:49Z",
-      "org": {
-        "id": 131736279,
-        "login": "fastapi-practices",
-        "gravatar_id": "",
-        "url": "https://api.github.com/orgs/fastapi-practices",
-        "avatar_url": "https://avatars.githubusercontent.com/u/131736279?"
-      }
-    },
-    {
-      "id": "12210213159",
-      "type": "PushEvent",
-      "actor": {
-        "id": 52145145,
-        "login": "wu-clan",
-        "display_login": "wu-clan",
-        "gravatar_id": "",
-        "url": "https://api.github.com/users/wu-clan",
-        "avatar_url": "https://avatars.githubusercontent.com/u/52145145?"
-      },
-      "repo": {
-        "id": 620673454,
-        "name": "wu-clan/httpfpt_docs",
-        "url": "https://api.github.com/repos/wu-clan/httpfpt_docs"
-      },
-      "payload": {
-        "repository_id": 620673454,
-        "push_id": 34500458850,
-        "ref": "refs/heads/master",
-        "head": "12844e4a56cb3485b1ba62b66fbe66b354a51b95",
-        "before": "601c57857c6f078601262da99fd0a5eef2907c68"
-      },
-      "public": true,
-      "created_at": "2026-05-22T03:45:05Z"
-    },
-    {
-      "id": "9769050318",
-      "type": "PullRequestEvent",
-      "actor": {
-        "id": 52145145,
-        "login": "wu-clan",
-        "display_login": "wu-clan",
-        "gravatar_id": "",
-        "url": "https://api.github.com/users/wu-clan",
-        "avatar_url": "https://avatars.githubusercontent.com/u/52145145?"
-      },
-      "repo": {
-        "id": 620673454,
-        "name": "wu-clan/httpfpt_docs",
-        "url": "https://api.github.com/repos/wu-clan/httpfpt_docs"
-      },
-      "payload": {
-        "action": "closed",
-        "number": 5,
-        "pull_request": {
-          "url": "https://api.github.com/repos/wu-clan/httpfpt_docs/pulls/5",
-          "id": 2239491439,
-          "number": 5,
-          "head": {
-            "ref": "dependabot/npm_and_yarn/npm_and_yarn-af93afb32e",
-            "sha": "1c63a0bc24fa282b4a237076597496047c15f2e5",
-            "repo": {
-              "id": 620673454,
-              "url": "https://api.github.com/repos/wu-clan/httpfpt_docs",
-              "name": "httpfpt_docs"
-            }
-          },
-          "base": {
-            "ref": "master",
-            "sha": "21a8cb062d6150b6487fb202b7710fbb72d4cf90",
-            "repo": {
-              "id": 620673454,
-              "url": "https://api.github.com/repos/wu-clan/httpfpt_docs",
-              "name": "httpfpt_docs"
-            }
-          }
-        }
-      },
-      "public": true,
-      "created_at": "2024-12-17T12:04:12Z"
-    },
-    {
-      "id": "9769050315",
-      "type": "PullRequestEvent",
-      "actor": {
-        "id": 52145145,
-        "login": "wu-clan",
-        "display_login": "wu-clan",
-        "gravatar_id": "",
-        "url": "https://api.github.com/users/wu-clan",
-        "avatar_url": "https://avatars.githubusercontent.com/u/52145145?"
-      },
-      "repo": {
-        "id": 620673454,
-        "name": "wu-clan/httpfpt_docs",
-        "url": "https://api.github.com/repos/wu-clan/httpfpt_docs"
-      },
-      "payload": {
-        "action": "closed",
-        "number": 1,
-        "pull_request": {
-          "url": "https://api.github.com/repos/wu-clan/httpfpt_docs/pulls/1",
-          "id": 1432233964,
-          "number": 1,
-          "head": {
-            "ref": "dependabot/npm_and_yarn/semver-5.7.2",
-            "sha": "01236a195869e088c44b85fa63e91961a0e8a883",
-            "repo": {
-              "id": 620673454,
-              "url": "https://api.github.com/repos/wu-clan/httpfpt_docs",
-              "name": "httpfpt_docs"
-            }
-          },
-          "base": {
-            "ref": "master",
-            "sha": "1d7e60293304fd9c3f059cff4e1c3ca55b8e5232",
-            "repo": {
-              "id": 620673454,
-              "url": "https://api.github.com/repos/wu-clan/httpfpt_docs",
-              "name": "httpfpt_docs"
-            }
-          }
-        }
-      },
-      "public": true,
-      "created_at": "2023-12-16T08:21:24Z"
-    },
-    {
-      "id": "12210139848",
-      "type": "PushEvent",
-      "actor": {
-        "id": 52145145,
-        "login": "wu-clan",
-        "display_login": "wu-clan",
-        "gravatar_id": "",
-        "url": "https://api.github.com/users/wu-clan",
-        "avatar_url": "https://avatars.githubusercontent.com/u/52145145?"
-      },
-      "repo": {
-        "id": 620673454,
-        "name": "wu-clan/httpfpt_docs",
-        "url": "https://api.github.com/repos/wu-clan/httpfpt_docs"
-      },
-      "payload": {
-        "repository_id": 620673454,
-        "push_id": 34500385748,
-        "ref": "refs/heads/master",
-        "head": "601c57857c6f078601262da99fd0a5eef2907c68",
-        "before": "a4e0fe9e2d3dff872955561037189a7833e53e3e"
-      },
-      "public": true,
-      "created_at": "2026-05-22T03:42:14Z"
-    },
-    {
-      "id": "12209293984",
-      "type": "DeleteEvent",
-      "actor": {
-        "id": 52145145,
-        "login": "wu-clan",
-        "display_login": "wu-clan",
-        "gravatar_id": "",
-        "url": "https://api.github.com/users/wu-clan",
-        "avatar_url": "https://avatars.githubusercontent.com/u/52145145?"
-      },
-      "repo": {
-        "id": 747484271,
-        "name": "fastapi-practices/fastapi-oauth20",
-        "url": "https://api.github.com/repos/fastapi-practices/fastapi-oauth20"
-      },
-      "payload": {
-        "ref": "fix-docs-ci",
-        "ref_type": "branch",
-        "full_ref": "refs/heads/fix-docs-ci",
-        "pusher_type": "user"
-      },
-      "public": true,
-      "created_at": "2026-05-22T03:10:53Z",
-      "org": {
-        "id": 131736279,
-        "login": "fastapi-practices",
-        "gravatar_id": "",
-        "url": "https://api.github.com/orgs/fastapi-practices",
-        "avatar_url": "https://avatars.githubusercontent.com/u/131736279?"
-      }
-    },
-    {
-      "id": "12209292800",
-      "type": "PushEvent",
-      "actor": {
-        "id": 52145145,
-        "login": "wu-clan",
-        "display_login": "wu-clan",
-        "gravatar_id": "",
-        "url": "https://api.github.com/users/wu-clan",
-        "avatar_url": "https://avatars.githubusercontent.com/u/52145145?"
-      },
-      "repo": {
-        "id": 747484271,
-        "name": "fastapi-practices/fastapi-oauth20",
-        "url": "https://api.github.com/repos/fastapi-practices/fastapi-oauth20"
-      },
-      "payload": {
-        "repository_id": 747484271,
-        "push_id": 34499543069,
-        "ref": "refs/heads/master",
-        "head": "b9e47d2f99f0db472400eacb2e362b767edf2bc5",
-        "before": "79bf809cc8ec47d4ed0156850d0a02aec5c65195"
-      },
-      "public": true,
-      "created_at": "2026-05-22T03:10:51Z",
-      "org": {
-        "id": 131736279,
-        "login": "fastapi-practices",
-        "gravatar_id": "",
-        "url": "https://api.github.com/orgs/fastapi-practices",
-        "avatar_url": "https://avatars.githubusercontent.com/u/131736279?"
-      }
-    },
-    {
-      "id": "9768335595",
-      "type": "PullRequestEvent",
-      "actor": {
-        "id": 52145145,
-        "login": "wu-clan",
-        "display_login": "wu-clan",
-        "gravatar_id": "",
-        "url": "https://api.github.com/users/wu-clan",
-        "avatar_url": "https://avatars.githubusercontent.com/u/52145145?"
-      },
-      "repo": {
-        "id": 747484271,
-        "name": "fastapi-practices/fastapi-oauth20",
-        "url": "https://api.github.com/repos/fastapi-practices/fastapi-oauth20"
-      },
-      "payload": {
-        "action": "merged",
-        "number": 50,
-        "pull_request": {
-          "url": "https://api.github.com/repos/fastapi-practices/fastapi-oauth20/pulls/50",
-          "id": 3727669074,
-          "number": 50,
-          "head": {
-            "ref": "fix-docs-ci",
-            "sha": "cdae05b4ac5175a778d50f2242b58a24dc178e87",
-            "repo": {
-              "id": 747484271,
-              "url": "https://api.github.com/repos/fastapi-practices/fastapi-oauth20",
-              "name": "fastapi-oauth20"
-            }
-          },
-          "base": {
-            "ref": "master",
-            "sha": "79bf809cc8ec47d4ed0156850d0a02aec5c65195",
-            "repo": {
-              "id": 747484271,
-              "url": "https://api.github.com/repos/fastapi-practices/fastapi-oauth20",
-              "name": "fastapi-oauth20"
-            }
-          }
-        }
-      },
-      "public": true,
-      "created_at": "2026-05-22T03:10:49Z",
-      "org": {
-        "id": 131736279,
-        "login": "fastapi-practices",
-        "gravatar_id": "",
-        "url": "https://api.github.com/orgs/fastapi-practices",
-        "avatar_url": "https://avatars.githubusercontent.com/u/131736279?"
-      }
-    },
-    {
-      "id": "9768322060",
-      "type": "PullRequestEvent",
-      "actor": {
-        "id": 52145145,
-        "login": "wu-clan",
-        "display_login": "wu-clan",
-        "gravatar_id": "",
-        "url": "https://api.github.com/users/wu-clan",
-        "avatar_url": "https://avatars.githubusercontent.com/u/52145145?"
-      },
-      "repo": {
-        "id": 747484271,
-        "name": "fastapi-practices/fastapi-oauth20",
-        "url": "https://api.github.com/repos/fastapi-practices/fastapi-oauth20"
-      },
-      "payload": {
-        "action": "opened",
-        "number": 50,
-        "pull_request": {
-          "url": "https://api.github.com/repos/fastapi-practices/fastapi-oauth20/pulls/50",
-          "id": 3727669074,
-          "number": 50,
-          "head": {
-            "ref": "fix-docs-ci",
-            "sha": "cdae05b4ac5175a778d50f2242b58a24dc178e87",
-            "repo": {
-              "id": 747484271,
-              "url": "https://api.github.com/repos/fastapi-practices/fastapi-oauth20",
-              "name": "fastapi-oauth20"
-            }
-          },
-          "base": {
-            "ref": "master",
-            "sha": "79bf809cc8ec47d4ed0156850d0a02aec5c65195",
-            "repo": {
-              "id": 747484271,
-              "url": "https://api.github.com/repos/fastapi-practices/fastapi-oauth20",
-              "name": "fastapi-oauth20"
-            }
-          }
-        }
-      },
-      "public": true,
-      "created_at": "2026-05-22T03:10:13Z",
-      "org": {
-        "id": 131736279,
-        "login": "fastapi-practices",
-        "gravatar_id": "",
-        "url": "https://api.github.com/orgs/fastapi-practices",
-        "avatar_url": "https://avatars.githubusercontent.com/u/131736279?"
-      }
-    },
-    {
-      "id": "12209271648",
-      "type": "CreateEvent",
-      "actor": {
-        "id": 52145145,
-        "login": "wu-clan",
-        "display_login": "wu-clan",
-        "gravatar_id": "",
-        "url": "https://api.github.com/users/wu-clan",
-        "avatar_url": "https://avatars.githubusercontent.com/u/52145145?"
-      },
-      "repo": {
-        "id": 747484271,
-        "name": "fastapi-practices/fastapi-oauth20",
-        "url": "https://api.github.com/repos/fastapi-practices/fastapi-oauth20"
-      },
-      "payload": {
-        "ref": "fix-docs-ci",
-        "ref_type": "branch",
-        "full_ref": "refs/heads/fix-docs-ci",
-        "master_branch": "master",
-        "description": "Asynchronous authorization of OAuth 2.0 clients in FastAPI",
-        "pusher_type": "user"
-      },
-      "public": true,
-      "created_at": "2026-05-22T03:10:05Z",
-      "org": {
-        "id": 131736279,
-        "login": "fastapi-practices",
-        "gravatar_id": "",
-        "url": "https://api.github.com/orgs/fastapi-practices",
-        "avatar_url": "https://avatars.githubusercontent.com/u/131736279?"
-      }
-    },
-    {
-      "id": "9768224768",
-      "type": "PullRequestEvent",
-      "actor": {
-        "id": 52145145,
-        "login": "wu-clan",
-        "display_login": "wu-clan",
-        "gravatar_id": "",
-        "url": "https://api.github.com/users/wu-clan",
-        "avatar_url": "https://avatars.githubusercontent.com/u/52145145?"
-      },
-      "repo": {
-        "id": 747484271,
-        "name": "fastapi-practices/fastapi-oauth20",
-        "url": "https://api.github.com/repos/fastapi-practices/fastapi-oauth20"
-      },
-      "payload": {
-        "action": "closed",
-        "number": 48,
-        "pull_request": {
-          "url": "https://api.github.com/repos/fastapi-practices/fastapi-oauth20/pulls/48",
-          "id": 3712217295,
-          "number": 48,
-          "head": {
-            "ref": "dependabot/uv/idna-3.15",
-            "sha": "4af344a28cb9c7bc63f05a9b1a10ad3e508a706c",
-            "repo": {
-              "id": 747484271,
-              "url": "https://api.github.com/repos/fastapi-practices/fastapi-oauth20",
-              "name": "fastapi-oauth20"
-            }
-          },
-          "base": {
-            "ref": "master",
-            "sha": "27e939b98d0f4f5807f55856503e5d1e6495d350",
-            "repo": {
-              "id": 747484271,
-              "url": "https://api.github.com/repos/fastapi-practices/fastapi-oauth20",
-              "name": "fastapi-oauth20"
-            }
-          }
-        }
-      },
-      "public": true,
-      "created_at": "2026-05-19T21:44:12Z",
-      "org": {
-        "id": 131736279,
-        "login": "fastapi-practices",
-        "gravatar_id": "",
-        "url": "https://api.github.com/orgs/fastapi-practices",
-        "avatar_url": "https://avatars.githubusercontent.com/u/131736279?"
-      }
     }
   ],
-  "updated_at": "2026-05-27T03:33:55.507Z"
+  "updated_at": "2026-05-28T02:53:25.265Z"
 }
