@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 
 const USER = 'wu-clan';
-const ORG = 'fastapi-practices';
+const ORGS = ['fastapi-practices', 'num-scope'];
 const TOKEN = process.env.GITHUB_TOKEN; // 从环境变量获取 GitHub Token
 const headers = {
     'User-Agent': 'Github-Data-Fetcher-Script',
@@ -38,27 +38,41 @@ async function main() {
     const data = {
         u: null,  // User info
         uR: [],   // User repos
-        o: null,  // Org info
-        oR: [],   // Org repos
+        o: null,  // Legacy primary org info
+        oR: [],   // Legacy primary org repos
+        orgs: [], // Multi-org data
         ev: [],   // Events
         updated_at: new Date().toISOString()
     };
 
     console.log("Starting data synchronization...");
 
+    const orgTasks = ORGS.map(async org => {
+        const [profile, repos] = await Promise.all([
+            getJson(`https://api.github.com/orgs/${ org }`),
+            getJson(`https://api.github.com/orgs/${ org }/repos?per_page=100&sort=updated`)
+        ]);
+
+        return {
+            login: org,
+            profile,
+            repos: repos || []
+        };
+    });
+
     // 并发请求所有接口
-    const [u, uR, o, oR, ev] = await Promise.all([
+    const [u, uR, orgs, ev] = await Promise.all([
         getJson(`https://api.github.com/users/${ USER }`),
         getJson(`https://api.github.com/users/${ USER }/repos?per_page=100&sort=updated`),
-        getJson(`https://api.github.com/orgs/${ ORG }`),
-        getJson(`https://api.github.com/orgs/${ ORG }/repos?per_page=100&sort=updated`),
+        Promise.all(orgTasks),
         getJson(`https://api.github.com/users/${ USER }/events?per_page=30`)
     ]);
 
     data.u = u;
     data.uR = uR || [];
-    data.o = o;
-    data.oR = oR || [];
+    data.orgs = orgs || [];
+    data.o = data.orgs[0]?.profile || null;
+    data.oR = data.orgs[0]?.repos || [];
     data.ev = ev || [];
 
     // 写入仓库根目录的 data.json

@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>wu-clan</title>
+    <link rel="icon" href="data:,">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700;800&display=swap"
@@ -92,6 +93,7 @@
 
             .repo-area {
                 overflow: visible !important;
+                height: auto !important;
             }
         }
 
@@ -101,9 +103,11 @@
             background: transparent;
             min-height: 0;
             border: 1px solid var(--border);
+            overflow: hidden;
         }
 
         .mc-head {
+            display: flex;
             background: var(--bg-panel);
             color: #fff;
             font-size: 0.75rem;
@@ -309,6 +313,11 @@
             min-height: 100px;
         }
 
+        .left-cap-card {
+            flex: 1 1 0;
+            min-height: 0;
+        }
+
         .skill-cloud {
             display: flex;
             flex-wrap: wrap;
@@ -363,6 +372,64 @@
             gap: 14px;
             overflow-y: auto;
             flex: 1;
+            min-height: 0;
+            height: 0;
+            align-content: start;
+        }
+
+        .network-tabs {
+            display: flex;
+            gap: 8px;
+            align-items: center;
+            margin-left: auto;
+            max-width: min(54vw, 560px);
+            overflow-x: auto;
+            padding-bottom: 1px;
+        }
+
+        .network-tab {
+            border: 1px solid var(--border);
+            background: #080808;
+            color: var(--text-sub);
+            min-width: 112px;
+            height: 30px;
+            display: grid;
+            grid-template-columns: 22px minmax(0, 1fr) auto;
+            gap: 7px;
+            align-items: center;
+            padding: 3px 7px;
+            font: 700 11px var(--font);
+            cursor: pointer;
+            text-align: left;
+            white-space: nowrap;
+        }
+
+        .network-tab img {
+            width: 22px;
+            height: 22px;
+            border: 1px solid #333;
+        }
+
+        .network-tab span {
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .network-tab em {
+            font-style: normal;
+            color: #555;
+            font-size: 10px;
+        }
+
+        .network-tab.active {
+            color: #fff;
+            border-color: var(--theme-main);
+            background: #17110e;
+        }
+
+        .network-tab[data-scope="num-scope"].active {
+            border-color: #33d5c8;
+            background: #0d1716;
         }
 
         .r-card {
@@ -621,34 +688,15 @@
                 </div>
             </div>
 
-            <!-- 2. Org -->
-            <div class="m-card">
-                <div class="mc-head">AFFILIATION</div>
-                <div class="mc-body">
-                    <a href="https://github.com/fastapi-practices" target="_blank" class="org-wrap">
-                        <div class="org-header">
-                            <img id="o-avatar" class="org-img"
-                                 src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
-                            <div class="org-title">@fastapi-practices</div>
-                        </div>
-                        <div id="o-desc" class="org-desc">...</div>
-                        <div class="org-grid">
-                            <div class="og-item">REPOS <span id="o-repos">-</span></div>
-                            <div class="og-item">CREATED <span id="o-created">-</span></div>
-                        </div>
-                    </a>
-                </div>
-            </div>
-
-            <!-- 3. Skills -->
-            <div class="m-card skill-box">
+            <!-- 2. Skills -->
+            <div class="m-card left-cap-card">
                 <div class="mc-head">CAPABILITIES</div>
                 <div class="mc-body">
                     <div id="skill-box" class="skill-cloud"></div>
                 </div>
             </div>
 
-            <!-- 4. Socials -->
+            <!-- 3. Socials -->
             <div class="m-card">
                 <div class="mc-head">UPLINKS</div>
                 <div class="mc-body" style="flex:none;">
@@ -663,6 +711,7 @@
             <div class="m-card" style="flex:1;">
                 <div class="mc-head">
                     <span>ACTIVE_MODULES</span>
+                    <div id="network-tabs" class="network-tabs"></div>
                 </div>
                 <div class="mc-body repo-container-body">
                     <div id="repo-grid" class="repo-area">
@@ -704,7 +753,7 @@
                         </div>
                         <div class="s-cell">
                             <div class="s-val" id="st-following">-</div>
-                            <div class="s-lbl">FOLLOWING</div>
+                            <div class="s-lbl">ORGS</div>
                         </div>
                     </div>
                 </div>
@@ -736,8 +785,8 @@
     <script>
         const CFG = {
             user: 'wu-clan',
-            manual: ['fastapi-practices/fastapi_best_architecture_ui', 'fastapi-practices/sqlalchemy-crud-plus', 'fastapi-practices/fastapi-oauth20', 'wu-clan/fast-captcha', 'wu-clan/automated_ui'],
-            skills: ['Python', 'FastAPI', 'Django', 'Django-ninja', 'MySQL', 'PostgreSQL', 'Redis', 'JavaScript', 'TypeScript', 'Vue.js', 'Ant Design', 'Element UI', 'Docker', 'Docker Compose', 'Linux', 'Ansible', 'Claude Code', 'Cursor', 'Augment Code', 'CC Switch', 'Git', 'vim', 'Jira', 'PyCharm', 'WebStorm', 'VSCode', 'Apifox', 'Postman', 'Navicat', 'DataGrip', 'Nginx', '...'],
+            manual: ['fastapi-practices/fastapi-best-architecture', 'fastapi-practices/fastapi-best-architecture-ui', 'fastapi-practices/sqlalchemy-crud-plus', 'fastapi-practices/fastapi-oauth20', 'num-scope/lykn', 'num-scope/siwap', 'wu-clan/fast-captcha', 'wu-clan/automated_ui'],
+            skills: ['Python', 'Go', 'JavaScript', 'TypeScript', 'HTML', 'CSS', 'FastAPI', 'Django', 'Django-ninja', 'SQLAlchemy', 'Tortoise ORM', 'Pydantic', 'Celery', 'APScheduler', 'OAuth2', 'RBAC', 'Casbin', 'Casdoor', 'S3', 'Text2SQL', 'SQLGlot', 'MySQL', 'PostgreSQL', 'Redis', 'Vue.js', 'Vben Admin', 'Ant Design', 'Arco Design', 'Element UI', 'Docker', 'Docker Compose', 'Linux', 'Nginx', 'Ansible', 'Grafana', 'Git', 'MCP', 'Claude Code', 'Cursor', 'Augment Code', 'CC Switch', 'vim', 'PyCharm', 'WebStorm', 'VSCode', 'Apifox', 'Postman', 'Navicat', 'DataGrip', 'Jira', '...'],
             socials: [
                 { url: 'https://github.com/wu-clan', icon: 'ri-github-fill' },
                 { url: 'https://x.com/_chulan', icon: 'ri-twitter-x-fill' },
@@ -750,6 +799,14 @@
 
         const $ = id => document.getElementById(id);
         const fmt = n => n > 999 ? (n / 1000).toFixed(1) + 'k' : n;
+        const app = {
+            u: null,
+            uR: [],
+            orgs: [],
+            ev: [],
+            allRepos: [],
+            scope: 'all'
+        };
 
         setInterval(() => $('clock').innerText = new Date().toLocaleTimeString('en-GB'), 1000);
         $('gh-chart').src = `https://ghchart.rshah.org/${ CFG.user }`;
@@ -774,7 +831,13 @@
 
         function render(d) {
             // 后端脚本保证了数据结构的字段一致性
-            const { u, uR, o, oR, ev } = d;
+            const { u, uR, ev } = d;
+            const orgs = normalizeOrgs(d);
+
+            app.u = u;
+            app.uR = Array.isArray(uR) ? uR : [];
+            app.orgs = orgs;
+            app.ev = Array.isArray(ev) ? ev : [];
 
             // 1. Identity
             if (u) {
@@ -792,71 +855,22 @@
                 } else $('u-blog').innerText = 'N/A';
             }
 
-            // 2. Org
-            if (o) {
-                $('o-avatar').src = o.avatar_url;
-                $('o-desc').innerText = o.description || "No public data.";
-                $('o-repos').innerText = o.public_repos;
-                $('o-created').innerText = (o.created_at || '').split('T')[0];
-            }
-
-            // 3. Repos
-            // 合并用户仓库和组织仓库，标记 _org 属性
-            const all = [
-                ...(Array.isArray(uR) ? uR : []),
-                ...(Array.isArray(oR) ? oR : []).map(r => ({ ...r, _org: true }))
+            app.allRepos = [
+                ...app.uR.map(r => ({ ...r, _scope: 'user', _badge: 'USR' })),
+                ...app.orgs.flatMap(org => org.repos.map(r => ({
+                    ...r,
+                    _scope: org.login,
+                    _badge: getOrgShort(org.login),
+                    _org: true
+                })))
             ].filter(r => !r.fork); // 过滤掉 fork 的项目
 
-            $('st-stars').innerText = fmt(all.reduce((a, b) => a + (b.stargazers_count || 0), 0));
-            $('st-forks').innerText = fmt(all.reduce((a, b) => a + (b.forks_count || 0), 0));
-            if (u) {
-                $('st-followers').innerText = fmt(u.followers);
-                $('st-following').innerText = fmt(u.following);
-            }
-
-            // 排序逻辑：优先显示 CFG.manual 中定义的，其余按 star 排序
-            const manualLower = CFG.manual.map(m => m.toLowerCase());
-            const manualRepos = all.filter(r => manualLower.includes(r.full_name.toLowerCase()));
-            const otherRepos = all.filter(r => !manualLower.includes(r.full_name.toLowerCase())).sort((a, b) => b.stargazers_count - a.stargazers_count);
-            const list = [...manualRepos, ...otherRepos].slice(0, 8).sort((a, b) => b.stargazers_count - a.stargazers_count);
-
-            $('repo-grid').innerHTML = list.map(r => `
-                <a href="${ r.html_url }" target="_blank" class="r-card">
-                    <div>
-                        <div class="rc-head">
-                            <span class="rc-name">${ r.name }</span>
-                            <span class="rc-vis" style="${ r._org ? 'color:var(--theme-main); border-color:var(--theme-main)' : '' }">${ r._org ? 'ORG' : 'USR' }</span>
-                        </div>
-                        <div class="rc-desc">${ r.description || '--' }</div>
-                    </div>
-                    <div class="rc-foot">
-                        <span class="rc-i"><i class="ri-star-fill"></i> ${ fmt(r.stargazers_count) }</span>
-                        <span class="rc-i"><i class="ri-git-branch-line"></i> ${ fmt(r.forks_count) }</span>
-                        <span style="margin-left:auto; color:${ getLangColor(r.language) }">${ r.language || '' }</span>
-                    </div>
-                </a>
-            `).join('');
-
-            // 4. Langs
-            const l = {};
-            let lt = 0;
-            all.forEach(r => {
-                if (r.language) {
-                    l[r.language] = (l[r.language] || 0) + 1;
-                    lt++;
-                }
-            });
-            $('lang-list').innerHTML = Object.entries(l).sort((a, b) => b[1] - a[1]).slice(0, 5).map(([n, c]) => `
-                <div class="l-row">
-                    <span style="width:70px; color:#aaa;">${ n }</span>
-                    <div class="l-bar"><div class="l-fill" style="width:${ (c / lt) * 100 }%; background:${ getLangColor(n) }"></div></div>
-                    <span style="width:25px; text-align:right; color:#666;">${ Math.round((c / lt) * 100) }%</span>
-                </div>
-            `).join('');
+            renderNetworkTabs();
+            renderScope(app.scope);
 
             // 5. Logs
-            if (Array.isArray(ev)) {
-                $('event-log').innerHTML = ev.map(e => {
+            if (Array.isArray(app.ev)) {
+                $('event-log').innerHTML = app.ev.map(e => {
                     const t = e.created_at.replace('T', ' ').slice(5, 16);
                     const rName = e.repo.name;
                     const githubUrl = `https://github.com/${ rName }`
@@ -887,6 +901,130 @@
                     return `<div class="log-item"><div><span class="log-ts">${ t }</span> ${ tag }</div><div style="padding-left:4px; margin-top:2px;">${ txt }</div></div>`;
                 }).join('');
             }
+        }
+
+        function normalizeOrgs(d) {
+            if (Array.isArray(d.orgs) && d.orgs.length) {
+                return d.orgs
+                    .filter(org => org && org.profile)
+                    .map(org => ({
+                        login: org.login || org.profile.login,
+                        profile: org.profile,
+                        repos: Array.isArray(org.repos) ? org.repos : []
+                    }));
+            }
+
+            if (d.o) {
+                return [{
+                    login: d.o.login,
+                    profile: d.o,
+                    repos: Array.isArray(d.oR) ? d.oR : []
+                }];
+            }
+
+            return [];
+        }
+
+        function renderNetworkTabs() {
+            const tabs = [
+                {
+                    scope: 'all',
+                    label: 'ALL',
+                    count: app.allRepos.length,
+                    avatar: app.u?.avatar_url || ''
+                },
+                ...app.orgs.map(org => ({
+                    scope: org.login,
+                    label: getOrgShort(org.login),
+                    count: org.repos.filter(r => !r.fork).length,
+                    avatar: org.profile.avatar_url
+                }))
+            ];
+
+            $('network-tabs').innerHTML = tabs.map(tab => `
+                <button class="network-tab ${ app.scope === tab.scope ? 'active' : '' }" data-scope="${ tab.scope }">
+                    <img src="${ tab.avatar }" alt="">
+                    <span>${ tab.label }</span>
+                    <em>${ tab.count }</em>
+                </button>
+            `).join('');
+
+            $('network-tabs').querySelectorAll('.network-tab').forEach(tab => {
+                tab.addEventListener('click', () => {
+                    app.scope = tab.dataset.scope;
+                    renderNetworkTabs();
+                    renderScope(app.scope);
+                });
+            });
+        }
+
+        function renderScope(scope) {
+            const source = scope === 'all'
+                ? app.allRepos
+                : app.allRepos.filter(r => r._scope === scope);
+
+            $('st-stars').innerText = fmt(source.reduce((a, b) => a + (b.stargazers_count || 0), 0));
+            $('st-forks').innerText = fmt(source.reduce((a, b) => a + (b.forks_count || 0), 0));
+            if (app.u) {
+                $('st-followers').innerText = fmt(app.u.followers);
+                $('st-following').innerText = scope === 'all' ? fmt(app.orgs.length || app.u.following) : '1';
+            }
+
+            const manualOrder = new Map(CFG.manual.map((name, index) => [name.toLowerCase(), index]));
+            const list = [...source].sort((a, b) => {
+                const ai = manualOrder.has(a.full_name.toLowerCase()) ? manualOrder.get(a.full_name.toLowerCase()) : 9999;
+                const bi = manualOrder.has(b.full_name.toLowerCase()) ? manualOrder.get(b.full_name.toLowerCase()) : 9999;
+                if (ai !== bi) return ai - bi;
+                return (b.stargazers_count || 0) - (a.stargazers_count || 0);
+            }).slice(0, 8);
+
+            $('repo-grid').innerHTML = list.map(r => `
+                <a href="${ r.html_url }" target="_blank" class="r-card">
+                    <div>
+                        <div class="rc-head">
+                            <span class="rc-name">${ r.name }</span>
+                            <span class="rc-vis" style="${ r._org ? `color:${ getScopeColor(r._scope) }; border-color:${ getScopeColor(r._scope) }` : '' }">${ r._badge }</span>
+                        </div>
+                        <div class="rc-desc">${ r.description || '--' }</div>
+                    </div>
+                    <div class="rc-foot">
+                        <span class="rc-i"><i class="ri-star-fill"></i> ${ fmt(r.stargazers_count) }</span>
+                        <span class="rc-i"><i class="ri-git-branch-line"></i> ${ fmt(r.forks_count) }</span>
+                        <span style="margin-left:auto; color:${ getLangColor(r.language) }">${ r.language || '' }</span>
+                    </div>
+                </a>
+            `).join('');
+
+            const l = {};
+            let lt = 0;
+            source.forEach(r => {
+                if (r.language) {
+                    l[r.language] = (l[r.language] || 0) + 1;
+                    lt++;
+                }
+            });
+
+            $('lang-list').innerHTML = lt ? Object.entries(l).sort((a, b) => b[1] - a[1]).slice(0, 5).map(([n, c]) => `
+                <div class="l-row">
+                    <span style="width:70px; color:#aaa;">${ n }</span>
+                    <div class="l-bar"><div class="l-fill" style="width:${ (c / lt) * 100 }%; background:${ getLangColor(n) }"></div></div>
+                    <span style="width:25px; text-align:right; color:#666;">${ Math.round((c / lt) * 100) }%</span>
+                </div>
+            `).join('') : '<div style="color:#555;font-size:0.7rem;">NO DATA</div>';
+        }
+
+        function getOrgShort(login) {
+            return ({
+                'fastapi-practices': 'FBA',
+                'num-scope': 'NUM'
+            }[login] || login.slice(0, 3).toUpperCase());
+        }
+
+        function getScopeColor(scope) {
+            return ({
+                'fastapi-practices': 'var(--theme-main)',
+                'num-scope': '#33d5c8'
+            }[scope] || '#666');
         }
 
         function getLangColor(l) {
