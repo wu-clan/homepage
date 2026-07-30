@@ -103,14 +103,14 @@
       "releases_url": "https://api.github.com/repos/wu-clan/homepage/releases{/id}",
       "deployments_url": "https://api.github.com/repos/wu-clan/homepage/deployments",
       "created_at": "2024-09-04T11:27:39Z",
-      "updated_at": "2026-07-28T02:14:18Z",
-      "pushed_at": "2026-07-28T02:14:13Z",
+      "updated_at": "2026-07-29T02:24:09Z",
+      "pushed_at": "2026-07-29T02:24:05Z",
       "git_url": "git://github.com/wu-clan/homepage.git",
       "ssh_url": "git@github.com:wu-clan/homepage.git",
       "clone_url": "https://github.com/wu-clan/homepage.git",
       "svn_url": "https://github.com/wu-clan/homepage",
       "homepage": "https://wu-clan.github.io/homepage/",
-      "size": 1976,
+      "size": 2027,
       "stargazers_count": 0,
       "watchers_count": 0,
       "language": "HTML",
@@ -3601,7 +3601,7 @@
       "releases_url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture/releases{/id}",
       "deployments_url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture/deployments",
       "created_at": "2023-04-07T05:21:11Z",
-      "updated_at": "2026-07-29T01:13:58Z",
+      "updated_at": "2026-07-30T01:32:32Z",
       "pushed_at": "2026-07-21T07:19:23Z",
       "git_url": "git://github.com/fastapi-practices/fastapi-best-architecture.git",
       "ssh_url": "git@github.com:fastapi-practices/fastapi-best-architecture.git",
@@ -3609,8 +3609,8 @@
       "svn_url": "https://github.com/fastapi-practices/fastapi-best-architecture",
       "homepage": "https://docs.fba.wu-clan.cc",
       "size": 22646,
-      "stargazers_count": 2480,
-      "watchers_count": 2480,
+      "stargazers_count": 2483,
+      "watchers_count": 2483,
       "language": "Python",
       "has_issues": true,
       "has_projects": false,
@@ -3622,7 +3622,7 @@
       "mirror_url": null,
       "archived": false,
       "disabled": false,
-      "open_issues_count": 15,
+      "open_issues_count": 16,
       "license": {
         "key": "mit",
         "name": "MIT License",
@@ -3645,8 +3645,8 @@
       ],
       "visibility": "public",
       "forks": 377,
-      "open_issues": 15,
-      "watchers": 2480,
+      "open_issues": 16,
+      "watchers": 2483,
       "default_branch": "master",
       "permissions": {
         "admin": false,
@@ -7355,7 +7355,7 @@
           "releases_url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture/releases{/id}",
           "deployments_url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture/deployments",
           "created_at": "2023-04-07T05:21:11Z",
-          "updated_at": "2026-07-29T01:13:58Z",
+          "updated_at": "2026-07-30T01:32:32Z",
           "pushed_at": "2026-07-21T07:19:23Z",
           "git_url": "git://github.com/fastapi-practices/fastapi-best-architecture.git",
           "ssh_url": "git@github.com:fastapi-practices/fastapi-best-architecture.git",
@@ -7363,8 +7363,8 @@
           "svn_url": "https://github.com/fastapi-practices/fastapi-best-architecture",
           "homepage": "https://docs.fba.wu-clan.cc",
           "size": 22646,
-          "stargazers_count": 2480,
-          "watchers_count": 2480,
+          "stargazers_count": 2483,
+          "watchers_count": 2483,
           "language": "Python",
           "has_issues": true,
           "has_projects": false,
@@ -7376,7 +7376,7 @@
           "mirror_url": null,
           "archived": false,
           "disabled": false,
-          "open_issues_count": 15,
+          "open_issues_count": 16,
           "license": {
             "key": "mit",
             "name": "MIT License",
@@ -7399,8 +7399,8 @@
           ],
           "visibility": "public",
           "forks": 377,
-          "open_issues": 15,
-          "watchers": 2480,
+          "open_issues": 16,
+          "watchers": 2483,
           "default_branch": "master",
           "permissions": {
             "admin": false,
@@ -11109,16 +11109,16 @@
           "releases_url": "https://api.github.com/repos/num-scope/pix/releases{/id}",
           "deployments_url": "https://api.github.com/repos/num-scope/pix/deployments",
           "created_at": "2026-07-14T03:35:50Z",
-          "updated_at": "2026-07-28T16:37:13Z",
-          "pushed_at": "2026-07-28T16:36:14Z",
+          "updated_at": "2026-07-29T16:10:55Z",
+          "pushed_at": "2026-07-29T15:39:34Z",
           "git_url": "git://github.com/num-scope/pix.git",
           "ssh_url": "git@github.com:num-scope/pix.git",
           "clone_url": "https://github.com/num-scope/pix.git",
           "svn_url": "https://github.com/num-scope/pix",
           "homepage": "https://pix.wu-clan.cc/",
-          "size": 2586,
-          "stargazers_count": 20,
-          "watchers_count": 20,
+          "size": 2614,
+          "stargazers_count": 23,
+          "watchers_count": 23,
           "language": "TypeScript",
           "has_issues": true,
           "has_projects": false,
@@ -11147,7 +11147,7 @@
           "visibility": "public",
           "forks": 6,
           "open_issues": 6,
-          "watchers": 20,
+          "watchers": 23,
           "default_branch": "main",
           "permissions": {
             "admin": false,
@@ -11630,6 +11630,287 @@
     }
   ],
   "ev": [
+    {
+      "id": "12507215361",
+      "type": "IssueCommentEvent",
+      "actor": {
+        "id": 52145145,
+        "login": "wu-clan",
+        "display_login": "wu-clan",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/wu-clan",
+        "avatar_url": "https://avatars.githubusercontent.com/u/52145145?"
+      },
+      "repo": {
+        "id": 624721291,
+        "name": "fastapi-practices/fastapi-best-architecture",
+        "url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture"
+      },
+      "payload": {
+        "action": "created",
+        "issue": {
+          "url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture/issues/1229",
+          "repository_url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture",
+          "labels_url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture/issues/1229/labels{/name}",
+          "comments_url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture/issues/1229/comments",
+          "events_url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture/issues/1229/events",
+          "html_url": "https://github.com/fastapi-practices/fastapi-best-architecture/issues/1229",
+          "id": 5015015226,
+          "node_id": "I_kwDOJTx9i88AAAABKusPOg",
+          "number": 1229,
+          "title": "多数据源功能",
+          "user": {
+            "login": "bryant2621",
+            "id": 13144284,
+            "node_id": "MDQ6VXNlcjEzMTQ0Mjg0",
+            "avatar_url": "https://avatars.githubusercontent.com/u/13144284?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/bryant2621",
+            "html_url": "https://github.com/bryant2621",
+            "followers_url": "https://api.github.com/users/bryant2621/followers",
+            "following_url": "https://api.github.com/users/bryant2621/following{/other_user}",
+            "gists_url": "https://api.github.com/users/bryant2621/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/bryant2621/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/bryant2621/subscriptions",
+            "organizations_url": "https://api.github.com/users/bryant2621/orgs",
+            "repos_url": "https://api.github.com/users/bryant2621/repos",
+            "events_url": "https://api.github.com/users/bryant2621/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/bryant2621/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "labels": [],
+          "state": "open",
+          "locked": false,
+          "assignees": [],
+          "milestone": null,
+          "comments": 1,
+          "created_at": "2026-07-30T01:12:27Z",
+          "updated_at": "2026-07-30T01:20:52Z",
+          "closed_at": null,
+          "assignee": null,
+          "issue_field_values": [],
+          "type": null,
+          "active_lock_reason": null,
+          "sub_issues_summary": {
+            "total": 0,
+            "completed": 0,
+            "percent_completed": 0
+          },
+          "issue_dependencies_summary": {
+            "blocked_by": 0,
+            "total_blocked_by": 0,
+            "blocking": 0,
+            "total_blocking": 0
+          },
+          "body": "你好，目前有没有考虑加入多数据源的处理",
+          "reactions": {
+            "url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture/issues/1229/reactions",
+            "total_count": 0,
+            "+1": 0,
+            "-1": 0,
+            "laugh": 0,
+            "hooray": 0,
+            "confused": 0,
+            "heart": 0,
+            "rocket": 0,
+            "eyes": 0
+          },
+          "timeline_url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture/issues/1229/timeline",
+          "performed_via_github_app": null,
+          "state_reason": null,
+          "pinned_comment": null
+        },
+        "comment": {
+          "url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture/issues/comments/5125223021",
+          "html_url": "https://github.com/fastapi-practices/fastapi-best-architecture/issues/1229#issuecomment-5125223021",
+          "issue_url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture/issues/1229",
+          "id": 5125223021,
+          "node_id": "IC_kwDOJTx9i88AAAABMXyybQ",
+          "user": {
+            "login": "wu-clan",
+            "id": 52145145,
+            "node_id": "MDQ6VXNlcjUyMTQ1MTQ1",
+            "avatar_url": "https://avatars.githubusercontent.com/u/52145145?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/wu-clan",
+            "html_url": "https://github.com/wu-clan",
+            "followers_url": "https://api.github.com/users/wu-clan/followers",
+            "following_url": "https://api.github.com/users/wu-clan/following{/other_user}",
+            "gists_url": "https://api.github.com/users/wu-clan/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/wu-clan/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/wu-clan/subscriptions",
+            "organizations_url": "https://api.github.com/users/wu-clan/orgs",
+            "repos_url": "https://api.github.com/users/wu-clan/repos",
+            "events_url": "https://api.github.com/users/wu-clan/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/wu-clan/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "created_at": "2026-07-30T01:20:52Z",
+          "updated_at": "2026-07-30T01:20:52Z",
+          "body": "提出就有",
+          "pin": null,
+          "reactions": {
+            "url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture/issues/comments/5125223021/reactions",
+            "total_count": 0,
+            "+1": 0,
+            "-1": 0,
+            "laugh": 0,
+            "hooray": 0,
+            "confused": 0,
+            "heart": 0,
+            "rocket": 0,
+            "eyes": 0
+          },
+          "performed_via_github_app": null,
+          "minimized": null
+        }
+      },
+      "public": true,
+      "created_at": "2026-07-30T01:20:52Z",
+      "org": {
+        "id": 131736279,
+        "login": "fastapi-practices",
+        "gravatar_id": "",
+        "url": "https://api.github.com/orgs/fastapi-practices",
+        "avatar_url": "https://avatars.githubusercontent.com/u/131736279?"
+      }
+    },
+    {
+      "id": "16139808576",
+      "type": "PushEvent",
+      "actor": {
+        "id": 52145145,
+        "login": "wu-clan",
+        "display_login": "wu-clan",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/wu-clan",
+        "avatar_url": "https://avatars.githubusercontent.com/u/52145145?"
+      },
+      "repo": {
+        "id": 1299969979,
+        "name": "num-scope/pix",
+        "url": "https://api.github.com/repos/num-scope/pix"
+      },
+      "payload": {
+        "repository_id": 1299969979,
+        "push_id": 38444964404,
+        "ref": "refs/heads/main",
+        "head": "c6422cca7e1f0aeadbc13ca2c17546d7b4374b52",
+        "before": "6f25d2a1e9ab3a60b9725ea2c4c225f2017c5459"
+      },
+      "public": true,
+      "created_at": "2026-07-29T15:39:32Z",
+      "org": {
+        "id": 292966555,
+        "login": "num-scope",
+        "gravatar_id": "",
+        "url": "https://api.github.com/orgs/num-scope",
+        "avatar_url": "https://avatars.githubusercontent.com/u/292966555?"
+      }
+    },
+    {
+      "id": "16139594339",
+      "type": "PushEvent",
+      "actor": {
+        "id": 52145145,
+        "login": "wu-clan",
+        "display_login": "wu-clan",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/wu-clan",
+        "avatar_url": "https://avatars.githubusercontent.com/u/52145145?"
+      },
+      "repo": {
+        "id": 1299969979,
+        "name": "num-scope/pix",
+        "url": "https://api.github.com/repos/num-scope/pix"
+      },
+      "payload": {
+        "repository_id": 1299969979,
+        "push_id": 38443471492,
+        "ref": "refs/heads/main",
+        "head": "d207fc44c9eb7651d052fa672a745eafa3129ce9",
+        "before": "44221cc703a99dcff9805c95bd667c38318e60c7"
+      },
+      "public": true,
+      "created_at": "2026-07-29T15:20:38Z",
+      "org": {
+        "id": 292966555,
+        "login": "num-scope",
+        "gravatar_id": "",
+        "url": "https://api.github.com/orgs/num-scope",
+        "avatar_url": "https://avatars.githubusercontent.com/u/292966555?"
+      }
+    },
+    {
+      "id": "16138895151",
+      "type": "PushEvent",
+      "actor": {
+        "id": 52145145,
+        "login": "wu-clan",
+        "display_login": "wu-clan",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/wu-clan",
+        "avatar_url": "https://avatars.githubusercontent.com/u/52145145?"
+      },
+      "repo": {
+        "id": 1299969979,
+        "name": "num-scope/pix",
+        "url": "https://api.github.com/repos/num-scope/pix"
+      },
+      "payload": {
+        "repository_id": 1299969979,
+        "push_id": 38444070300,
+        "ref": "refs/heads/main",
+        "head": "6f25d2a1e9ab3a60b9725ea2c4c225f2017c5459",
+        "before": "d207fc44c9eb7651d052fa672a745eafa3129ce9"
+      },
+      "public": true,
+      "created_at": "2026-07-29T15:28:14Z",
+      "org": {
+        "id": 292966555,
+        "login": "num-scope",
+        "gravatar_id": "",
+        "url": "https://api.github.com/orgs/num-scope",
+        "avatar_url": "https://avatars.githubusercontent.com/u/292966555?"
+      }
+    },
+    {
+      "id": "16113521312",
+      "type": "PushEvent",
+      "actor": {
+        "id": 52145145,
+        "login": "wu-clan",
+        "display_login": "wu-clan",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/wu-clan",
+        "avatar_url": "https://avatars.githubusercontent.com/u/52145145?"
+      },
+      "repo": {
+        "id": 1299969979,
+        "name": "num-scope/pix",
+        "url": "https://api.github.com/repos/num-scope/pix"
+      },
+      "payload": {
+        "repository_id": 1299969979,
+        "push_id": 38418297535,
+        "ref": "refs/heads/main",
+        "head": "44221cc703a99dcff9805c95bd667c38318e60c7",
+        "before": "7f7fc36daf6f15ab0e6f7c9f022eae7467d149e2"
+      },
+      "public": true,
+      "created_at": "2026-07-29T10:30:50Z",
+      "org": {
+        "id": 292966555,
+        "login": "num-scope",
+        "gravatar_id": "",
+        "url": "https://api.github.com/orgs/num-scope",
+        "avatar_url": "https://avatars.githubusercontent.com/u/292966555?"
+      }
+    },
     {
       "id": "16045681004",
       "type": "PushEvent",
@@ -12630,261 +12911,7 @@
         "url": "https://api.github.com/orgs/num-scope",
         "avatar_url": "https://avatars.githubusercontent.com/u/292966555?"
       }
-    },
-    {
-      "id": "15850906708",
-      "type": "PushEvent",
-      "actor": {
-        "id": 52145145,
-        "login": "wu-clan",
-        "display_login": "wu-clan",
-        "gravatar_id": "",
-        "url": "https://api.github.com/users/wu-clan",
-        "avatar_url": "https://avatars.githubusercontent.com/u/52145145?"
-      },
-      "repo": {
-        "id": 1299969979,
-        "name": "num-scope/pix",
-        "url": "https://api.github.com/repos/num-scope/pix"
-      },
-      "payload": {
-        "repository_id": 1299969979,
-        "push_id": 38149159216,
-        "ref": "refs/heads/main",
-        "head": "03cf03c2b40a165b5b1e67b14b465b4efe2ca57e",
-        "before": "c6e7e2386a76be7e71be74e680bf1769059146e0"
-      },
-      "public": true,
-      "created_at": "2026-07-26T12:41:07Z",
-      "org": {
-        "id": 292966555,
-        "login": "num-scope",
-        "gravatar_id": "",
-        "url": "https://api.github.com/orgs/num-scope",
-        "avatar_url": "https://avatars.githubusercontent.com/u/292966555?"
-      }
-    },
-    {
-      "id": "15835319730",
-      "type": "PushEvent",
-      "actor": {
-        "id": 52145145,
-        "login": "wu-clan",
-        "display_login": "wu-clan",
-        "gravatar_id": "",
-        "url": "https://api.github.com/users/wu-clan",
-        "avatar_url": "https://avatars.githubusercontent.com/u/52145145?"
-      },
-      "repo": {
-        "id": 1299969979,
-        "name": "num-scope/pix",
-        "url": "https://api.github.com/repos/num-scope/pix"
-      },
-      "payload": {
-        "repository_id": 1299969979,
-        "push_id": 38133130728,
-        "ref": "refs/heads/main",
-        "head": "c6e7e2386a76be7e71be74e680bf1769059146e0",
-        "before": "8050fae13386821297ad817e45b5ab4f06cf79c1"
-      },
-      "public": true,
-      "created_at": "2026-07-26T08:12:29Z",
-      "org": {
-        "id": 292966555,
-        "login": "num-scope",
-        "gravatar_id": "",
-        "url": "https://api.github.com/orgs/num-scope",
-        "avatar_url": "https://avatars.githubusercontent.com/u/292966555?"
-      }
-    },
-    {
-      "id": "15830483219",
-      "type": "PushEvent",
-      "actor": {
-        "id": 52145145,
-        "login": "wu-clan",
-        "display_login": "wu-clan",
-        "gravatar_id": "",
-        "url": "https://api.github.com/users/wu-clan",
-        "avatar_url": "https://avatars.githubusercontent.com/u/52145145?"
-      },
-      "repo": {
-        "id": 855534641,
-        "name": "fastapi-practices/fastapi_best_architecture_docs",
-        "url": "https://api.github.com/repos/fastapi-practices/fastapi_best_architecture_docs"
-      },
-      "payload": {
-        "repository_id": 855534641,
-        "push_id": 38128098114,
-        "ref": "refs/heads/master",
-        "head": "a764d44f964042f6a107dd9aedeaa0277f0a57a6",
-        "before": "607ff8a61dc2495ec7a0f32ae1930aad23741b87"
-      },
-      "public": true,
-      "created_at": "2026-07-26T06:48:27Z",
-      "org": {
-        "id": 131736279,
-        "login": "fastapi-practices",
-        "gravatar_id": "",
-        "url": "https://api.github.com/orgs/fastapi-practices",
-        "avatar_url": "https://avatars.githubusercontent.com/u/131736279?"
-      }
-    },
-    {
-      "id": "12304884921",
-      "type": "IssuesEvent",
-      "actor": {
-        "id": 52145145,
-        "login": "wu-clan",
-        "display_login": "wu-clan",
-        "gravatar_id": "",
-        "url": "https://api.github.com/users/wu-clan",
-        "avatar_url": "https://avatars.githubusercontent.com/u/52145145?"
-      },
-      "repo": {
-        "id": 1299969979,
-        "name": "num-scope/pix",
-        "url": "https://api.github.com/repos/num-scope/pix"
-      },
-      "payload": {
-        "action": "closed",
-        "issue": {
-          "url": "https://api.github.com/repos/num-scope/pix/issues/25",
-          "repository_url": "https://api.github.com/repos/num-scope/pix",
-          "labels_url": "https://api.github.com/repos/num-scope/pix/issues/25/labels{/name}",
-          "comments_url": "https://api.github.com/repos/num-scope/pix/issues/25/comments",
-          "events_url": "https://api.github.com/repos/num-scope/pix/issues/25/events",
-          "html_url": "https://github.com/num-scope/pix/issues/25",
-          "id": 4954740574,
-          "node_id": "I_kwDOTXv3u88AAAABJ1NXXg",
-          "number": 25,
-          "title": "feat(ui): 终端模式 = 嵌入真·pi TUI（与视图模式互切，共享会话）",
-          "user": {
-            "login": "wu-clan",
-            "id": 52145145,
-            "node_id": "MDQ6VXNlcjUyMTQ1MTQ1",
-            "avatar_url": "https://avatars.githubusercontent.com/u/52145145?v=4",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/wu-clan",
-            "html_url": "https://github.com/wu-clan",
-            "followers_url": "https://api.github.com/users/wu-clan/followers",
-            "following_url": "https://api.github.com/users/wu-clan/following{/other_user}",
-            "gists_url": "https://api.github.com/users/wu-clan/gists{/gist_id}",
-            "starred_url": "https://api.github.com/users/wu-clan/starred{/owner}{/repo}",
-            "subscriptions_url": "https://api.github.com/users/wu-clan/subscriptions",
-            "organizations_url": "https://api.github.com/users/wu-clan/orgs",
-            "repos_url": "https://api.github.com/users/wu-clan/repos",
-            "events_url": "https://api.github.com/users/wu-clan/events{/privacy}",
-            "received_events_url": "https://api.github.com/users/wu-clan/received_events",
-            "type": "User",
-            "user_view_type": "public",
-            "site_admin": false
-          },
-          "labels": [
-            {
-              "id": 11515918785,
-              "node_id": "LA_kwDOTXv3u88AAAACrmb5wQ",
-              "url": "https://api.github.com/repos/num-scope/pix/labels/enhancement",
-              "name": "enhancement",
-              "color": "a2eeef",
-              "default": true,
-              "description": "New feature or request"
-            },
-            {
-              "id": 11599324545,
-              "node_id": "LA_kwDOTXv3u88AAAACs1-lgQ",
-              "url": "https://api.github.com/repos/num-scope/pix/labels/P2",
-              "name": "P2",
-              "color": "FBCA04",
-              "default": false,
-              "description": "Advanced / ecosystem"
-            }
-          ],
-          "state": "closed",
-          "locked": false,
-          "assignees": [],
-          "milestone": null,
-          "comments": 0,
-          "created_at": "2026-07-23T02:12:40Z",
-          "updated_at": "2026-07-26T05:40:24Z",
-          "closed_at": "2026-07-26T05:40:24Z",
-          "assignee": null,
-          "issue_field_values": [],
-          "type": null,
-          "active_lock_reason": null,
-          "sub_issues_summary": {
-            "total": 0,
-            "completed": 0,
-            "percent_completed": 0
-          },
-          "issue_dependencies_summary": {
-            "blocked_by": 0,
-            "total_blocked_by": 0,
-            "blocking": 0,
-            "total_blocking": 0
-          },
-          "body": "## 目标\n\n桌面主路径是 **视图模式**（timeline + composer），终端模式是在应用内嵌入的真·pi TUI。两种表面使用同一个会话文件。\n\n| 模式 | 内容 |\n|------|------|\n| **视图 (chat)** | React 时间线 + composer + 工具行 |\n| **终端 (terminal)** | `ghostty-web` 渲染的 pi 交互 TUI，输入输出连接 `node-pty` |\n\n## 状态原则\n\n- `sessionFile`、cwd、model 与会话树是唯一真相源\n- 视图与终端可互切，同一时刻只允许一个交互面驱动 agent\n- 每个会话单独记忆 chat / terminal 表面\n- 终端模式不替代“在外部 Terminal 打开工作区”\n\n## 架构\n\n```text\n视图模式:\n  Renderer (React timeline)  ←IPC→  Agent Host (pi SDK)\n                                    ↕ session.jsonl\n\n终端模式:\n  Renderer (ghostty-web)  ←IPC(pty)→  Main (node-pty)\n                                    └─ pi --session <path>\n                                    ↕ 同一 session.jsonl\n```\n\n## 生命周期\n\n### 进入终端\n\n1. 有进行中 turn 时阻止切换并提示等待\n2. 以 `pi --session <snapshot.sessionFile>` 和会话 cwd 启动、恢复或提升 PTY\n3. 内容区切换为终端表面；stdin、stdout、resize 通过 IPC 传递\n4. 保存该会话的 `contentMode: terminal`\n\n### 回到视图\n\n1. 挂起同会话 PTY，使未发送新 prompt 时可快速返回\n2. Agent Host 重新打开同一 `sessionFile` 并重投 history\n3. 从视图发送 prompt 前销毁该会话对应的前台、挂起或驻留 PTY，避免双写\n4. 保存该会话的 `contentMode: chat`\n\n### 切换会话\n\n1. 前台 PTY 进入暖驻留池，目标会话从驻留池提升或启动新 PTY\n2. 暖驻留池最多保留 4 个后台 PTY，超限淘汰最早驻留项\n3. 临时经过视图表面时不覆盖来源会话的 surface 偏好\n4. 会话打开后恢复目标会话保存的 chat / terminal 模式\n5. 终端落点保持遮罩，直到带目标 `sessionFile` 标记的终端输出完成绘制\n\n## 渲染与偏好\n\n- VT：`ghostty-web`（Ghostty VT / WASM / canvas）\n- PTY：`node-pty`；Windows 使用 ConPTY\n- 环境：`TERM=xterm-256color`，`PI_CODING_AGENT_DIR` 与 Host 保持一致\n- 字体：字体族与字号可配置，支持已安装等宽字体列表\n- 交互：光标样式/闪烁、scrollback、平滑滚动、复制选区、输出跟随可配置\n- 颜色：dark / light / 跟随桌面主题，修改后实时应用\n- IME：隐藏输入框跟随 VT 光标，组合输入位置与 pi prompt 对齐\n\n## 互斥与 Host parking\n\n- `PiTuiExclusiveGuard` 保证只有一个交互式 TUI 持有输入权\n- TUI 持有交互权时，Agent Host 不接受视图 prompt\n- Agent Host parking 与 PTY 生命周期彼此独立；后台 Host 不获得终端输入权\n- 跨会话维持一个前台交互 PTY；后台 PTY 不接收输入，输出按 `sessionFile` 标记隔离\n- 每个 PTY 只绑定自己的会话文件，视图 prompt 只清理目标会话对应的 PTY\n\n## 交付状态\n\n### P0 — 真·TUI 可切换\n\n- [x] 嵌入终端表面并通过 `node-pty` 运行 `pi --session <file>`\n- [x] 工具栏与快捷键提供视图 / 终端切换\n- [x] 两种表面使用同一 sessionFile，回到视图后从磁盘重投 history\n- [x] 终端模式运行真·pi TUI，不是时间线的等宽字体皮肤\n\n### P1 — 体验与状态\n\n- [x] 进行中 turn 阻止进入终端\n- [x] 终端占满内容区并接管输入\n- [x] 按会话持久化 chat / terminal\n- [x] 会话切换遮罩与按 session 标记的 PTY 数据防止旧画面串入\n- [x] 同会话挂起 / 恢复，视图 prompt 前释放目标会话 PTY\n- [x] E2E：open → toggle → 同一 session path；跨会话 surface 记忆\n\n### P2 — 增强\n\n- [x] 终端颜色与桌面浅深模式协作，字体和渲染偏好可配置\n- [x] 与 Agent Host parking 的互斥和生命周期关系有明确说明\n- [x] 多会话 PTY 暖驻留、提升、上限淘汰与单前台交互策略\n\n## 非目标\n\n- timeline 的 monospaced 换皮\n- 只读 ANSI 回放 Host 事件\n- 另开系统终端窗口\n- 修改 pi session 存储格式\n\n## 验收\n\n- [x] 终端模式可操作 pi TUI，包括输入、滚动、Slash 命令与工具\n- [x] TUI 对话回到视图后可见\n- [x] 视图对话进入 TUI 后可继续\n- [x] 切换不新建 session，不丢 cwd 或 model\n- [x] 每个会话记住视图 / 终端表面\n- [x] 切换过程无双写，失败有明确错误\n- [x] 打包产物与 Windows ConPTY 在 CI / 发布路径验证\n\n## 自动验证\n\n- Electron E2E 覆盖 chat / terminal 同一 sessionFile、A/B 会话暖驻留与逐会话 surface 恢复\n- 单元测试覆盖 PTY park/promote、定向清理、驻留上限与最早项淘汰\n- Windows packaged smoke 从 `Pix.exe` 启动真实 `pi --session`，校验 ConPTY 输出、resize、输入、会话身份与资源清理\n- CI 在 Windows 生成 unpacked 应用并运行 packaged smoke\n- Release 在 Windows 安装包产物收集前运行同一 packaged smoke",
-          "reactions": {
-            "url": "https://api.github.com/repos/num-scope/pix/issues/25/reactions",
-            "total_count": 0,
-            "+1": 0,
-            "-1": 0,
-            "laugh": 0,
-            "hooray": 0,
-            "confused": 0,
-            "heart": 0,
-            "rocket": 0,
-            "eyes": 0
-          },
-          "timeline_url": "https://api.github.com/repos/num-scope/pix/issues/25/timeline",
-          "performed_via_github_app": null,
-          "state_reason": "completed",
-          "pinned_comment": null
-        }
-      },
-      "public": true,
-      "created_at": "2026-07-26T05:40:25Z",
-      "org": {
-        "id": 292966555,
-        "login": "num-scope",
-        "gravatar_id": "",
-        "url": "https://api.github.com/orgs/num-scope",
-        "avatar_url": "https://avatars.githubusercontent.com/u/292966555?"
-      }
-    },
-    {
-      "id": "15826820822",
-      "type": "PushEvent",
-      "actor": {
-        "id": 52145145,
-        "login": "wu-clan",
-        "display_login": "wu-clan",
-        "gravatar_id": "",
-        "url": "https://api.github.com/users/wu-clan",
-        "avatar_url": "https://avatars.githubusercontent.com/u/52145145?"
-      },
-      "repo": {
-        "id": 855534641,
-        "name": "fastapi-practices/fastapi_best_architecture_docs",
-        "url": "https://api.github.com/repos/fastapi-practices/fastapi_best_architecture_docs"
-      },
-      "payload": {
-        "repository_id": 855534641,
-        "push_id": 38124219017,
-        "ref": "refs/heads/master",
-        "head": "607ff8a61dc2495ec7a0f32ae1930aad23741b87",
-        "before": "8900077a7e98c50015ae545304a97a6ff04fa3b4"
-      },
-      "public": true,
-      "created_at": "2026-07-26T05:23:30Z",
-      "org": {
-        "id": 131736279,
-        "login": "fastapi-practices",
-        "gravatar_id": "",
-        "url": "https://api.github.com/orgs/fastapi-practices",
-        "avatar_url": "https://avatars.githubusercontent.com/u/131736279?"
-      }
     }
   ],
-  "updated_at": "2026-07-29T02:24:03.039Z"
+  "updated_at": "2026-07-30T02:06:01.467Z"
 }
