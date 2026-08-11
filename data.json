@@ -103,14 +103,14 @@
       "releases_url": "https://api.github.com/repos/wu-clan/homepage/releases{/id}",
       "deployments_url": "https://api.github.com/repos/wu-clan/homepage/deployments",
       "created_at": "2024-09-04T11:27:39Z",
-      "updated_at": "2026-08-09T01:25:16Z",
-      "pushed_at": "2026-08-09T01:25:12Z",
+      "updated_at": "2026-08-10T01:27:11Z",
+      "pushed_at": "2026-08-10T01:27:06Z",
       "git_url": "git://github.com/wu-clan/homepage.git",
       "ssh_url": "git@github.com:wu-clan/homepage.git",
       "clone_url": "https://github.com/wu-clan/homepage.git",
       "svn_url": "https://github.com/wu-clan/homepage",
       "homepage": "https://wu-clan.github.io/homepage/",
-      "size": 1145,
+      "size": 1206,
       "stargazers_count": 0,
       "watchers_count": 0,
       "language": "HTML",
@@ -3601,7 +3601,7 @@
       "releases_url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture/releases{/id}",
       "deployments_url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture/deployments",
       "created_at": "2023-04-07T05:21:11Z",
-      "updated_at": "2026-08-09T02:24:48Z",
+      "updated_at": "2026-08-10T06:39:56Z",
       "pushed_at": "2026-08-04T20:49:05Z",
       "git_url": "git://github.com/fastapi-practices/fastapi-best-architecture.git",
       "ssh_url": "git@github.com:fastapi-practices/fastapi-best-architecture.git",
@@ -3609,8 +3609,8 @@
       "svn_url": "https://github.com/fastapi-practices/fastapi-best-architecture",
       "homepage": "https://docs.fba.wu-clan.cc",
       "size": 22834,
-      "stargazers_count": 2505,
-      "watchers_count": 2505,
+      "stargazers_count": 2506,
+      "watchers_count": 2506,
       "language": "Python",
       "has_issues": true,
       "has_projects": false,
@@ -3646,7 +3646,7 @@
       "visibility": "public",
       "forks": 376,
       "open_issues": 17,
-      "watchers": 2505,
+      "watchers": 2506,
       "default_branch": "master",
       "permissions": {
         "admin": false,
@@ -7355,7 +7355,7 @@
           "releases_url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture/releases{/id}",
           "deployments_url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture/deployments",
           "created_at": "2023-04-07T05:21:11Z",
-          "updated_at": "2026-08-09T02:24:48Z",
+          "updated_at": "2026-08-10T06:39:56Z",
           "pushed_at": "2026-08-04T20:49:05Z",
           "git_url": "git://github.com/fastapi-practices/fastapi-best-architecture.git",
           "ssh_url": "git@github.com:fastapi-practices/fastapi-best-architecture.git",
@@ -7363,8 +7363,8 @@
           "svn_url": "https://github.com/fastapi-practices/fastapi-best-architecture",
           "homepage": "https://docs.fba.wu-clan.cc",
           "size": 22834,
-          "stargazers_count": 2505,
-          "watchers_count": 2505,
+          "stargazers_count": 2506,
+          "watchers_count": 2506,
           "language": "Python",
           "has_issues": true,
           "has_projects": false,
@@ -7400,7 +7400,7 @@
           "visibility": "public",
           "forks": 376,
           "open_issues": 17,
-          "watchers": 2505,
+          "watchers": 2506,
           "default_branch": "master",
           "permissions": {
             "admin": false,
@@ -11109,16 +11109,16 @@
           "releases_url": "https://api.github.com/repos/num-scope/pix/releases{/id}",
           "deployments_url": "https://api.github.com/repos/num-scope/pix/deployments",
           "created_at": "2026-07-14T03:35:50Z",
-          "updated_at": "2026-08-09T22:27:07Z",
-          "pushed_at": "2026-08-09T16:15:51Z",
+          "updated_at": "2026-08-10T09:28:49Z",
+          "pushed_at": "2026-08-10T09:28:12Z",
           "git_url": "git://github.com/num-scope/pix.git",
           "ssh_url": "git@github.com:num-scope/pix.git",
           "clone_url": "https://github.com/num-scope/pix.git",
           "svn_url": "https://github.com/num-scope/pix",
           "homepage": "https://pix.wu-clan.cc/",
-          "size": 6898,
-          "stargazers_count": 56,
-          "watchers_count": 56,
+          "size": 6319,
+          "stargazers_count": 57,
+          "watchers_count": 57,
           "language": "TypeScript",
           "has_issues": true,
           "has_projects": false,
@@ -11126,7 +11126,7 @@
           "has_wiki": false,
           "has_pages": false,
           "has_discussions": false,
-          "forks_count": 9,
+          "forks_count": 10,
           "mirror_url": null,
           "archived": false,
           "disabled": false,
@@ -11145,9 +11145,9 @@
           "pull_request_creation_policy": "all",
           "topics": [],
           "visibility": "public",
-          "forks": 9,
+          "forks": 10,
           "open_issues": 5,
-          "watchers": 56,
+          "watchers": 57,
           "default_branch": "main",
           "permissions": {
             "admin": false,
@@ -11631,6 +11631,725 @@
   ],
   "ev": [
     {
+      "id": "17272840840",
+      "type": "PushEvent",
+      "actor": {
+        "id": 52145145,
+        "login": "wu-clan",
+        "display_login": "wu-clan",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/wu-clan",
+        "avatar_url": "https://avatars.githubusercontent.com/u/52145145?"
+      },
+      "repo": {
+        "id": 1299969979,
+        "name": "num-scope/pix",
+        "url": "https://api.github.com/repos/num-scope/pix"
+      },
+      "payload": {
+        "repository_id": 1299969979,
+        "push_id": 39591282696,
+        "ref": "refs/heads/main",
+        "head": "4ef6f7a004aaa6ad8062814d637e66446d483636",
+        "before": "a07e5408ae32cce67083044eab88597995755557"
+      },
+      "public": true,
+      "created_at": "2026-08-10T09:28:13Z",
+      "org": {
+        "id": 292966555,
+        "login": "num-scope",
+        "gravatar_id": "",
+        "url": "https://api.github.com/orgs/num-scope",
+        "avatar_url": "https://avatars.githubusercontent.com/u/292966555?"
+      }
+    },
+    {
+      "id": "17272788656",
+      "type": "PushEvent",
+      "actor": {
+        "id": 52145145,
+        "login": "wu-clan",
+        "display_login": "wu-clan",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/wu-clan",
+        "avatar_url": "https://avatars.githubusercontent.com/u/52145145?"
+      },
+      "repo": {
+        "id": 1299969979,
+        "name": "num-scope/pix",
+        "url": "https://api.github.com/repos/num-scope/pix"
+      },
+      "payload": {
+        "repository_id": 1299969979,
+        "push_id": 39591230912,
+        "ref": "refs/heads/main",
+        "head": "a07e5408ae32cce67083044eab88597995755557",
+        "before": "3d7713eea14a758e8dc518d0542934ad6d51625a"
+      },
+      "public": true,
+      "created_at": "2026-08-10T09:27:36Z",
+      "org": {
+        "id": 292966555,
+        "login": "num-scope",
+        "gravatar_id": "",
+        "url": "https://api.github.com/orgs/num-scope",
+        "avatar_url": "https://avatars.githubusercontent.com/u/292966555?"
+      }
+    },
+    {
+      "id": "17272654583",
+      "type": "PushEvent",
+      "actor": {
+        "id": 52145145,
+        "login": "wu-clan",
+        "display_login": "wu-clan",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/wu-clan",
+        "avatar_url": "https://avatars.githubusercontent.com/u/52145145?"
+      },
+      "repo": {
+        "id": 1299969979,
+        "name": "num-scope/pix",
+        "url": "https://api.github.com/repos/num-scope/pix"
+      },
+      "payload": {
+        "repository_id": 1299969979,
+        "push_id": 39590792240,
+        "ref": "refs/heads/main",
+        "head": "3d7713eea14a758e8dc518d0542934ad6d51625a",
+        "before": "e8d858287a4d71fc1a8c6349e8b6730abc93199b"
+      },
+      "public": true,
+      "created_at": "2026-08-10T09:22:24Z",
+      "org": {
+        "id": 292966555,
+        "login": "num-scope",
+        "gravatar_id": "",
+        "url": "https://api.github.com/orgs/num-scope",
+        "avatar_url": "https://avatars.githubusercontent.com/u/292966555?"
+      }
+    },
+    {
+      "id": "17268014960",
+      "type": "PushEvent",
+      "actor": {
+        "id": 52145145,
+        "login": "wu-clan",
+        "display_login": "wu-clan",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/wu-clan",
+        "avatar_url": "https://avatars.githubusercontent.com/u/52145145?"
+      },
+      "repo": {
+        "id": 1299969979,
+        "name": "num-scope/pix",
+        "url": "https://api.github.com/repos/num-scope/pix"
+      },
+      "payload": {
+        "repository_id": 1299969979,
+        "push_id": 39586186147,
+        "ref": "refs/heads/main",
+        "head": "e8d858287a4d71fc1a8c6349e8b6730abc93199b",
+        "before": "17b089c203274174d74570e116ceaf624b798075"
+      },
+      "public": true,
+      "created_at": "2026-08-10T08:30:35Z",
+      "org": {
+        "id": 292966555,
+        "login": "num-scope",
+        "gravatar_id": "",
+        "url": "https://api.github.com/orgs/num-scope",
+        "avatar_url": "https://avatars.githubusercontent.com/u/292966555?"
+      }
+    },
+    {
+      "id": "17261662686",
+      "type": "DeleteEvent",
+      "actor": {
+        "id": 52145145,
+        "login": "wu-clan",
+        "display_login": "wu-clan",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/wu-clan",
+        "avatar_url": "https://avatars.githubusercontent.com/u/52145145?"
+      },
+      "repo": {
+        "id": 1299969979,
+        "name": "num-scope/pix",
+        "url": "https://api.github.com/repos/num-scope/pix"
+      },
+      "payload": {
+        "ref": "v0.7.1",
+        "ref_type": "tag",
+        "full_ref": "refs/tags/v0.7.1",
+        "pusher_type": "user"
+      },
+      "public": true,
+      "created_at": "2026-08-10T07:18:05Z",
+      "org": {
+        "id": 292966555,
+        "login": "num-scope",
+        "gravatar_id": "",
+        "url": "https://api.github.com/orgs/num-scope",
+        "avatar_url": "https://avatars.githubusercontent.com/u/292966555?"
+      }
+    },
+    {
+      "id": "17261659032",
+      "type": "PushEvent",
+      "actor": {
+        "id": 52145145,
+        "login": "wu-clan",
+        "display_login": "wu-clan",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/wu-clan",
+        "avatar_url": "https://avatars.githubusercontent.com/u/52145145?"
+      },
+      "repo": {
+        "id": 1299969979,
+        "name": "num-scope/pix",
+        "url": "https://api.github.com/repos/num-scope/pix"
+      },
+      "payload": {
+        "repository_id": 1299969979,
+        "push_id": 39579889067,
+        "ref": "refs/heads/main",
+        "head": "17b089c203274174d74570e116ceaf624b798075",
+        "before": "8edf740201748e4d7231cb5da03fd6e6bc35720d"
+      },
+      "public": true,
+      "created_at": "2026-08-10T07:18:02Z",
+      "org": {
+        "id": 292966555,
+        "login": "num-scope",
+        "gravatar_id": "",
+        "url": "https://api.github.com/orgs/num-scope",
+        "avatar_url": "https://avatars.githubusercontent.com/u/292966555?"
+      }
+    },
+    {
+      "id": "17261523040",
+      "type": "DeleteEvent",
+      "actor": {
+        "id": 52145145,
+        "login": "wu-clan",
+        "display_login": "wu-clan",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/wu-clan",
+        "avatar_url": "https://avatars.githubusercontent.com/u/52145145?"
+      },
+      "repo": {
+        "id": 1299969979,
+        "name": "num-scope/pix",
+        "url": "https://api.github.com/repos/num-scope/pix"
+      },
+      "payload": {
+        "ref": "v0.7.1",
+        "ref_type": "tag",
+        "full_ref": "refs/tags/v0.7.1",
+        "pusher_type": "user"
+      },
+      "public": true,
+      "created_at": "2026-08-10T07:16:20Z",
+      "org": {
+        "id": 292966555,
+        "login": "num-scope",
+        "gravatar_id": "",
+        "url": "https://api.github.com/orgs/num-scope",
+        "avatar_url": "https://avatars.githubusercontent.com/u/292966555?"
+      }
+    },
+    {
+      "id": "17261519488",
+      "type": "PushEvent",
+      "actor": {
+        "id": 52145145,
+        "login": "wu-clan",
+        "display_login": "wu-clan",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/wu-clan",
+        "avatar_url": "https://avatars.githubusercontent.com/u/52145145?"
+      },
+      "repo": {
+        "id": 1299969979,
+        "name": "num-scope/pix",
+        "url": "https://api.github.com/repos/num-scope/pix"
+      },
+      "payload": {
+        "repository_id": 1299969979,
+        "push_id": 39579748144,
+        "ref": "refs/heads/main",
+        "head": "8edf740201748e4d7231cb5da03fd6e6bc35720d",
+        "before": "b405ab7c9ecd21f39520c1376d9367d676186737"
+      },
+      "public": true,
+      "created_at": "2026-08-10T07:16:18Z",
+      "org": {
+        "id": 292966555,
+        "login": "num-scope",
+        "gravatar_id": "",
+        "url": "https://api.github.com/orgs/num-scope",
+        "avatar_url": "https://avatars.githubusercontent.com/u/292966555?"
+      }
+    },
+    {
+      "id": "17261105981",
+      "type": "DeleteEvent",
+      "actor": {
+        "id": 52145145,
+        "login": "wu-clan",
+        "display_login": "wu-clan",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/wu-clan",
+        "avatar_url": "https://avatars.githubusercontent.com/u/52145145?"
+      },
+      "repo": {
+        "id": 1299969979,
+        "name": "num-scope/pix",
+        "url": "https://api.github.com/repos/num-scope/pix"
+      },
+      "payload": {
+        "ref": "v0.7.1",
+        "ref_type": "tag",
+        "full_ref": "refs/tags/v0.7.1",
+        "pusher_type": "user"
+      },
+      "public": true,
+      "created_at": "2026-08-10T07:11:14Z",
+      "org": {
+        "id": 292966555,
+        "login": "num-scope",
+        "gravatar_id": "",
+        "url": "https://api.github.com/orgs/num-scope",
+        "avatar_url": "https://avatars.githubusercontent.com/u/292966555?"
+      }
+    },
+    {
+      "id": "17261102337",
+      "type": "PushEvent",
+      "actor": {
+        "id": 52145145,
+        "login": "wu-clan",
+        "display_login": "wu-clan",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/wu-clan",
+        "avatar_url": "https://avatars.githubusercontent.com/u/52145145?"
+      },
+      "repo": {
+        "id": 1299969979,
+        "name": "num-scope/pix",
+        "url": "https://api.github.com/repos/num-scope/pix"
+      },
+      "payload": {
+        "repository_id": 1299969979,
+        "push_id": 39579329046,
+        "ref": "refs/heads/main",
+        "head": "b405ab7c9ecd21f39520c1376d9367d676186737",
+        "before": "e0c3c7e6f68ba0af9350ba855459115fed3459af"
+      },
+      "public": true,
+      "created_at": "2026-08-10T07:11:11Z",
+      "org": {
+        "id": 292966555,
+        "login": "num-scope",
+        "gravatar_id": "",
+        "url": "https://api.github.com/orgs/num-scope",
+        "avatar_url": "https://avatars.githubusercontent.com/u/292966555?"
+      }
+    },
+    {
+      "id": "17260866476",
+      "type": "DeleteEvent",
+      "actor": {
+        "id": 52145145,
+        "login": "wu-clan",
+        "display_login": "wu-clan",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/wu-clan",
+        "avatar_url": "https://avatars.githubusercontent.com/u/52145145?"
+      },
+      "repo": {
+        "id": 1299969979,
+        "name": "num-scope/pix",
+        "url": "https://api.github.com/repos/num-scope/pix"
+      },
+      "payload": {
+        "ref": "v0.7.1",
+        "ref_type": "tag",
+        "full_ref": "refs/tags/v0.7.1",
+        "pusher_type": "user"
+      },
+      "public": true,
+      "created_at": "2026-08-10T07:07:43Z",
+      "org": {
+        "id": 292966555,
+        "login": "num-scope",
+        "gravatar_id": "",
+        "url": "https://api.github.com/orgs/num-scope",
+        "avatar_url": "https://avatars.githubusercontent.com/u/292966555?"
+      }
+    },
+    {
+      "id": "17260820992",
+      "type": "PushEvent",
+      "actor": {
+        "id": 52145145,
+        "login": "wu-clan",
+        "display_login": "wu-clan",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/wu-clan",
+        "avatar_url": "https://avatars.githubusercontent.com/u/52145145?"
+      },
+      "repo": {
+        "id": 1299969979,
+        "name": "num-scope/pix",
+        "url": "https://api.github.com/repos/num-scope/pix"
+      },
+      "payload": {
+        "repository_id": 1299969979,
+        "push_id": 39579048612,
+        "ref": "refs/heads/main",
+        "head": "e0c3c7e6f68ba0af9350ba855459115fed3459af",
+        "before": "284bd1b3d0649cd99068e418592ca63ec6e2d3b8"
+      },
+      "public": true,
+      "created_at": "2026-08-10T07:07:46Z",
+      "org": {
+        "id": 292966555,
+        "login": "num-scope",
+        "gravatar_id": "",
+        "url": "https://api.github.com/orgs/num-scope",
+        "avatar_url": "https://avatars.githubusercontent.com/u/292966555?"
+      }
+    },
+    {
+      "id": "17260704148",
+      "type": "DeleteEvent",
+      "actor": {
+        "id": 52145145,
+        "login": "wu-clan",
+        "display_login": "wu-clan",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/wu-clan",
+        "avatar_url": "https://avatars.githubusercontent.com/u/52145145?"
+      },
+      "repo": {
+        "id": 1299969979,
+        "name": "num-scope/pix",
+        "url": "https://api.github.com/repos/num-scope/pix"
+      },
+      "payload": {
+        "ref": "v0.7.1",
+        "ref_type": "tag",
+        "full_ref": "refs/tags/v0.7.1",
+        "pusher_type": "user"
+      },
+      "public": true,
+      "created_at": "2026-08-10T07:06:20Z",
+      "org": {
+        "id": 292966555,
+        "login": "num-scope",
+        "gravatar_id": "",
+        "url": "https://api.github.com/orgs/num-scope",
+        "avatar_url": "https://avatars.githubusercontent.com/u/292966555?"
+      }
+    },
+    {
+      "id": "17260638051",
+      "type": "PushEvent",
+      "actor": {
+        "id": 52145145,
+        "login": "wu-clan",
+        "display_login": "wu-clan",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/wu-clan",
+        "avatar_url": "https://avatars.githubusercontent.com/u/52145145?"
+      },
+      "repo": {
+        "id": 1299969979,
+        "name": "num-scope/pix",
+        "url": "https://api.github.com/repos/num-scope/pix"
+      },
+      "payload": {
+        "repository_id": 1299969979,
+        "push_id": 39578866991,
+        "ref": "refs/heads/main",
+        "head": "284bd1b3d0649cd99068e418592ca63ec6e2d3b8",
+        "before": "11b0b95be7c34e98accc2f0cb2d3ac3a2134360e"
+      },
+      "public": true,
+      "created_at": "2026-08-10T07:05:32Z",
+      "org": {
+        "id": 292966555,
+        "login": "num-scope",
+        "gravatar_id": "",
+        "url": "https://api.github.com/orgs/num-scope",
+        "avatar_url": "https://avatars.githubusercontent.com/u/292966555?"
+      }
+    },
+    {
+      "id": "17260633965",
+      "type": "DeleteEvent",
+      "actor": {
+        "id": 52145145,
+        "login": "wu-clan",
+        "display_login": "wu-clan",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/wu-clan",
+        "avatar_url": "https://avatars.githubusercontent.com/u/52145145?"
+      },
+      "repo": {
+        "id": 1299969979,
+        "name": "num-scope/pix",
+        "url": "https://api.github.com/repos/num-scope/pix"
+      },
+      "payload": {
+        "ref": "v0.7.1",
+        "ref_type": "tag",
+        "full_ref": "refs/tags/v0.7.1",
+        "pusher_type": "user"
+      },
+      "public": true,
+      "created_at": "2026-08-10T07:05:29Z",
+      "org": {
+        "id": 292966555,
+        "login": "num-scope",
+        "gravatar_id": "",
+        "url": "https://api.github.com/orgs/num-scope",
+        "avatar_url": "https://avatars.githubusercontent.com/u/292966555?"
+      }
+    },
+    {
+      "id": "17260307536",
+      "type": "PushEvent",
+      "actor": {
+        "id": 52145145,
+        "login": "wu-clan",
+        "display_login": "wu-clan",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/wu-clan",
+        "avatar_url": "https://avatars.githubusercontent.com/u/52145145?"
+      },
+      "repo": {
+        "id": 1299969979,
+        "name": "num-scope/pix",
+        "url": "https://api.github.com/repos/num-scope/pix"
+      },
+      "payload": {
+        "repository_id": 1299969979,
+        "push_id": 39578519648,
+        "ref": "refs/heads/main",
+        "head": "11b0b95be7c34e98accc2f0cb2d3ac3a2134360e",
+        "before": "67977807455994f9598a4bb274d9004854c1773c"
+      },
+      "public": true,
+      "created_at": "2026-08-10T07:01:20Z",
+      "org": {
+        "id": 292966555,
+        "login": "num-scope",
+        "gravatar_id": "",
+        "url": "https://api.github.com/orgs/num-scope",
+        "avatar_url": "https://avatars.githubusercontent.com/u/292966555?"
+      }
+    },
+    {
+      "id": "17260289765",
+      "type": "DeleteEvent",
+      "actor": {
+        "id": 52145145,
+        "login": "wu-clan",
+        "display_login": "wu-clan",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/wu-clan",
+        "avatar_url": "https://avatars.githubusercontent.com/u/52145145?"
+      },
+      "repo": {
+        "id": 1299969979,
+        "name": "num-scope/pix",
+        "url": "https://api.github.com/repos/num-scope/pix"
+      },
+      "payload": {
+        "ref": "v0.7.1",
+        "ref_type": "tag",
+        "full_ref": "refs/tags/v0.7.1",
+        "pusher_type": "user"
+      },
+      "public": true,
+      "created_at": "2026-08-10T07:01:17Z",
+      "org": {
+        "id": 292966555,
+        "login": "num-scope",
+        "gravatar_id": "",
+        "url": "https://api.github.com/orgs/num-scope",
+        "avatar_url": "https://avatars.githubusercontent.com/u/292966555?"
+      }
+    },
+    {
+      "id": "17259529025",
+      "type": "PushEvent",
+      "actor": {
+        "id": 52145145,
+        "login": "wu-clan",
+        "display_login": "wu-clan",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/wu-clan",
+        "avatar_url": "https://avatars.githubusercontent.com/u/52145145?"
+      },
+      "repo": {
+        "id": 1299969979,
+        "name": "num-scope/pix",
+        "url": "https://api.github.com/repos/num-scope/pix"
+      },
+      "payload": {
+        "repository_id": 1299969979,
+        "push_id": 39577742520,
+        "ref": "refs/heads/main",
+        "head": "67977807455994f9598a4bb274d9004854c1773c",
+        "before": "3266a286228ded07a4ea79b4c876d1bc40b0446b"
+      },
+      "public": true,
+      "created_at": "2026-08-10T06:51:37Z",
+      "org": {
+        "id": 292966555,
+        "login": "num-scope",
+        "gravatar_id": "",
+        "url": "https://api.github.com/orgs/num-scope",
+        "avatar_url": "https://avatars.githubusercontent.com/u/292966555?"
+      }
+    },
+    {
+      "id": "17259496674",
+      "type": "PushEvent",
+      "actor": {
+        "id": 52145145,
+        "login": "wu-clan",
+        "display_login": "wu-clan",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/wu-clan",
+        "avatar_url": "https://avatars.githubusercontent.com/u/52145145?"
+      },
+      "repo": {
+        "id": 1299969979,
+        "name": "num-scope/pix",
+        "url": "https://api.github.com/repos/num-scope/pix"
+      },
+      "payload": {
+        "repository_id": 1299969979,
+        "push_id": 39577709927,
+        "ref": "refs/heads/main",
+        "head": "3266a286228ded07a4ea79b4c876d1bc40b0446b",
+        "before": "2c3c073c87b5d313518c959f77cc954b3c93b6d5"
+      },
+      "public": true,
+      "created_at": "2026-08-10T06:51:11Z",
+      "org": {
+        "id": 292966555,
+        "login": "num-scope",
+        "gravatar_id": "",
+        "url": "https://api.github.com/orgs/num-scope",
+        "avatar_url": "https://avatars.githubusercontent.com/u/292966555?"
+      }
+    },
+    {
+      "id": "17241504226",
+      "type": "PushEvent",
+      "actor": {
+        "id": 52145145,
+        "login": "wu-clan",
+        "display_login": "wu-clan",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/wu-clan",
+        "avatar_url": "https://avatars.githubusercontent.com/u/52145145?"
+      },
+      "repo": {
+        "id": 1299969979,
+        "name": "num-scope/pix",
+        "url": "https://api.github.com/repos/num-scope/pix"
+      },
+      "payload": {
+        "repository_id": 1299969979,
+        "push_id": 39559602051,
+        "ref": "refs/heads/main",
+        "head": "2c3c073c87b5d313518c959f77cc954b3c93b6d5",
+        "before": "afc4284d780e01e5e61552f47441cd93d8358703"
+      },
+      "public": true,
+      "created_at": "2026-08-10T02:03:53Z",
+      "org": {
+        "id": 292966555,
+        "login": "num-scope",
+        "gravatar_id": "",
+        "url": "https://api.github.com/orgs/num-scope",
+        "avatar_url": "https://avatars.githubusercontent.com/u/292966555?"
+      }
+    },
+    {
+      "id": "17241469055",
+      "type": "PushEvent",
+      "actor": {
+        "id": 52145145,
+        "login": "wu-clan",
+        "display_login": "wu-clan",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/wu-clan",
+        "avatar_url": "https://avatars.githubusercontent.com/u/52145145?"
+      },
+      "repo": {
+        "id": 1299969979,
+        "name": "num-scope/pix",
+        "url": "https://api.github.com/repos/num-scope/pix"
+      },
+      "payload": {
+        "repository_id": 1299969979,
+        "push_id": 39559566578,
+        "ref": "refs/heads/main",
+        "head": "afc4284d780e01e5e61552f47441cd93d8358703",
+        "before": "02da470e59f1fd8c3828ee884af42094774d0a04"
+      },
+      "public": true,
+      "created_at": "2026-08-10T02:03:12Z",
+      "org": {
+        "id": 292966555,
+        "login": "num-scope",
+        "gravatar_id": "",
+        "url": "https://api.github.com/orgs/num-scope",
+        "avatar_url": "https://avatars.githubusercontent.com/u/292966555?"
+      }
+    },
+    {
+      "id": "17240699495",
+      "type": "PushEvent",
+      "actor": {
+        "id": 52145145,
+        "login": "wu-clan",
+        "display_login": "wu-clan",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/wu-clan",
+        "avatar_url": "https://avatars.githubusercontent.com/u/52145145?"
+      },
+      "repo": {
+        "id": 1299969979,
+        "name": "num-scope/pix",
+        "url": "https://api.github.com/repos/num-scope/pix"
+      },
+      "payload": {
+        "repository_id": 1299969979,
+        "push_id": 39558793003,
+        "ref": "refs/heads/main",
+        "head": "02da470e59f1fd8c3828ee884af42094774d0a04",
+        "before": "c940750e0a36c8c3b6ec413b976be701f29326e1"
+      },
+      "public": true,
+      "created_at": "2026-08-10T01:47:56Z",
+      "org": {
+        "id": 292966555,
+        "login": "num-scope",
+        "gravatar_id": "",
+        "url": "https://api.github.com/orgs/num-scope",
+        "avatar_url": "https://avatars.githubusercontent.com/u/292966555?"
+      }
+    },
+    {
       "id": "13005805043",
       "type": "IssuesEvent",
       "actor": {
@@ -12111,1561 +12830,7 @@
         "url": "https://api.github.com/orgs/num-scope",
         "avatar_url": "https://avatars.githubusercontent.com/u/292966555?"
       }
-    },
-    {
-      "id": "17164580127",
-      "type": "PushEvent",
-      "actor": {
-        "id": 52145145,
-        "login": "wu-clan",
-        "display_login": "wu-clan",
-        "gravatar_id": "",
-        "url": "https://api.github.com/users/wu-clan",
-        "avatar_url": "https://avatars.githubusercontent.com/u/52145145?"
-      },
-      "repo": {
-        "id": 1299969979,
-        "name": "num-scope/pix",
-        "url": "https://api.github.com/repos/num-scope/pix"
-      },
-      "payload": {
-        "repository_id": 1299969979,
-        "push_id": 39481849898,
-        "ref": "refs/heads/main",
-        "head": "c59a9d1120ce129ae933648158e8d71113b5f3c4",
-        "before": "22d9c3dc74c4cca1485abee1e7c262726bee806d"
-      },
-      "public": true,
-      "created_at": "2026-08-09T04:23:15Z",
-      "org": {
-        "id": 292966555,
-        "login": "num-scope",
-        "gravatar_id": "",
-        "url": "https://api.github.com/orgs/num-scope",
-        "avatar_url": "https://avatars.githubusercontent.com/u/292966555?"
-      }
-    },
-    {
-      "id": "12992091908",
-      "type": "IssuesEvent",
-      "actor": {
-        "id": 52145145,
-        "login": "wu-clan",
-        "display_login": "wu-clan",
-        "gravatar_id": "",
-        "url": "https://api.github.com/users/wu-clan",
-        "avatar_url": "https://avatars.githubusercontent.com/u/52145145?"
-      },
-      "repo": {
-        "id": 1299969979,
-        "name": "num-scope/pix",
-        "url": "https://api.github.com/repos/num-scope/pix"
-      },
-      "payload": {
-        "action": "closed",
-        "issue": {
-          "url": "https://api.github.com/repos/num-scope/pix/issues/32",
-          "repository_url": "https://api.github.com/repos/num-scope/pix",
-          "labels_url": "https://api.github.com/repos/num-scope/pix/issues/32/labels{/name}",
-          "comments_url": "https://api.github.com/repos/num-scope/pix/issues/32/comments",
-          "events_url": "https://api.github.com/repos/num-scope/pix/issues/32/events",
-          "html_url": "https://github.com/num-scope/pix/issues/32",
-          "id": 5097702393,
-          "node_id": "I_kwDOTXv3u88AAAABL9jD-Q",
-          "number": 32,
-          "title": "RPC Extension UI: `method: \"select\"` does not render `options`",
-          "user": {
-            "login": "speak010",
-            "id": 11519607,
-            "node_id": "MDQ6VXNlcjExNTE5NjA3",
-            "avatar_url": "https://avatars.githubusercontent.com/u/11519607?v=4",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/speak010",
-            "html_url": "https://github.com/speak010",
-            "followers_url": "https://api.github.com/users/speak010/followers",
-            "following_url": "https://api.github.com/users/speak010/following{/other_user}",
-            "gists_url": "https://api.github.com/users/speak010/gists{/gist_id}",
-            "starred_url": "https://api.github.com/users/speak010/starred{/owner}{/repo}",
-            "subscriptions_url": "https://api.github.com/users/speak010/subscriptions",
-            "organizations_url": "https://api.github.com/users/speak010/orgs",
-            "repos_url": "https://api.github.com/users/speak010/repos",
-            "events_url": "https://api.github.com/users/speak010/events{/privacy}",
-            "received_events_url": "https://api.github.com/users/speak010/received_events",
-            "type": "User",
-            "user_view_type": "public",
-            "site_admin": false
-          },
-          "labels": [],
-          "state": "closed",
-          "locked": false,
-          "assignees": [],
-          "milestone": null,
-          "comments": 1,
-          "created_at": "2026-08-08T13:28:42Z",
-          "updated_at": "2026-08-09T04:23:15Z",
-          "closed_at": "2026-08-09T04:23:15Z",
-          "assignee": null,
-          "issue_field_values": [],
-          "type": null,
-          "active_lock_reason": null,
-          "sub_issues_summary": {
-            "total": 0,
-            "completed": 0,
-            "percent_completed": 0
-          },
-          "issue_dependencies_summary": {
-            "blocked_by": 0,
-            "total_blocked_by": 0,
-            "blocking": 0,
-            "total_blocking": 0
-          },
-          "body": "**Describe the bug**\nWhen an extension calls `ui.select(title, options)` in SDK/RPC mode, Pix's backend emits an `extension_ui_request` with `method: \"select\"`, `title`, and `options`. However, the Pix frontend does not display the `options` array (or renders it incorrectly), making it impossible for users to see the available choices.\n\n**To Reproduce**\n1. Use an extension that prompts the user with `ui.select`, for example `@juicesharp/rpiv-ask-user-question`.\n2. Trigger the extension.\n3. The dialog appears, but the options are missing/not visible.\n\n**Expected behavior**\nThe `select` dialog should display the `options` array passed by the extension so the user can make a selection.\n\n**Impact**\nPlugins that rely on `ui.select` (like `ask-user-question` falling back to RPC dialog mode) cannot be used properly in Pix, blocking agent workflows that require user choices.\n",
-          "reactions": {
-            "url": "https://api.github.com/repos/num-scope/pix/issues/32/reactions",
-            "total_count": 0,
-            "+1": 0,
-            "-1": 0,
-            "laugh": 0,
-            "hooray": 0,
-            "confused": 0,
-            "heart": 0,
-            "rocket": 0,
-            "eyes": 0
-          },
-          "timeline_url": "https://api.github.com/repos/num-scope/pix/issues/32/timeline",
-          "performed_via_github_app": null,
-          "state_reason": "completed",
-          "pinned_comment": null
-        }
-      },
-      "public": true,
-      "created_at": "2026-08-09T04:23:15Z",
-      "org": {
-        "id": 292966555,
-        "login": "num-scope",
-        "gravatar_id": "",
-        "url": "https://api.github.com/orgs/num-scope",
-        "avatar_url": "https://avatars.githubusercontent.com/u/292966555?"
-      }
-    },
-    {
-      "id": "17161611090",
-      "type": "PushEvent",
-      "actor": {
-        "id": 52145145,
-        "login": "wu-clan",
-        "display_login": "wu-clan",
-        "gravatar_id": "",
-        "url": "https://api.github.com/users/wu-clan",
-        "avatar_url": "https://avatars.githubusercontent.com/u/52145145?"
-      },
-      "repo": {
-        "id": 1299969979,
-        "name": "num-scope/pix",
-        "url": "https://api.github.com/repos/num-scope/pix"
-      },
-      "payload": {
-        "repository_id": 1299969979,
-        "push_id": 39478867446,
-        "ref": "refs/heads/main",
-        "head": "22d9c3dc74c4cca1485abee1e7c262726bee806d",
-        "before": "7f7f22cb94f5255a933b96589bffd377db5e1c3a"
-      },
-      "public": true,
-      "created_at": "2026-08-09T03:02:45Z",
-      "org": {
-        "id": 292966555,
-        "login": "num-scope",
-        "gravatar_id": "",
-        "url": "https://api.github.com/orgs/num-scope",
-        "avatar_url": "https://avatars.githubusercontent.com/u/292966555?"
-      }
-    },
-    {
-      "id": "12977491767",
-      "type": "IssueCommentEvent",
-      "actor": {
-        "id": 52145145,
-        "login": "wu-clan",
-        "display_login": "wu-clan",
-        "gravatar_id": "",
-        "url": "https://api.github.com/users/wu-clan",
-        "avatar_url": "https://avatars.githubusercontent.com/u/52145145?"
-      },
-      "repo": {
-        "id": 1299969979,
-        "name": "num-scope/pix",
-        "url": "https://api.github.com/repos/num-scope/pix"
-      },
-      "payload": {
-        "action": "created",
-        "issue": {
-          "url": "https://api.github.com/repos/num-scope/pix/issues/32",
-          "repository_url": "https://api.github.com/repos/num-scope/pix",
-          "labels_url": "https://api.github.com/repos/num-scope/pix/issues/32/labels{/name}",
-          "comments_url": "https://api.github.com/repos/num-scope/pix/issues/32/comments",
-          "events_url": "https://api.github.com/repos/num-scope/pix/issues/32/events",
-          "html_url": "https://github.com/num-scope/pix/issues/32",
-          "id": 5097702393,
-          "node_id": "I_kwDOTXv3u88AAAABL9jD-Q",
-          "number": 32,
-          "title": "RPC Extension UI: `method: \"select\"` does not render `options`",
-          "user": {
-            "login": "speak010",
-            "id": 11519607,
-            "node_id": "MDQ6VXNlcjExNTE5NjA3",
-            "avatar_url": "https://avatars.githubusercontent.com/u/11519607?v=4",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/speak010",
-            "html_url": "https://github.com/speak010",
-            "followers_url": "https://api.github.com/users/speak010/followers",
-            "following_url": "https://api.github.com/users/speak010/following{/other_user}",
-            "gists_url": "https://api.github.com/users/speak010/gists{/gist_id}",
-            "starred_url": "https://api.github.com/users/speak010/starred{/owner}{/repo}",
-            "subscriptions_url": "https://api.github.com/users/speak010/subscriptions",
-            "organizations_url": "https://api.github.com/users/speak010/orgs",
-            "repos_url": "https://api.github.com/users/speak010/repos",
-            "events_url": "https://api.github.com/users/speak010/events{/privacy}",
-            "received_events_url": "https://api.github.com/users/speak010/received_events",
-            "type": "User",
-            "user_view_type": "public",
-            "site_admin": false
-          },
-          "labels": [],
-          "state": "closed",
-          "locked": false,
-          "assignees": [],
-          "milestone": null,
-          "comments": 1,
-          "created_at": "2026-08-08T13:28:42Z",
-          "updated_at": "2026-08-09T04:23:15Z",
-          "closed_at": "2026-08-09T04:23:15Z",
-          "assignee": null,
-          "issue_field_values": [],
-          "type": null,
-          "active_lock_reason": null,
-          "sub_issues_summary": {
-            "total": 0,
-            "completed": 0,
-            "percent_completed": 0
-          },
-          "issue_dependencies_summary": {
-            "blocked_by": 0,
-            "total_blocked_by": 0,
-            "blocking": 0,
-            "total_blocking": 0
-          },
-          "body": "**Describe the bug**\nWhen an extension calls `ui.select(title, options)` in SDK/RPC mode, Pix's backend emits an `extension_ui_request` with `method: \"select\"`, `title`, and `options`. However, the Pix frontend does not display the `options` array (or renders it incorrectly), making it impossible for users to see the available choices.\n\n**To Reproduce**\n1. Use an extension that prompts the user with `ui.select`, for example `@juicesharp/rpiv-ask-user-question`.\n2. Trigger the extension.\n3. The dialog appears, but the options are missing/not visible.\n\n**Expected behavior**\nThe `select` dialog should display the `options` array passed by the extension so the user can make a selection.\n\n**Impact**\nPlugins that rely on `ui.select` (like `ask-user-question` falling back to RPC dialog mode) cannot be used properly in Pix, blocking agent workflows that require user choices.\n",
-          "reactions": {
-            "url": "https://api.github.com/repos/num-scope/pix/issues/32/reactions",
-            "total_count": 0,
-            "+1": 0,
-            "-1": 0,
-            "laugh": 0,
-            "hooray": 0,
-            "confused": 0,
-            "heart": 0,
-            "rocket": 0,
-            "eyes": 0
-          },
-          "timeline_url": "https://api.github.com/repos/num-scope/pix/issues/32/timeline",
-          "performed_via_github_app": null,
-          "state_reason": "completed",
-          "pinned_comment": null
-        },
-        "comment": {
-          "url": "https://api.github.com/repos/num-scope/pix/issues/comments/5226554416",
-          "html_url": "https://github.com/num-scope/pix/issues/32#issuecomment-5226554416",
-          "issue_url": "https://api.github.com/repos/num-scope/pix/issues/32",
-          "id": 5226554416,
-          "node_id": "IC_kwDOTXv3u88AAAABN4bkMA",
-          "user": {
-            "login": "wu-clan",
-            "id": 52145145,
-            "node_id": "MDQ6VXNlcjUyMTQ1MTQ1",
-            "avatar_url": "https://avatars.githubusercontent.com/u/52145145?v=4",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/wu-clan",
-            "html_url": "https://github.com/wu-clan",
-            "followers_url": "https://api.github.com/users/wu-clan/followers",
-            "following_url": "https://api.github.com/users/wu-clan/following{/other_user}",
-            "gists_url": "https://api.github.com/users/wu-clan/gists{/gist_id}",
-            "starred_url": "https://api.github.com/users/wu-clan/starred{/owner}{/repo}",
-            "subscriptions_url": "https://api.github.com/users/wu-clan/subscriptions",
-            "organizations_url": "https://api.github.com/users/wu-clan/orgs",
-            "repos_url": "https://api.github.com/users/wu-clan/repos",
-            "events_url": "https://api.github.com/users/wu-clan/events{/privacy}",
-            "received_events_url": "https://api.github.com/users/wu-clan/received_events",
-            "type": "User",
-            "user_view_type": "public",
-            "site_admin": false
-          },
-          "created_at": "2026-08-08T14:32:25Z",
-          "updated_at": "2026-08-08T14:32:25Z",
-          "body": "related #15",
-          "pin": null,
-          "reactions": {
-            "url": "https://api.github.com/repos/num-scope/pix/issues/comments/5226554416/reactions",
-            "total_count": 0,
-            "+1": 0,
-            "-1": 0,
-            "laugh": 0,
-            "hooray": 0,
-            "confused": 0,
-            "heart": 0,
-            "rocket": 0,
-            "eyes": 0
-          },
-          "performed_via_github_app": null,
-          "minimized": null
-        }
-      },
-      "public": true,
-      "created_at": "2026-08-08T14:32:25Z",
-      "org": {
-        "id": 292966555,
-        "login": "num-scope",
-        "gravatar_id": "",
-        "url": "https://api.github.com/orgs/num-scope",
-        "avatar_url": "https://avatars.githubusercontent.com/u/292966555?"
-      }
-    },
-    {
-      "id": "12797384486",
-      "type": "IssuesEvent",
-      "actor": {
-        "id": 52145145,
-        "login": "wu-clan",
-        "display_login": "wu-clan",
-        "gravatar_id": "",
-        "url": "https://api.github.com/users/wu-clan",
-        "avatar_url": "https://avatars.githubusercontent.com/u/52145145?"
-      },
-      "repo": {
-        "id": 1299969979,
-        "name": "num-scope/pix",
-        "url": "https://api.github.com/repos/num-scope/pix"
-      },
-      "payload": {
-        "action": "closed",
-        "issue": {
-          "url": "https://api.github.com/repos/num-scope/pix/issues/24",
-          "repository_url": "https://api.github.com/repos/num-scope/pix",
-          "labels_url": "https://api.github.com/repos/num-scope/pix/issues/24/labels{/name}",
-          "comments_url": "https://api.github.com/repos/num-scope/pix/issues/24/comments",
-          "events_url": "https://api.github.com/repos/num-scope/pix/issues/24/events",
-          "html_url": "https://github.com/num-scope/pix/issues/24",
-          "id": 4954740421,
-          "node_id": "I_kwDOTXv3u88AAAABJ1NWxQ",
-          "number": 24,
-          "title": "feat(ui): 主题系统（可定制皮肤 / 预设 / token）",
-          "user": {
-            "login": "wu-clan",
-            "id": 52145145,
-            "node_id": "MDQ6VXNlcjUyMTQ1MTQ1",
-            "avatar_url": "https://avatars.githubusercontent.com/u/52145145?v=4",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/wu-clan",
-            "html_url": "https://github.com/wu-clan",
-            "followers_url": "https://api.github.com/users/wu-clan/followers",
-            "following_url": "https://api.github.com/users/wu-clan/following{/other_user}",
-            "gists_url": "https://api.github.com/users/wu-clan/gists{/gist_id}",
-            "starred_url": "https://api.github.com/users/wu-clan/starred{/owner}{/repo}",
-            "subscriptions_url": "https://api.github.com/users/wu-clan/subscriptions",
-            "organizations_url": "https://api.github.com/users/wu-clan/orgs",
-            "repos_url": "https://api.github.com/users/wu-clan/repos",
-            "events_url": "https://api.github.com/users/wu-clan/events{/privacy}",
-            "received_events_url": "https://api.github.com/users/wu-clan/received_events",
-            "type": "User",
-            "user_view_type": "public",
-            "site_admin": false
-          },
-          "labels": [
-            {
-              "id": 11515918785,
-              "node_id": "LA_kwDOTXv3u88AAAACrmb5wQ",
-              "url": "https://api.github.com/repos/num-scope/pix/labels/enhancement",
-              "name": "enhancement",
-              "color": "a2eeef",
-              "default": true,
-              "description": "New feature or request"
-            },
-            {
-              "id": 11599324545,
-              "node_id": "LA_kwDOTXv3u88AAAACs1-lgQ",
-              "url": "https://api.github.com/repos/num-scope/pix/labels/P2",
-              "name": "P2",
-              "color": "FBCA04",
-              "default": false,
-              "description": "Advanced / ecosystem"
-            }
-          ],
-          "state": "closed",
-          "locked": false,
-          "assignees": [],
-          "milestone": null,
-          "comments": 1,
-          "created_at": "2026-07-23T02:12:38Z",
-          "updated_at": "2026-08-05T03:22:49Z",
-          "closed_at": "2026-08-05T03:22:49Z",
-          "assignee": null,
-          "issue_field_values": [],
-          "type": null,
-          "active_lock_reason": null,
-          "sub_issues_summary": {
-            "total": 0,
-            "completed": 0,
-            "percent_completed": 0
-          },
-          "issue_dependencies_summary": {
-            "blocked_by": 0,
-            "total_blocked_by": 0,
-            "blocking": 0,
-            "total_blocking": 0
-          },
-          "body": "## 为何要做\n\nCodex 桌面端需要外部工具（如 [Codex-Dream-Skin](https://github.com/Fei-Away/Codex-Dream-Skin)）通过 CDP 注入才能换肤；Pix 是自研应用，可直接在壳层做一等主题系统，无需注入、不破坏安装包。\n\n主题不只是 light/dark：用户期望背景、侧栏材质、强调色、聊天气泡、字体密度等可预设/可导入。\n\n## 参考\n\n- [Fei-Away/Codex-Dream-Skin](https://github.com/Fei-Away/Codex-Dream-Skin)：背景图、浅/深预设、已保存主题切换\n- 我们的优势：原生 token / CSS 变量 / React 树可控，可热切换、预览、导入导出\n\n## 当前实现（对照代码）\n\n- 仅有 `ThemePreference = light | dark | system`\n- `data-theme` + `apps/desktop/src/renderer/styles.css` 基础 CSS 变量\n- 设置/快捷键可切换外观；`nativeTheme.themeSource` 同步\n- 会尽量从 pi theme 名猜测浅/深（`colorModeFromPiTheme`），**不是**完整皮肤包\n- 资源列表里能看到 pi `theme` 类型，但未映射为桌面皮肤\n\n## 建议实现\n\n1. 设计 token 层（壳层颜色、圆角、阴影、侧栏/composer/timeline 材质）\n2. 主题包格式：本地目录（背景 + tokens + meta）；浅/深或自适应\n3. 内置少量克制预设；设置页/快捷入口切换；纯桌面状态持久化\n4. 导入/导出自定义主题包\n5. 与 system 外观协作\n6. 可选：pi theme 资源「发现 → 应用」桥（不发明私有 runtime 协议）\n\n## 非目标\n\n- 不依赖 CDP 注入 / 不改 Codex 安装包\n- 主题不写进影响 agent 行为的 pi 配置\n- MVP 不做在线主题商店\n\n## 验收\n\n- [ ] 不重启切换主题预设，主壳一致换肤\n- [ ] 至少支持：背景（或渐变）、主色/强调色、浅深模式\n- [ ] 偏好持久化；system 跟随 OS\n- [ ] 可导入自定义主题包（最小：背景 + token 覆盖）\n- [ ] 默认保持中性高密度风格\n",
-          "reactions": {
-            "url": "https://api.github.com/repos/num-scope/pix/issues/24/reactions",
-            "total_count": 0,
-            "+1": 0,
-            "-1": 0,
-            "laugh": 0,
-            "hooray": 0,
-            "confused": 0,
-            "heart": 0,
-            "rocket": 0,
-            "eyes": 0
-          },
-          "timeline_url": "https://api.github.com/repos/num-scope/pix/issues/24/timeline",
-          "performed_via_github_app": null,
-          "state_reason": "completed",
-          "pinned_comment": null
-        }
-      },
-      "public": true,
-      "created_at": "2026-08-05T03:22:49Z",
-      "org": {
-        "id": 292966555,
-        "login": "num-scope",
-        "gravatar_id": "",
-        "url": "https://api.github.com/orgs/num-scope",
-        "avatar_url": "https://avatars.githubusercontent.com/u/292966555?"
-      }
-    },
-    {
-      "id": "16645228304",
-      "type": "PushEvent",
-      "actor": {
-        "id": 52145145,
-        "login": "wu-clan",
-        "display_login": "wu-clan",
-        "gravatar_id": "",
-        "url": "https://api.github.com/users/wu-clan",
-        "avatar_url": "https://avatars.githubusercontent.com/u/52145145?"
-      },
-      "repo": {
-        "id": 1299969979,
-        "name": "num-scope/pix",
-        "url": "https://api.github.com/repos/num-scope/pix"
-      },
-      "payload": {
-        "repository_id": 1299969979,
-        "push_id": 38956973335,
-        "ref": "refs/heads/main",
-        "head": "7f7f22cb94f5255a933b96589bffd377db5e1c3a",
-        "before": "f2d439eee91510d1bc44dcfc00129cee6dbc6f9d"
-      },
-      "public": true,
-      "created_at": "2026-08-04T05:28:14Z",
-      "org": {
-        "id": 292966555,
-        "login": "num-scope",
-        "gravatar_id": "",
-        "url": "https://api.github.com/orgs/num-scope",
-        "avatar_url": "https://avatars.githubusercontent.com/u/292966555?"
-      }
-    },
-    {
-      "id": "16633083123",
-      "type": "PushEvent",
-      "actor": {
-        "id": 52145145,
-        "login": "wu-clan",
-        "display_login": "wu-clan",
-        "gravatar_id": "",
-        "url": "https://api.github.com/users/wu-clan",
-        "avatar_url": "https://avatars.githubusercontent.com/u/52145145?"
-      },
-      "repo": {
-        "id": 1299969979,
-        "name": "num-scope/pix",
-        "url": "https://api.github.com/repos/num-scope/pix"
-      },
-      "payload": {
-        "repository_id": 1299969979,
-        "push_id": 38944707206,
-        "ref": "refs/heads/main",
-        "head": "f2d439eee91510d1bc44dcfc00129cee6dbc6f9d",
-        "before": "211c737db6a6cf61b03d40e02ebcb5f45e6fc9a0"
-      },
-      "public": true,
-      "created_at": "2026-08-04T02:52:06Z",
-      "org": {
-        "id": 292966555,
-        "login": "num-scope",
-        "gravatar_id": "",
-        "url": "https://api.github.com/orgs/num-scope",
-        "avatar_url": "https://avatars.githubusercontent.com/u/292966555?"
-      }
-    },
-    {
-      "id": "16563285819",
-      "type": "PushEvent",
-      "actor": {
-        "id": 52145145,
-        "login": "wu-clan",
-        "display_login": "wu-clan",
-        "gravatar_id": "",
-        "url": "https://api.github.com/users/wu-clan",
-        "avatar_url": "https://avatars.githubusercontent.com/u/52145145?"
-      },
-      "repo": {
-        "id": 1299969979,
-        "name": "num-scope/pix",
-        "url": "https://api.github.com/repos/num-scope/pix"
-      },
-      "payload": {
-        "repository_id": 1299969979,
-        "push_id": 38874033694,
-        "ref": "refs/heads/main",
-        "head": "211c737db6a6cf61b03d40e02ebcb5f45e6fc9a0",
-        "before": "8f2411c30bd8845265d169978bac2d6ec5b03eee"
-      },
-      "public": true,
-      "created_at": "2026-08-03T11:11:08Z",
-      "org": {
-        "id": 292966555,
-        "login": "num-scope",
-        "gravatar_id": "",
-        "url": "https://api.github.com/orgs/num-scope",
-        "avatar_url": "https://avatars.githubusercontent.com/u/292966555?"
-      }
-    },
-    {
-      "id": "12660174905",
-      "type": "IssueCommentEvent",
-      "actor": {
-        "id": 52145145,
-        "login": "wu-clan",
-        "display_login": "wu-clan",
-        "gravatar_id": "",
-        "url": "https://api.github.com/users/wu-clan",
-        "avatar_url": "https://avatars.githubusercontent.com/u/52145145?"
-      },
-      "repo": {
-        "id": 1299969979,
-        "name": "num-scope/pix",
-        "url": "https://api.github.com/repos/num-scope/pix"
-      },
-      "payload": {
-        "action": "created",
-        "issue": {
-          "url": "https://api.github.com/repos/num-scope/pix/issues/30",
-          "repository_url": "https://api.github.com/repos/num-scope/pix",
-          "labels_url": "https://api.github.com/repos/num-scope/pix/issues/30/labels{/name}",
-          "comments_url": "https://api.github.com/repos/num-scope/pix/issues/30/comments",
-          "events_url": "https://api.github.com/repos/num-scope/pix/issues/30/events",
-          "html_url": "https://github.com/num-scope/pix/issues/30",
-          "id": 5041946984,
-          "node_id": "I_kwDOTXv3u88AAAABLIYBaA",
-          "number": 30,
-          "title": "Markdown 表格渲染需要优化，渲染器不支持 GFM table",
-          "user": {
-            "login": "lhc1119692022",
-            "id": 47788873,
-            "node_id": "MDQ6VXNlcjQ3Nzg4ODcz",
-            "avatar_url": "https://avatars.githubusercontent.com/u/47788873?v=4",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/lhc1119692022",
-            "html_url": "https://github.com/lhc1119692022",
-            "followers_url": "https://api.github.com/users/lhc1119692022/followers",
-            "following_url": "https://api.github.com/users/lhc1119692022/following{/other_user}",
-            "gists_url": "https://api.github.com/users/lhc1119692022/gists{/gist_id}",
-            "starred_url": "https://api.github.com/users/lhc1119692022/starred{/owner}{/repo}",
-            "subscriptions_url": "https://api.github.com/users/lhc1119692022/subscriptions",
-            "organizations_url": "https://api.github.com/users/lhc1119692022/orgs",
-            "repos_url": "https://api.github.com/users/lhc1119692022/repos",
-            "events_url": "https://api.github.com/users/lhc1119692022/events{/privacy}",
-            "received_events_url": "https://api.github.com/users/lhc1119692022/received_events",
-            "type": "User",
-            "user_view_type": "public",
-            "site_admin": false
-          },
-          "labels": [],
-          "state": "closed",
-          "locked": false,
-          "assignees": [],
-          "milestone": null,
-          "comments": 2,
-          "created_at": "2026-08-02T10:29:49Z",
-          "updated_at": "2026-08-02T15:59:14Z",
-          "closed_at": "2026-08-02T15:59:14Z",
-          "assignee": null,
-          "issue_field_values": [],
-          "type": null,
-          "active_lock_reason": null,
-          "sub_issues_summary": {
-            "total": 0,
-            "completed": 0,
-            "percent_completed": 0
-          },
-          "issue_dependencies_summary": {
-            "blocked_by": 0,
-            "total_blocked_by": 0,
-            "blocking": 0,
-            "total_blocking": 0
-          },
-          "body": "<img width=\"1039\" height=\"713\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/6df5e431-2b7a-4472-b293-1932669fbba7\" />\n\n<img width=\"930\" height=\"373\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/55de028d-4443-4f1d-b690-3444819ecddb\" />\n\n<img width=\"943\" height=\"177\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/c8d77876-abb7-487f-8f2e-39512d071d04\" />\n\n<img width=\"915\" height=\"329\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/88b0dd80-a9c3-4f62-bd8b-159c941c7df5\" />",
-          "reactions": {
-            "url": "https://api.github.com/repos/num-scope/pix/issues/30/reactions",
-            "total_count": 0,
-            "+1": 0,
-            "-1": 0,
-            "laugh": 0,
-            "hooray": 0,
-            "confused": 0,
-            "heart": 0,
-            "rocket": 0,
-            "eyes": 0
-          },
-          "timeline_url": "https://api.github.com/repos/num-scope/pix/issues/30/timeline",
-          "performed_via_github_app": null,
-          "state_reason": "completed",
-          "pinned_comment": null
-        },
-        "comment": {
-          "url": "https://api.github.com/repos/num-scope/pix/issues/comments/5159052674",
-          "html_url": "https://github.com/num-scope/pix/issues/30#issuecomment-5159052674",
-          "issue_url": "https://api.github.com/repos/num-scope/pix/issues/30",
-          "id": 5159052674,
-          "node_id": "IC_kwDOTXv3u88AAAABM4Dlgg",
-          "user": {
-            "login": "wu-clan",
-            "id": 52145145,
-            "node_id": "MDQ6VXNlcjUyMTQ1MTQ1",
-            "avatar_url": "https://avatars.githubusercontent.com/u/52145145?v=4",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/wu-clan",
-            "html_url": "https://github.com/wu-clan",
-            "followers_url": "https://api.github.com/users/wu-clan/followers",
-            "following_url": "https://api.github.com/users/wu-clan/following{/other_user}",
-            "gists_url": "https://api.github.com/users/wu-clan/gists{/gist_id}",
-            "starred_url": "https://api.github.com/users/wu-clan/starred{/owner}{/repo}",
-            "subscriptions_url": "https://api.github.com/users/wu-clan/subscriptions",
-            "organizations_url": "https://api.github.com/users/wu-clan/orgs",
-            "repos_url": "https://api.github.com/users/wu-clan/repos",
-            "events_url": "https://api.github.com/users/wu-clan/events{/privacy}",
-            "received_events_url": "https://api.github.com/users/wu-clan/received_events",
-            "type": "User",
-            "user_view_type": "public",
-            "site_admin": false
-          },
-          "created_at": "2026-08-02T15:59:14Z",
-          "updated_at": "2026-08-02T15:59:14Z",
-          "body": "已在桌面端加固 GFM 表格渲染（sanitize + 组件 + 样式 + 测试）。详见上方进展评论。",
-          "pin": null,
-          "reactions": {
-            "url": "https://api.github.com/repos/num-scope/pix/issues/comments/5159052674/reactions",
-            "total_count": 0,
-            "+1": 0,
-            "-1": 0,
-            "laugh": 0,
-            "hooray": 0,
-            "confused": 0,
-            "heart": 0,
-            "rocket": 0,
-            "eyes": 0
-          },
-          "performed_via_github_app": null,
-          "minimized": null
-        }
-      },
-      "public": true,
-      "created_at": "2026-08-02T15:59:14Z",
-      "org": {
-        "id": 292966555,
-        "login": "num-scope",
-        "gravatar_id": "",
-        "url": "https://api.github.com/orgs/num-scope",
-        "avatar_url": "https://avatars.githubusercontent.com/u/292966555?"
-      }
-    },
-    {
-      "id": "12660174880",
-      "type": "IssuesEvent",
-      "actor": {
-        "id": 52145145,
-        "login": "wu-clan",
-        "display_login": "wu-clan",
-        "gravatar_id": "",
-        "url": "https://api.github.com/users/wu-clan",
-        "avatar_url": "https://avatars.githubusercontent.com/u/52145145?"
-      },
-      "repo": {
-        "id": 1299969979,
-        "name": "num-scope/pix",
-        "url": "https://api.github.com/repos/num-scope/pix"
-      },
-      "payload": {
-        "action": "closed",
-        "issue": {
-          "url": "https://api.github.com/repos/num-scope/pix/issues/30",
-          "repository_url": "https://api.github.com/repos/num-scope/pix",
-          "labels_url": "https://api.github.com/repos/num-scope/pix/issues/30/labels{/name}",
-          "comments_url": "https://api.github.com/repos/num-scope/pix/issues/30/comments",
-          "events_url": "https://api.github.com/repos/num-scope/pix/issues/30/events",
-          "html_url": "https://github.com/num-scope/pix/issues/30",
-          "id": 5041946984,
-          "node_id": "I_kwDOTXv3u88AAAABLIYBaA",
-          "number": 30,
-          "title": "Markdown 表格渲染需要优化，渲染器不支持 GFM table",
-          "user": {
-            "login": "lhc1119692022",
-            "id": 47788873,
-            "node_id": "MDQ6VXNlcjQ3Nzg4ODcz",
-            "avatar_url": "https://avatars.githubusercontent.com/u/47788873?v=4",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/lhc1119692022",
-            "html_url": "https://github.com/lhc1119692022",
-            "followers_url": "https://api.github.com/users/lhc1119692022/followers",
-            "following_url": "https://api.github.com/users/lhc1119692022/following{/other_user}",
-            "gists_url": "https://api.github.com/users/lhc1119692022/gists{/gist_id}",
-            "starred_url": "https://api.github.com/users/lhc1119692022/starred{/owner}{/repo}",
-            "subscriptions_url": "https://api.github.com/users/lhc1119692022/subscriptions",
-            "organizations_url": "https://api.github.com/users/lhc1119692022/orgs",
-            "repos_url": "https://api.github.com/users/lhc1119692022/repos",
-            "events_url": "https://api.github.com/users/lhc1119692022/events{/privacy}",
-            "received_events_url": "https://api.github.com/users/lhc1119692022/received_events",
-            "type": "User",
-            "user_view_type": "public",
-            "site_admin": false
-          },
-          "labels": [],
-          "state": "closed",
-          "locked": false,
-          "assignees": [],
-          "milestone": null,
-          "comments": 2,
-          "created_at": "2026-08-02T10:29:49Z",
-          "updated_at": "2026-08-02T15:59:14Z",
-          "closed_at": "2026-08-02T15:59:14Z",
-          "assignee": null,
-          "issue_field_values": [],
-          "type": null,
-          "active_lock_reason": null,
-          "sub_issues_summary": {
-            "total": 0,
-            "completed": 0,
-            "percent_completed": 0
-          },
-          "issue_dependencies_summary": {
-            "blocked_by": 0,
-            "total_blocked_by": 0,
-            "blocking": 0,
-            "total_blocking": 0
-          },
-          "body": "<img width=\"1039\" height=\"713\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/6df5e431-2b7a-4472-b293-1932669fbba7\" />\n\n<img width=\"930\" height=\"373\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/55de028d-4443-4f1d-b690-3444819ecddb\" />\n\n<img width=\"943\" height=\"177\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/c8d77876-abb7-487f-8f2e-39512d071d04\" />\n\n<img width=\"915\" height=\"329\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/88b0dd80-a9c3-4f62-bd8b-159c941c7df5\" />",
-          "reactions": {
-            "url": "https://api.github.com/repos/num-scope/pix/issues/30/reactions",
-            "total_count": 0,
-            "+1": 0,
-            "-1": 0,
-            "laugh": 0,
-            "hooray": 0,
-            "confused": 0,
-            "heart": 0,
-            "rocket": 0,
-            "eyes": 0
-          },
-          "timeline_url": "https://api.github.com/repos/num-scope/pix/issues/30/timeline",
-          "performed_via_github_app": null,
-          "state_reason": "completed",
-          "pinned_comment": null
-        }
-      },
-      "public": true,
-      "created_at": "2026-08-02T15:59:15Z",
-      "org": {
-        "id": 292966555,
-        "login": "num-scope",
-        "gravatar_id": "",
-        "url": "https://api.github.com/orgs/num-scope",
-        "avatar_url": "https://avatars.githubusercontent.com/u/292966555?"
-      }
-    },
-    {
-      "id": "12660174166",
-      "type": "IssueCommentEvent",
-      "actor": {
-        "id": 52145145,
-        "login": "wu-clan",
-        "display_login": "wu-clan",
-        "gravatar_id": "",
-        "url": "https://api.github.com/users/wu-clan",
-        "avatar_url": "https://avatars.githubusercontent.com/u/52145145?"
-      },
-      "repo": {
-        "id": 1299969979,
-        "name": "num-scope/pix",
-        "url": "https://api.github.com/repos/num-scope/pix"
-      },
-      "payload": {
-        "action": "created",
-        "issue": {
-          "url": "https://api.github.com/repos/num-scope/pix/issues/30",
-          "repository_url": "https://api.github.com/repos/num-scope/pix",
-          "labels_url": "https://api.github.com/repos/num-scope/pix/issues/30/labels{/name}",
-          "comments_url": "https://api.github.com/repos/num-scope/pix/issues/30/comments",
-          "events_url": "https://api.github.com/repos/num-scope/pix/issues/30/events",
-          "html_url": "https://github.com/num-scope/pix/issues/30",
-          "id": 5041946984,
-          "node_id": "I_kwDOTXv3u88AAAABLIYBaA",
-          "number": 30,
-          "title": "Markdown 表格渲染需要优化，渲染器不支持 GFM table",
-          "user": {
-            "login": "lhc1119692022",
-            "id": 47788873,
-            "node_id": "MDQ6VXNlcjQ3Nzg4ODcz",
-            "avatar_url": "https://avatars.githubusercontent.com/u/47788873?v=4",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/lhc1119692022",
-            "html_url": "https://github.com/lhc1119692022",
-            "followers_url": "https://api.github.com/users/lhc1119692022/followers",
-            "following_url": "https://api.github.com/users/lhc1119692022/following{/other_user}",
-            "gists_url": "https://api.github.com/users/lhc1119692022/gists{/gist_id}",
-            "starred_url": "https://api.github.com/users/lhc1119692022/starred{/owner}{/repo}",
-            "subscriptions_url": "https://api.github.com/users/lhc1119692022/subscriptions",
-            "organizations_url": "https://api.github.com/users/lhc1119692022/orgs",
-            "repos_url": "https://api.github.com/users/lhc1119692022/repos",
-            "events_url": "https://api.github.com/users/lhc1119692022/events{/privacy}",
-            "received_events_url": "https://api.github.com/users/lhc1119692022/received_events",
-            "type": "User",
-            "user_view_type": "public",
-            "site_admin": false
-          },
-          "labels": [],
-          "state": "closed",
-          "locked": false,
-          "assignees": [],
-          "milestone": null,
-          "comments": 2,
-          "created_at": "2026-08-02T10:29:49Z",
-          "updated_at": "2026-08-02T15:59:14Z",
-          "closed_at": "2026-08-02T15:59:14Z",
-          "assignee": null,
-          "issue_field_values": [],
-          "type": null,
-          "active_lock_reason": null,
-          "sub_issues_summary": {
-            "total": 0,
-            "completed": 0,
-            "percent_completed": 0
-          },
-          "issue_dependencies_summary": {
-            "blocked_by": 0,
-            "total_blocked_by": 0,
-            "blocking": 0,
-            "total_blocking": 0
-          },
-          "body": "<img width=\"1039\" height=\"713\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/6df5e431-2b7a-4472-b293-1932669fbba7\" />\n\n<img width=\"930\" height=\"373\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/55de028d-4443-4f1d-b690-3444819ecddb\" />\n\n<img width=\"943\" height=\"177\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/c8d77876-abb7-487f-8f2e-39512d071d04\" />\n\n<img width=\"915\" height=\"329\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/88b0dd80-a9c3-4f62-bd8b-159c941c7df5\" />",
-          "reactions": {
-            "url": "https://api.github.com/repos/num-scope/pix/issues/30/reactions",
-            "total_count": 0,
-            "+1": 0,
-            "-1": 0,
-            "laugh": 0,
-            "hooray": 0,
-            "confused": 0,
-            "heart": 0,
-            "rocket": 0,
-            "eyes": 0
-          },
-          "timeline_url": "https://api.github.com/repos/num-scope/pix/issues/30/timeline",
-          "performed_via_github_app": null,
-          "state_reason": "completed",
-          "pinned_comment": null
-        },
-        "comment": {
-          "url": "https://api.github.com/repos/num-scope/pix/issues/comments/5159052409",
-          "html_url": "https://github.com/num-scope/pix/issues/30#issuecomment-5159052409",
-          "issue_url": "https://api.github.com/repos/num-scope/pix/issues/30",
-          "id": 5159052409,
-          "node_id": "IC_kwDOTXv3u88AAAABM4DkeQ",
-          "user": {
-            "login": "wu-clan",
-            "id": 52145145,
-            "node_id": "MDQ6VXNlcjUyMTQ1MTQ1",
-            "avatar_url": "https://avatars.githubusercontent.com/u/52145145?v=4",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/wu-clan",
-            "html_url": "https://github.com/wu-clan",
-            "followers_url": "https://api.github.com/users/wu-clan/followers",
-            "following_url": "https://api.github.com/users/wu-clan/following{/other_user}",
-            "gists_url": "https://api.github.com/users/wu-clan/gists{/gist_id}",
-            "starred_url": "https://api.github.com/users/wu-clan/starred{/owner}{/repo}",
-            "subscriptions_url": "https://api.github.com/users/wu-clan/subscriptions",
-            "organizations_url": "https://api.github.com/users/wu-clan/orgs",
-            "repos_url": "https://api.github.com/users/wu-clan/repos",
-            "events_url": "https://api.github.com/users/wu-clan/events{/privacy}",
-            "received_events_url": "https://api.github.com/users/wu-clan/received_events",
-            "type": "User",
-            "user_view_type": "public",
-            "site_admin": false
-          },
-          "created_at": "2026-08-02T15:59:11Z",
-          "updated_at": "2026-08-02T15:59:11Z",
-          "body": "## 修复说明 (#30)\n\n已加固桌面端 Markdown GFM 表格渲染：\n\n### 改动\n1. **`MarkdownContent.tsx`**\n   - 保留 `remark-gfm`（含 GFM table）\n   - 为 `table` / `thead` / `tbody` / `tr` / `th` / `td` 注册组件\n   - 剥离 hast 的 `node` 等非 DOM 属性，避免 `node=\"[object Object]\"` 泄漏\n   - 表格外层增加 `data-testid=\"markdown-table\"` 便于验收\n\n2. **`markdown-sanitize.ts`**\n   - 明确放行 GFM 表格标签与 `align` / `colSpan` / `rowSpan` 等属性，避免 sanitizer 裁掉结构/对齐\n\n3. **`styles.css`**\n   - 优化 `.content-table-scroll`：圆角容器、粘性表头、可读换行、行 hover\n   - 单元格内 `code` 保持 nowrap，宽表可横向滚动\n\n4. **测试**\n   - 覆盖中文 pipe table、对齐、代码 span，并断言不会回退成 `<p>| … |</p>` 原始管道段落\n\n### 验收\n- [x] `| 列 |` + `| --- |` 形态表格渲染为真正 `<table>`\n- [x] 中文内容 + 行内 code 正常\n- [x] 左/中/右对齐保留\n- [x] `pnpm check` 通过\n\n相关提交即将合入 `main`。",
-          "pin": null,
-          "reactions": {
-            "url": "https://api.github.com/repos/num-scope/pix/issues/comments/5159052409/reactions",
-            "total_count": 0,
-            "+1": 0,
-            "-1": 0,
-            "laugh": 0,
-            "hooray": 0,
-            "confused": 0,
-            "heart": 0,
-            "rocket": 0,
-            "eyes": 0
-          },
-          "performed_via_github_app": null,
-          "minimized": null
-        }
-      },
-      "public": true,
-      "created_at": "2026-08-02T15:59:11Z",
-      "org": {
-        "id": 292966555,
-        "login": "num-scope",
-        "gravatar_id": "",
-        "url": "https://api.github.com/orgs/num-scope",
-        "avatar_url": "https://avatars.githubusercontent.com/u/292966555?"
-      }
-    },
-    {
-      "id": "12660002052",
-      "type": "IssueCommentEvent",
-      "actor": {
-        "id": 52145145,
-        "login": "wu-clan",
-        "display_login": "wu-clan",
-        "gravatar_id": "",
-        "url": "https://api.github.com/users/wu-clan",
-        "avatar_url": "https://avatars.githubusercontent.com/u/52145145?"
-      },
-      "repo": {
-        "id": 1299969979,
-        "name": "num-scope/pix",
-        "url": "https://api.github.com/repos/num-scope/pix"
-      },
-      "payload": {
-        "action": "created",
-        "issue": {
-          "url": "https://api.github.com/repos/num-scope/pix/issues/24",
-          "repository_url": "https://api.github.com/repos/num-scope/pix",
-          "labels_url": "https://api.github.com/repos/num-scope/pix/issues/24/labels{/name}",
-          "comments_url": "https://api.github.com/repos/num-scope/pix/issues/24/comments",
-          "events_url": "https://api.github.com/repos/num-scope/pix/issues/24/events",
-          "html_url": "https://github.com/num-scope/pix/issues/24",
-          "id": 4954740421,
-          "node_id": "I_kwDOTXv3u88AAAABJ1NWxQ",
-          "number": 24,
-          "title": "feat(ui): 主题系统（可定制皮肤 / 预设 / token）",
-          "user": {
-            "login": "wu-clan",
-            "id": 52145145,
-            "node_id": "MDQ6VXNlcjUyMTQ1MTQ1",
-            "avatar_url": "https://avatars.githubusercontent.com/u/52145145?v=4",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/wu-clan",
-            "html_url": "https://github.com/wu-clan",
-            "followers_url": "https://api.github.com/users/wu-clan/followers",
-            "following_url": "https://api.github.com/users/wu-clan/following{/other_user}",
-            "gists_url": "https://api.github.com/users/wu-clan/gists{/gist_id}",
-            "starred_url": "https://api.github.com/users/wu-clan/starred{/owner}{/repo}",
-            "subscriptions_url": "https://api.github.com/users/wu-clan/subscriptions",
-            "organizations_url": "https://api.github.com/users/wu-clan/orgs",
-            "repos_url": "https://api.github.com/users/wu-clan/repos",
-            "events_url": "https://api.github.com/users/wu-clan/events{/privacy}",
-            "received_events_url": "https://api.github.com/users/wu-clan/received_events",
-            "type": "User",
-            "user_view_type": "public",
-            "site_admin": false
-          },
-          "labels": [
-            {
-              "id": 11515918785,
-              "node_id": "LA_kwDOTXv3u88AAAACrmb5wQ",
-              "url": "https://api.github.com/repos/num-scope/pix/labels/enhancement",
-              "name": "enhancement",
-              "color": "a2eeef",
-              "default": true,
-              "description": "New feature or request"
-            },
-            {
-              "id": 11599324545,
-              "node_id": "LA_kwDOTXv3u88AAAACs1-lgQ",
-              "url": "https://api.github.com/repos/num-scope/pix/labels/P2",
-              "name": "P2",
-              "color": "FBCA04",
-              "default": false,
-              "description": "Advanced / ecosystem"
-            }
-          ],
-          "state": "closed",
-          "locked": false,
-          "assignees": [],
-          "milestone": null,
-          "comments": 1,
-          "created_at": "2026-07-23T02:12:38Z",
-          "updated_at": "2026-08-05T03:22:49Z",
-          "closed_at": "2026-08-05T03:22:49Z",
-          "assignee": null,
-          "issue_field_values": [],
-          "type": null,
-          "active_lock_reason": null,
-          "sub_issues_summary": {
-            "total": 0,
-            "completed": 0,
-            "percent_completed": 0
-          },
-          "issue_dependencies_summary": {
-            "blocked_by": 0,
-            "total_blocked_by": 0,
-            "blocking": 0,
-            "total_blocking": 0
-          },
-          "body": "## 为何要做\n\nCodex 桌面端需要外部工具（如 [Codex-Dream-Skin](https://github.com/Fei-Away/Codex-Dream-Skin)）通过 CDP 注入才能换肤；Pix 是自研应用，可直接在壳层做一等主题系统，无需注入、不破坏安装包。\n\n主题不只是 light/dark：用户期望背景、侧栏材质、强调色、聊天气泡、字体密度等可预设/可导入。\n\n## 参考\n\n- [Fei-Away/Codex-Dream-Skin](https://github.com/Fei-Away/Codex-Dream-Skin)：背景图、浅/深预设、已保存主题切换\n- 我们的优势：原生 token / CSS 变量 / React 树可控，可热切换、预览、导入导出\n\n## 当前实现（对照代码）\n\n- 仅有 `ThemePreference = light | dark | system`\n- `data-theme` + `apps/desktop/src/renderer/styles.css` 基础 CSS 变量\n- 设置/快捷键可切换外观；`nativeTheme.themeSource` 同步\n- 会尽量从 pi theme 名猜测浅/深（`colorModeFromPiTheme`），**不是**完整皮肤包\n- 资源列表里能看到 pi `theme` 类型，但未映射为桌面皮肤\n\n## 建议实现\n\n1. 设计 token 层（壳层颜色、圆角、阴影、侧栏/composer/timeline 材质）\n2. 主题包格式：本地目录（背景 + tokens + meta）；浅/深或自适应\n3. 内置少量克制预设；设置页/快捷入口切换；纯桌面状态持久化\n4. 导入/导出自定义主题包\n5. 与 system 外观协作\n6. 可选：pi theme 资源「发现 → 应用」桥（不发明私有 runtime 协议）\n\n## 非目标\n\n- 不依赖 CDP 注入 / 不改 Codex 安装包\n- 主题不写进影响 agent 行为的 pi 配置\n- MVP 不做在线主题商店\n\n## 验收\n\n- [ ] 不重启切换主题预设，主壳一致换肤\n- [ ] 至少支持：背景（或渐变）、主色/强调色、浅深模式\n- [ ] 偏好持久化；system 跟随 OS\n- [ ] 可导入自定义主题包（最小：背景 + token 覆盖）\n- [ ] 默认保持中性高密度风格\n",
-          "reactions": {
-            "url": "https://api.github.com/repos/num-scope/pix/issues/24/reactions",
-            "total_count": 0,
-            "+1": 0,
-            "-1": 0,
-            "laugh": 0,
-            "hooray": 0,
-            "confused": 0,
-            "heart": 0,
-            "rocket": 0,
-            "eyes": 0
-          },
-          "timeline_url": "https://api.github.com/repos/num-scope/pix/issues/24/timeline",
-          "performed_via_github_app": null,
-          "state_reason": "completed",
-          "pinned_comment": null
-        },
-        "comment": {
-          "url": "https://api.github.com/repos/num-scope/pix/issues/comments/5159003355",
-          "html_url": "https://github.com/num-scope/pix/issues/24#issuecomment-5159003355",
-          "issue_url": "https://api.github.com/repos/num-scope/pix/issues/24",
-          "id": 5159003355,
-          "node_id": "IC_kwDOTXv3u88AAAABM4Ak2w",
-          "user": {
-            "login": "wu-clan",
-            "id": 52145145,
-            "node_id": "MDQ6VXNlcjUyMTQ1MTQ1",
-            "avatar_url": "https://avatars.githubusercontent.com/u/52145145?v=4",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/wu-clan",
-            "html_url": "https://github.com/wu-clan",
-            "followers_url": "https://api.github.com/users/wu-clan/followers",
-            "following_url": "https://api.github.com/users/wu-clan/following{/other_user}",
-            "gists_url": "https://api.github.com/users/wu-clan/gists{/gist_id}",
-            "starred_url": "https://api.github.com/users/wu-clan/starred{/owner}{/repo}",
-            "subscriptions_url": "https://api.github.com/users/wu-clan/subscriptions",
-            "organizations_url": "https://api.github.com/users/wu-clan/orgs",
-            "repos_url": "https://api.github.com/users/wu-clan/repos",
-            "events_url": "https://api.github.com/users/wu-clan/events{/privacy}",
-            "received_events_url": "https://api.github.com/users/wu-clan/received_events",
-            "type": "User",
-            "user_view_type": "public",
-            "site_admin": false
-          },
-          "created_at": "2026-08-02T15:51:15Z",
-          "updated_at": "2026-08-02T15:51:15Z",
-          "body": "## 进展更新\n\n主题皮肤系统已在桌面端落地（原生壳层，无需 CDP 注入），主要能力如下。\n\n### 已实现\n\n- **内置主题皮肤**\n  - `默认亮色` / `默认暗色`：对齐引入皮肤前的 CSS token，无壁纸、不透明\n  - `初音未来 · 青葱舞台` / `毒液 · 共生暗影` / `章若楠 · 青春映画`：带壁纸的形象主题\n- **主题工作室 / Studio**\n  - 卡片切换、新建 / 编辑 / 导入 / 导出 / 删除\n  - **编辑内置主题会直接覆盖同 id**（不再克隆出 `skin-<uuid>`）；删除覆盖可恢复出厂\n  - 界面预览（浅/深）、配色、壁纸焦点 / 压暗 / 会话遮罩、材质透明度与模糊\n  - **自定义 CSS**：变量快捷插入改为下拉选择；编辑器光标处插入 `var(--token)`\n- **与 system 外观协作**\n  - 修复「跟随系统」：Electron `nativeTheme.themeSource` 在偏好为 system 且皮肤 `appearance: auto` 时保持 `\"system\"`，不再锁死 light/dark\n  - 皮肤可强制 `light` / `dark`（默认亮色/暗色）\n- **持久化**\n  - 主题库落盘于 userData；自定义壁纸走 `pix-theme://` 协议\n  - 选择 id 本地持久化；兼容旧 preset 迁移\n\n### 验收对照\n\n- [x] 不重启切换主题预设，主壳一致换肤\n- [x] 至少支持：背景（或渐变）、主色/强调色、浅深模式\n- [x] 偏好持久化；system 跟随 OS\n- [x] 可导入自定义主题包（最小：背景 + token / 配置覆盖）\n- [x] 默认保持中性高密度风格（默认亮色/暗色 + 可调材质默认参数）\n\n### 后续可选\n\n- pi theme 资源「发现 → 应用」桥\n- 在线主题商店（仍非目标）\n- 更多内置形象主题 / 社区包格式文档\n\n相关实现主要在 `apps/desktop`（`theme-packs`、`theme-library`、`ThemeSkinStudio`）与 `packages/contracts` 的 ThemeSkin 类型。",
-          "pin": null,
-          "reactions": {
-            "url": "https://api.github.com/repos/num-scope/pix/issues/comments/5159003355/reactions",
-            "total_count": 0,
-            "+1": 0,
-            "-1": 0,
-            "laugh": 0,
-            "hooray": 0,
-            "confused": 0,
-            "heart": 0,
-            "rocket": 0,
-            "eyes": 0
-          },
-          "performed_via_github_app": null,
-          "minimized": null
-        }
-      },
-      "public": true,
-      "created_at": "2026-08-02T15:51:15Z",
-      "org": {
-        "id": 292966555,
-        "login": "num-scope",
-        "gravatar_id": "",
-        "url": "https://api.github.com/orgs/num-scope",
-        "avatar_url": "https://avatars.githubusercontent.com/u/292966555?"
-      }
-    },
-    {
-      "id": "16397591842",
-      "type": "PushEvent",
-      "actor": {
-        "id": 52145145,
-        "login": "wu-clan",
-        "display_login": "wu-clan",
-        "gravatar_id": "",
-        "url": "https://api.github.com/users/wu-clan",
-        "avatar_url": "https://avatars.githubusercontent.com/u/52145145?"
-      },
-      "repo": {
-        "id": 1299969979,
-        "name": "num-scope/pix",
-        "url": "https://api.github.com/repos/num-scope/pix"
-      },
-      "payload": {
-        "repository_id": 1299969979,
-        "push_id": 38704457746,
-        "ref": "refs/heads/main",
-        "head": "8f2411c30bd8845265d169978bac2d6ec5b03eee",
-        "before": "7cffd5c264f4f2e4585e7d12627c7309d1d18474"
-      },
-      "public": true,
-      "created_at": "2026-08-01T11:34:02Z",
-      "org": {
-        "id": 292966555,
-        "login": "num-scope",
-        "gravatar_id": "",
-        "url": "https://api.github.com/orgs/num-scope",
-        "avatar_url": "https://avatars.githubusercontent.com/u/292966555?"
-      }
-    },
-    {
-      "id": "16380369390",
-      "type": "PushEvent",
-      "actor": {
-        "id": 52145145,
-        "login": "wu-clan",
-        "display_login": "wu-clan",
-        "gravatar_id": "",
-        "url": "https://api.github.com/users/wu-clan",
-        "avatar_url": "https://avatars.githubusercontent.com/u/52145145?"
-      },
-      "repo": {
-        "id": 1299969979,
-        "name": "num-scope/pix",
-        "url": "https://api.github.com/repos/num-scope/pix"
-      },
-      "payload": {
-        "repository_id": 1299969979,
-        "push_id": 38687090967,
-        "ref": "refs/heads/main",
-        "head": "7cffd5c264f4f2e4585e7d12627c7309d1d18474",
-        "before": "edb05da69ce1157052268f2d11d3d1735b3fc28b"
-      },
-      "public": true,
-      "created_at": "2026-08-01T06:52:34Z",
-      "org": {
-        "id": 292966555,
-        "login": "num-scope",
-        "gravatar_id": "",
-        "url": "https://api.github.com/orgs/num-scope",
-        "avatar_url": "https://avatars.githubusercontent.com/u/292966555?"
-      }
-    },
-    {
-      "id": "16331279341",
-      "type": "PushEvent",
-      "actor": {
-        "id": 52145145,
-        "login": "wu-clan",
-        "display_login": "wu-clan",
-        "gravatar_id": "",
-        "url": "https://api.github.com/users/wu-clan",
-        "avatar_url": "https://avatars.githubusercontent.com/u/52145145?"
-      },
-      "repo": {
-        "id": 1299969979,
-        "name": "num-scope/pix",
-        "url": "https://api.github.com/repos/num-scope/pix"
-      },
-      "payload": {
-        "repository_id": 1299969979,
-        "push_id": 38637839203,
-        "ref": "refs/heads/main",
-        "head": "edb05da69ce1157052268f2d11d3d1735b3fc28b",
-        "before": "c6422cca7e1f0aeadbc13ca2c17546d7b4374b52"
-      },
-      "public": true,
-      "created_at": "2026-07-31T15:40:47Z",
-      "org": {
-        "id": 292966555,
-        "login": "num-scope",
-        "gravatar_id": "",
-        "url": "https://api.github.com/orgs/num-scope",
-        "avatar_url": "https://avatars.githubusercontent.com/u/292966555?"
-      }
-    },
-    {
-      "id": "12507215361",
-      "type": "IssueCommentEvent",
-      "actor": {
-        "id": 52145145,
-        "login": "wu-clan",
-        "display_login": "wu-clan",
-        "gravatar_id": "",
-        "url": "https://api.github.com/users/wu-clan",
-        "avatar_url": "https://avatars.githubusercontent.com/u/52145145?"
-      },
-      "repo": {
-        "id": 624721291,
-        "name": "fastapi-practices/fastapi-best-architecture",
-        "url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture"
-      },
-      "payload": {
-        "action": "created",
-        "issue": {
-          "url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture/issues/1229",
-          "repository_url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture",
-          "labels_url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture/issues/1229/labels{/name}",
-          "comments_url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture/issues/1229/comments",
-          "events_url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture/issues/1229/events",
-          "html_url": "https://github.com/fastapi-practices/fastapi-best-architecture/issues/1229",
-          "id": 5015015226,
-          "node_id": "I_kwDOJTx9i88AAAABKusPOg",
-          "number": 1229,
-          "title": "多数据源功能",
-          "user": {
-            "login": "bryant2621",
-            "id": 13144284,
-            "node_id": "MDQ6VXNlcjEzMTQ0Mjg0",
-            "avatar_url": "https://avatars.githubusercontent.com/u/13144284?v=4",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/bryant2621",
-            "html_url": "https://github.com/bryant2621",
-            "followers_url": "https://api.github.com/users/bryant2621/followers",
-            "following_url": "https://api.github.com/users/bryant2621/following{/other_user}",
-            "gists_url": "https://api.github.com/users/bryant2621/gists{/gist_id}",
-            "starred_url": "https://api.github.com/users/bryant2621/starred{/owner}{/repo}",
-            "subscriptions_url": "https://api.github.com/users/bryant2621/subscriptions",
-            "organizations_url": "https://api.github.com/users/bryant2621/orgs",
-            "repos_url": "https://api.github.com/users/bryant2621/repos",
-            "events_url": "https://api.github.com/users/bryant2621/events{/privacy}",
-            "received_events_url": "https://api.github.com/users/bryant2621/received_events",
-            "type": "User",
-            "user_view_type": "public",
-            "site_admin": false
-          },
-          "labels": [],
-          "state": "open",
-          "locked": false,
-          "assignees": [],
-          "milestone": null,
-          "comments": 1,
-          "created_at": "2026-07-30T01:12:27Z",
-          "updated_at": "2026-07-30T01:20:52Z",
-          "closed_at": null,
-          "assignee": null,
-          "issue_field_values": [],
-          "type": null,
-          "active_lock_reason": null,
-          "sub_issues_summary": {
-            "total": 0,
-            "completed": 0,
-            "percent_completed": 0
-          },
-          "issue_dependencies_summary": {
-            "blocked_by": 0,
-            "total_blocked_by": 0,
-            "blocking": 0,
-            "total_blocking": 0
-          },
-          "body": "你好，目前有没有考虑加入多数据源的处理",
-          "reactions": {
-            "url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture/issues/1229/reactions",
-            "total_count": 0,
-            "+1": 0,
-            "-1": 0,
-            "laugh": 0,
-            "hooray": 0,
-            "confused": 0,
-            "heart": 0,
-            "rocket": 0,
-            "eyes": 0
-          },
-          "timeline_url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture/issues/1229/timeline",
-          "performed_via_github_app": null,
-          "state_reason": null,
-          "pinned_comment": null
-        },
-        "comment": {
-          "url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture/issues/comments/5125223021",
-          "html_url": "https://github.com/fastapi-practices/fastapi-best-architecture/issues/1229#issuecomment-5125223021",
-          "issue_url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture/issues/1229",
-          "id": 5125223021,
-          "node_id": "IC_kwDOJTx9i88AAAABMXyybQ",
-          "user": {
-            "login": "wu-clan",
-            "id": 52145145,
-            "node_id": "MDQ6VXNlcjUyMTQ1MTQ1",
-            "avatar_url": "https://avatars.githubusercontent.com/u/52145145?v=4",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/wu-clan",
-            "html_url": "https://github.com/wu-clan",
-            "followers_url": "https://api.github.com/users/wu-clan/followers",
-            "following_url": "https://api.github.com/users/wu-clan/following{/other_user}",
-            "gists_url": "https://api.github.com/users/wu-clan/gists{/gist_id}",
-            "starred_url": "https://api.github.com/users/wu-clan/starred{/owner}{/repo}",
-            "subscriptions_url": "https://api.github.com/users/wu-clan/subscriptions",
-            "organizations_url": "https://api.github.com/users/wu-clan/orgs",
-            "repos_url": "https://api.github.com/users/wu-clan/repos",
-            "events_url": "https://api.github.com/users/wu-clan/events{/privacy}",
-            "received_events_url": "https://api.github.com/users/wu-clan/received_events",
-            "type": "User",
-            "user_view_type": "public",
-            "site_admin": false
-          },
-          "created_at": "2026-07-30T01:20:52Z",
-          "updated_at": "2026-07-30T01:20:52Z",
-          "body": "提出就有",
-          "pin": null,
-          "reactions": {
-            "url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture/issues/comments/5125223021/reactions",
-            "total_count": 0,
-            "+1": 0,
-            "-1": 0,
-            "laugh": 0,
-            "hooray": 0,
-            "confused": 0,
-            "heart": 0,
-            "rocket": 0,
-            "eyes": 0
-          },
-          "performed_via_github_app": null,
-          "minimized": null
-        }
-      },
-      "public": true,
-      "created_at": "2026-07-30T01:20:52Z",
-      "org": {
-        "id": 131736279,
-        "login": "fastapi-practices",
-        "gravatar_id": "",
-        "url": "https://api.github.com/orgs/fastapi-practices",
-        "avatar_url": "https://avatars.githubusercontent.com/u/131736279?"
-      }
-    },
-    {
-      "id": "16139808576",
-      "type": "PushEvent",
-      "actor": {
-        "id": 52145145,
-        "login": "wu-clan",
-        "display_login": "wu-clan",
-        "gravatar_id": "",
-        "url": "https://api.github.com/users/wu-clan",
-        "avatar_url": "https://avatars.githubusercontent.com/u/52145145?"
-      },
-      "repo": {
-        "id": 1299969979,
-        "name": "num-scope/pix",
-        "url": "https://api.github.com/repos/num-scope/pix"
-      },
-      "payload": {
-        "repository_id": 1299969979,
-        "push_id": 38444964404,
-        "ref": "refs/heads/main",
-        "head": "c6422cca7e1f0aeadbc13ca2c17546d7b4374b52",
-        "before": "6f25d2a1e9ab3a60b9725ea2c4c225f2017c5459"
-      },
-      "public": true,
-      "created_at": "2026-07-29T15:39:32Z",
-      "org": {
-        "id": 292966555,
-        "login": "num-scope",
-        "gravatar_id": "",
-        "url": "https://api.github.com/orgs/num-scope",
-        "avatar_url": "https://avatars.githubusercontent.com/u/292966555?"
-      }
-    },
-    {
-      "id": "16139594339",
-      "type": "PushEvent",
-      "actor": {
-        "id": 52145145,
-        "login": "wu-clan",
-        "display_login": "wu-clan",
-        "gravatar_id": "",
-        "url": "https://api.github.com/users/wu-clan",
-        "avatar_url": "https://avatars.githubusercontent.com/u/52145145?"
-      },
-      "repo": {
-        "id": 1299969979,
-        "name": "num-scope/pix",
-        "url": "https://api.github.com/repos/num-scope/pix"
-      },
-      "payload": {
-        "repository_id": 1299969979,
-        "push_id": 38443471492,
-        "ref": "refs/heads/main",
-        "head": "d207fc44c9eb7651d052fa672a745eafa3129ce9",
-        "before": "44221cc703a99dcff9805c95bd667c38318e60c7"
-      },
-      "public": true,
-      "created_at": "2026-07-29T15:20:38Z",
-      "org": {
-        "id": 292966555,
-        "login": "num-scope",
-        "gravatar_id": "",
-        "url": "https://api.github.com/orgs/num-scope",
-        "avatar_url": "https://avatars.githubusercontent.com/u/292966555?"
-      }
-    },
-    {
-      "id": "16138895151",
-      "type": "PushEvent",
-      "actor": {
-        "id": 52145145,
-        "login": "wu-clan",
-        "display_login": "wu-clan",
-        "gravatar_id": "",
-        "url": "https://api.github.com/users/wu-clan",
-        "avatar_url": "https://avatars.githubusercontent.com/u/52145145?"
-      },
-      "repo": {
-        "id": 1299969979,
-        "name": "num-scope/pix",
-        "url": "https://api.github.com/repos/num-scope/pix"
-      },
-      "payload": {
-        "repository_id": 1299969979,
-        "push_id": 38444070300,
-        "ref": "refs/heads/main",
-        "head": "6f25d2a1e9ab3a60b9725ea2c4c225f2017c5459",
-        "before": "d207fc44c9eb7651d052fa672a745eafa3129ce9"
-      },
-      "public": true,
-      "created_at": "2026-07-29T15:28:14Z",
-      "org": {
-        "id": 292966555,
-        "login": "num-scope",
-        "gravatar_id": "",
-        "url": "https://api.github.com/orgs/num-scope",
-        "avatar_url": "https://avatars.githubusercontent.com/u/292966555?"
-      }
-    },
-    {
-      "id": "16113521312",
-      "type": "PushEvent",
-      "actor": {
-        "id": 52145145,
-        "login": "wu-clan",
-        "display_login": "wu-clan",
-        "gravatar_id": "",
-        "url": "https://api.github.com/users/wu-clan",
-        "avatar_url": "https://avatars.githubusercontent.com/u/52145145?"
-      },
-      "repo": {
-        "id": 1299969979,
-        "name": "num-scope/pix",
-        "url": "https://api.github.com/repos/num-scope/pix"
-      },
-      "payload": {
-        "repository_id": 1299969979,
-        "push_id": 38418297535,
-        "ref": "refs/heads/main",
-        "head": "44221cc703a99dcff9805c95bd667c38318e60c7",
-        "before": "7f7fc36daf6f15ab0e6f7c9f022eae7467d149e2"
-      },
-      "public": true,
-      "created_at": "2026-07-29T10:30:50Z",
-      "org": {
-        "id": 292966555,
-        "login": "num-scope",
-        "gravatar_id": "",
-        "url": "https://api.github.com/orgs/num-scope",
-        "avatar_url": "https://avatars.githubusercontent.com/u/292966555?"
-      }
-    },
-    {
-      "id": "16045681004",
-      "type": "PushEvent",
-      "actor": {
-        "id": 52145145,
-        "login": "wu-clan",
-        "display_login": "wu-clan",
-        "gravatar_id": "",
-        "url": "https://api.github.com/users/wu-clan",
-        "avatar_url": "https://avatars.githubusercontent.com/u/52145145?"
-      },
-      "repo": {
-        "id": 1299969979,
-        "name": "num-scope/pix",
-        "url": "https://api.github.com/repos/num-scope/pix"
-      },
-      "payload": {
-        "repository_id": 1299969979,
-        "push_id": 38350010574,
-        "ref": "refs/heads/main",
-        "head": "7f7fc36daf6f15ab0e6f7c9f022eae7467d149e2",
-        "before": "ed10e05f7feeaeb87827a27a69573c4d7a3e68dc"
-      },
-      "public": true,
-      "created_at": "2026-07-28T16:36:14Z",
-      "org": {
-        "id": 292966555,
-        "login": "num-scope",
-        "gravatar_id": "",
-        "url": "https://api.github.com/orgs/num-scope",
-        "avatar_url": "https://avatars.githubusercontent.com/u/292966555?"
-      }
-    },
-    {
-      "id": "16011762450",
-      "type": "PushEvent",
-      "actor": {
-        "id": 52145145,
-        "login": "wu-clan",
-        "display_login": "wu-clan",
-        "gravatar_id": "",
-        "url": "https://api.github.com/users/wu-clan",
-        "avatar_url": "https://avatars.githubusercontent.com/u/52145145?"
-      },
-      "repo": {
-        "id": 1299969979,
-        "name": "num-scope/pix",
-        "url": "https://api.github.com/repos/num-scope/pix"
-      },
-      "payload": {
-        "repository_id": 1299969979,
-        "push_id": 38315214817,
-        "ref": "refs/heads/main",
-        "head": "ed10e05f7feeaeb87827a27a69573c4d7a3e68dc",
-        "before": "a7b40101fe680318a7dfa28816ee4e76baf96b05"
-      },
-      "public": true,
-      "created_at": "2026-07-28T09:55:20Z",
-      "org": {
-        "id": 292966555,
-        "login": "num-scope",
-        "gravatar_id": "",
-        "url": "https://api.github.com/orgs/num-scope",
-        "avatar_url": "https://avatars.githubusercontent.com/u/292966555?"
-      }
     }
   ],
-  "updated_at": "2026-08-10T01:27:04.000Z"
+  "updated_at": "2026-08-11T01:24:51.725Z"
 }
