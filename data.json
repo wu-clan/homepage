@@ -103,14 +103,14 @@
       "releases_url": "https://api.github.com/repos/wu-clan/homepage/releases{/id}",
       "deployments_url": "https://api.github.com/repos/wu-clan/homepage/deployments",
       "created_at": "2024-09-04T11:27:39Z",
-      "updated_at": "2026-10-31T03:58:48Z",
-      "pushed_at": "2026-10-31T03:58:45Z",
+      "updated_at": "2026-11-01T04:18:08Z",
+      "pushed_at": "2026-11-01T04:18:05Z",
       "git_url": "git://github.com/wu-clan/homepage.git",
       "ssh_url": "git@github.com:wu-clan/homepage.git",
       "clone_url": "https://github.com/wu-clan/homepage.git",
       "svn_url": "https://github.com/wu-clan/homepage",
       "homepage": "https://wu-clan.github.io/homepage/",
-      "size": 2414,
+      "size": 2465,
       "stargazers_count": 0,
       "watchers_count": 0,
       "language": "HTML",
@@ -3363,7 +3363,7 @@
       "releases_url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture/releases{/id}",
       "deployments_url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture/deployments",
       "created_at": "2023-04-07T05:21:11Z",
-      "updated_at": "2026-10-31T22:11:57Z",
+      "updated_at": "2026-11-02T02:49:10Z",
       "pushed_at": "2026-10-29T08:14:24Z",
       "git_url": "git://github.com/fastapi-practices/fastapi-best-architecture.git",
       "ssh_url": "git@github.com:fastapi-practices/fastapi-best-architecture.git",
@@ -3371,8 +3371,8 @@
       "svn_url": "https://github.com/fastapi-practices/fastapi-best-architecture",
       "homepage": "https://docs.fba.wu-clan.cc",
       "size": 30979,
-      "stargazers_count": 2602,
-      "watchers_count": 2602,
+      "stargazers_count": 2603,
+      "watchers_count": 2603,
       "language": "Python",
       "has_issues": true,
       "has_projects": false,
@@ -3408,7 +3408,7 @@
       "visibility": "public",
       "forks": 393,
       "open_issues": 16,
-      "watchers": 2602,
+      "watchers": 2603,
       "default_branch": "master",
       "permissions": {
         "admin": false,
@@ -7456,7 +7456,7 @@
           "releases_url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture/releases{/id}",
           "deployments_url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture/deployments",
           "created_at": "2023-04-07T05:21:11Z",
-          "updated_at": "2026-10-31T22:11:57Z",
+          "updated_at": "2026-11-02T02:49:10Z",
           "pushed_at": "2026-10-29T08:14:24Z",
           "git_url": "git://github.com/fastapi-practices/fastapi-best-architecture.git",
           "ssh_url": "git@github.com:fastapi-practices/fastapi-best-architecture.git",
@@ -7464,8 +7464,8 @@
           "svn_url": "https://github.com/fastapi-practices/fastapi-best-architecture",
           "homepage": "https://docs.fba.wu-clan.cc",
           "size": 30979,
-          "stargazers_count": 2602,
-          "watchers_count": 2602,
+          "stargazers_count": 2603,
+          "watchers_count": 2603,
           "language": "Python",
           "has_issues": true,
           "has_projects": false,
@@ -7501,7 +7501,7 @@
           "visibility": "public",
           "forks": 393,
           "open_issues": 16,
-          "watchers": 2602,
+          "watchers": 2603,
           "default_branch": "master",
           "permissions": {
             "admin": false,
@@ -12071,6 +12071,39 @@
   ],
   "ev": [
     {
+      "id": "25889102984",
+      "type": "PushEvent",
+      "actor": {
+        "id": 52145145,
+        "login": "wu-clan",
+        "display_login": "wu-clan",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/wu-clan",
+        "avatar_url": "https://avatars.githubusercontent.com/u/52145145?"
+      },
+      "repo": {
+        "id": 1345785947,
+        "name": "fastapi-practices/ai_buddy",
+        "url": "https://api.github.com/repos/fastapi-practices/ai_buddy"
+      },
+      "payload": {
+        "repository_id": 1345785947,
+        "push_id": 48454256851,
+        "ref": "refs/heads/master",
+        "head": "3ebab147c060e0ee31c7cd65e4ece2f0ea45e09c",
+        "before": "74a421953ae487798070698ecdf9400916ba56c1"
+      },
+      "public": true,
+      "created_at": "2026-10-31T06:41:21Z",
+      "org": {
+        "id": 131736279,
+        "login": "fastapi-practices",
+        "gravatar_id": "",
+        "url": "https://api.github.com/orgs/fastapi-practices",
+        "avatar_url": "https://avatars.githubusercontent.com/u/131736279?"
+      }
+    },
+    {
       "id": "25789539107",
       "type": "PushEvent",
       "actor": {
@@ -12841,32 +12874,6 @@
       }
     },
     {
-      "id": "25588867105",
-      "type": "PushEvent",
-      "actor": {
-        "id": 52145145,
-        "login": "wu-clan",
-        "display_login": "wu-clan",
-        "gravatar_id": "",
-        "url": "https://api.github.com/users/wu-clan",
-        "avatar_url": "https://avatars.githubusercontent.com/u/52145145?"
-      },
-      "repo": {
-        "id": 1437877580,
-        "name": "SoulEater/plugins",
-        "url": "https://api.github.com/repos/SoulEater/plugins"
-      },
-      "payload": {
-        "repository_id": 1437877580,
-        "push_id": 48181041970,
-        "ref": "refs/heads/add-app-update",
-        "head": "b138d1084d67f56c353c06e26eb5822bd3f89599",
-        "before": "71aba98544298feb1d371f2aa44c8db50f83b070"
-      },
-      "public": true,
-      "created_at": "2026-10-29T03:35:19Z"
-    },
-    {
       "id": "25588866796",
       "type": "PushEvent",
       "actor": {
@@ -12898,6 +12905,32 @@
         "url": "https://api.github.com/orgs/fastapi-practices",
         "avatar_url": "https://avatars.githubusercontent.com/u/131736279?"
       }
+    },
+    {
+      "id": "25588867105",
+      "type": "PushEvent",
+      "actor": {
+        "id": 52145145,
+        "login": "wu-clan",
+        "display_login": "wu-clan",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/wu-clan",
+        "avatar_url": "https://avatars.githubusercontent.com/u/52145145?"
+      },
+      "repo": {
+        "id": 1437877580,
+        "name": "SoulEater/plugins",
+        "url": "https://api.github.com/repos/SoulEater/plugins"
+      },
+      "payload": {
+        "repository_id": 1437877580,
+        "push_id": 48181041970,
+        "ref": "refs/heads/add-app-update",
+        "head": "b138d1084d67f56c353c06e26eb5822bd3f89599",
+        "before": "71aba98544298feb1d371f2aa44c8db50f83b070"
+      },
+      "public": true,
+      "created_at": "2026-10-29T03:35:19Z"
     },
     {
       "id": "25588252456",
@@ -12996,40 +13029,7 @@
         "url": "https://api.github.com/orgs/fastapi-practices",
         "avatar_url": "https://avatars.githubusercontent.com/u/131736279?"
       }
-    },
-    {
-      "id": "25585748175",
-      "type": "PushEvent",
-      "actor": {
-        "id": 52145145,
-        "login": "wu-clan",
-        "display_login": "wu-clan",
-        "gravatar_id": "",
-        "url": "https://api.github.com/users/wu-clan",
-        "avatar_url": "https://avatars.githubusercontent.com/u/52145145?"
-      },
-      "repo": {
-        "id": 624721291,
-        "name": "fastapi-practices/fastapi-best-architecture",
-        "url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture"
-      },
-      "payload": {
-        "repository_id": 624721291,
-        "push_id": 48178353848,
-        "ref": "refs/heads/bump",
-        "head": "5a47898f9b852c330ee4194fc2df70272487cfef",
-        "before": "cb584c92caf635ca8ce8c293ad414f7d4898048e"
-      },
-      "public": true,
-      "created_at": "2026-10-29T02:58:51Z",
-      "org": {
-        "id": 131736279,
-        "login": "fastapi-practices",
-        "gravatar_id": "",
-        "url": "https://api.github.com/orgs/fastapi-practices",
-        "avatar_url": "https://avatars.githubusercontent.com/u/131736279?"
-      }
     }
   ],
-  "updated_at": "2026-11-01T04:18:03.242Z"
+  "updated_at": "2026-11-02T04:20:17.475Z"
 }
