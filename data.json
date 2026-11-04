@@ -103,14 +103,14 @@
       "releases_url": "https://api.github.com/repos/wu-clan/homepage/releases{/id}",
       "deployments_url": "https://api.github.com/repos/wu-clan/homepage/deployments",
       "created_at": "2024-09-04T11:27:39Z",
-      "updated_at": "2026-11-02T04:20:23Z",
-      "pushed_at": "2026-11-02T04:20:19Z",
+      "updated_at": "2026-11-03T05:17:31Z",
+      "pushed_at": "2026-11-03T05:17:28Z",
       "git_url": "git://github.com/wu-clan/homepage.git",
       "ssh_url": "git@github.com:wu-clan/homepage.git",
       "clone_url": "https://github.com/wu-clan/homepage.git",
       "svn_url": "https://github.com/wu-clan/homepage",
       "homepage": "https://wu-clan.github.io/homepage/",
-      "size": 2474,
+      "size": 2526,
       "stargazers_count": 0,
       "watchers_count": 0,
       "language": "HTML",
@@ -3363,7 +3363,7 @@
       "releases_url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture/releases{/id}",
       "deployments_url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture/deployments",
       "created_at": "2023-04-07T05:21:11Z",
-      "updated_at": "2026-11-03T01:37:42Z",
+      "updated_at": "2026-11-04T02:19:35Z",
       "pushed_at": "2026-10-29T08:14:24Z",
       "git_url": "git://github.com/fastapi-practices/fastapi-best-architecture.git",
       "ssh_url": "git@github.com:fastapi-practices/fastapi-best-architecture.git",
@@ -3371,8 +3371,8 @@
       "svn_url": "https://github.com/fastapi-practices/fastapi-best-architecture",
       "homepage": "https://docs.fba.wu-clan.cc",
       "size": 30979,
-      "stargazers_count": 2604,
-      "watchers_count": 2604,
+      "stargazers_count": 2605,
+      "watchers_count": 2605,
       "language": "Python",
       "has_issues": true,
       "has_projects": false,
@@ -3380,7 +3380,7 @@
       "has_wiki": false,
       "has_pages": false,
       "has_discussions": true,
-      "forks_count": 392,
+      "forks_count": 393,
       "mirror_url": null,
       "archived": false,
       "disabled": false,
@@ -3406,9 +3406,9 @@
         "sqlalchemy"
       ],
       "visibility": "public",
-      "forks": 392,
+      "forks": 393,
       "open_issues": 17,
-      "watchers": 2604,
+      "watchers": 2605,
       "default_branch": "master",
       "permissions": {
         "admin": false,
@@ -7456,7 +7456,7 @@
           "releases_url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture/releases{/id}",
           "deployments_url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture/deployments",
           "created_at": "2023-04-07T05:21:11Z",
-          "updated_at": "2026-11-03T01:37:42Z",
+          "updated_at": "2026-11-04T02:19:35Z",
           "pushed_at": "2026-10-29T08:14:24Z",
           "git_url": "git://github.com/fastapi-practices/fastapi-best-architecture.git",
           "ssh_url": "git@github.com:fastapi-practices/fastapi-best-architecture.git",
@@ -7464,8 +7464,8 @@
           "svn_url": "https://github.com/fastapi-practices/fastapi-best-architecture",
           "homepage": "https://docs.fba.wu-clan.cc",
           "size": 30979,
-          "stargazers_count": 2604,
-          "watchers_count": 2604,
+          "stargazers_count": 2605,
+          "watchers_count": 2605,
           "language": "Python",
           "has_issues": true,
           "has_projects": false,
@@ -7473,7 +7473,7 @@
           "has_wiki": false,
           "has_pages": false,
           "has_discussions": true,
-          "forks_count": 392,
+          "forks_count": 393,
           "mirror_url": null,
           "archived": false,
           "disabled": false,
@@ -7499,9 +7499,9 @@
             "sqlalchemy"
           ],
           "visibility": "public",
-          "forks": 392,
+          "forks": 393,
           "open_issues": 17,
-          "watchers": 2604,
+          "watchers": 2605,
           "default_branch": "master",
           "permissions": {
             "admin": false,
@@ -12071,6 +12071,190 @@
   ],
   "ev": [
     {
+      "id": "19063441587",
+      "type": "WatchEvent",
+      "actor": {
+        "id": 52145145,
+        "login": "wu-clan",
+        "display_login": "wu-clan",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/wu-clan",
+        "avatar_url": "https://avatars.githubusercontent.com/u/52145145?"
+      },
+      "repo": {
+        "id": 649662864,
+        "name": "wanghongenpin/proxypin",
+        "url": "https://api.github.com/repos/wanghongenpin/proxypin"
+      },
+      "payload": {
+        "action": "started"
+      },
+      "public": true,
+      "created_at": "2026-11-04T01:20:06Z"
+    },
+    {
+      "id": "18976575126",
+      "type": "WatchEvent",
+      "actor": {
+        "id": 52145145,
+        "login": "wu-clan",
+        "display_login": "wu-clan",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/wu-clan",
+        "avatar_url": "https://avatars.githubusercontent.com/u/52145145?"
+      },
+      "repo": {
+        "id": 678716433,
+        "name": "chen08209/FlClash",
+        "url": "https://api.github.com/repos/chen08209/FlClash"
+      },
+      "payload": {
+        "action": "started"
+      },
+      "public": true,
+      "created_at": "2026-11-03T08:29:11Z"
+    },
+    {
+      "id": "18968899082",
+      "type": "IssueCommentEvent",
+      "actor": {
+        "id": 52145145,
+        "login": "wu-clan",
+        "display_login": "wu-clan",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/wu-clan",
+        "avatar_url": "https://avatars.githubusercontent.com/u/52145145?"
+      },
+      "repo": {
+        "id": 1369629475,
+        "name": "jinpy666/dbx-plugin-ssh",
+        "url": "https://api.github.com/repos/jinpy666/dbx-plugin-ssh"
+      },
+      "payload": {
+        "action": "created",
+        "issue": {
+          "url": "https://api.github.com/repos/jinpy666/dbx-plugin-ssh/issues/260",
+          "repository_url": "https://api.github.com/repos/jinpy666/dbx-plugin-ssh",
+          "labels_url": "https://api.github.com/repos/jinpy666/dbx-plugin-ssh/issues/260/labels{/name}",
+          "comments_url": "https://api.github.com/repos/jinpy666/dbx-plugin-ssh/issues/260/comments",
+          "events_url": "https://api.github.com/repos/jinpy666/dbx-plugin-ssh/issues/260/events",
+          "html_url": "https://github.com/jinpy666/dbx-plugin-ssh/issues/260",
+          "id": 6175566547,
+          "node_id": "I_kwDOUaLjI88AAAABcBeq0w",
+          "number": 260,
+          "title": "vi 中粘贴致命 BUG",
+          "user": {
+            "login": "wu-clan",
+            "id": 52145145,
+            "node_id": "MDQ6VXNlcjUyMTQ1MTQ1",
+            "avatar_url": "https://avatars.githubusercontent.com/u/52145145?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/wu-clan",
+            "html_url": "https://github.com/wu-clan",
+            "followers_url": "https://api.github.com/users/wu-clan/followers",
+            "following_url": "https://api.github.com/users/wu-clan/following{/other_user}",
+            "gists_url": "https://api.github.com/users/wu-clan/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/wu-clan/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/wu-clan/subscriptions",
+            "organizations_url": "https://api.github.com/users/wu-clan/orgs",
+            "repos_url": "https://api.github.com/users/wu-clan/repos",
+            "events_url": "https://api.github.com/users/wu-clan/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/wu-clan/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "labels": [],
+          "state": "open",
+          "locked": false,
+          "assignees": [],
+          "milestone": null,
+          "comments": 3,
+          "created_at": "2026-11-03T03:14:17Z",
+          "updated_at": "2026-11-03T09:06:16Z",
+          "closed_at": null,
+          "assignee": null,
+          "active_lock_reason": null,
+          "sub_issues_summary": {
+            "total": 0,
+            "completed": 0,
+            "percent_completed": 0
+          },
+          "issue_dependencies_summary": {
+            "blocked_by": 0,
+            "total_blocked_by": 0,
+            "blocking": 0,
+            "total_blocking": 0
+          },
+          "body": "在 vi 模式下\n\n不开启插入模式插入，丢失内容，自动添加冗余注释字符\n开启插入模式，不丢失内容，依旧自动添加冗余注释字符\n\n这个错误从始至终都存在，不知道大家都怎么使用的\n",
+          "reactions": {
+            "url": "https://api.github.com/repos/jinpy666/dbx-plugin-ssh/issues/260/reactions",
+            "total_count": 0,
+            "+1": 0,
+            "-1": 0,
+            "laugh": 0,
+            "hooray": 0,
+            "confused": 0,
+            "heart": 0,
+            "rocket": 0,
+            "eyes": 0
+          },
+          "timeline_url": "https://api.github.com/repos/jinpy666/dbx-plugin-ssh/issues/260/timeline",
+          "performed_via_github_app": null,
+          "state_reason": null,
+          "pinned_comment": null
+        },
+        "comment": {
+          "url": "https://api.github.com/repos/jinpy666/dbx-plugin-ssh/issues/comments/6597117924",
+          "html_url": "https://github.com/jinpy666/dbx-plugin-ssh/issues/260#issuecomment-6597117924",
+          "issue_url": "https://api.github.com/repos/jinpy666/dbx-plugin-ssh/issues/260",
+          "id": 6597117924,
+          "node_id": "IC_kwDOUaLjI88AAAABiTgH5A",
+          "user": {
+            "login": "wu-clan",
+            "id": 52145145,
+            "node_id": "MDQ6VXNlcjUyMTQ1MTQ1",
+            "avatar_url": "https://avatars.githubusercontent.com/u/52145145?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/wu-clan",
+            "html_url": "https://github.com/wu-clan",
+            "followers_url": "https://api.github.com/users/wu-clan/followers",
+            "following_url": "https://api.github.com/users/wu-clan/following{/other_user}",
+            "gists_url": "https://api.github.com/users/wu-clan/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/wu-clan/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/wu-clan/subscriptions",
+            "organizations_url": "https://api.github.com/users/wu-clan/orgs",
+            "repos_url": "https://api.github.com/users/wu-clan/repos",
+            "events_url": "https://api.github.com/users/wu-clan/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/wu-clan/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "created_at": "2026-11-03T06:33:50Z",
+          "updated_at": "2026-11-03T06:33:50Z",
+          "body": "vi .env\n\n然后复制粘贴下面随便打的测试数据\n\n```\n# 某个环境变量说明\nDBX_TEST=1\nDBX_TEST=2\nDBX_TEST=3\nDBX_TEST=4\nDBX_TEST=5\n```",
+          "pin": null,
+          "reactions": {
+            "url": "https://api.github.com/repos/jinpy666/dbx-plugin-ssh/issues/comments/6597117924/reactions",
+            "total_count": 0,
+            "+1": 0,
+            "-1": 0,
+            "laugh": 0,
+            "hooray": 0,
+            "confused": 0,
+            "heart": 0,
+            "rocket": 0,
+            "eyes": 0
+          },
+          "performed_via_github_app": null,
+          "minimized": null
+        }
+      },
+      "public": true,
+      "created_at": "2026-11-03T06:33:50Z"
+    },
+    {
       "id": "18957575186",
       "type": "IssuesEvent",
       "actor": {
@@ -12125,9 +12309,9 @@
           "locked": false,
           "assignees": [],
           "milestone": null,
-          "comments": 0,
+          "comments": 3,
           "created_at": "2026-11-03T03:14:17Z",
-          "updated_at": "2026-11-03T03:14:17Z",
+          "updated_at": "2026-11-03T09:06:16Z",
           "closed_at": null,
           "assignee": null,
           "active_lock_reason": null,
@@ -12968,39 +13152,6 @@
       }
     },
     {
-      "id": "25588866796",
-      "type": "PushEvent",
-      "actor": {
-        "id": 52145145,
-        "login": "wu-clan",
-        "display_login": "wu-clan",
-        "gravatar_id": "",
-        "url": "https://api.github.com/users/wu-clan",
-        "avatar_url": "https://avatars.githubusercontent.com/u/52145145?"
-      },
-      "repo": {
-        "id": 624721291,
-        "name": "fastapi-practices/fastapi-best-architecture",
-        "url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture"
-      },
-      "payload": {
-        "repository_id": 624721291,
-        "push_id": 48073985643,
-        "ref": "refs/heads/refactor/i18n-exception-messages",
-        "head": "830aeb972392569a95a3bf2940939a33cb5eb3d9",
-        "before": "1711971a537060f2e6b4a396eddba4b2ebe98e5e"
-      },
-      "public": true,
-      "created_at": "2026-10-28T09:28:42Z",
-      "org": {
-        "id": 131736279,
-        "login": "fastapi-practices",
-        "gravatar_id": "",
-        "url": "https://api.github.com/orgs/fastapi-practices",
-        "avatar_url": "https://avatars.githubusercontent.com/u/131736279?"
-      }
-    },
-    {
       "id": "25588867105",
       "type": "PushEvent",
       "actor": {
@@ -13025,73 +13176,7 @@
       },
       "public": true,
       "created_at": "2026-10-29T03:35:19Z"
-    },
-    {
-      "id": "25588252456",
-      "type": "DeleteEvent",
-      "actor": {
-        "id": 52145145,
-        "login": "wu-clan",
-        "display_login": "wu-clan",
-        "gravatar_id": "",
-        "url": "https://api.github.com/users/wu-clan",
-        "avatar_url": "https://avatars.githubusercontent.com/u/52145145?"
-      },
-      "repo": {
-        "id": 909311482,
-        "name": "fastapi-practices/fastapi-best-architecture-ui",
-        "url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture-ui"
-      },
-      "payload": {
-        "ref": "fix/align-relation-id-fields",
-        "ref_type": "branch",
-        "full_ref": "refs/heads/fix/align-relation-id-fields",
-        "pusher_type": "user"
-      },
-      "public": true,
-      "created_at": "2026-10-29T01:59:06Z",
-      "org": {
-        "id": 131736279,
-        "login": "fastapi-practices",
-        "gravatar_id": "",
-        "url": "https://api.github.com/orgs/fastapi-practices",
-        "avatar_url": "https://avatars.githubusercontent.com/u/131736279?"
-      }
-    },
-    {
-      "id": "25587518131",
-      "type": "CreateEvent",
-      "actor": {
-        "id": 52145145,
-        "login": "wu-clan",
-        "display_login": "wu-clan",
-        "gravatar_id": "",
-        "url": "https://api.github.com/users/wu-clan",
-        "avatar_url": "https://avatars.githubusercontent.com/u/52145145?"
-      },
-      "repo": {
-        "id": 624721291,
-        "name": "fastapi-practices/fastapi-best-architecture",
-        "url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture"
-      },
-      "payload": {
-        "ref": "bump",
-        "ref_type": "branch",
-        "full_ref": "refs/heads/bump",
-        "master_branch": "master",
-        "description": "Enterprise-level backend architecture solution with fastapi、sqlalchemy,、celery、pydantic、grafana、docker...",
-        "pusher_type": "user"
-      },
-      "public": true,
-      "created_at": "2026-10-29T02:38:29Z",
-      "org": {
-        "id": 131736279,
-        "login": "fastapi-practices",
-        "gravatar_id": "",
-        "url": "https://api.github.com/orgs/fastapi-practices",
-        "avatar_url": "https://avatars.githubusercontent.com/u/131736279?"
-      }
     }
   ],
-  "updated_at": "2026-11-03T05:17:26.377Z"
+  "updated_at": "2026-11-04T04:47:09.930Z"
 }
